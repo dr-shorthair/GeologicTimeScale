@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://resource.geosciml.org/static/schema/OpenSearch/osdd.rnc" type="application/relax-ng-compact-syntax"?>
+<OpenSearchDescription
+    xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Geologic Time</ShortName>
+    <LongName>Geologic Timescale - 2014 version</LongName>
+    <Description>Eras and boundaries in the geologic timescale, based on the 2014 version of the
+        International Chronostratigraphic Chart</Description>
+    <Contact>simon.cox@csiro.au</Contact>
+    <Url
+        template="http://def.seegrid.csiro.au/sissvoc/isc2014/concept.html?anylabel={searchTerms}"
+        type="text/html"/>
+    <Url
+        template="http://def.seegrid.csiro.au/sissvoc/isc2014/concept.html?labelcontains={searchTerms};_page={startPage?};_pageSize={count?};_lang={language?}"
+        type="text/html"/>
+    <Url
+        rel="self"
+        template="http://resource.geosciml.org/vocabulary/timescale/isc2014-opensearch.xml"
+        type="application/opensearchdescription+xml"/>
+    <Query role="example" searchTerms="Ordovician"/>
+    <Developer>SISS Team, CSIRO</Developer>
+</OpenSearchDescription>
