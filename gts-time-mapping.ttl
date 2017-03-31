@@ -1,0 +1,26 @@
+# baseURI: file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl
+# imports: file:/C:/Users/cox075/dev/GeologicTimeScale/thors-time-mapping.ttl
+# imports: http://resource.geosciml.org/ontology/timescale/gts
+
+@prefix gts-time-mapping: <file:///C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl>
+  rdf:type owl:Ontology ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+<file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl>
+  rdf:type owl:Ontology ;
+  owl:imports <file:/C:/Users/cox075/dev/GeologicTimeScale/thors-time-mapping.ttl> ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
+.
+<http://resource.geosciml.org/ontology/timescale/gts#positionalUncertainty>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain time:TemporalPosition ;
+  rdfs:label "Uncertainty in time position" ;
+  rdfs:range time:TemporalDuration ;
+.
