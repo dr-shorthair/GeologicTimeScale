@@ -1,13 +1,12 @@
 # baseURI: http://resource.geosciml.org/vocabulary/timescale/isc2016-12
 # imports: file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl
+# imports: http://resource.geosciml.org/ontology/timescale/gts
 # imports: http://www.opengis.net/ont/geosparql
 
-@prefix basic: <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix gm: <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#> .
 @prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> .
 @prefix isc: <http://resource.geosciml.org/classifier/ics/ischart/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -1146,14 +1145,8 @@ isc:BaseAeronian
 isc:BaseAeronian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseAeronian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(52.0300 -3.7000)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Aeronian"@en ;
-.
-isc:BaseAeronian-position
-  rdf:type gm:Position ;
-  gm:coordinates "52.0300 -3.7000"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Aeronian"@en ;
 .
 isc:BaseAeronianTime
   rdf:type time:TimePosition ;
@@ -1204,13 +1197,8 @@ isc:BaseAptianTime
 isc:BaseAquitanian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseAquitanian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(44.6589 8.8364)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Aquitanian" ;
-.
-isc:BaseAquitanian-position
-  rdf:type gm:Position ;
-  gm:coordinates "44.6589 8.8364"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
 .
 isc:BaseArchean
   rdf:type gts:NumericEraBoundary ;
@@ -1261,14 +1249,8 @@ isc:BaseBajocian
 isc:BaseBajocian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseBajocian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(40.1992 -8.9042)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Bajocian"@en ;
-.
-isc:BaseBajocian-position
-  rdf:type gm:Position ;
-  gm:boundingBox <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  gm:coordinates "40.1992 -8.9042"^^basic:ordinates ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Bajocian"@en ;
 .
 isc:BaseBajocianTime
   rdf:type time:TimePosition ;
@@ -1309,7 +1291,7 @@ isc:BaseBartonian
 isc:BaseBartonianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "41.2"^^basic:Number ;
+  time:numericPosition "41.2"^^time:Number ;
 .
 isc:BaseBashkirian
   rdf:type gts:GeochronologicBoundary ;
@@ -1332,14 +1314,8 @@ isc:BaseBathonian
 isc:BaseBathonian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseBathonian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.9606 6.3153)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Bathonian"@en ;
-.
-isc:BaseBathonian-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.9606 6.3153"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Bathonian"@en ;
 .
 isc:BaseBathonianTime
   rdf:type time:TimePosition ;
@@ -1380,14 +1356,8 @@ isc:BaseCalabrian
 isc:BaseCalabrian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseCalabrian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(39.0385 17.1348)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Calabrian"@en ;
-.
-isc:BaseCalabrian-position
-  rdf:type gm:Position ;
-  gm:coordinates "39.0385 17.1348"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Calabrian"@en ;
 .
 isc:BaseCalabrianTime
   rdf:type time:TimePosition ;
@@ -1526,14 +1496,8 @@ isc:BaseCapitanian
 isc:BaseCapitanian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseCapitanian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(31.9091 -104.7892 )"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Capitanian"@en ;
-.
-isc:BaseCapitanian-position
-  rdf:type gm:Position ;
-  gm:coordinates "31.9091 -104.7892 "^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Capitanian"@en ;
 .
 isc:BaseCapitanianTime
   rdf:type time:TimePosition ;
@@ -1562,14 +1526,8 @@ isc:BaseCarboniferous
 isc:BaseCarboniferous-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseCarboniferous-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.5555 3.3573)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Carboniferous"@en ;
-.
-isc:BaseCarboniferous-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.5555 3.3573"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Carboniferous"@en ;
 .
 isc:BaseCarboniferousTime
   rdf:type time:TimePosition ;
@@ -1598,14 +1556,8 @@ isc:BaseCenozoic
 isc:BaseCenozoic-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseCenozoic-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(36.1537 8.6486)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Cenozoic"@en ;
-.
-isc:BaseCenozoic-position
-  rdf:type gm:Position ;
-  gm:coordinates "36.1537 8.6486"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Cenozoic"@en ;
 .
 isc:BaseCenozoicTime
   rdf:type time:TimePosition ;
@@ -1625,14 +1577,8 @@ isc:BaseChanghsingian
 isc:BaseChanghsingian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseChanghsingian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(31.0819 119.7064)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Changhsingian"@en ;
-.
-isc:BaseChanghsingian-position
-  rdf:type gm:Position ;
-  gm:coordinates "31.0819 119.7064"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Changhsingian"@en ;
 .
 isc:BaseChanghsingianTime
   rdf:type time:TimePosition ;
@@ -1718,7 +1664,7 @@ isc:BaseCryogenian
 isc:BaseCryogenianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "720"^^basic:Number ;
+  time:numericPosition "720"^^time:Number ;
 .
 isc:BaseDarriwilian
   rdf:type gts:GeochronologicBoundary ;
@@ -1733,14 +1679,8 @@ isc:BaseDarriwilian
 isc:BaseDarriwilian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseDarriwilian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(28.8539 118.4897)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Darriwilian"@en ;
-.
-isc:BaseDarriwilian-position
-  rdf:type gm:Position ;
-  gm:coordinates "28.8539 118.4897"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Darriwilian"@en ;
 .
 isc:BaseDarriwilianTime
   rdf:type time:TimePosition ;
@@ -1768,14 +1708,8 @@ isc:BaseDevonian
 isc:BaseDevonian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseDevonian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(49.8550 13.7920)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Devonian"@en ;
-.
-isc:BaseDevonian-position
-  rdf:type gm:Position ;
-  gm:coordinates "49.8550 13.7920"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Devonian"@en ;
 .
 isc:BaseDevonianTime
   rdf:type time:TimePosition ;
@@ -1801,14 +1735,8 @@ isc:BaseDrumian
 isc:BaseDrumian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseDrumian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(39.5117 -112.9915)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Guzhangian"@en ;
-.
-isc:BaseDrumian-position
-  rdf:type gm:Position ;
-  gm:coordinates "39.5117 -112.9915"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Guzhangian"@en ;
 .
 isc:BaseDrumianTime
   rdf:type time:TimePosition ;
@@ -1843,14 +1771,8 @@ isc:BaseEdiacaran
 isc:BaseEdiacaran-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseEdiacaran-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-31.3314 138.6334)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Ediacaran"@en ;
-.
-isc:BaseEdiacaran-position
-  rdf:type gm:Position ;
-  gm:coordinates "-31.3314 138.6334"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Ediacaran"@en ;
 .
 isc:BaseEdiacaranTime
   rdf:type time:TimePosition ;
@@ -1870,14 +1792,8 @@ isc:BaseEmsian
 isc:BaseEmsian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseEmsian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(39.2000 67.3056)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Emsian"@en ;
-.
-isc:BaseEmsian-position
-  rdf:type gm:Position ;
-  gm:coordinates "39.2000 67.3056"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Emsian"@en ;
 .
 isc:BaseEmsianTime
   rdf:type time:TimePosition ;
@@ -1904,14 +1820,8 @@ isc:BaseEocene
 isc:BaseEocene-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseEocene-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(25.5000 32.5311)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Eocene"@en ;
-.
-isc:BaseEocene-position
-  rdf:type gm:Position ;
-  gm:coordinates "25.5000 32.5311"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Eocene"@en ;
 .
 isc:BaseEoceneTime
   rdf:type time:TimePosition ;
@@ -1931,14 +1841,8 @@ isc:BaseFamennian
 isc:BaseFamennian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseFamennian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.4613 3.0403)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Famennian"@en ;
-.
-isc:BaseFamennian-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.4613 3.0403"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Famennian"@en ;
 .
 isc:BaseFamennianTime
   rdf:type time:TimePosition ;
@@ -1964,14 +1868,8 @@ isc:BaseFloian
 isc:BaseFloian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseFloian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(58.3589 12.5024)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Floian"@en ;
-.
-isc:BaseFloian-position
-  rdf:type gm:Position ;
-  gm:coordinates "58.3589 12.5024"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Floian"@en ;
 .
 isc:BaseFloianTime
   rdf:type time:TimePosition ;
@@ -1998,14 +1896,8 @@ isc:BaseFurongian
 isc:BaseFurongian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseFurongian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(28.3895 109.5257)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Furongian"@en ;
-.
-isc:BaseFurongian-position
-  rdf:type gm:Position ;
-  gm:coordinates "28.3895 109.5257"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Furongian"@en ;
 .
 isc:BaseFurongianTime
   rdf:type time:TimePosition ;
@@ -2025,14 +1917,8 @@ isc:BaseGivetian
 isc:BaseGivetian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseGivetian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(31.2374 -4.3541)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Givetian"@en ;
-.
-isc:BaseGivetian-position
-  rdf:type gm:Position ;
-  gm:coordinates "31.2374 -4.3541"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Givetian"@en ;
 .
 isc:BaseGivetianTime
   rdf:type time:TimePosition ;
@@ -2059,24 +1945,18 @@ isc:BaseGuadalupian
 isc:BaseGuadalupian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseGuadalupian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(31.8767 -104.8768)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Guadalupian"@en ;
-.
-isc:BaseGuadalupian-position
-  rdf:type gm:Position ;
-  gm:coordinates "31.8767 -104.8768"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Guadalupian"@en ;
 .
 isc:BaseGuadalupianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseGuadalupianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "272.95"^^basic:Number ;
+  time:numericPosition "272.95"^^time:Number ;
 .
 isc:BaseGuadalupianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.11"^^basic:Number ;
+  time:numericDuration "0.11"^^time:Number ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseGuzhangian
@@ -2092,14 +1972,8 @@ isc:BaseGuzhangian
 isc:BaseGuzhangian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseGuzhangian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(28.7200 109.9647)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Guzhangian "@en ;
-.
-isc:BaseGuzhangian-position
-  rdf:type gm:Position ;
-  gm:coordinates "28.7200 109.9647"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Guzhangian "@en ;
 .
 isc:BaseGuzhangianTime
   rdf:type time:TimePosition ;
@@ -2155,14 +2029,8 @@ isc:BaseHirnantian
 isc:BaseHirnantian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseHirnantian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(30.9841 111.4197)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Hirnantian"@en ;
-.
-isc:BaseHirnantian-position
-  rdf:type gm:Position ;
-  gm:coordinates "30.9841 111.4197"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Hirnantian"@en ;
 .
 isc:BaseHirnantianTime
   rdf:type time:TimePosition ;
@@ -2188,14 +2056,8 @@ isc:BaseHolocene
 isc:BaseHolocene-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseHolocene-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(75.1000 -42.3200)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Holocene"@en ;
-.
-isc:BaseHolocene-position
-  rdf:type gm:Position ;
-  gm:coordinates "75.1000 -42.3200"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Holocene"@en ;
 .
 isc:BaseHoloceneTime
   rdf:type time:TimePosition ;
@@ -2215,14 +2077,8 @@ isc:BaseHomerian
 isc:BaseHomerian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseHomerian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(52.6156 -2.5647)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Homerian"@en ;
-.
-isc:BaseHomerian-position
-  rdf:type gm:Position ;
-  gm:coordinates "52.6156 -2.5647"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Homerian"@en ;
 .
 isc:BaseHomerianTime
   rdf:type time:TimePosition ;
@@ -2253,14 +2109,8 @@ isc:BaseJiangshanian
 isc:BaseJiangshanianLocation
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseJiangshanianPosition ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(28.815967 118.614933)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Jiangshanian"@en ;
-.
-isc:BaseJiangshanianPosition
-  rdf:type gm:Position ;
-  gm:coordinates "28.815967 118.614933"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Jiangshanian"@en ;
 .
 isc:BaseJiangshanianTime
   rdf:type time:TimePosition ;
@@ -2282,14 +2132,8 @@ isc:BaseJurassic
 isc:BaseJurassic-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseJurassic-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(47.4839 11.5306)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Jurassic"@en ;
-.
-isc:BaseJurassic-position
-  rdf:type gm:Position ;
-  gm:coordinates "47.4839 11.5306"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Jurassic"@en ;
 .
 isc:BaseJurassicTime
   rdf:type time:TimePosition ;
@@ -2323,14 +2167,8 @@ isc:BaseKatian
 isc:BaseKatian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseKatian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(34.4305 -96.0746)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Katian"@en ;
-.
-isc:BaseKatian-position
-  rdf:type gm:Position ;
-  gm:coordinates "34.4305 -96.0746"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Katian"@en ;
 .
 isc:BaseKatianTime
   rdf:type time:TimePosition ;
@@ -2356,13 +2194,8 @@ isc:BaseKimmeridgian
 isc:BaseKimmeridgianLocation
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseKimmeridgianPosition ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(57.6 -6.2)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Kimmeridgian"@en ;
-.
-isc:BaseKimmeridgianPosition
-  rdf:type gm:Position ;
-  gm:coordinates "57.6 -6.2"^^basic:ordinates ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Kimmeridgian"@en ;
 .
 isc:BaseKimmeridgianTime
   rdf:type time:TimePosition ;
@@ -2389,7 +2222,7 @@ isc:BaseKungurianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseKungurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "283.5"^^basic:Number ;
+  time:numericPosition "283.5"^^time:Number ;
 .
 isc:BaseKungurianUncertainty
   rdf:type time:Duration ;
@@ -2409,14 +2242,8 @@ isc:BaseLadinian
 isc:BaseLadinian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseLadinian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(45.8193 10.4710 )"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Ladinian"@en ;
-.
-isc:BaseLadinian-position
-  rdf:type gm:Position ;
-  gm:coordinates "45.8193 10.4710 "^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Ladinian"@en ;
 .
 isc:BaseLadinianTime
   rdf:type time:TimePosition ;
@@ -2452,24 +2279,18 @@ isc:BaseLopingian
 isc:BaseLopingian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseLopingian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(23.6953 109.3211)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Lopingian"@en ;
-.
-isc:BaseLopingian-position
-  rdf:type gm:Position ;
-  gm:coordinates "23.6953 109.3211"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Lopingian"@en ;
 .
 isc:BaseLopingianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseLopingianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "259.1"^^basic:Number ;
+  time:numericPosition "259.1"^^time:Number ;
 .
 isc:BaseLopingianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.5"^^basic:Number ;
+  time:numericDuration "0.5"^^time:Number ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseLudfordian
@@ -2485,14 +2306,8 @@ isc:BaseLudfordian
 isc:BaseLudfordian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseLudfordian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(52.3592 -2.7772)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Ludfordian"@en ;
-.
-isc:BaseLudfordian-position
-  rdf:type gm:Position ;
-  gm:coordinates "52.3592 -2.7772"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Ludfordian"@en ;
 .
 isc:BaseLudfordianTime
   rdf:type time:TimePosition ;
@@ -2519,14 +2334,8 @@ isc:BaseLudlow
 isc:BaseLudlow-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseLudlow-posiation ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(52.3592 -2.7772)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Ludlow"@en ;
-.
-isc:BaseLudlow-posiation
-  rdf:type gm:Position ;
-  gm:coordinates "52.3592 -2.7772"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Ludlow"@en ;
 .
 isc:BaseLudlowPosition
   rdf:type time:TimePosition ;
@@ -2552,14 +2361,8 @@ isc:BaseLutetian
 isc:BaseLutetian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseLutetian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.379575  -3.014336)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Lutetian"@en ;
-.
-isc:BaseLutetian-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.379575  -3.014336"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Lutetian"@en ;
 .
 isc:BaseLutetianTime
   rdf:type time:TimePosition ;
@@ -2579,14 +2382,8 @@ isc:BaseMaastrichtian
 isc:BaseMaastrichtian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseMaastrichtian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.6795 -1.1133)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Maastrichtian"@en ;
-.
-isc:BaseMaastrichtian-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.6795 -1.1133"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Maastrichtian"@en ;
 .
 isc:BaseMaastrichtianTime
   rdf:type time:TimePosition ;
@@ -2646,24 +2443,18 @@ isc:BaseMesozoic
 isc:BaseMesozoic-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseMesozoic-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(31.0798 119.7058)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Mesozoic"@en ;
-.
-isc:BaseMesozoic-position
-  rdf:type gm:Position ;
-  gm:coordinates "31.0798 119.7058"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Mesozoic"@en ;
 .
 isc:BaseMesozoicTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseMesozoicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "251.902"^^basic:Number ;
+  time:numericPosition "251.902"^^time:Number ;
 .
 isc:BaseMesozoicUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.024"^^basic:Number ;
+  time:numericDuration "0.024"^^time:Number ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseMessinian
@@ -2679,14 +2470,8 @@ isc:BaseMessinian
 isc:BaseMessinian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseMessinian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(33.9369 -6.8125)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Messinian"@en ;
-.
-isc:BaseMessinian-position
-  rdf:type gm:Position ;
-  gm:coordinates "33.9369 -6.8125"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Messinian"@en ;
 .
 isc:BaseMessinianTime
   rdf:type time:TimePosition ;
@@ -2707,14 +2492,8 @@ isc:BaseMiddleDevonian
 isc:BaseMiddleDevonian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseMiddleDevonian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(50.1496 6.4716)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Middle Devonian"@en ;
-.
-isc:BaseMiddleDevonian-position
-  rdf:type gm:Position ;
-  gm:coordinates "50.1496 6.4716"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Middle Devonian"@en ;
 .
 isc:BaseMiddleDevonianTime
   rdf:type time:TimePosition ;
@@ -2741,14 +2520,8 @@ isc:BaseMiddleJurassic
 isc:BaseMiddleJurassic-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseMiddleJurassic-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(41.1708 -1.8333)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Middle Jurassic"@en ;
-.
-isc:BaseMiddleJurassic-position
-  rdf:type gm:Position ;
-  gm:coordinates "41.1708 -1.8333"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Middle Jurassic"@en ;
 .
 isc:BaseMiddleJurassicTime
   rdf:type time:TimePosition ;
@@ -2777,14 +2550,8 @@ isc:BaseMiddleMississippian
 isc:BaseMiddleMississippian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseMiddleMississippian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(24.4333 109.4500)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Middle Mississippian"@en ;
-.
-isc:BaseMiddleMississippian-position
-  rdf:type gm:Position ;
-  gm:coordinates "24.4333 109.4500"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Middle Mississippian"@en ;
 .
 isc:BaseMiddleMississippianTime
   rdf:type time:TimePosition ;
@@ -2811,14 +2578,8 @@ isc:BaseMiddleOrdovician
 isc:BaseMiddleOrdovician-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseMiddleOrdovician-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(30.8605 110.3740)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Middle Ordovician"@en ;
-.
-isc:BaseMiddleOrdovician-position
-  rdf:type gm:Position ;
-  gm:coordinates "30.8605 110.3740"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Middle Ordovician"@en ;
 .
 isc:BaseMiddleOrdovicianTime
   rdf:type time:TimePosition ;
@@ -2883,13 +2644,8 @@ isc:BaseMiddleTriassic
 isc:BaseMiddleTriassicLocation
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseMiddleTriassicPosition ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(45.0742 28.8022)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Middle Triassic"@en ;
-.
-isc:BaseMiddleTriassicPosition
-  rdf:type gm:Position ;
-  gm:coordinates "45.0742 28.8022"^^basic:ordinates ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Middle Triassic"@en ;
 .
 isc:BaseMiddleTriassicTime
   rdf:type time:TimePosition ;
@@ -2941,14 +2697,8 @@ isc:BaseNeogene
 isc:BaseNeogene-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseNeogene-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(44.6589 8.8364)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Neogene"@en ;
-.
-isc:BaseNeogene-position
-  rdf:type gm:Position ;
-  gm:coordinates "44.6589 8.8364"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Neogene"@en ;
 .
 isc:BaseNeogeneTime
   rdf:type time:TimePosition ;
@@ -2984,7 +2734,7 @@ isc:BaseNorian
 isc:BaseNorianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "227"^^basic:Number ;
+  time:numericPosition "227"^^time:Number ;
 .
 isc:BaseOlenekian
   rdf:type gts:GeochronologicBoundary ;
@@ -2999,13 +2749,8 @@ isc:BaseOlenekian
 isc:BaseOlenekianLocation
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseOlenekianPosition ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(31.9654 78.0246)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Olenekian"@en ;
-.
-isc:BaseOlenekianPosition
-  rdf:type gm:Position ;
-  gm:coordinates "31.9654 78.0246"^^basic:ordinates ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Olenekian"@en ;
 .
 isc:BaseOlenekianTime
   rdf:type time:TimePosition ;
@@ -3026,14 +2771,8 @@ isc:BaseOligocene
 isc:BaseOligocene-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseOligocene-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.5328 13.6011  )"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Oligocene"@en ;
-.
-isc:BaseOligocene-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.5328 13.6011  "^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Oligocene"@en ;
 .
 isc:BaseOligoceneTime
   rdf:type time:TimePosition ;
@@ -3055,14 +2794,8 @@ isc:BaseOrdovician
 isc:BaseOrdovician-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseOrdovician-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(49.6829 -57.9653)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Ordovician"@en ;
-.
-isc:BaseOrdovician-position
-  rdf:type gm:Position ;
-  gm:coordinates "49.6829 -57.9653"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Ordovician"@en ;
 .
 isc:BaseOrdovicianTime
   rdf:type time:TimePosition ;
@@ -3120,14 +2853,8 @@ isc:BasePennsylvanian
 isc:BasePennsylvanian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BasePennsylvanian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(36.7333 -114.7778)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Pennsylvanian"@en ;
-.
-isc:BasePennsylvanian-position
-  rdf:type gm:Position ;
-  gm:coordinates "36.7333 -114.7778"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Pennsylvanian"@en ;
 .
 isc:BasePennsylvanianTime
   rdf:type time:TimePosition ;
@@ -3155,14 +2882,8 @@ isc:BasePermian
 isc:BasePermian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BasePermian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(50.2458 57.8914 )"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Permian"@en ;
-.
-isc:BasePermian-position
-  rdf:type gm:Position ;
-  gm:coordinates "50.2458 57.8914 "^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Permian"@en ;
 .
 isc:BasePermianTime
   rdf:type time:TimePosition ;
@@ -3192,14 +2913,8 @@ isc:BasePhanerozoic
 isc:BasePhanerozoic-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BasePhanerozoic-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(47.0762 -55.8310)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Phanerozoic"@en ;
-.
-isc:BasePhanerozoic-position
-  rdf:type gm:Position ;
-  gm:coordinates "47.0762 -55.8310"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Phanerozoic"@en ;
 .
 isc:BasePhanerozoicTime
   rdf:type time:TimePosition ;
@@ -3215,14 +2930,8 @@ isc:BasePhanerozoicUncertainty
 isc:BasePiacenz-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BasePiacenz-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(37.2889 13.4933)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Piacenzian"@en ;
-.
-isc:BasePiacenz-position
-  rdf:type gm:Position ;
-  gm:coordinates "37.2889 13.4933"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Piacenzian"@en ;
 .
 isc:BasePiacenzian
   rdf:type gts:GeochronologicBoundary ;
@@ -3252,14 +2961,8 @@ isc:BasePliensbachian
 isc:BasePliensbachian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BasePliensbachian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(54.4069 -0.4975)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Pliensbachian"@en ;
-.
-isc:BasePliensbachian-position
-  rdf:type gm:Position ;
-  gm:coordinates "54.4069 -0.4975"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Pliensbachian"@en ;
 .
 isc:BasePliensbachianTime
   rdf:type time:TimePosition ;
@@ -3286,14 +2989,8 @@ isc:BasePliocene
 isc:BasePliocene-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BasePliocene-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(37.3917 13.2806)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Pliocene"@en ;
-.
-isc:BasePliocene-position
-  rdf:type gm:Position ;
-  gm:coordinates "37.3917 13.2806"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Pliocene"@en ;
 .
 isc:BasePlioceneTime
   rdf:type time:TimePosition ;
@@ -3313,14 +3010,8 @@ isc:BasePragian
 isc:BasePragian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BasePragian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(50.0147 14.3726)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Pragian"@en ;
-.
-isc:BasePragian-position
-  rdf:type gm:Position ;
-  gm:coordinates "50.0147 14.3726"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Pragian"@en ;
 .
 isc:BasePragianTime
   rdf:type time:TimePosition ;
@@ -3346,7 +3037,7 @@ isc:BasePriabonian
 isc:BasePriabonianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "37.8"^^basic:Number ;
+  time:numericPosition "37.8"^^time:Number ;
 .
 isc:BasePridoli
   rdf:type gts:GeochronologicBoundary ;
@@ -3361,14 +3052,8 @@ isc:BasePridoli
 isc:BasePridoli-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BasePridoli-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(50.0277 14.3249)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Pridoli"@en ;
-.
-isc:BasePridoli-position
-  rdf:type gm:Position ;
-  gm:coordinates "50.0277 14.3249"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Pridoli"@en ;
 .
 isc:BasePridoliTime
   rdf:type time:TimePosition ;
@@ -3413,19 +3098,13 @@ isc:BaseQuaternary
 isc:BaseQuaternary-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseQuaternary-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(37.1469 14.2035)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Quaternary"@en ;
-.
-isc:BaseQuaternary-position
-  rdf:type gm:Position ;
-  gm:coordinates "37.1469 14.2035"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Quaternary"@en ;
 .
 isc:BaseQuaternaryTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "2.58"^^basic:Number ;
+  time:numericPosition "2.58"^^time:Number ;
 .
 isc:BaseRhaetian
   rdf:type gts:GeochronologicBoundary ;
@@ -3471,7 +3150,7 @@ isc:BaseSakmarianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseSakmarianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "295.0"^^basic:Number ;
+  time:numericPosition "295.0"^^time:Number ;
 .
 isc:BaseSakmarianUncertainty
   rdf:type time:Duration ;
@@ -3491,14 +3170,8 @@ isc:BaseSantonian
 isc:BaseSantonian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseSelandian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(42.8668 2.1968)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Santonian"@en ;
-.
-isc:BaseSantonian-position
-  rdf:type gm:Position ;
-  gm:coordinates "42.8681 -2.1944"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Santonian"@en ;
 .
 isc:BaseSantonianTime
   rdf:type time:TimePosition ;
@@ -3524,14 +3197,8 @@ isc:BaseSelandian
 isc:BaseSelandian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseSelandian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.3006 -2.2594)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Selandian"@en ;
-.
-isc:BaseSelandian-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.3006 -2.2594"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Selandian"@en ;
 .
 isc:BaseSelandianTime
   rdf:type time:TimePosition ;
@@ -3558,14 +3225,8 @@ isc:BaseSerravallian
 isc:BaseSerravallian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseSerravallian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(35.9139 14.3361)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Serravallian"@en ;
-.
-isc:BaseSerravallian-position
-  rdf:type gm:Position ;
-  gm:coordinates "35.9139 14.3361"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Serravallian"@en ;
 .
 isc:BaseSerravallianTime
   rdf:type time:TimePosition ;
@@ -3587,20 +3248,14 @@ isc:BaseSilurian
 isc:BaseSilurian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseSilurian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(55.4400 -3.2700)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Silurian"@en ;
-.
-isc:BaseSilurian-position
-  rdf:type gm:Position ;
-  gm:coordinates "55.4400 -3.2700"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Silurian"@en ;
 .
 isc:BaseSilurianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseSilurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "443.8"^^basic:Number ;
+  time:numericPosition "443.8"^^time:Number ;
 .
 isc:BaseSilurianUncertainty
   rdf:type time:Duration ;
@@ -3620,14 +3275,8 @@ isc:BaseSinemurian
 isc:BaseSinemurian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseSinemurian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(51.1909 -3.2364)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Sinemurian"@en ;
-.
-isc:BaseSinemurian-position
-  rdf:type gm:Position ;
-  gm:coordinates "51.1909 -3.2364"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Sinemurian"@en ;
 .
 isc:BaseSinemurianTime
   rdf:type time:TimePosition ;
@@ -3683,13 +3332,8 @@ isc:BaseTelychian
 isc:BaseTelychianLocation
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseTelychianPosition ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(51.9700 -3.7900)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Telychian"@en ;
-.
-isc:BaseTelychianPosition
-  rdf:type gm:Position ;
-  gm:coordinates "51.9700 -3.7900"^^basic:ordinates ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Telychian"@en ;
 .
 isc:BaseTelychianTime
   rdf:type time:TimePosition ;
@@ -3715,14 +3359,8 @@ isc:BaseThanetian
 isc:BaseThanetian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseThanetian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.3006 -2.2594)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Thanetian"@en ;
-.
-isc:BaseThanetian-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.3006 -2.2594"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Thanetian"@en ;
 .
 isc:BaseThanetianTime
   rdf:type time:TimePosition ;
@@ -3784,19 +3422,13 @@ isc:BaseTortonian
 isc:BaseTortonian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseTortonian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.5867 13.5694)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Tortonian"@en ;
-.
-isc:BaseTortonian-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.5867 13.5694"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Tortonian"@en ;
 .
 isc:BaseTortonianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "11.63"^^basic:Number ;
+  time:numericPosition "11.63"^^time:Number ;
 .
 isc:BaseTournaisian
   rdf:type gts:GeochronologicBoundary ;
@@ -3818,14 +3450,8 @@ isc:BaseTuronian
 isc:BaseTuronian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseTuronian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(38.2822 -104.7275)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Turonian"@en ;
-.
-isc:BaseTuronian-position
-  rdf:type gm:Position ;
-  gm:coordinates "38.2822 -104.7275"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Turonian"@en ;
 .
 isc:BaseTuronianTime
   rdf:type time:TimePosition ;
@@ -3846,14 +3472,8 @@ isc:BaseUpperCretaceous
 isc:BaseUpperCretaceous-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseUpperCretaceous-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(44.3925 5.5119)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Upper Cretaceous"@en ;
-.
-isc:BaseUpperCretaceous-position
-  rdf:type gm:Position ;
-  gm:coordinates "44.3925 5.5119"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Upper Cretaceous"@en ;
 .
 isc:BaseUpperCretaceousTime
   rdf:type time:TimePosition ;
@@ -3874,14 +3494,8 @@ isc:BaseUpperDevonian
 isc:BaseUpperDevonian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseUpperDevonian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(43.5032 3.0868)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Upper Devonian"@en ;
-.
-isc:BaseUpperDevonian-position
-  rdf:type gm:Position ;
-  gm:coordinates "43.5032 3.0868"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Upper Devonian"@en ;
 .
 isc:BaseUpperDevonianTime
   rdf:type time:TimePosition ;
@@ -3950,14 +3564,8 @@ isc:BaseUpperOrdovician
 isc:BaseUpperOrdovician-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseUpperOrdovician-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(55.7137 13.3255)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Upper Ordovician"@en ;
-.
-isc:BaseUpperOrdovician-position
-  rdf:type gm:Position ;
-  gm:coordinates "55.7137 13.3255"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Upper Ordovician"@en ;
 .
 isc:BaseUpperOrdovicianTime
   gts:positionalUncertainty isc:BaseUpperOrdovicianUncertainty ;
@@ -4016,19 +3624,13 @@ isc:BaseUpperTriassic
 isc:BaseUpperTriassic-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseUpperTriassic-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(46.5269 11.9303)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Upper Triassic"@en ;
-.
-isc:BaseUpperTriassic-position
-  rdf:type gm:Position ;
-  gm:coordinates "46.5269 11.9303"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Upper Triassic"@en ;
 .
 isc:BaseUpperTriassicTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "237"^^basic:Number ;
+  time:numericPosition "237"^^time:Number ;
 .
 isc:BaseValanginian
   rdf:type gts:GeochronologicBoundary ;
@@ -4059,14 +3661,8 @@ isc:BaseWenlock
 isc:BaseWenlock-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseWenlock-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(52.5811 -2.6389)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Wenlock"@en ;
-.
-isc:BaseWenlock-position
-  rdf:type gm:Position ;
-  gm:coordinates "52.5811 -2.6389"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Wenlock"@en ;
 .
 isc:BaseWenlockTime
   rdf:type time:TimePosition ;
@@ -4092,14 +3688,8 @@ isc:BaseWordian
 isc:BaseWordian-location
   rdf:type geo:Geometry ;
   rdf:type sf:Point ;
-  gm:position isc:BaseWordian-position ;
+  geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(31.8658 -104.8328)"^^geo:wktLiteral ;
   rdfs:label "Location of Stratotype Point Base of Wordian"@en ;
-.
-isc:BaseWordian-position
-  rdf:type gm:Position ;
-  gm:coordinates "31.8658 -104.8328"^^basic:ordinates ;
-  gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
-  rdfs:label "Coordinates of Location of Stratotype Point Base of Wordian"@en ;
 .
 isc:BaseWordianTime
   rdf:type time:TimePosition ;
@@ -6356,7 +5946,7 @@ isc:FormationOfEarthUncertainty
   rdf:type time:Duration ;
   rdfs:label "Formation of earth uncertainty"@en ;
   skos:prefLabel "Formation of earth uncertainty"@en ;
-  time:numericDuration "1"^^basic:Number ;
+  time:numericDuration "1"^^time:Number ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:Fortunian
@@ -11192,7 +10782,7 @@ isc:Present
 isc:PresentTimeCoordinate
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "0.0"^^basic:Number ;
+  time:numericPosition "0.0"^^time:Number ;
 .
 isc:Priabonian
   rdf:type gts:GeochronologicEra ;
@@ -13804,13 +13394,10 @@ isc:Zanclean
   time:intervalMetBy isc:Miocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Zanclean> ;
 .
-<http://resource.geosciml.org/classifierscheme/ics/ischart/2014>
-  rdf:type skos:ConceptScheme ;
-  owl:sameAs <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
-.
-<http://resource.geosciml.org/vocabulary/timescale/isc2014>
+<http://resource.geosciml.org/vocabulary/timescale/isc2016-12>
   rdf:type void:Dataset ;
   rdf:type owl:Ontology ;
+  rdf:type skos:ConceptScheme ;
   dc:contributor "S M Richard, Arizona Geological Survey"@en ;
   dc:creator "Simon J D COX, CSIRO"@en ;
   dc:description "Ontology document containing the elements of the International Chronostratigraphic Chart (2014). These are instantiated as instances of classes from the Geologic Timescale Ontology http://resource.geosciml.org/ontology/timescale/gts"@en ;
@@ -13847,13 +13434,10 @@ isc:Zanclean
   rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/2013> ;
   rdfs:seeAlso <http://stratigraphy.org/GSSP/index.html> ;
   rdfs:seeAlso <http://www.episodes.co.in/contents/2013/september/p199-204.pdf> ;
+  owl:imports <file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
+  owl:imports <http://www.opengis.net/ont/geosparql> ;
   owl:priorVersion <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201302/Geoscience/GeologicTimeScale/isc2013.rdf> ;
   owl:versionIRI <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201405/Geoscience/GeologicTimeScale/isc2014.rdf> ;
   skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014.txt> for changes from prior versions"@en ;
-.
-<http://resource.geosciml.org/vocabulary/timescale/isc2016-12>
-  rdf:type owl:Ontology ;
-  owl:imports <file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl> ;
-  owl:imports <http://www.opengis.net/ont/geosparql> ;
 .
