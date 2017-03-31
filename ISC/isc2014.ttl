@@ -2182,7 +2182,7 @@ isc:BaseHolocene-location
 .
 isc:BaseHolocene-position
   rdf:type gm:Position ;
-  gm:coordinates "75.1000 -42.3200"@en ;
+  gm:coordinates "75.1000 -42.3200"^^basic:ordinates ;
   gm:srs <http://www.opengis.net/def/crs/EPSG/0/4326> ;
   rdfs:label "Coordinates of Location of Stratotype Point Base of Holocene"@en ;
 .
@@ -2353,7 +2353,7 @@ isc:BaseKimmeridgianLocation
 .
 isc:BaseKimmeridgianPosition
   rdf:type gm:Position ;
-  gm:coordinates "57.6 -6.2"@en ;
+  gm:coordinates "57.6 -6.2"^^basic:ordinates ;
   rdfs:label "Coordinates of Location of Stratotype Point Base of Kimmeridgian"@en ;
 .
 isc:BaseKimmeridgianTime
@@ -2909,7 +2909,7 @@ isc:BaseMiddleTriassicLocation
 .
 isc:BaseMiddleTriassicPosition
   rdf:type gm:Position ;
-  gm:coordinates "45.0742 28.8022"@en ;
+  gm:coordinates "45.0742 28.8022"^^basic:ordinates ;
   rdfs:label "Coordinates of Location of Stratotype Point Base of Middle Triassic"@en ;
 .
 isc:BaseMiddleTriassicTime
@@ -3032,7 +3032,7 @@ isc:BaseOlenekianLocation
 .
 isc:BaseOlenekianPosition
   rdf:type gm:Position ;
-  gm:coordinates "31.9654 78.0246"@en ;
+  gm:coordinates "31.9654 78.0246"^^basic:ordinates ;
   rdfs:label "Coordinates of Location of Stratotype Point Base of Olenekian"@en ;
 .
 isc:BaseOlenekianTime
@@ -3760,7 +3760,7 @@ isc:BaseTelychianLocation
 .
 isc:BaseTelychianPosition
   rdf:type gm:Position ;
-  gm:coordinates "51.9700 -3.7900"@en ;
+  gm:coordinates "51.9700 -3.7900"^^basic:ordinates ;
   rdfs:label "Coordinates of Location of Stratotype Point Base of Telychian"@en ;
 .
 isc:BaseTelychianTime
