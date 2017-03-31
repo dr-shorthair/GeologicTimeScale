@@ -11,6 +11,11 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<file:///C:/Users/cox075/dev/GeologicTimeScale/thors-time-mapping.ttl>
+  rdf:type owl:Ontology ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/thors> ;
+  owl:imports <http://www.w3.org/2006/time> ;
+.
 <file:/C:/Users/cox075/dev/GeologicTimeScale/thors-time-mapping.ttl>
   rdf:type owl:Ontology ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors> ;
