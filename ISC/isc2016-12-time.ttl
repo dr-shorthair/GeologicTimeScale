@@ -1,7 +1,9 @@
 # baseURI: http://resource.geosciml.org/vocabulary/timescale/isc2016-12
 # imports: file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl
+# imports: http://def.seegrid.csiro.au/ontology/om/sam-lite
 # imports: http://resource.geosciml.org/ontology/timescale/gts
 # imports: http://www.opengis.net/ont/geosparql
+# imports: http://www.w3.org/2006/time
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -628,6 +630,7 @@ isc:Aalenian
   time:intervalMeets isc:Bajocian ;
   time:intervalMetBy isc:LowerJurassic ;
   time:intervalMetBy isc:Toarcian ;
+  time:intervalStarts isc:MiddleJurassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Aalenian> ;
 .
 isc:Aeronian
@@ -669,6 +672,7 @@ isc:Aeronian
   skos:prefLabel "埃隆期"@zh ;
   time:hasBeginning isc:BaseAeronian ;
   time:hasEnd isc:BaseTelychian ;
+  time:intervalDuring isc:Llandovery ;
   time:intervalIn isc:Llandovery ;
   time:intervalMeets isc:Telychian ;
   time:intervalMetBy isc:Rhuddanian ;
@@ -713,6 +717,7 @@ isc:Albian
   skos:prefLabel "阿尔布期"@zh ;
   time:hasBeginning isc:BaseAlbian ;
   time:hasEnd isc:BaseUpperCretaceous ;
+  time:intervalFinishes isc:LowerCretaceous ;
   time:intervalIn isc:LowerCretaceous ;
   time:intervalMeets isc:Cenomanian ;
   time:intervalMeets isc:UpperCretaceous ;
@@ -762,6 +767,7 @@ isc:Anisian
   time:intervalMeets isc:Ladinian ;
   time:intervalMetBy isc:LowerTriassic ;
   time:intervalMetBy isc:Olenekian ;
+  time:intervalStarts isc:MiddleTriassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Anisian> ;
 .
 isc:Aptian
@@ -803,6 +809,7 @@ isc:Aptian
   skos:prefLabel "阿普弟期"@zh ;
   time:hasBeginning isc:BaseAptian ;
   time:hasEnd isc:BaseAlbian ;
+  time:intervalDuring isc:LowerCretaceous ;
   time:intervalIn isc:LowerCretaceous ;
   time:intervalMeets isc:Albian ;
   time:intervalMetBy isc:Barremian ;
@@ -852,6 +859,7 @@ isc:Aquitanian
   time:intervalMetBy isc:Chattian ;
   time:intervalMetBy isc:Oligocene ;
   time:intervalMetBy isc:Paleogene ;
+  time:intervalStarts isc:Miocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Aquitanian> ;
 .
 isc:Archean
@@ -901,11 +909,16 @@ isc:Archean
   skos:topConceptOf <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
   time:hasBeginning isc:BaseArchean ;
   time:hasEnd isc:BaseProterozoic ;
+  time:intervalContains isc:Mesoarchean ;
+  time:intervalContains isc:Paleoarchean ;
+  time:intervalDuring isc:Precambrian ;
+  time:intervalFinishedBy isc:Neoarchean ;
   time:intervalIn isc:Precambrian ;
   time:intervalMeets isc:Paleoproterozoic ;
   time:intervalMeets isc:Proterozoic ;
   time:intervalMeets isc:Siderian ;
   time:intervalMetBy isc:Hadean ;
+  time:intervalStartedBy isc:Eoarchean ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Archean> ;
 .
 isc:Artinskian
@@ -947,6 +960,7 @@ isc:Artinskian
   skos:prefLabel "亚丁斯克期"@zh ;
   time:hasBeginning isc:BaseArtinskian ;
   time:hasEnd isc:BaseKungurian ;
+  time:intervalDuring isc:Cisuralian ;
   time:intervalIn isc:Cisuralian ;
   time:intervalMeets isc:Kungurian ;
   time:intervalMetBy isc:Sakmarian ;
@@ -998,6 +1012,7 @@ isc:Asselian
   time:intervalMetBy isc:Pennsylvanian ;
   time:intervalMetBy isc:UpperMississippian ;
   time:intervalMetBy isc:UpperPennsylvanian ;
+  time:intervalStarts isc:Cisuralian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Asselian> ;
 .
 isc:Bajocian
@@ -1039,6 +1054,7 @@ isc:Bajocian
   skos:prefLabel "巴柔期"@zh ;
   time:hasBeginning isc:BaseBajocian ;
   time:hasEnd isc:BaseBathonian ;
+  time:intervalDuring isc:MiddleJurassic ;
   time:intervalIn isc:MiddleJurassic ;
   time:intervalMeets isc:Bathonian ;
   time:intervalMetBy isc:Aalenian ;
@@ -1083,6 +1099,7 @@ isc:Barremian
   skos:prefLabel "巴列姆期"@zh ;
   time:hasBeginning isc:BaseBarremian ;
   time:hasEnd isc:BaseAptian ;
+  time:intervalDuring isc:LowerCretaceous ;
   time:intervalIn isc:LowerCretaceous ;
   time:intervalMeets isc:Aptian ;
   time:intervalMetBy isc:Hauterivian ;
@@ -1127,6 +1144,7 @@ isc:Bartonian
   skos:prefLabel "巴尔顿期"@zh ;
   time:hasBeginning isc:BaseBartonian ;
   time:hasEnd isc:BasePriabonian ;
+  time:intervalDuring isc:Eocene ;
   time:intervalIn isc:Eocene ;
   time:intervalMeets isc:Priabonian ;
   time:intervalMetBy isc:Lutetian ;
@@ -3789,6 +3807,7 @@ isc:Bathonian
   skos:prefLabel "巴通期"@zh ;
   time:hasBeginning isc:BaseBathonian ;
   time:hasEnd isc:BaseCallovian ;
+  time:intervalDuring isc:MiddleJurassic ;
   time:intervalIn isc:MiddleJurassic ;
   time:intervalMeets isc:Callovian ;
   time:intervalMetBy isc:Bajocian ;
@@ -3838,6 +3857,7 @@ isc:Berriasian
   time:intervalMetBy isc:Jurassic ;
   time:intervalMetBy isc:Tithonian ;
   time:intervalMetBy isc:UpperJurassic ;
+  time:intervalStarts isc:LowerCretaceous ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Berriasian> ;
 .
 isc:Boundaries
@@ -4002,6 +4022,7 @@ isc:Burdigalian
   skos:prefLabel "布迪加尔期"@zh ;
   time:hasBeginning isc:BaseBurdigalian ;
   time:hasEnd isc:BaseLanghian ;
+  time:intervalDuring isc:Miocene ;
   time:intervalIn isc:Miocene ;
   time:intervalMeets isc:Langhian ;
   time:intervalMetBy isc:Aquitanian ;
@@ -4046,6 +4067,7 @@ isc:Calabrian
   skos:prefLabel "卡拉布里亚期"@zh ;
   time:hasBeginning isc:BaseCalabrian ;
   time:hasEnd isc:BaseMiddlePleistocene ;
+  time:intervalDuring isc:Pleistocene ;
   time:intervalIn isc:Pleistocene ;
   time:intervalMeets isc:MiddlePleistocene ;
   time:intervalMetBy isc:Gelasian ;
@@ -4090,6 +4112,7 @@ isc:Callovian
   skos:prefLabel "卡洛夫期"@zh ;
   time:hasBeginning isc:BaseCallovian ;
   time:hasEnd isc:BaseUpperJurassic ;
+  time:intervalFinishes isc:MiddleJurassic ;
   time:intervalIn isc:MiddleJurassic ;
   time:intervalMeets isc:Oxfordian ;
   time:intervalMeets isc:UpperJurassic ;
@@ -4138,6 +4161,7 @@ isc:Calymmian
   time:intervalMeets isc:Ectasian ;
   time:intervalMetBy isc:Paleoproterozoic ;
   time:intervalMetBy isc:Statherian ;
+  time:intervalStarts isc:Mesoproterozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Calymmian> ;
 .
 isc:Cambrian
@@ -4195,6 +4219,9 @@ isc:Cambrian
   skos:prefLabel "寒武纪"@zh ;
   time:hasBeginning isc:BasePhanerozoic ;
   time:hasEnd isc:BaseOrdovician ;
+  time:intervalContains isc:CambrianSeries2 ;
+  time:intervalContains isc:CambrianSeries3 ;
+  time:intervalFinishedBy isc:Furongian ;
   time:intervalIn isc:Paleozoic ;
   time:intervalMeets isc:LowerOrdovician ;
   time:intervalMeets isc:Ordovician ;
@@ -4203,6 +4230,8 @@ isc:Cambrian
   time:intervalMetBy isc:Neoproterozoic ;
   time:intervalMetBy isc:Precambrian ;
   time:intervalMetBy isc:Proterozoic ;
+  time:intervalStartedBy isc:Terreneuvian ;
+  time:intervalStarts isc:Paleozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cambrian> ;
 .
 isc:CambrianSeries2
@@ -4246,11 +4275,14 @@ isc:CambrianSeries2
   skos:prefLabel "第二世"@zh ;
   time:hasBeginning isc:BaseCambrianSeries2 ;
   time:hasEnd isc:BaseCambrianSeries3 ;
+  time:intervalDuring isc:Cambrian ;
+  time:intervalFinishedBy isc:CambrianStage4 ;
   time:intervalIn isc:Cambrian ;
   time:intervalMeets isc:CambrianSeries3 ;
   time:intervalMeets isc:CambrianStage5 ;
   time:intervalMetBy isc:CambrianStage2 ;
   time:intervalMetBy isc:Terreneuvian ;
+  time:intervalStartedBy isc:CambrianStage3 ;
 .
 isc:CambrianSeries3
   rdf:type gts:GeochronologicEra ;
@@ -4295,11 +4327,15 @@ isc:CambrianSeries3
   skos:prefLabel "第三世"@zh ;
   time:hasBeginning isc:BaseCambrianSeries3 ;
   time:hasEnd isc:BaseFurongian ;
+  time:intervalContains isc:Drumian ;
+  time:intervalDuring isc:Cambrian ;
+  time:intervalFinishedBy isc:Guzhangian ;
   time:intervalIn isc:Cambrian ;
   time:intervalMeets isc:Furongian ;
   time:intervalMeets isc:Paibian ;
   time:intervalMetBy isc:CambrianSeries2 ;
   time:intervalMetBy isc:CambrianStage4 ;
+  time:intervalStartedBy isc:CambrianStage5 ;
 .
 isc:CambrianStage10
   rdf:type gts:GeochronologicEra ;
@@ -4339,6 +4375,7 @@ isc:CambrianStage10
   skos:prefLabel "第十期"@zh ;
   time:hasBeginning isc:BaseCambrianStage10 ;
   time:hasEnd isc:BaseOrdovician ;
+  time:intervalFinishes isc:Furongian ;
   time:intervalIn isc:Furongian ;
   time:intervalMeets isc:LowerOrdovician ;
   time:intervalMeets isc:Ordovician ;
@@ -4383,6 +4420,7 @@ isc:CambrianStage2
   skos:prefLabel "第二期"@zh ;
   time:hasBeginning isc:BaseCambrianStage2 ;
   time:hasEnd isc:BaseCambrianSeries2 ;
+  time:intervalFinishes isc:Terreneuvian ;
   time:intervalIn isc:Terreneuvian ;
   time:intervalMeets isc:CambrianSeries2 ;
   time:intervalMeets isc:CambrianStage3 ;
@@ -4430,6 +4468,7 @@ isc:CambrianStage3
   time:intervalMeets isc:CambrianStage4 ;
   time:intervalMetBy isc:CambrianStage2 ;
   time:intervalMetBy isc:Terreneuvian ;
+  time:intervalStarts isc:CambrianSeries2 ;
 .
 isc:CambrianStage4
   rdf:type gts:GeochronologicEra ;
@@ -4469,6 +4508,7 @@ isc:CambrianStage4
   skos:prefLabel "第四期"@zh ;
   time:hasBeginning isc:BaseCambrianStage4 ;
   time:hasEnd isc:BaseCambrianSeries3 ;
+  time:intervalFinishes isc:CambrianSeries2 ;
   time:intervalIn isc:CambrianSeries2 ;
   time:intervalMeets isc:CambrianSeries3 ;
   time:intervalMeets isc:CambrianStage5 ;
@@ -4516,6 +4556,7 @@ isc:CambrianStage5
   time:intervalMeets isc:Drumian ;
   time:intervalMetBy isc:CambrianSeries2 ;
   time:intervalMetBy isc:CambrianStage4 ;
+  time:intervalStarts isc:CambrianSeries3 ;
 .
 isc:Campanian
   rdf:type gts:GeochronologicEra ;
@@ -4556,6 +4597,7 @@ isc:Campanian
   skos:prefLabel "坎佩尼期"@zh ;
   time:hasBeginning isc:BaseCampanian ;
   time:hasEnd isc:BaseMaastrichtian ;
+  time:intervalDuring isc:UpperCretaceous ;
   time:intervalIn isc:UpperCretaceous ;
   time:intervalMeets isc:Maastrichtian ;
   time:intervalMetBy isc:Santonian ;
@@ -4600,6 +4642,7 @@ isc:Capitanian
   skos:prefLabel "卡匹敦期"@zh ;
   time:hasBeginning isc:BaseCapitanian ;
   time:hasEnd isc:BaseGuadalupian ;
+  time:intervalDuring isc:Guadalupian ;
   time:intervalIn isc:Guadalupian ;
   time:intervalMeets isc:Guadalupian ;
   time:intervalMeets isc:Roadian ;
@@ -4660,6 +4703,8 @@ isc:Carboniferous
   skos:prefLabel "石炭纪"@zh ;
   time:hasBeginning isc:BaseCarboniferous ;
   time:hasEnd isc:BasePermian ;
+  time:intervalDuring isc:Paleozoic ;
+  time:intervalFinishedBy isc:Pennsylvanian ;
   time:intervalIn isc:Paleozoic ;
   time:intervalMeets isc:Asselian ;
   time:intervalMeets isc:Cisuralian ;
@@ -4667,6 +4712,7 @@ isc:Carboniferous
   time:intervalMetBy isc:Devonian ;
   time:intervalMetBy isc:Famennian ;
   time:intervalMetBy isc:UpperDevonian ;
+  time:intervalStartedBy isc:Mississippian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Carboniferous> ;
 .
 isc:Carnian
@@ -4712,6 +4758,7 @@ isc:Carnian
   time:intervalMeets isc:Norian ;
   time:intervalMetBy isc:Ladinian ;
   time:intervalMetBy isc:MiddleTriassic ;
+  time:intervalStarts isc:UpperTriassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Carnian> ;
 .
 isc:Cenomanian
@@ -4757,6 +4804,7 @@ isc:Cenomanian
   time:intervalMeets isc:Turonian ;
   time:intervalMetBy isc:Albian ;
   time:intervalMetBy isc:LowerCretaceous ;
+  time:intervalStarts isc:UpperCretaceous ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cenomanian> ;
 .
 isc:Cenozoic
@@ -4831,11 +4879,15 @@ isc:Cenozoic
   skos:prefLabel "新生代"@zh ;
   time:hasBeginning isc:BaseCenozoic ;
   time:hasEnd isc:Present ;
+  time:intervalContains isc:Neogene ;
+  time:intervalFinishedBy isc:Quaternary ;
+  time:intervalFinishes isc:Phanerozoic ;
   time:intervalIn isc:Phanerozoic ;
   time:intervalMetBy isc:Cretaceous ;
   time:intervalMetBy isc:Maastrichtian ;
   time:intervalMetBy isc:Mesozoic ;
   time:intervalMetBy isc:UpperCretaceous ;
+  time:intervalStartedBy isc:Paleogene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cenozoic> ;
 .
 isc:Changhsingian
@@ -4877,6 +4929,7 @@ isc:Changhsingian
   skos:prefLabel "长兴期"@zh ;
   time:hasBeginning isc:BaseChanghsingian ;
   time:hasEnd isc:BaseMesozoic ;
+  time:intervalFinishes isc:Lopingian ;
   time:intervalIn isc:Lopingian ;
   time:intervalMeets isc:Induan ;
   time:intervalMeets isc:LowerTriassic ;
@@ -4924,6 +4977,7 @@ isc:Chattian
   skos:prefLabel "恰特期"@zh ;
   time:hasBeginning isc:BaseChattian ;
   time:hasEnd isc:BaseNeogene ;
+  time:intervalFinishes isc:Oligocene ;
   time:intervalIn isc:Oligocene ;
   time:intervalMeets isc:Aquitanian ;
   time:intervalMeets isc:Miocene ;
@@ -4977,6 +5031,9 @@ isc:Cisuralian
   skos:prefLabel "乌拉尔世"@zh ;
   time:hasBeginning isc:BasePermian ;
   time:hasEnd isc:BaseGuadalupian ;
+  time:intervalContains isc:Artinskian ;
+  time:intervalContains isc:Sakmarian ;
+  time:intervalFinishedBy isc:Kungurian ;
   time:intervalIn isc:Permian ;
   time:intervalMeets isc:Guadalupian ;
   time:intervalMeets isc:Roadian ;
@@ -4985,6 +5042,8 @@ isc:Cisuralian
   time:intervalMetBy isc:Pennsylvanian ;
   time:intervalMetBy isc:UpperMississippian ;
   time:intervalMetBy isc:UpperPennsylvanian ;
+  time:intervalStartedBy isc:Asselian ;
+  time:intervalStarts isc:Permian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cisuralian> ;
 .
 isc:Coniacian
@@ -5026,6 +5085,7 @@ isc:Coniacian
   skos:prefLabel "科尼亚克期"@zh ;
   time:hasBeginning isc:BaseConiacian ;
   time:hasEnd isc:BaseSantonian ;
+  time:intervalDuring isc:UpperCretaceous ;
   time:intervalIn isc:UpperCretaceous ;
   time:intervalMeets isc:Santonian ;
   time:intervalMetBy isc:Turonian ;
@@ -5084,6 +5144,8 @@ isc:Cretaceous
   skos:prefLabel "白垩纪"@zh ;
   time:hasBeginning isc:BaseCretaceous ;
   time:hasEnd isc:BaseCenozoic ;
+  time:intervalFinishedBy isc:UpperCretaceous ;
+  time:intervalFinishes isc:Mesozoic ;
   time:intervalIn isc:Mesozoic ;
   time:intervalMeets isc:Cenozoic ;
   time:intervalMeets isc:Danian ;
@@ -5092,6 +5154,7 @@ isc:Cretaceous
   time:intervalMetBy isc:Jurassic ;
   time:intervalMetBy isc:Tithonian ;
   time:intervalMetBy isc:UpperJurassic ;
+  time:intervalStartedBy isc:LowerCretaceous ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cretaceous> ;
 .
 isc:Cryogenian
@@ -5132,6 +5195,7 @@ isc:Cryogenian
   skos:prefLabel "成冰纪"@zh ;
   time:hasBeginning isc:BaseCryogenian ;
   time:hasEnd isc:BaseEdiacaran ;
+  time:intervalDuring isc:Neoproterozoic ;
   time:intervalIn isc:Neoproterozoic ;
   time:intervalMeets isc:Ediacaran ;
   time:intervalMetBy isc:Tonian ;
@@ -5182,6 +5246,7 @@ isc:Danian
   time:intervalMetBy isc:Maastrichtian ;
   time:intervalMetBy isc:Mesozoic ;
   time:intervalMetBy isc:UpperCretaceous ;
+  time:intervalStarts isc:Paleocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Danian> ;
 .
 isc:Dapingian
@@ -5227,6 +5292,7 @@ isc:Dapingian
   time:intervalMeets isc:Darriwilian ;
   time:intervalMetBy isc:Floian ;
   time:intervalMetBy isc:LowerOrdovician ;
+  time:intervalStarts isc:MiddleOrdovician ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Dapingian> ;
 .
 isc:Darriwilian
@@ -5268,6 +5334,7 @@ isc:Darriwilian
   skos:prefLabel "达瑞威尔期"@zh ;
   time:hasBeginning isc:BaseDarriwilian ;
   time:hasEnd isc:BaseUpperOrdovician ;
+  time:intervalFinishes isc:MiddleOrdovician ;
   time:intervalIn isc:MiddleOrdovician ;
   time:intervalMeets isc:Sandbian ;
   time:intervalMeets isc:UpperOrdovician ;
@@ -5324,6 +5391,9 @@ isc:Devonian
   skos:prefLabel "泥盆纪"@zh ;
   time:hasBeginning isc:BaseDevonian ;
   time:hasEnd isc:BaseCarboniferous ;
+  time:intervalContains isc:MiddleDevonian ;
+  time:intervalDuring isc:Paleozoic ;
+  time:intervalFinishedBy isc:UpperDevonian ;
   time:intervalIn isc:Paleozoic ;
   time:intervalMeets isc:Carboniferous ;
   time:intervalMeets isc:LowerMississippian ;
@@ -5331,6 +5401,7 @@ isc:Devonian
   time:intervalMeets isc:Tournaisian ;
   time:intervalMetBy isc:Pridoli ;
   time:intervalMetBy isc:Silurian ;
+  time:intervalStartedBy isc:LowerDevonian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Devonian> ;
 .
 isc:Drumian
@@ -5372,6 +5443,7 @@ isc:Drumian
   skos:prefLabel "鼓山期"@zh ;
   time:hasBeginning isc:BaseDrumian ;
   time:hasEnd isc:BaseGuzhangian ;
+  time:intervalDuring isc:CambrianSeries3 ;
   time:intervalIn isc:CambrianSeries3 ;
   time:intervalMeets isc:Guzhangian ;
   time:intervalMetBy isc:CambrianStage5 ;
@@ -5415,6 +5487,7 @@ isc:Ectasian
   skos:prefLabel "延展纪"@zh ;
   time:hasBeginning isc:BaseEctasian ;
   time:hasEnd isc:BaseStenian ;
+  time:intervalDuring isc:Mesoproterozoic ;
   time:intervalIn isc:Mesoproterozoic ;
   time:intervalMeets isc:Stenian ;
   time:intervalMetBy isc:Calymmian ;
@@ -5459,6 +5532,7 @@ isc:Ediacaran
   skos:prefLabel "埃迪卡拉纪"@zh ;
   time:hasBeginning isc:BaseEdiacaran ;
   time:hasEnd isc:BasePhanerozoic ;
+  time:intervalFinishes isc:Neoproterozoic ;
   time:intervalIn isc:Neoproterozoic ;
   time:intervalMeets isc:Cambrian ;
   time:intervalMeets isc:Fortunian ;
@@ -5511,6 +5585,7 @@ isc:Eifelian
   time:intervalMeets isc:Givetian ;
   time:intervalMetBy isc:Emsian ;
   time:intervalMetBy isc:LowerDevonian ;
+  time:intervalStarts isc:MiddleDevonian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Eifelian> ;
 .
 isc:Emsian
@@ -5552,6 +5627,7 @@ isc:Emsian
   skos:prefLabel "艾姆斯期"@zh ;
   time:hasBeginning isc:BaseEmsian ;
   time:hasEnd isc:BaseMiddleDevonian ;
+  time:intervalFinishes isc:LowerDevonian ;
   time:intervalIn isc:LowerDevonian ;
   time:intervalMeets isc:Eifelian ;
   time:intervalMeets isc:MiddleDevonian ;
@@ -5600,6 +5676,7 @@ isc:Eoarchean
   time:intervalIn isc:Archean ;
   time:intervalMeets isc:Paleoarchean ;
   time:intervalMetBy isc:Hadean ;
+  time:intervalStarts isc:Archean ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Eoarchean> ;
 .
 isc:Eocene
@@ -5648,11 +5725,16 @@ isc:Eocene
   skos:prefLabel "始新世"@zh ;
   time:hasBeginning isc:BaseEocene ;
   time:hasEnd isc:BaseOligocene ;
+  time:intervalContains isc:Bartonian ;
+  time:intervalContains isc:Lutetian ;
+  time:intervalDuring isc:Paleogene ;
+  time:intervalFinishedBy isc:Priabonian ;
   time:intervalIn isc:Paleogene ;
   time:intervalMeets isc:Oligocene ;
   time:intervalMeets isc:Rupelian ;
   time:intervalMetBy isc:Paleocene ;
   time:intervalMetBy isc:Thanetian ;
+  time:intervalStartedBy isc:Ypresian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Eocene> ;
 .
 isc:Eras
@@ -5874,6 +5956,7 @@ isc:Famennian
   skos:prefLabel "法门期"@zh ;
   time:hasBeginning isc:BaseFamennian ;
   time:hasEnd isc:BaseCarboniferous ;
+  time:intervalFinishes isc:UpperDevonian ;
   time:intervalIn isc:UpperDevonian ;
   time:intervalMeets isc:Carboniferous ;
   time:intervalMeets isc:LowerMississippian ;
@@ -5920,6 +6003,7 @@ isc:Floian
   skos:prefLabel "弗洛期"@zh ;
   time:hasBeginning isc:BaseFloian ;
   time:hasEnd isc:BaseMiddleOrdovician ;
+  time:intervalFinishes isc:LowerOrdovician ;
   time:intervalIn isc:LowerOrdovician ;
   time:intervalMeets isc:Dapingian ;
   time:intervalMeets isc:MiddleOrdovician ;
@@ -5994,6 +6078,7 @@ isc:Fortunian
   time:intervalMetBy isc:Neoproterozoic ;
   time:intervalMetBy isc:Precambrian ;
   time:intervalMetBy isc:Proterozoic ;
+  time:intervalStarts isc:Terreneuvian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Fortunian> ;
 .
 isc:Frasnian
@@ -6039,6 +6124,7 @@ isc:Frasnian
   time:intervalMeets isc:Famennian ;
   time:intervalMetBy isc:Givetian ;
   time:intervalMetBy isc:MiddleDevonian ;
+  time:intervalStarts isc:UpperDevonian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Frasnian> ;
 .
 isc:Furongian
@@ -6085,12 +6171,16 @@ isc:Furongian
   skos:prefLabel "芙蓉世"@zh ;
   time:hasBeginning isc:BaseFurongian ;
   time:hasEnd isc:BaseOrdovician ;
+  time:intervalContains isc:Jiangshanian ;
+  time:intervalFinishedBy isc:CambrianStage10 ;
+  time:intervalFinishes isc:Cambrian ;
   time:intervalIn isc:Cambrian ;
   time:intervalMeets isc:LowerOrdovician ;
   time:intervalMeets isc:Ordovician ;
   time:intervalMeets isc:Tremadocian ;
   time:intervalMetBy isc:CambrianSeries3 ;
   time:intervalMetBy isc:Guzhangian ;
+  time:intervalStartedBy isc:Paibian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Furongian> ;
 .
 isc:GSSPBaseAeronian
@@ -7000,6 +7090,7 @@ isc:Gelasian
   time:intervalMetBy isc:Neogene ;
   time:intervalMetBy isc:Piacenzian ;
   time:intervalMetBy isc:Pliocene ;
+  time:intervalStarts isc:Pleistocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Gelasian> ;
 .
 isc:Givetian
@@ -7041,6 +7132,7 @@ isc:Givetian
   skos:prefLabel "吉维特期"@zh ;
   time:hasBeginning isc:BaseGivetian ;
   time:hasEnd isc:BaseUpperDevonian ;
+  time:intervalFinishes isc:MiddleDevonian ;
   time:intervalIn isc:MiddleDevonian ;
   time:intervalMeets isc:Frasnian ;
   time:intervalMeets isc:UpperDevonian ;
@@ -7090,6 +7182,7 @@ isc:Gorstian
   time:intervalMeets isc:Ludfordian ;
   time:intervalMetBy isc:Homerian ;
   time:intervalMetBy isc:Wenlock ;
+  time:intervalStarts isc:Ludlow ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Gorstian> ;
 .
 isc:Guadalupian
@@ -7136,12 +7229,16 @@ isc:Guadalupian
   skos:prefLabel "瓜德鲁普世"@zh ;
   time:hasBeginning isc:BaseGuadalupian ;
   time:hasEnd isc:BaseLopingian ;
+  time:intervalContains isc:Capitanian ;
+  time:intervalContains isc:Wordian ;
+  time:intervalDuring isc:Permian ;
   time:intervalIn isc:Permian ;
   time:intervalMeets isc:Lopingian ;
   time:intervalMeets isc:Wuchiapingian ;
   time:intervalMetBy isc:Capitanian ;
   time:intervalMetBy isc:Cisuralian ;
   time:intervalMetBy isc:Kungurian ;
+  time:intervalStartedBy isc:Roadian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Guadalupian> ;
 .
 isc:Guzhangian
@@ -7183,6 +7280,7 @@ isc:Guzhangian
   skos:prefLabel "古丈期"@zh ;
   time:hasBeginning isc:BaseGuzhangian ;
   time:hasEnd isc:BaseFurongian ;
+  time:intervalFinishes isc:CambrianSeries3 ;
   time:intervalIn isc:CambrianSeries3 ;
   time:intervalMeets isc:Furongian ;
   time:intervalMeets isc:Paibian ;
@@ -7229,6 +7327,7 @@ isc:Gzhelian
   skos:prefLabel "格热尔期"@zh ;
   time:hasBeginning isc:BaseGzhelian ;
   time:hasEnd isc:BasePermian ;
+  time:intervalFinishes isc:UpperPennsylvanian ;
   time:intervalIn isc:UpperPennsylvanian ;
   time:intervalMeets isc:Asselian ;
   time:intervalMeets isc:Cisuralian ;
@@ -7275,6 +7374,7 @@ isc:Hadean
   time:intervalIn isc:Precambrian ;
   time:intervalMeets isc:Archean ;
   time:intervalMeets isc:Eoarchean ;
+  time:intervalStarts isc:Precambrian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Hadean> ;
 .
 isc:Hauterivian
@@ -7316,6 +7416,7 @@ isc:Hauterivian
   skos:prefLabel "豪特里维期"@zh ;
   time:hasBeginning isc:BaseHauterivian ;
   time:hasEnd isc:BaseBarremian ;
+  time:intervalDuring isc:LowerCretaceous ;
   time:intervalIn isc:LowerCretaceous ;
   time:intervalMeets isc:Barremian ;
   time:intervalMetBy isc:Valanginian ;
@@ -7365,6 +7466,7 @@ isc:Hettangian
   time:intervalMetBy isc:Rhaetian ;
   time:intervalMetBy isc:Triassic ;
   time:intervalMetBy isc:UpperTriassic ;
+  time:intervalStarts isc:LowerJurassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Hettangian> ;
 .
 isc:Hirnantian
@@ -7406,6 +7508,7 @@ isc:Hirnantian
   skos:prefLabel "赫南特期"@zh ;
   time:hasBeginning isc:BaseHirnantian ;
   time:hasEnd isc:BaseSilurian ;
+  time:intervalFinishes isc:UpperOrdovician ;
   time:intervalIn isc:UpperOrdovician ;
   time:intervalMeets isc:Llandovery ;
   time:intervalMeets isc:Rhuddanian ;
@@ -7451,6 +7554,7 @@ isc:Holocene
   skos:prefLabel "完新世"@ja ;
   time:hasBeginning isc:BaseHolocene ;
   time:hasEnd isc:Present ;
+  time:intervalFinishes isc:Quaternary ;
   time:intervalIn isc:Quaternary ;
   time:intervalMetBy isc:Pleistocene ;
   time:intervalMetBy isc:UpperPleistocene ;
@@ -7495,6 +7599,7 @@ isc:Homerian
   skos:prefLabel "侯默期"@zh ;
   time:hasBeginning isc:BaseHomerian ;
   time:hasEnd isc:BaseLudlow ;
+  time:intervalFinishes isc:Wenlock ;
   time:intervalIn isc:Wenlock ;
   time:intervalMeets isc:Gorstian ;
   time:intervalMeets isc:Ludlow ;
@@ -7546,6 +7651,7 @@ isc:Induan
   time:intervalMetBy isc:Lopingian ;
   time:intervalMetBy isc:Paleozoic ;
   time:intervalMetBy isc:Permian ;
+  time:intervalStarts isc:LowerTriassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Induan> ;
 .
 isc:Ionian
@@ -7596,6 +7702,7 @@ isc:Jiangshanian
   skos:prefLabel "第九期"@zh ;
   time:hasBeginning isc:BaseJiangshanian ;
   time:hasEnd isc:BaseCambrianStage10 ;
+  time:intervalDuring isc:Furongian ;
   time:intervalIn isc:Furongian ;
   time:intervalMeets isc:CambrianStage10 ;
   time:intervalMetBy isc:Paibian ;
@@ -7654,6 +7761,9 @@ isc:Jurassic
   skos:prefLabel "侏罗纪"@zh ;
   time:hasBeginning isc:BaseJurassic ;
   time:hasEnd isc:BaseCretaceous ;
+  time:intervalContains isc:MiddleJurassic ;
+  time:intervalDuring isc:Mesozoic ;
+  time:intervalFinishedBy isc:UpperJurassic ;
   time:intervalIn isc:Mesozoic ;
   time:intervalMeets isc:Berriasian ;
   time:intervalMeets isc:Cretaceous ;
@@ -7661,6 +7771,7 @@ isc:Jurassic
   time:intervalMetBy isc:Rhaetian ;
   time:intervalMetBy isc:Triassic ;
   time:intervalMetBy isc:UpperTriassic ;
+  time:intervalStartedBy isc:LowerJurassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Jurassic> ;
 .
 isc:Kasimovian
@@ -7707,6 +7818,7 @@ isc:Kasimovian
   time:intervalMeets isc:Gzhelian ;
   time:intervalMetBy isc:MiddlePennsylvanian ;
   time:intervalMetBy isc:Moscovian ;
+  time:intervalStarts isc:UpperPennsylvanian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Kasimovian> ;
 .
 isc:Katian
@@ -7748,6 +7860,7 @@ isc:Katian
   skos:prefLabel "凯迪期"@zh ;
   time:hasBeginning isc:BaseKatian ;
   time:hasEnd isc:BaseHirnantian ;
+  time:intervalDuring isc:UpperOrdovician ;
   time:intervalIn isc:UpperOrdovician ;
   time:intervalMeets isc:Hirnantian ;
   time:intervalMetBy isc:Sandbian ;
@@ -7792,6 +7905,7 @@ isc:Kimmeridgian
   skos:prefLabel "启莫里支期"@zh ;
   time:hasBeginning isc:BaseKimmeridgian ;
   time:hasEnd isc:BaseTithonian ;
+  time:intervalDuring isc:UpperJurassic ;
   time:intervalIn isc:UpperJurassic ;
   time:intervalMeets isc:Tithonian ;
   time:intervalMetBy isc:Oxfordian ;
@@ -7836,6 +7950,7 @@ isc:Kungurian
   skos:prefLabel "孔古尔期"@zh ;
   time:hasBeginning isc:BaseKungurian ;
   time:hasEnd isc:BaseGuadalupian ;
+  time:intervalFinishes isc:Cisuralian ;
   time:intervalIn isc:Cisuralian ;
   time:intervalMeets isc:Guadalupian ;
   time:intervalMeets isc:Roadian ;
@@ -7881,6 +7996,7 @@ isc:Ladinian
   skos:prefLabel "拉迪尼亚期"@zh ;
   time:hasBeginning isc:BaseLadinian ;
   time:hasEnd isc:BaseUpperTriassic ;
+  time:intervalFinishes isc:MiddleTriassic ;
   time:intervalIn isc:MiddleTriassic ;
   time:intervalMeets isc:Carnian ;
   time:intervalMeets isc:UpperTriassic ;
@@ -7926,6 +8042,7 @@ isc:Langhian
   skos:prefLabel "兰海期"@zh ;
   time:hasBeginning isc:BaseLanghian ;
   time:hasEnd isc:BaseSerravallian ;
+  time:intervalDuring isc:Miocene ;
   time:intervalIn isc:Miocene ;
   time:intervalMeets isc:Serravallian ;
   time:intervalMetBy isc:Burdigalian ;
@@ -7975,12 +8092,16 @@ isc:Llandovery
   skos:prefLabel "兰多维列世"@zh ;
   time:hasBeginning isc:BaseSilurian ;
   time:hasEnd isc:BaseWenlock ;
+  time:intervalContains isc:Aeronian ;
+  time:intervalFinishedBy isc:Telychian ;
   time:intervalIn isc:Silurian ;
   time:intervalMeets isc:Sheinwoodian ;
   time:intervalMeets isc:Wenlock ;
   time:intervalMetBy isc:Hirnantian ;
   time:intervalMetBy isc:Ordovician ;
   time:intervalMetBy isc:UpperOrdovician ;
+  time:intervalStartedBy isc:Rhuddanian ;
+  time:intervalStarts isc:Silurian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Llandovery> ;
 .
 isc:Lochkovian
@@ -8026,6 +8147,7 @@ isc:Lochkovian
   time:intervalMeets isc:Pragian ;
   time:intervalMetBy isc:Pridoli ;
   time:intervalMetBy isc:Silurian ;
+  time:intervalStarts isc:LowerDevonian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Lochkovian> ;
 .
 isc:Lopingian
@@ -8070,12 +8192,15 @@ isc:Lopingian
   skos:prefLabel "乐平世"@zh ;
   time:hasBeginning isc:BaseLopingian ;
   time:hasEnd isc:BaseMesozoic ;
+  time:intervalFinishedBy isc:Changhsingian ;
+  time:intervalFinishes isc:Permian ;
   time:intervalIn isc:Permian ;
   time:intervalMeets isc:Induan ;
   time:intervalMeets isc:LowerTriassic ;
   time:intervalMeets isc:Mesozoic ;
   time:intervalMeets isc:Triassic ;
   time:intervalMetBy isc:Guadalupian ;
+  time:intervalStartedBy isc:Wuchiapingian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Lopingian> ;
 .
 isc:LowerCretaceous
@@ -8130,12 +8255,19 @@ isc:LowerCretaceous
   skos:prefLabel "早白垩世"@zh ;
   time:hasBeginning isc:BaseCretaceous ;
   time:hasEnd isc:BaseUpperCretaceous ;
+  time:intervalContains isc:Aptian ;
+  time:intervalContains isc:Barremian ;
+  time:intervalContains isc:Hauterivian ;
+  time:intervalContains isc:Valanginian ;
+  time:intervalFinishedBy isc:Albian ;
   time:intervalIn isc:Cretaceous ;
   time:intervalMeets isc:Cenomanian ;
   time:intervalMeets isc:UpperCretaceous ;
   time:intervalMetBy isc:Jurassic ;
   time:intervalMetBy isc:Tithonian ;
   time:intervalMetBy isc:UpperJurassic ;
+  time:intervalStartedBy isc:Berriasian ;
+  time:intervalStarts isc:Cretaceous ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerCretaceous> ;
 .
 isc:LowerDevonian
@@ -8184,11 +8316,15 @@ isc:LowerDevonian
   skos:prefLabel "早泥盆世"@zh ;
   time:hasBeginning isc:BaseDevonian ;
   time:hasEnd isc:BaseMiddleDevonian ;
+  time:intervalContains isc:Pragian ;
+  time:intervalFinishedBy isc:Emsian ;
   time:intervalIn isc:Devonian ;
   time:intervalMeets isc:Eifelian ;
   time:intervalMeets isc:MiddleDevonian ;
   time:intervalMetBy isc:Pridoli ;
   time:intervalMetBy isc:Silurian ;
+  time:intervalStartedBy isc:Lochkovian ;
+  time:intervalStarts isc:Devonian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerDevonian> ;
 .
 isc:LowerJurassic
@@ -8239,12 +8375,17 @@ isc:LowerJurassic
   skos:prefLabel "早侏罗世"@zh ;
   time:hasBeginning isc:BaseJurassic ;
   time:hasEnd isc:BaseMiddleJurassic ;
+  time:intervalContains isc:Pliensbachian ;
+  time:intervalContains isc:Sinemurian ;
+  time:intervalFinishedBy isc:Toarcian ;
   time:intervalIn isc:Jurassic ;
   time:intervalMeets isc:Aalenian ;
   time:intervalMeets isc:MiddleJurassic ;
   time:intervalMetBy isc:Rhaetian ;
   time:intervalMetBy isc:Triassic ;
   time:intervalMetBy isc:UpperTriassic ;
+  time:intervalStartedBy isc:Hettangian ;
+  time:intervalStarts isc:Jurassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerJurassic> ;
 .
 isc:LowerMississippian
@@ -8275,6 +8416,7 @@ isc:LowerMississippian
   time:intervalMetBy isc:Devonian ;
   time:intervalMetBy isc:Famennian ;
   time:intervalMetBy isc:UpperDevonian ;
+  time:intervalStarts isc:Mississippian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerMississippian> ;
 .
 isc:LowerOrdovician
@@ -8321,12 +8463,15 @@ isc:LowerOrdovician
   skos:prefLabel "早奥陶世"@zh ;
   time:hasBeginning isc:BaseOrdovician ;
   time:hasEnd isc:BaseMiddleOrdovician ;
+  time:intervalFinishedBy isc:Floian ;
   time:intervalIn isc:Ordovician ;
   time:intervalMeets isc:Dapingian ;
   time:intervalMeets isc:MiddleOrdovician ;
   time:intervalMetBy isc:Cambrian ;
   time:intervalMetBy isc:CambrianStage10 ;
   time:intervalMetBy isc:Furongian ;
+  time:intervalStartedBy isc:Tremadocian ;
+  time:intervalStarts isc:Ordovician ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerOrdovician> ;
 .
 isc:LowerPennsylvanian
@@ -8356,6 +8501,7 @@ isc:LowerPennsylvanian
   time:intervalMeets isc:Moscovian ;
   time:intervalMetBy isc:Mississippian ;
   time:intervalMetBy isc:Serpukhovian ;
+  time:intervalStarts isc:Pennsylvanian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerPennsylvanian> ;
 .
 isc:LowerTriassic
@@ -8402,6 +8548,7 @@ isc:LowerTriassic
   skos:prefLabel "早三叠世"@zh ;
   time:hasBeginning isc:BaseMesozoic ;
   time:hasEnd isc:BaseMiddleTriassic ;
+  time:intervalFinishedBy isc:Olenekian ;
   time:intervalIn isc:Triassic ;
   time:intervalMeets isc:Anisian ;
   time:intervalMeets isc:MiddleTriassic ;
@@ -8409,6 +8556,8 @@ isc:LowerTriassic
   time:intervalMetBy isc:Lopingian ;
   time:intervalMetBy isc:Paleozoic ;
   time:intervalMetBy isc:Permian ;
+  time:intervalStartedBy isc:Induan ;
+  time:intervalStarts isc:Triassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerTriassic> ;
 .
 isc:Ludfordian
@@ -8450,6 +8599,7 @@ isc:Ludfordian
   skos:prefLabel "卢德福德期"@zh ;
   time:hasBeginning isc:BaseLudfordian ;
   time:hasEnd isc:BasePridoli ;
+  time:intervalFinishes isc:Ludlow ;
   time:intervalIn isc:Ludlow ;
   time:intervalMeets isc:Pridoli ;
   time:intervalMetBy isc:Gorstian ;
@@ -8497,10 +8647,13 @@ isc:Ludlow
   skos:prefLabel "卢德洛世"@zh ;
   time:hasBeginning isc:BaseLudlow ;
   time:hasEnd isc:BasePridoli ;
+  time:intervalDuring isc:Silurian ;
+  time:intervalFinishedBy isc:Ludfordian ;
   time:intervalIn isc:Silurian ;
   time:intervalMeets isc:Pridoli ;
   time:intervalMetBy isc:Homerian ;
   time:intervalMetBy isc:Wenlock ;
+  time:intervalStartedBy isc:Gorstian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ludlow> ;
 .
 isc:Lutetian
@@ -8542,6 +8695,7 @@ isc:Lutetian
   skos:prefLabel "卢台特期"@zh ;
   time:hasBeginning isc:BaseLutetian ;
   time:hasEnd isc:BaseBartonian ;
+  time:intervalDuring isc:Eocene ;
   time:intervalIn isc:Eocene ;
   time:intervalMeets isc:Bartonian ;
   time:intervalMetBy isc:Ypresian ;
@@ -8586,6 +8740,7 @@ isc:Maastrichtian
   skos:prefLabel "马斯特里赫特期"@zh ;
   time:hasBeginning isc:BaseMaastrichtian ;
   time:hasEnd isc:BaseCenozoic ;
+  time:intervalFinishes isc:UpperCretaceous ;
   time:intervalIn isc:UpperCretaceous ;
   time:intervalMeets isc:Cenozoic ;
   time:intervalMeets isc:Danian ;
@@ -8633,6 +8788,7 @@ isc:Mesoarchean
   skos:prefLabel "中始生代"@ja ;
   time:hasBeginning isc:BaseMesoarchean ;
   time:hasEnd isc:BaseNeoarchean ;
+  time:intervalDuring isc:Archean ;
   time:intervalIn isc:Archean ;
   time:intervalMeets isc:Neoarchean ;
   time:intervalMetBy isc:Paleoarchean ;
@@ -8681,11 +8837,15 @@ isc:Mesoproterozoic
   skos:prefLabel "原生代中期"@ja ;
   time:hasBeginning isc:BaseMesoproterozoic ;
   time:hasEnd isc:BaseNeoproterozoic ;
+  time:intervalContains isc:Ectasian ;
+  time:intervalDuring isc:Proterozoic ;
+  time:intervalFinishedBy isc:Stenian ;
   time:intervalIn isc:Proterozoic ;
   time:intervalMeets isc:Neoproterozoic ;
   time:intervalMeets isc:Tonian ;
   time:intervalMetBy isc:Paleoproterozoic ;
   time:intervalMetBy isc:Statherian ;
+  time:intervalStartedBy isc:Calymmian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Mesoproterozoic> ;
 .
 isc:Mesozoic
@@ -8768,6 +8928,9 @@ isc:Mesozoic
   skos:prefLabel "中生代"@zh ;
   time:hasBeginning isc:BaseMesozoic ;
   time:hasEnd isc:BaseCenozoic ;
+  time:intervalContains isc:Jurassic ;
+  time:intervalDuring isc:Phanerozoic ;
+  time:intervalFinishedBy isc:Cretaceous ;
   time:intervalIn isc:Phanerozoic ;
   time:intervalMeets isc:Cenozoic ;
   time:intervalMeets isc:Danian ;
@@ -8777,6 +8940,7 @@ isc:Mesozoic
   time:intervalMetBy isc:Lopingian ;
   time:intervalMetBy isc:Paleozoic ;
   time:intervalMetBy isc:Permian ;
+  time:intervalStartedBy isc:Triassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Mesozoic> ;
 .
 isc:Messinian
@@ -8818,6 +8982,7 @@ isc:Messinian
   skos:prefLabel "墨西拿期"@zh ;
   time:hasBeginning isc:BaseMessinian ;
   time:hasEnd isc:BasePliocene ;
+  time:intervalFinishes isc:Miocene ;
   time:intervalIn isc:Miocene ;
   time:intervalMeets isc:Pliocene ;
   time:intervalMeets isc:Zanclean ;
@@ -8868,11 +9033,14 @@ isc:MiddleDevonian
   skos:prefLabel "中泥盆世"@zh ;
   time:hasBeginning isc:BaseMiddleDevonian ;
   time:hasEnd isc:BaseUpperDevonian ;
+  time:intervalDuring isc:Devonian ;
+  time:intervalFinishedBy isc:Givetian ;
   time:intervalIn isc:Devonian ;
   time:intervalMeets isc:Frasnian ;
   time:intervalMeets isc:UpperDevonian ;
   time:intervalMetBy isc:Emsian ;
   time:intervalMetBy isc:LowerDevonian ;
+  time:intervalStartedBy isc:Eifelian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleDevonian> ;
 .
 isc:MiddleJurassic
@@ -8923,11 +9091,16 @@ isc:MiddleJurassic
   skos:prefLabel "中期ジュラ紀"@ja ;
   time:hasBeginning isc:BaseMiddleJurassic ;
   time:hasEnd isc:BaseUpperJurassic ;
+  time:intervalContains isc:Bajocian ;
+  time:intervalContains isc:Bathonian ;
+  time:intervalDuring isc:Jurassic ;
+  time:intervalFinishedBy isc:Callovian ;
   time:intervalIn isc:Jurassic ;
   time:intervalMeets isc:Oxfordian ;
   time:intervalMeets isc:UpperJurassic ;
   time:intervalMetBy isc:LowerJurassic ;
   time:intervalMetBy isc:Toarcian ;
+  time:intervalStartedBy isc:Aalenian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleJurassic> ;
 .
 isc:MiddleMississippian
@@ -8952,6 +9125,7 @@ isc:MiddleMississippian
   skos:prefLabel "中期ミシシッピアン紀"@ja ;
   time:hasBeginning isc:BaseMiddleMississippian ;
   time:hasEnd isc:BaseUpperMississippian ;
+  time:intervalDuring isc:Mississippian ;
   time:intervalIn isc:Mississippian ;
   time:intervalMeets isc:Serpukhovian ;
   time:intervalMeets isc:UpperMississippian ;
@@ -9003,11 +9177,14 @@ isc:MiddleOrdovician
   skos:prefLabel "中期オルドビス紀"@ja ;
   time:hasBeginning isc:BaseMiddleOrdovician ;
   time:hasEnd isc:BaseUpperOrdovician ;
+  time:intervalDuring isc:Ordovician ;
+  time:intervalFinishedBy isc:Darriwilian ;
   time:intervalIn isc:Ordovician ;
   time:intervalMeets isc:Sandbian ;
   time:intervalMeets isc:UpperOrdovician ;
   time:intervalMetBy isc:Floian ;
   time:intervalMetBy isc:LowerOrdovician ;
+  time:intervalStartedBy isc:Dapingian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleOrdovician> ;
 .
 isc:MiddlePennsylvanian
@@ -9032,6 +9209,7 @@ isc:MiddlePennsylvanian
   skos:prefLabel "中期ペンシルバニア紀"@ja ;
   time:hasBeginning isc:BaseMiddlePennsylvanian ;
   time:hasEnd isc:BaseUpperPennsylvanian ;
+  time:intervalDuring isc:Pennsylvanian ;
   time:intervalIn isc:Pennsylvanian ;
   time:intervalMeets isc:Kasimovian ;
   time:intervalMeets isc:UpperPennsylvanian ;
@@ -9099,6 +9277,7 @@ isc:MiddlePleistocene
   skos:prefLabel "Среден Плейѿтоцен"@bg ;
   time:hasBeginning isc:BaseMiddlePleistocene ;
   time:hasEnd isc:BaseUpperPleistocene ;
+  time:intervalDuring isc:Pleistocene ;
   time:intervalIn isc:Pleistocene ;
   time:intervalMeets isc:UpperPleistocene ;
   time:intervalMetBy isc:Calabrian ;
@@ -9148,11 +9327,14 @@ isc:MiddleTriassic
   skos:prefLabel "中期三畳紀"@ja ;
   time:hasBeginning isc:BaseMiddleTriassic ;
   time:hasEnd isc:BaseUpperTriassic ;
+  time:intervalDuring isc:Triassic ;
+  time:intervalFinishedBy isc:Ladinian ;
   time:intervalIn isc:Triassic ;
   time:intervalMeets isc:Carnian ;
   time:intervalMeets isc:UpperTriassic ;
   time:intervalMetBy isc:LowerTriassic ;
   time:intervalMetBy isc:Olenekian ;
+  time:intervalStartedBy isc:Anisian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleTriassic> ;
 .
 isc:Miocene
@@ -9205,12 +9387,19 @@ isc:Miocene
   skos:prefLabel "中新世"@zh ;
   time:hasBeginning isc:BaseNeogene ;
   time:hasEnd isc:BasePliocene ;
+  time:intervalContains isc:Burdigalian ;
+  time:intervalContains isc:Langhian ;
+  time:intervalContains isc:Serravallian ;
+  time:intervalContains isc:Tortonian ;
+  time:intervalFinishedBy isc:Messinian ;
   time:intervalIn isc:Neogene ;
   time:intervalMeets isc:Pliocene ;
   time:intervalMeets isc:Zanclean ;
   time:intervalMetBy isc:Chattian ;
   time:intervalMetBy isc:Oligocene ;
   time:intervalMetBy isc:Paleogene ;
+  time:intervalStartedBy isc:Aquitanian ;
+  time:intervalStarts isc:Neogene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Miocene> ;
 .
 isc:Mississippian
@@ -9260,6 +9449,8 @@ isc:Mississippian
   skos:prefLabel "密西西比亚纪"@zh ;
   time:hasBeginning isc:BaseCarboniferous ;
   time:hasEnd isc:BasePennsylvanian ;
+  time:intervalContains isc:MiddleMississippian ;
+  time:intervalContains isc:UpperMississippian ;
   time:intervalIn isc:Carboniferous ;
   time:intervalMeets isc:Bashkirian ;
   time:intervalMeets isc:LowerPennsylvanian ;
@@ -9267,6 +9458,8 @@ isc:Mississippian
   time:intervalMetBy isc:Devonian ;
   time:intervalMetBy isc:Famennian ;
   time:intervalMetBy isc:UpperDevonian ;
+  time:intervalStartedBy isc:LowerMississippian ;
+  time:intervalStarts isc:Carboniferous ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Mississippian> ;
 .
 isc:Moscovian
@@ -9356,6 +9549,7 @@ isc:Neoarchean
   skos:prefLabel "新始生代"@ja ;
   time:hasBeginning isc:BaseNeoarchean ;
   time:hasEnd isc:BaseProterozoic ;
+  time:intervalFinishes isc:Archean ;
   time:intervalIn isc:Archean ;
   time:intervalMeets isc:Paleoproterozoic ;
   time:intervalMeets isc:Proterozoic ;
@@ -9412,6 +9606,8 @@ isc:Neogene
   skos:prefLabel "晚第三纪"@zh ;
   time:hasBeginning isc:BaseNeogene ;
   time:hasEnd isc:BaseQuaternary ;
+  time:intervalDuring isc:Cenozoic ;
+  time:intervalFinishedBy isc:Pliocene ;
   time:intervalIn isc:Cenozoic ;
   time:intervalMeets isc:Gelasian ;
   time:intervalMeets isc:Pleistocene ;
@@ -9419,6 +9615,7 @@ isc:Neogene
   time:intervalMetBy isc:Chattian ;
   time:intervalMetBy isc:Oligocene ;
   time:intervalMetBy isc:Paleogene ;
+  time:intervalStartedBy isc:Miocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Neogene> ;
 .
 isc:Neoproterozoic
@@ -9464,6 +9661,9 @@ isc:Neoproterozoic
   skos:prefLabel "新元古代"@zh ;
   time:hasBeginning isc:BaseNeoproterozoic ;
   time:hasEnd isc:BasePhanerozoic ;
+  time:intervalContains isc:Cryogenian ;
+  time:intervalFinishedBy isc:Ediacaran ;
+  time:intervalFinishes isc:Proterozoic ;
   time:intervalIn isc:Proterozoic ;
   time:intervalMeets isc:Cambrian ;
   time:intervalMeets isc:Fortunian ;
@@ -9472,6 +9672,7 @@ isc:Neoproterozoic
   time:intervalMeets isc:Terreneuvian ;
   time:intervalMetBy isc:Mesoproterozoic ;
   time:intervalMetBy isc:Stenian ;
+  time:intervalStartedBy isc:Tonian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Neoproterozoic> ;
 .
 isc:Norian
@@ -9513,6 +9714,7 @@ isc:Norian
   skos:prefLabel "诺利克期"@zh ;
   time:hasBeginning isc:BaseNorian ;
   time:hasEnd isc:BaseRhaetian ;
+  time:intervalDuring isc:UpperTriassic ;
   time:intervalIn isc:UpperTriassic ;
   time:intervalMeets isc:Rhaetian ;
   time:intervalMetBy isc:Carnian ;
@@ -9557,6 +9759,7 @@ isc:Olenekian
   skos:prefLabel "奥伦尼克期"@zh ;
   time:hasBeginning isc:BaseOlenekian ;
   time:hasEnd isc:BaseMiddleTriassic ;
+  time:intervalFinishes isc:LowerTriassic ;
   time:intervalIn isc:LowerTriassic ;
   time:intervalMeets isc:Anisian ;
   time:intervalMeets isc:MiddleTriassic ;
@@ -9605,12 +9808,15 @@ isc:Oligocene
   skos:prefLabel "漸新世"@ja ;
   time:hasBeginning isc:BaseOligocene ;
   time:hasEnd isc:BaseNeogene ;
+  time:intervalFinishedBy isc:Chattian ;
+  time:intervalFinishes isc:Paleogene ;
   time:intervalIn isc:Paleogene ;
   time:intervalMeets isc:Aquitanian ;
   time:intervalMeets isc:Miocene ;
   time:intervalMeets isc:Neogene ;
   time:intervalMetBy isc:Eocene ;
   time:intervalMetBy isc:Priabonian ;
+  time:intervalStartedBy isc:Rupelian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Oligocene> ;
 .
 isc:Ordovician
@@ -9663,6 +9869,9 @@ isc:Ordovician
   skos:prefLabel "奥陶纪"@zh ;
   time:hasBeginning isc:BaseOrdovician ;
   time:hasEnd isc:BaseSilurian ;
+  time:intervalContains isc:MiddleOrdovician ;
+  time:intervalDuring isc:Paleozoic ;
+  time:intervalFinishedBy isc:UpperOrdovician ;
   time:intervalIn isc:Paleozoic ;
   time:intervalMeets isc:Llandovery ;
   time:intervalMeets isc:Rhuddanian ;
@@ -9670,6 +9879,7 @@ isc:Ordovician
   time:intervalMetBy isc:Cambrian ;
   time:intervalMetBy isc:CambrianStage10 ;
   time:intervalMetBy isc:Furongian ;
+  time:intervalStartedBy isc:LowerOrdovician ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ordovician> ;
 .
 isc:Orosirian
@@ -9710,6 +9920,7 @@ isc:Orosirian
   skos:prefLabel "造山纪"@zh ;
   time:hasBeginning isc:BaseOrosirian ;
   time:hasEnd isc:BaseStatherian ;
+  time:intervalDuring isc:Paleoproterozoic ;
   time:intervalIn isc:Paleoproterozoic ;
   time:intervalMeets isc:Statherian ;
   time:intervalMetBy isc:Rhyacian ;
@@ -9758,6 +9969,7 @@ isc:Oxfordian
   time:intervalMeets isc:Kimmeridgian ;
   time:intervalMetBy isc:Callovian ;
   time:intervalMetBy isc:MiddleJurassic ;
+  time:intervalStarts isc:UpperJurassic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Oxfordian> ;
 .
 isc:Paibian
@@ -9803,6 +10015,7 @@ isc:Paibian
   time:intervalMeets isc:Jiangshanian ;
   time:intervalMetBy isc:CambrianSeries3 ;
   time:intervalMetBy isc:Guzhangian ;
+  time:intervalStarts isc:Furongian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paibian> ;
 .
 isc:Paleoarchean
@@ -9844,6 +10057,7 @@ isc:Paleoarchean
   skos:prefLabel "古始生代"@ja ;
   time:hasBeginning isc:BasePaleoarchean ;
   time:hasEnd isc:BaseMesoarchean ;
+  time:intervalDuring isc:Archean ;
   time:intervalIn isc:Archean ;
   time:intervalMeets isc:Mesoarchean ;
   time:intervalMetBy isc:Eoarchean ;
@@ -9895,6 +10109,8 @@ isc:Paleocene
   skos:prefLabel "暁新世"@ja ;
   time:hasBeginning isc:BaseCenozoic ;
   time:hasEnd isc:BaseEocene ;
+  time:intervalContains isc:Selandian ;
+  time:intervalFinishedBy isc:Thanetian ;
   time:intervalIn isc:Paleogene ;
   time:intervalMeets isc:Eocene ;
   time:intervalMeets isc:Ypresian ;
@@ -9902,6 +10118,8 @@ isc:Paleocene
   time:intervalMetBy isc:Maastrichtian ;
   time:intervalMetBy isc:Mesozoic ;
   time:intervalMetBy isc:UpperCretaceous ;
+  time:intervalStartedBy isc:Danian ;
+  time:intervalStarts isc:Paleogene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paleocene> ;
 .
 isc:Paleogene
@@ -9958,6 +10176,8 @@ isc:Paleogene
   skos:prefLabel "早第三纪"@zh ;
   time:hasBeginning isc:BaseCenozoic ;
   time:hasEnd isc:BaseNeogene ;
+  time:intervalContains isc:Eocene ;
+  time:intervalFinishedBy isc:Oligocene ;
   time:intervalIn isc:Cenozoic ;
   time:intervalMeets isc:Aquitanian ;
   time:intervalMeets isc:Miocene ;
@@ -9966,6 +10186,8 @@ isc:Paleogene
   time:intervalMetBy isc:Maastrichtian ;
   time:intervalMetBy isc:Mesozoic ;
   time:intervalMetBy isc:UpperCretaceous ;
+  time:intervalStartedBy isc:Paleocene ;
+  time:intervalStarts isc:Cenozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paleogene> ;
 .
 isc:Paleoproterozoic
@@ -10015,11 +10237,16 @@ isc:Paleoproterozoic
   skos:prefLabel "古元古代"@zh ;
   time:hasBeginning isc:BaseProterozoic ;
   time:hasEnd isc:BaseMesoproterozoic ;
+  time:intervalContains isc:Orosirian ;
+  time:intervalContains isc:Rhyacian ;
+  time:intervalFinishedBy isc:Statherian ;
   time:intervalIn isc:Proterozoic ;
   time:intervalMeets isc:Calymmian ;
   time:intervalMeets isc:Mesoproterozoic ;
   time:intervalMetBy isc:Archean ;
   time:intervalMetBy isc:Neoarchean ;
+  time:intervalStartedBy isc:Siderian ;
+  time:intervalStarts isc:Proterozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paleoproterozoic> ;
 .
 isc:Paleozoic
@@ -10144,6 +10371,11 @@ isc:Paleozoic
   skos:prefLabel "古生代"@zh ;
   time:hasBeginning isc:BasePhanerozoic ;
   time:hasEnd isc:BaseMesozoic ;
+  time:intervalContains isc:Carboniferous ;
+  time:intervalContains isc:Devonian ;
+  time:intervalContains isc:Ordovician ;
+  time:intervalContains isc:Silurian ;
+  time:intervalFinishedBy isc:Permian ;
   time:intervalIn isc:Phanerozoic ;
   time:intervalMeets isc:Induan ;
   time:intervalMeets isc:LowerTriassic ;
@@ -10153,6 +10385,8 @@ isc:Paleozoic
   time:intervalMetBy isc:Neoproterozoic ;
   time:intervalMetBy isc:Precambrian ;
   time:intervalMetBy isc:Proterozoic ;
+  time:intervalStartedBy isc:Cambrian ;
+  time:intervalStarts isc:Phanerozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paleozoic> ;
 .
 isc:Pennsylvanian
@@ -10203,12 +10437,16 @@ isc:Pennsylvanian
   skos:prefLabel "宾夕法尼亚亚纪"@zh ;
   time:hasBeginning isc:BasePennsylvanian ;
   time:hasEnd isc:BasePermian ;
+  time:intervalContains isc:MiddlePennsylvanian ;
+  time:intervalFinishedBy isc:UpperPennsylvanian ;
+  time:intervalFinishes isc:Carboniferous ;
   time:intervalIn isc:Carboniferous ;
   time:intervalMeets isc:Asselian ;
   time:intervalMeets isc:Cisuralian ;
   time:intervalMeets isc:Permian ;
   time:intervalMetBy isc:Mississippian ;
   time:intervalMetBy isc:Serpukhovian ;
+  time:intervalStartedBy isc:LowerPennsylvanian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Pennsylvanian> ;
 .
 isc:Permian
@@ -10263,6 +10501,9 @@ isc:Permian
   skos:prefLabel "二叠纪"@zh ;
   time:hasBeginning isc:BasePermian ;
   time:hasEnd isc:BaseMesozoic ;
+  time:intervalContains isc:Guadalupian ;
+  time:intervalFinishedBy isc:Lopingian ;
+  time:intervalFinishes isc:Paleozoic ;
   time:intervalIn isc:Paleozoic ;
   time:intervalMeets isc:Induan ;
   time:intervalMeets isc:LowerTriassic ;
@@ -10273,6 +10514,7 @@ isc:Permian
   time:intervalMetBy isc:Pennsylvanian ;
   time:intervalMetBy isc:UpperMississippian ;
   time:intervalMetBy isc:UpperPennsylvanian ;
+  time:intervalStartedBy isc:Cisuralian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Permian> ;
 .
 isc:Phanerozoic
@@ -10466,10 +10708,13 @@ isc:Phanerozoic
   skos:topConceptOf <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
   time:hasBeginning isc:BasePhanerozoic ;
   time:hasEnd isc:Present ;
+  time:intervalContains isc:Mesozoic ;
+  time:intervalFinishedBy isc:Cenozoic ;
   time:intervalMetBy isc:Ediacaran ;
   time:intervalMetBy isc:Neoproterozoic ;
   time:intervalMetBy isc:Precambrian ;
   time:intervalMetBy isc:Proterozoic ;
+  time:intervalStartedBy isc:Paleozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Phanerozoic> ;
 .
 isc:Piacenzian
@@ -10511,6 +10756,7 @@ isc:Piacenzian
   skos:prefLabel "ﾋﾟｱｾﾝｼﾞｱﾝ期"@ja ;
   time:hasBeginning isc:BasePiacenzian ;
   time:hasEnd isc:BaseQuaternary ;
+  time:intervalFinishes isc:Pliocene ;
   time:intervalIn isc:Pliocene ;
   time:intervalMeets isc:Gelasian ;
   time:intervalMeets isc:Pleistocene ;
@@ -10559,11 +10805,16 @@ isc:Pleistocene
   skos:prefLabel "更新世"@zh ;
   time:hasBeginning isc:BaseQuaternary ;
   time:hasEnd isc:BaseHolocene ;
+  time:intervalContains isc:Calabrian ;
+  time:intervalContains isc:MiddlePleistocene ;
+  time:intervalFinishedBy isc:UpperPleistocene ;
   time:intervalIn isc:Quaternary ;
   time:intervalMeets isc:Holocene ;
   time:intervalMetBy isc:Neogene ;
   time:intervalMetBy isc:Piacenzian ;
   time:intervalMetBy isc:Pliocene ;
+  time:intervalStartedBy isc:Gelasian ;
+  time:intervalStarts isc:Quaternary ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Pleistocene> ;
 .
 isc:Pliensbachian
@@ -10605,6 +10856,7 @@ isc:Pliensbachian
   skos:prefLabel "普连斯巴奇期"@zh ;
   time:hasBeginning isc:BasePliensbachian ;
   time:hasEnd isc:BaseToarcian ;
+  time:intervalDuring isc:LowerJurassic ;
   time:intervalIn isc:LowerJurassic ;
   time:intervalMeets isc:Toarcian ;
   time:intervalMetBy isc:Sinemurian ;
@@ -10652,12 +10904,15 @@ isc:Pliocene
   skos:prefLabel "鮮新世"@ja ;
   time:hasBeginning isc:BasePliocene ;
   time:hasEnd isc:BaseQuaternary ;
+  time:intervalFinishedBy isc:Piacenzian ;
+  time:intervalFinishes isc:Neogene ;
   time:intervalIn isc:Neogene ;
   time:intervalMeets isc:Gelasian ;
   time:intervalMeets isc:Pleistocene ;
   time:intervalMeets isc:Quaternary ;
   time:intervalMetBy isc:Messinian ;
   time:intervalMetBy isc:Miocene ;
+  time:intervalStartedBy isc:Zanclean ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Pliocene> ;
 .
 isc:Pragian
@@ -10699,6 +10954,7 @@ isc:Pragian
   skos:prefLabel "布拉格期"@zh ;
   time:hasBeginning isc:BasePragian ;
   time:hasEnd isc:BaseEmsian ;
+  time:intervalDuring isc:LowerDevonian ;
   time:intervalIn isc:LowerDevonian ;
   time:intervalMeets isc:Emsian ;
   time:intervalMetBy isc:Lochkovian ;
@@ -10761,11 +11017,14 @@ isc:Precambrian
   skos:prefLabel "前寒武纪"@zh ;
   time:hasBeginning isc:FormationOfEarth ;
   time:hasEnd isc:BasePhanerozoic ;
+  time:intervalContains isc:Archean ;
+  time:intervalFinishedBy isc:Proterozoic ;
   time:intervalMeets isc:Cambrian ;
   time:intervalMeets isc:Fortunian ;
   time:intervalMeets isc:Paleozoic ;
   time:intervalMeets isc:Phanerozoic ;
   time:intervalMeets isc:Terreneuvian ;
+  time:intervalStartedBy isc:Hadean ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Precambrian> ;
 .
 isc:Present
@@ -10823,6 +11082,7 @@ isc:Priabonian
   skos:prefLabel "普里阿邦期"@zh ;
   time:hasBeginning isc:BasePriabonian ;
   time:hasEnd isc:BaseOligocene ;
+  time:intervalFinishes isc:Eocene ;
   time:intervalIn isc:Eocene ;
   time:intervalMeets isc:Oligocene ;
   time:intervalMeets isc:Rupelian ;
@@ -10867,6 +11127,7 @@ isc:Pridoli
   skos:prefLabel "普里多利世"@zh ;
   time:hasBeginning isc:BasePridoli ;
   time:hasEnd isc:BaseDevonian ;
+  time:intervalFinishes isc:Silurian ;
   time:intervalIn isc:Silurian ;
   time:intervalMeets isc:Devonian ;
   time:intervalMeets isc:Lochkovian ;
@@ -10928,6 +11189,9 @@ isc:Proterozoic
   skos:topConceptOf <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
   time:hasBeginning isc:BaseProterozoic ;
   time:hasEnd isc:BasePhanerozoic ;
+  time:intervalContains isc:Mesoproterozoic ;
+  time:intervalFinishedBy isc:Neoproterozoic ;
+  time:intervalFinishes isc:Precambrian ;
   time:intervalIn isc:Precambrian ;
   time:intervalMeets isc:Cambrian ;
   time:intervalMeets isc:Fortunian ;
@@ -10936,6 +11200,7 @@ isc:Proterozoic
   time:intervalMeets isc:Terreneuvian ;
   time:intervalMetBy isc:Archean ;
   time:intervalMetBy isc:Neoarchean ;
+  time:intervalStartedBy isc:Paleoproterozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Proterozoic> ;
 .
 isc:Quaternary
@@ -10983,10 +11248,13 @@ isc:Quaternary
   skos:prefLabel "第四纪"@zh ;
   time:hasBeginning isc:BaseQuaternary ;
   time:hasEnd isc:Present ;
+  time:intervalFinishedBy isc:Holocene ;
+  time:intervalFinishes isc:Cenozoic ;
   time:intervalIn isc:Cenozoic ;
   time:intervalMetBy isc:Neogene ;
   time:intervalMetBy isc:Piacenzian ;
   time:intervalMetBy isc:Pliocene ;
+  time:intervalStartedBy isc:Pleistocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Quaternary> ;
 .
 isc:Rhaetian
@@ -11028,6 +11296,7 @@ isc:Rhaetian
   skos:prefLabel "瑞替期"@zh ;
   time:hasBeginning isc:BaseRhaetian ;
   time:hasEnd isc:BaseJurassic ;
+  time:intervalFinishes isc:UpperTriassic ;
   time:intervalIn isc:UpperTriassic ;
   time:intervalMeets isc:Hettangian ;
   time:intervalMeets isc:Jurassic ;
@@ -11079,6 +11348,7 @@ isc:Rhuddanian
   time:intervalMetBy isc:Hirnantian ;
   time:intervalMetBy isc:Ordovician ;
   time:intervalMetBy isc:UpperOrdovician ;
+  time:intervalStarts isc:Llandovery ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Rhuddanian> ;
 .
 isc:Rhyacian
@@ -11119,6 +11389,7 @@ isc:Rhyacian
   skos:prefLabel "层侵纪"@zh ;
   time:hasBeginning isc:BaseRhyacian ;
   time:hasEnd isc:BaseOrosirian ;
+  time:intervalDuring isc:Paleoproterozoic ;
   time:intervalIn isc:Paleoproterozoic ;
   time:intervalMeets isc:Orosirian ;
   time:intervalMetBy isc:Siderian ;
@@ -11168,6 +11439,7 @@ isc:Roadian
   time:intervalMetBy isc:Capitanian ;
   time:intervalMetBy isc:Cisuralian ;
   time:intervalMetBy isc:Kungurian ;
+  time:intervalStarts isc:Guadalupian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Roadian> ;
 .
 isc:Rupelian
@@ -11213,6 +11485,7 @@ isc:Rupelian
   time:intervalMeets isc:Chattian ;
   time:intervalMetBy isc:Eocene ;
   time:intervalMetBy isc:Priabonian ;
+  time:intervalStarts isc:Oligocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Rupelian> ;
 .
 isc:SPBaseAlbian
@@ -11528,6 +11801,7 @@ isc:Sakmarian
   skos:prefLabel "萨克马尔期"@zh ;
   time:hasBeginning isc:BaseSakmarian ;
   time:hasEnd isc:BaseArtinskian ;
+  time:intervalDuring isc:Cisuralian ;
   time:intervalIn isc:Cisuralian ;
   time:intervalMeets isc:Artinskian ;
   time:intervalMetBy isc:Asselian ;
@@ -11576,6 +11850,7 @@ isc:Sandbian
   time:intervalMeets isc:Katian ;
   time:intervalMetBy isc:Darriwilian ;
   time:intervalMetBy isc:MiddleOrdovician ;
+  time:intervalStarts isc:UpperOrdovician ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Sandbian> ;
 .
 isc:Santonian
@@ -11617,6 +11892,7 @@ isc:Santonian
   skos:prefLabel "桑托期"@zh ;
   time:hasBeginning isc:BaseSantonian ;
   time:hasEnd isc:BaseCampanian ;
+  time:intervalDuring isc:UpperCretaceous ;
   time:intervalIn isc:UpperCretaceous ;
   time:intervalMeets isc:Campanian ;
   time:intervalMetBy isc:Coniacian ;
@@ -11661,6 +11937,7 @@ isc:Selandian
   skos:prefLabel "塞兰特期"@zh ;
   time:hasBeginning isc:BaseSelandian ;
   time:hasEnd isc:BaseThanetian ;
+  time:intervalDuring isc:Paleocene ;
   time:intervalIn isc:Paleocene ;
   time:intervalMeets isc:Thanetian ;
   time:intervalMetBy isc:Danian ;
@@ -11713,6 +11990,7 @@ isc:Serpukhovian
   time:intervalMeets isc:Pennsylvanian ;
   time:intervalMetBy isc:MiddleMississippian ;
   time:intervalMetBy isc:Visean ;
+  time:intervalStarts isc:UpperMississippian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Serpukhovian> ;
 .
 isc:Serravallian
@@ -11754,6 +12032,7 @@ isc:Serravallian
   skos:prefLabel "塞拉瓦尔期"@zh ;
   time:hasBeginning isc:BaseSerravallian ;
   time:hasEnd isc:BaseTortonian ;
+  time:intervalDuring isc:Miocene ;
   time:intervalIn isc:Miocene ;
   time:intervalMeets isc:Tortonian ;
   time:intervalMetBy isc:Langhian ;
@@ -11802,6 +12081,7 @@ isc:Sheinwoodian
   time:intervalMeets isc:Homerian ;
   time:intervalMetBy isc:Llandovery ;
   time:intervalMetBy isc:Telychian ;
+  time:intervalStarts isc:Wenlock ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Sheinwoodian> ;
 .
 isc:Siderian
@@ -11846,6 +12126,7 @@ isc:Siderian
   time:intervalMeets isc:Rhyacian ;
   time:intervalMetBy isc:Archean ;
   time:intervalMetBy isc:Neoarchean ;
+  time:intervalStarts isc:Paleoproterozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Siderian> ;
 .
 isc:Silurian
@@ -11901,6 +12182,10 @@ isc:Silurian
   skos:prefLabel "志留纪"@zh ;
   time:hasBeginning isc:BaseSilurian ;
   time:hasEnd isc:BaseDevonian ;
+  time:intervalContains isc:Ludlow ;
+  time:intervalContains isc:Wenlock ;
+  time:intervalDuring isc:Paleozoic ;
+  time:intervalFinishedBy isc:Pridoli ;
   time:intervalIn isc:Paleozoic ;
   time:intervalMeets isc:Devonian ;
   time:intervalMeets isc:Lochkovian ;
@@ -11908,6 +12193,7 @@ isc:Silurian
   time:intervalMetBy isc:Hirnantian ;
   time:intervalMetBy isc:Ordovician ;
   time:intervalMetBy isc:UpperOrdovician ;
+  time:intervalStartedBy isc:Llandovery ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Silurian> ;
 .
 isc:Sinemurian
@@ -11949,6 +12235,7 @@ isc:Sinemurian
   skos:prefLabel "辛涅穆尔期"@zh ;
   time:hasBeginning isc:BaseSinemurian ;
   time:hasEnd isc:BasePliensbachian ;
+  time:intervalDuring isc:LowerJurassic ;
   time:intervalIn isc:LowerJurassic ;
   time:intervalMeets isc:Pliensbachian ;
   time:intervalMetBy isc:Hettangian ;
@@ -11992,6 +12279,7 @@ isc:Statherian
   skos:prefLabel "固结纪"@zh ;
   time:hasBeginning isc:BaseStatherian ;
   time:hasEnd isc:BaseMesoproterozoic ;
+  time:intervalFinishes isc:Paleoproterozoic ;
   time:intervalIn isc:Paleoproterozoic ;
   time:intervalMeets isc:Calymmian ;
   time:intervalMeets isc:Mesoproterozoic ;
@@ -12036,6 +12324,7 @@ isc:Stenian
   skos:prefLabel "狭带纪"@zh ;
   time:hasBeginning isc:BaseStenian ;
   time:hasEnd isc:BaseNeoproterozoic ;
+  time:intervalFinishes isc:Mesoproterozoic ;
   time:intervalIn isc:Mesoproterozoic ;
   time:intervalMeets isc:Neoproterozoic ;
   time:intervalMeets isc:Tonian ;
@@ -12189,6 +12478,7 @@ isc:Telychian
   skos:prefLabel "特列奇期"@zh ;
   time:hasBeginning isc:BaseTelychian ;
   time:hasEnd isc:BaseWenlock ;
+  time:intervalFinishes isc:Llandovery ;
   time:intervalIn isc:Llandovery ;
   time:intervalMeets isc:Sheinwoodian ;
   time:intervalMeets isc:Wenlock ;
@@ -12237,6 +12527,7 @@ isc:Terreneuvian
   skos:prefLabel "纽芬兰世"@zh ;
   time:hasBeginning isc:BasePhanerozoic ;
   time:hasEnd isc:BaseCambrianSeries2 ;
+  time:intervalFinishedBy isc:CambrianStage2 ;
   time:intervalIn isc:Cambrian ;
   time:intervalMeets isc:CambrianSeries2 ;
   time:intervalMeets isc:CambrianStage3 ;
@@ -12244,6 +12535,8 @@ isc:Terreneuvian
   time:intervalMetBy isc:Neoproterozoic ;
   time:intervalMetBy isc:Precambrian ;
   time:intervalMetBy isc:Proterozoic ;
+  time:intervalStartedBy isc:Fortunian ;
+  time:intervalStarts isc:Cambrian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Terreneuvian> ;
 .
 isc:Thanetian
@@ -12285,6 +12578,7 @@ isc:Thanetian
   skos:prefLabel "塔内提期"@zh ;
   time:hasBeginning isc:BaseThanetian ;
   time:hasEnd isc:BaseEocene ;
+  time:intervalFinishes isc:Paleocene ;
   time:intervalIn isc:Paleocene ;
   time:intervalMeets isc:Eocene ;
   time:intervalMeets isc:Ypresian ;
@@ -12330,6 +12624,7 @@ isc:Tithonian
   skos:prefLabel "提通期"@zh ;
   time:hasBeginning isc:BaseTithonian ;
   time:hasEnd isc:BaseCretaceous ;
+  time:intervalFinishes isc:UpperJurassic ;
   time:intervalIn isc:UpperJurassic ;
   time:intervalMeets isc:Berriasian ;
   time:intervalMeets isc:Cretaceous ;
@@ -12376,6 +12671,7 @@ isc:Toarcian
   skos:prefLabel "托阿尔期"@zh ;
   time:hasBeginning isc:BaseToarcian ;
   time:hasEnd isc:BaseMiddleJurassic ;
+  time:intervalFinishes isc:LowerJurassic ;
   time:intervalIn isc:LowerJurassic ;
   time:intervalMeets isc:Aalenian ;
   time:intervalMeets isc:MiddleJurassic ;
@@ -12424,6 +12720,7 @@ isc:Tonian
   time:intervalMeets isc:Cryogenian ;
   time:intervalMetBy isc:Mesoproterozoic ;
   time:intervalMetBy isc:Stenian ;
+  time:intervalStarts isc:Neoproterozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Tonian> ;
 .
 isc:Tortonian
@@ -12465,6 +12762,7 @@ isc:Tortonian
   skos:prefLabel "托尔顿期"@zh ;
   time:hasBeginning isc:BaseTortonian ;
   time:hasEnd isc:BaseMessinian ;
+  time:intervalDuring isc:Miocene ;
   time:intervalIn isc:Miocene ;
   time:intervalMeets isc:Messinian ;
   time:intervalMetBy isc:Serravallian ;
@@ -12563,6 +12861,7 @@ isc:Tremadocian
   time:intervalMetBy isc:Cambrian ;
   time:intervalMetBy isc:CambrianStage10 ;
   time:intervalMetBy isc:Furongian ;
+  time:intervalStarts isc:LowerOrdovician ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Tremadocian> ;
 .
 isc:Triassic
@@ -12615,6 +12914,8 @@ isc:Triassic
   skos:prefLabel "三畳紀"@ja ;
   time:hasBeginning isc:BaseMesozoic ;
   time:hasEnd isc:BaseJurassic ;
+  time:intervalContains isc:MiddleTriassic ;
+  time:intervalFinishedBy isc:UpperTriassic ;
   time:intervalIn isc:Mesozoic ;
   time:intervalMeets isc:Hettangian ;
   time:intervalMeets isc:Jurassic ;
@@ -12623,6 +12924,8 @@ isc:Triassic
   time:intervalMetBy isc:Lopingian ;
   time:intervalMetBy isc:Paleozoic ;
   time:intervalMetBy isc:Permian ;
+  time:intervalStartedBy isc:LowerTriassic ;
+  time:intervalStarts isc:Mesozoic ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Triassic> ;
 .
 isc:Turonian
@@ -12664,6 +12967,7 @@ isc:Turonian
   skos:prefLabel "土仑期"@zh ;
   time:hasBeginning isc:BaseTuronian ;
   time:hasEnd isc:BaseConiacian ;
+  time:intervalDuring isc:UpperCretaceous ;
   time:intervalIn isc:UpperCretaceous ;
   time:intervalMeets isc:Coniacian ;
   time:intervalMetBy isc:Cenomanian ;
@@ -12721,6 +13025,12 @@ isc:UpperCretaceous
   skos:prefLabel "晚白垩世"@zh ;
   time:hasBeginning isc:BaseUpperCretaceous ;
   time:hasEnd isc:BaseCenozoic ;
+  time:intervalContains isc:Campanian ;
+  time:intervalContains isc:Coniacian ;
+  time:intervalContains isc:Santonian ;
+  time:intervalContains isc:Turonian ;
+  time:intervalFinishedBy isc:Maastrichtian ;
+  time:intervalFinishes isc:Cretaceous ;
   time:intervalIn isc:Cretaceous ;
   time:intervalMeets isc:Cenozoic ;
   time:intervalMeets isc:Danian ;
@@ -12728,6 +13038,7 @@ isc:UpperCretaceous
   time:intervalMeets isc:Paleogene ;
   time:intervalMetBy isc:Albian ;
   time:intervalMetBy isc:LowerCretaceous ;
+  time:intervalStartedBy isc:Cenomanian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperCretaceous> ;
 .
 isc:UpperDevonian
@@ -12774,6 +13085,8 @@ isc:UpperDevonian
   skos:prefLabel "晚泥盆世"@zh ;
   time:hasBeginning isc:BaseUpperDevonian ;
   time:hasEnd isc:BaseCarboniferous ;
+  time:intervalFinishedBy isc:Famennian ;
+  time:intervalFinishes isc:Devonian ;
   time:intervalIn isc:Devonian ;
   time:intervalMeets isc:Carboniferous ;
   time:intervalMeets isc:LowerMississippian ;
@@ -12781,6 +13094,7 @@ isc:UpperDevonian
   time:intervalMeets isc:Tournaisian ;
   time:intervalMetBy isc:Givetian ;
   time:intervalMetBy isc:MiddleDevonian ;
+  time:intervalStartedBy isc:Frasnian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperDevonian> ;
 .
 isc:UpperJurassic
@@ -12829,12 +13143,16 @@ isc:UpperJurassic
   skos:prefLabel "晚侏罗世"@zh ;
   time:hasBeginning isc:BaseUpperJurassic ;
   time:hasEnd isc:BaseCretaceous ;
+  time:intervalContains isc:Kimmeridgian ;
+  time:intervalFinishedBy isc:Tithonian ;
+  time:intervalFinishes isc:Jurassic ;
   time:intervalIn isc:Jurassic ;
   time:intervalMeets isc:Berriasian ;
   time:intervalMeets isc:Cretaceous ;
   time:intervalMeets isc:LowerCretaceous ;
   time:intervalMetBy isc:Callovian ;
   time:intervalMetBy isc:MiddleJurassic ;
+  time:intervalStartedBy isc:Oxfordian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperJurassic> ;
 .
 isc:UpperMississippian
@@ -12859,12 +13177,14 @@ isc:UpperMississippian
   skos:prefLabel "晚密西西比世"@zh ;
   time:hasBeginning isc:BaseUpperMississippian ;
   time:hasEnd isc:BasePermian ;
+  time:intervalDuring isc:Mississippian ;
   time:intervalIn isc:Mississippian ;
   time:intervalMeets isc:Asselian ;
   time:intervalMeets isc:Cisuralian ;
   time:intervalMeets isc:Permian ;
   time:intervalMetBy isc:MiddleMississippian ;
   time:intervalMetBy isc:Visean ;
+  time:intervalStartedBy isc:Serpukhovian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperMississippian> ;
 .
 isc:UpperOrdovician
@@ -12913,12 +13233,16 @@ isc:UpperOrdovician
   skos:prefLabel "晚奥陶世"@zh ;
   time:hasBeginning isc:BaseUpperOrdovician ;
   time:hasEnd isc:BaseSilurian ;
+  time:intervalContains isc:Katian ;
+  time:intervalFinishedBy isc:Hirnantian ;
+  time:intervalFinishes isc:Ordovician ;
   time:intervalIn isc:Ordovician ;
   time:intervalMeets isc:Llandovery ;
   time:intervalMeets isc:Rhuddanian ;
   time:intervalMeets isc:Silurian ;
   time:intervalMetBy isc:Darriwilian ;
   time:intervalMetBy isc:MiddleOrdovician ;
+  time:intervalStartedBy isc:Sandbian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperOrdovician> ;
 .
 isc:UpperPennsylvanian
@@ -12966,12 +13290,15 @@ isc:UpperPennsylvanian
   skos:prefLabel "晚宾夕法尼亚世"@zh ;
   time:hasBeginning isc:BaseUpperPennsylvanian ;
   time:hasEnd isc:BasePermian ;
+  time:intervalFinishedBy isc:Gzhelian ;
+  time:intervalFinishes isc:Pennsylvanian ;
   time:intervalIn isc:Pennsylvanian ;
   time:intervalMeets isc:Asselian ;
   time:intervalMeets isc:Cisuralian ;
   time:intervalMeets isc:Permian ;
   time:intervalMetBy isc:MiddlePennsylvanian ;
   time:intervalMetBy isc:Moscovian ;
+  time:intervalStartedBy isc:Kasimovian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperPennsylvanian> ;
 .
 isc:UpperPleistocene
@@ -13016,6 +13343,7 @@ isc:UpperPleistocene
   skos:prefLabel "晚更新世"@zh ;
   time:hasBeginning isc:BaseUpperPleistocene ;
   time:hasEnd isc:BaseHolocene ;
+  time:intervalFinishes isc:Pleistocene ;
   time:intervalIn isc:Pleistocene ;
   time:intervalMeets isc:Holocene ;
   time:intervalMetBy isc:MiddlePleistocene ;
@@ -13067,12 +13395,16 @@ isc:UpperTriassic
   skos:prefLabel "晚三叠世"@zh ;
   time:hasBeginning isc:BaseUpperTriassic ;
   time:hasEnd isc:BaseJurassic ;
+  time:intervalContains isc:Norian ;
+  time:intervalFinishedBy isc:Rhaetian ;
+  time:intervalFinishes isc:Triassic ;
   time:intervalIn isc:Triassic ;
   time:intervalMeets isc:Hettangian ;
   time:intervalMeets isc:Jurassic ;
   time:intervalMeets isc:LowerJurassic ;
   time:intervalMetBy isc:Ladinian ;
   time:intervalMetBy isc:MiddleTriassic ;
+  time:intervalStartedBy isc:Carnian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperTriassic> ;
 .
 isc:Valanginian
@@ -13114,6 +13446,7 @@ isc:Valanginian
   skos:prefLabel "凡兰吟期"@zh ;
   time:hasBeginning isc:BaseValanginian ;
   time:hasEnd isc:BaseHauterivian ;
+  time:intervalDuring isc:LowerCretaceous ;
   time:intervalIn isc:LowerCretaceous ;
   time:intervalMeets isc:Hauterivian ;
   time:intervalMetBy isc:Berriasian ;
@@ -13209,11 +13542,14 @@ isc:Wenlock
   skos:prefLabel "温洛克世"@zh ;
   time:hasBeginning isc:BaseWenlock ;
   time:hasEnd isc:BaseLudlow ;
+  time:intervalDuring isc:Silurian ;
+  time:intervalFinishedBy isc:Homerian ;
   time:intervalIn isc:Silurian ;
   time:intervalMeets isc:Gorstian ;
   time:intervalMeets isc:Ludlow ;
   time:intervalMetBy isc:Llandovery ;
   time:intervalMetBy isc:Telychian ;
+  time:intervalStartedBy isc:Sheinwoodian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Wenlock> ;
 .
 isc:Wordian
@@ -13255,6 +13591,7 @@ isc:Wordian
   skos:prefLabel "沃德期"@zh ;
   time:hasBeginning isc:BaseWordian ;
   time:hasEnd isc:BaseCapitanian ;
+  time:intervalDuring isc:Guadalupian ;
   time:intervalIn isc:Guadalupian ;
   time:intervalMeets isc:Capitanian ;
   time:intervalMetBy isc:Roadian ;
@@ -13302,6 +13639,7 @@ isc:Wuchiapingian
   time:intervalIn isc:Lopingian ;
   time:intervalMeets isc:Changhsingian ;
   time:intervalMetBy isc:Guadalupian ;
+  time:intervalStarts isc:Lopingian ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Wuchiapingian> ;
 .
 isc:Ypresian
@@ -13347,6 +13685,7 @@ isc:Ypresian
   time:intervalMeets isc:Lutetian ;
   time:intervalMetBy isc:Paleocene ;
   time:intervalMetBy isc:Thanetian ;
+  time:intervalStarts isc:Eocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ypresian> ;
 .
 isc:Zanclean
@@ -13392,6 +13731,7 @@ isc:Zanclean
   time:intervalMeets isc:Piacenzian ;
   time:intervalMetBy isc:Messinian ;
   time:intervalMetBy isc:Miocene ;
+  time:intervalStarts isc:Pliocene ;
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Zanclean> ;
 .
 <http://resource.geosciml.org/vocabulary/timescale/isc2016-12>
@@ -13401,43 +13741,43 @@ isc:Zanclean
   dc:contributor "S M Richard, Arizona Geological Survey"@en ;
   dc:creator "Simon J D COX, CSIRO"@en ;
   dc:description "Ontology document containing the elements of the International Chronostratigraphic Chart (2014). These are instantiated as instances of classes from the Geologic Timescale Ontology http://resource.geosciml.org/ontology/timescale/gts"@en ;
-  dc:rights "Original version Copyright © 2014 International Commission on Stratigraphy"@en ;
-  dc:rights "RDF version Copyright © 2014 CSIRO, Arizona Geological Survey, IUGS"@en ;
+  dc:rights "Original version Copyright © 2016 International Commission on Stratigraphy"@en ;
+  dc:rights "RDF version Copyright © 2016 CSIRO, Arizona Geological Survey, IUGS"@en ;
   dc:rights "This Ontology is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0"@en ;
   dc:source "Cohen, K.M., Finney, S.C., Gibbard, P.L. & Fan, J.-X. (2013; updated) The ICS International Chronostratigraphic Chart. Episodes 36: 199-204."@en ;
-  dc:title "International Chronostratigraphic Chart (2014) "@en ;
-  dcterms:created "2014-05-08"@en ;
+  dc:title "International Chronostratigraphic Chart (2016)"@en ;
+  dcterms:created "2014-05-08"^^xsd:date ;
   dcterms:license <http://opendatacommons.org/licenses/by/1.0> ;
-  dcterms:replaces <http://resource.geosciml.org/vocabulary/timescale/isc2013> ;
+  dcterms:modified "2017-04-03"^^xsd:date ;
+  dcterms:replaces <http://resource.geosciml.org/vocabulary/timescale/isc2014> ;
   dcterms:subject <http://dbpedia.org/page/Geologic_time_scale> ;
   vann:preferredNamespacePrefix "isc"@en ;
   vann:preferredNamespaceUri <http://resource.geosciml.org/classifierscheme/ics/ischart/> ;
-  void:dataDump <http://resource.geosciml.org/vocabulary/timescale/isc2014.rdf> ;
-  void:dataDump <http://resource.geosciml.org/vocabulary/timescale/isc2014.ttl> ;
+  void:dataDump <http://resource.geosciml.org/vocabulary/timescale/isc2016-12.rdf> ;
+  void:dataDump <http://resource.geosciml.org/vocabulary/timescale/isc2016-12.ttl> ;
   void:exampleResource isc:BaseOrdovician ;
   void:exampleResource isc:BaseOrdovicianTime ;
   void:exampleResource isc:GSSPBaseOrdovician ;
   void:exampleResource isc:Ordovician ;
   void:feature <http://www.w3.org/ns/formats/RDF_XML> ;
   void:feature <http://www.w3.org/ns/formats/Turtle> ;
-  void:openSearchDescription <http://resource.geosciml.org/vocabulary/timescale/isc2014-opensearch.xml> ;
   void:rootResource <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
-  void:sparqlEndpoint <http://resource.geosciml.org/sparql/isc2014> ;
+  void:sparqlEndpoint <http://resource.geosciml.org/sparql/isc2016> ;
   void:uriSpace "http://resource.geosciml.org/classifier/ics/ischart/"^^rdf:PlainLiteral ;
-  void:vocabulary <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> ;
-  void:vocabulary <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> ;
-  void:vocabulary <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> ;
   void:vocabulary <http://resource.geosciml.org/ontology/timescale/gts> ;
   void:vocabulary <http://resource.geosciml.org/ontology/timescale/rank> ;
   void:vocabulary <http://resource.geosciml.org/ontology/timescale/thors> ;
-  rdfs:label "International Chronostratigraphic Chart (2014)"@en ;
-  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/2013> ;
+  rdfs:label "International Chronostratigraphic Chart (2016)"@en ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
   rdfs:seeAlso <http://stratigraphy.org/GSSP/index.html> ;
   rdfs:seeAlso <http://www.episodes.co.in/contents/2013/september/p199-204.pdf> ;
   owl:imports <file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl> ;
+  owl:imports <http://def.seegrid.csiro.au/ontology/om/sam-lite> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
   owl:imports <http://www.opengis.net/ont/geosparql> ;
-  owl:priorVersion <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201302/Geoscience/GeologicTimeScale/isc2013.rdf> ;
-  owl:versionIRI <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201405/Geoscience/GeologicTimeScale/isc2014.rdf> ;
-  skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014.txt> for changes from prior versions"@en ;
+  owl:imports <http://www.w3.org/2006/time> ;
+  skos:changeNote """1. THORS ontology updated to align with OWL-Time (instead of ISO 19108). 
+2. GTS ontology updated to use sam-lite (instead of OWL implementation of ISO 19156)
+3. Spatial data uses GeoSPARQL (instead of OWL implementation of ISO 19107)""" ;
+  skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016.txt> for changes from prior versions"@en ;
 .
