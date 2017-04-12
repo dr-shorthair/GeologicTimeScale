@@ -1015,11 +1015,11 @@ isc:BaseAeronianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseAeronianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "440.8"^^xsd:float ;
+  time:numericPosition 440.8 ;
 .
 isc:BaseAeronianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.2"^^xsd:float ;
+  time:numericDuration 1.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseAlbian
@@ -1035,11 +1035,11 @@ isc:BaseAlbian
 isc:BaseAlbianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "113.0"^^xsd:float ;
+  time:numericPosition 113.0 ;
 .
 isc:BaseAlbianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.0"^^xsd:float ;
+  time:numericDuration 1.0 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseAptian
@@ -1055,7 +1055,7 @@ isc:BaseAptian
 isc:BaseAptianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "125.0"^^xsd:float ;
+  time:numericPosition 125.0 ;
 .
 isc:BaseAquitanian-location
   rdf:type geo:Geometry ;
@@ -1076,7 +1076,7 @@ isc:BaseArchean
 isc:BaseArcheanTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "4000"^^xsd:float ;
+  time:numericPosition "4000"^^xsd:decimal ;
 .
 isc:BaseArtinskian
   rdf:type gts:GeochronologicBoundary ;
@@ -1092,11 +1092,11 @@ isc:BaseArtinskianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseArtinskianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "290.1"^^xsd:float ;
+  time:numericPosition 290.1 ;
 .
 isc:BaseArtinskianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.26"^^xsd:float ;
+  time:numericDuration 0.26 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseBajocian
@@ -1119,11 +1119,11 @@ isc:BaseBajocianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseBajocianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "170.3"^^xsd:float ;
+  time:numericPosition 170.3 ;
 .
 isc:BaseBajocianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.4"^^xsd:float ;
+  time:numericDuration 1.4 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseBarremian
@@ -1139,7 +1139,7 @@ isc:BaseBarremian
 isc:BaseBarremianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "129.4"^^xsd:float ;
+  time:numericPosition 129.4 ;
 .
 isc:BaseBartonian
   rdf:type gts:GeochronologicBoundary ;
@@ -1154,7 +1154,7 @@ isc:BaseBartonian
 isc:BaseBartonianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "41.2"^^time:Number ;
+  time:numericPosition 41.2 ;
 .
 isc:BaseBashkirian
   rdf:type gts:GeochronologicBoundary ;
@@ -1184,11 +1184,11 @@ isc:BaseBathonianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseBathonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "168.3"^^xsd:float ;
+  time:numericPosition 168.3 ;
 .
 isc:BaseBathonianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.3"^^xsd:float ;
+  time:numericDuration 1.3 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseBurdigalian
@@ -1204,7 +1204,7 @@ isc:BaseBurdigalian
 isc:BaseBurdigalianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "20.44"^^xsd:float ;
+  time:numericPosition 20.44 ;
 .
 isc:BaseCalabrian
   rdf:type gts:GeochronologicBoundary ;
@@ -1225,7 +1225,7 @@ isc:BaseCalabrian-location
 isc:BaseCalabrianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "1.80"^^xsd:float ;
+  time:numericPosition 1.80 ;
 .
 isc:BaseCallovian
   rdf:type gts:GeochronologicBoundary ;
@@ -1241,11 +1241,11 @@ isc:BaseCallovianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseCallovianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "166.1"^^xsd:float ;
+  time:numericPosition 166.1 ;
 .
 isc:BaseCallovianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.2"^^xsd:float ;
+  time:numericDuration 1.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseCambrianSeries2
@@ -1262,7 +1262,7 @@ isc:BaseCambrianSeries2
 isc:BaseCambrianSeries2Time
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "521"^^xsd:float ;
+  time:numericPosition "521"^^xsd:decimal ;
 .
 isc:BaseCambrianSeries3
   rdf:type gts:GeochronologicBoundary ;
@@ -1278,7 +1278,7 @@ isc:BaseCambrianSeries3
 isc:BaseCambrianSeries3Time
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "509"^^xsd:float ;
+  time:numericPosition "509"^^xsd:decimal ;
 .
 isc:BaseCambrianStage10
   rdf:type gts:GeochronologicBoundary ;
@@ -1293,7 +1293,7 @@ isc:BaseCambrianStage10
 isc:BaseCambrianStage10Time
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "489.5"^^xsd:float ;
+  time:numericPosition 489.5 ;
 .
 isc:BaseCambrianStage2
   rdf:type gts:GeochronologicBoundary ;
@@ -1308,7 +1308,7 @@ isc:BaseCambrianStage2
 isc:BaseCambrianStage2Time
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "529"^^xsd:float ;
+  time:numericPosition "529"^^xsd:decimal ;
 .
 isc:BaseCambrianStage4
   rdf:type gts:GeochronologicBoundary ;
@@ -1323,7 +1323,7 @@ isc:BaseCambrianStage4
 isc:BaseCambrianStage4Time
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "514"^^xsd:float ;
+  time:numericPosition "514"^^xsd:decimal ;
 .
 isc:BaseCampanian
   rdf:type gts:GeochronologicBoundary ;
@@ -1339,11 +1339,11 @@ isc:BaseCampanianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseCampanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "83.6"^^xsd:float ;
+  time:numericPosition 83.6 ;
 .
 isc:BaseCampanianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.2"^^xsd:float ;
+  time:numericDuration 0.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseCapitanian
@@ -1366,11 +1366,11 @@ isc:BaseCapitanianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseCapitanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "265.1"^^xsd:float ;
+  time:numericPosition 265.1 ;
 .
 isc:BaseCapitanianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.4"^^xsd:float ;
+  time:numericDuration 0.4 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseCarboniferous
@@ -1396,11 +1396,11 @@ isc:BaseCarboniferousTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseCarboniferousUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "358.9"^^xsd:float ;
+  time:numericPosition 358.9 ;
 .
 isc:BaseCarboniferousUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.4"^^xsd:float ;
+  time:numericDuration 0.4 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseCenozoic
@@ -1425,7 +1425,7 @@ isc:BaseCenozoic-location
 isc:BaseCenozoicTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "66.0"^^xsd:float ;
+  time:numericPosition 66.0 ;
 .
 isc:BaseChanghsingian
   rdf:type gts:GeochronologicBoundary ;
@@ -1447,11 +1447,11 @@ isc:BaseChanghsingianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseChanghsingianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "254.14"^^xsd:float ;
+  time:numericPosition 254.14 ;
 .
 isc:BaseChanghsingianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.07"^^xsd:float ;
+  time:numericDuration 0.07 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseChattian
@@ -1467,7 +1467,7 @@ isc:BaseChattian
 isc:BaseChattianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "28.1"^^xsd:float ;
+  time:numericPosition 28.1 ;
 .
 isc:BaseCisuralian
   rdf:type gts:GeochronologicBoundary ;
@@ -1491,11 +1491,11 @@ isc:BaseConiacianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseConiacianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "89.8"^^xsd:float ;
+  time:numericPosition 89.8 ;
 .
 isc:BaseConiacianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.3"^^xsd:float ;
+  time:numericDuration 0.3 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseCretaceous
@@ -1512,7 +1512,7 @@ isc:BaseCretaceous
 isc:BaseCretaceousTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "145.0"^^xsd:float ;
+  time:numericPosition 145.0 ;
 .
 isc:BaseCryogenian
   rdf:type gts:NumericEraBoundary ;
@@ -1527,7 +1527,7 @@ isc:BaseCryogenian
 isc:BaseCryogenianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "720"^^time:Number ;
+  time:numericPosition "720"^^xsd:decimal ;
 .
 isc:BaseDarriwilian
   rdf:type gts:GeochronologicBoundary ;
@@ -1549,11 +1549,11 @@ isc:BaseDarriwilianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseDarriwilianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "467.3"^^xsd:float ;
+  time:numericPosition 467.3 ;
 .
 isc:BaseDarriwilianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.1"^^xsd:float ;
+  time:numericDuration 1.1 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseDevonian
@@ -1578,11 +1578,11 @@ isc:BaseDevonianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseDevonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "419.2"^^xsd:float ;
+  time:numericPosition 419.2 ;
 .
 isc:BaseDevonianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "3.2"^^xsd:float ;
+  time:numericDuration 3.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseDrumian
@@ -1604,7 +1604,7 @@ isc:BaseDrumian-location
 isc:BaseDrumianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "504.5"^^xsd:float ;
+  time:numericPosition 504.5 ;
 .
 isc:BaseEctasian
   rdf:type gts:NumericEraBoundary ;
@@ -1619,7 +1619,7 @@ isc:BaseEctasian
 isc:BaseEctasianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "1400"^^xsd:float ;
+  time:numericPosition "1400"^^xsd:decimal ;
 .
 isc:BaseEdiacaran
   rdf:type gts:GeochronologicBoundary ;
@@ -1640,7 +1640,7 @@ isc:BaseEdiacaran-location
 isc:BaseEdiacaranTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "635"^^xsd:float ;
+  time:numericPosition "635"^^xsd:decimal ;
 .
 isc:BaseEmsian
   rdf:type gts:GeochronologicBoundary ;
@@ -1662,11 +1662,11 @@ isc:BaseEmsianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseEmsianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "407.6"^^xsd:float ;
+  time:numericPosition 407.6 ;
 .
 isc:BaseEmsianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "2.6"^^xsd:float ;
+  time:numericDuration 2.6 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseEocene
@@ -1689,7 +1689,7 @@ isc:BaseEocene-location
 isc:BaseEoceneTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "56"^^xsd:float ;
+  time:numericPosition "56"^^xsd:decimal ;
 .
 isc:BaseFamennian
   rdf:type gts:GeochronologicBoundary ;
@@ -1711,11 +1711,11 @@ isc:BaseFamennianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseFamennianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "372.2"^^xsd:float ;
+  time:numericPosition 372.2 ;
 .
 isc:BaseFamennianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.6"^^xsd:float ;
+  time:numericDuration 1.6 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseFloian
@@ -1738,11 +1738,11 @@ isc:BaseFloianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseFloianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "477.7"^^xsd:float ;
+  time:numericPosition 477.7 ;
 .
 isc:BaseFloianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.4"^^xsd:float ;
+  time:numericDuration 1.4 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseFurongian
@@ -1765,7 +1765,7 @@ isc:BaseFurongian-location
 isc:BaseFurongianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "497"^^xsd:float ;
+  time:numericPosition "497"^^xsd:decimal ;
 .
 isc:BaseGivetian
   rdf:type gts:GeochronologicBoundary ;
@@ -1787,11 +1787,11 @@ isc:BaseGivetianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseGivetianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "387.7"^^xsd:float ;
+  time:numericPosition 387.7 ;
 .
 isc:BaseGivetianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.8"^^xsd:float ;
+  time:numericDuration 0.8 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseGuadalupian
@@ -1815,11 +1815,11 @@ isc:BaseGuadalupianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseGuadalupianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "272.95"^^time:Number ;
+  time:numericPosition 272.95 ;
 .
 isc:BaseGuadalupianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.11"^^time:Number ;
+  time:numericDuration 0.11 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseGuzhangian
@@ -1841,7 +1841,7 @@ isc:BaseGuzhangian-location
 isc:BaseGuzhangianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "500.5"^^xsd:float ;
+  time:numericPosition 500.5 ;
 .
 isc:BaseGzhelian
   rdf:type gts:GeochronologicBoundary ;
@@ -1857,11 +1857,11 @@ isc:BaseGzhelianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseGzhelianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "303.7"^^xsd:float ;
+  time:numericPosition 303.7 ;
 .
 isc:BaseGzhelianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.1"^^xsd:float ;
+  time:numericDuration 0.1 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseHauterivian
@@ -1877,7 +1877,7 @@ isc:BaseHauterivian
 isc:BaseHauterivianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "132.9"^^xsd:float ;
+  time:numericPosition 132.9 ;
 .
 isc:BaseHirnantian
   rdf:type gts:GeochronologicBoundary ;
@@ -1899,11 +1899,11 @@ isc:BaseHirnantianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseHirnantianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "445.2"^^xsd:float ;
+  time:numericPosition 445.2 ;
 .
 isc:BaseHirnantianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.4"^^xsd:float ;
+  time:numericDuration 1.4 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseHolocene
@@ -1925,7 +1925,7 @@ isc:BaseHolocene-location
 isc:BaseHoloceneTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "0.0117"^^xsd:float ;
+  time:numericPosition 0.0117 ;
 .
 isc:BaseHomerian
   rdf:type gts:GeochronologicBoundary ;
@@ -1947,11 +1947,11 @@ isc:BaseHomerianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseHomerianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "430.5"^^xsd:float ;
+  time:numericPosition 430.5 ;
 .
 isc:BaseHomerianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.7"^^xsd:float ;
+  time:numericDuration 0.7 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseIonian
@@ -1978,7 +1978,7 @@ isc:BaseJiangshanianLocation
 isc:BaseJiangshanianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "494"^^xsd:float ;
+  time:numericPosition "494"^^xsd:decimal ;
 .
 isc:BaseJurassic
   rdf:type gts:GeochronologicBoundary ;
@@ -2002,11 +2002,11 @@ isc:BaseJurassicTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseJurassicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "201.3"^^xsd:float ;
+  time:numericPosition 201.3 ;
 .
 isc:BaseJurassicUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.2"^^xsd:float ;
+  time:numericDuration 0.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseKasimovian
@@ -2037,11 +2037,11 @@ isc:BaseKatianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseKatianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "453"^^xsd:float ;
+  time:numericPosition "453"^^xsd:decimal ;
 .
 isc:BaseKatianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.7"^^xsd:float ;
+  time:numericDuration 0.7 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseKimmeridgian
@@ -2064,11 +2064,11 @@ isc:BaseKimmeridgianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseKimmeridgianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "157.3"^^xsd:float ;
+  time:numericPosition 157.3 ;
 .
 isc:BaseKimmeridgianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.0"^^xsd:float ;
+  time:numericDuration 1.0 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseKungurian
@@ -2085,11 +2085,11 @@ isc:BaseKungurianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseKungurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "283.5"^^time:Number ;
+  time:numericPosition 283.5 ;
 .
 isc:BaseKungurianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.6"^^xsd:float ;
+  time:numericDuration 0.6 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseLadinian
@@ -2111,7 +2111,7 @@ isc:BaseLadinian-location
 isc:BaseLadinianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "242"^^xsd:float ;
+  time:numericPosition "242"^^xsd:decimal ;
 .
 isc:BaseLanghian
   rdf:type gts:GeochronologicBoundary ;
@@ -2126,7 +2126,7 @@ isc:BaseLanghian
 isc:BaseLanghianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "15.97"^^xsd:float ;
+  time:numericPosition 15.97 ;
 .
 isc:BaseLopingian
   rdf:type gts:GeochronologicBoundary ;
@@ -2149,11 +2149,11 @@ isc:BaseLopingianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseLopingianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "259.1"^^time:Number ;
+  time:numericPosition 259.1 ;
 .
 isc:BaseLopingianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.5"^^time:Number ;
+  time:numericDuration 0.5 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseLudfordian
@@ -2176,11 +2176,11 @@ isc:BaseLudfordianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseLudfordianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "425.6"^^xsd:float ;
+  time:numericPosition 425.6 ;
 .
 isc:BaseLudfordianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.9"^^xsd:float ;
+  time:numericDuration 0.9 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseLudlow
@@ -2204,11 +2204,11 @@ isc:BaseLudlowPosition
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseLudlowUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "427.4"^^xsd:float ;
+  time:numericPosition 427.4 ;
 .
 isc:BaseLudlowUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.5"^^xsd:float ;
+  time:numericDuration 0.5 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseLutetian
@@ -2230,7 +2230,7 @@ isc:BaseLutetian-location
 isc:BaseLutetianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "47.8"^^xsd:float ;
+  time:numericPosition 47.8 ;
 .
 isc:BaseMaastrichtian
   rdf:type gts:GeochronologicBoundary ;
@@ -2252,11 +2252,11 @@ isc:BaseMaastrichtianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseMaastrichtianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "72.1"^^xsd:float ;
+  time:numericPosition 72.1 ;
 .
 isc:BaseMaastrichtianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.2"^^xsd:float ;
+  time:numericDuration 0.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseMesoarchean
@@ -2272,7 +2272,7 @@ isc:BaseMesoarchean
 isc:BaseMesoarcheanTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "3200"^^xsd:float ;
+  time:numericPosition "3200"^^xsd:decimal ;
 .
 isc:BaseMesoproterozoic
   rdf:type gts:NumericEraBoundary ;
@@ -2288,7 +2288,7 @@ isc:BaseMesoproterozoic
 isc:BaseMesoproterozoicTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "1600"^^xsd:float ;
+  time:numericPosition "1600"^^xsd:decimal ;
 .
 isc:BaseMesozoic
   rdf:type gts:GeochronologicBoundary ;
@@ -2313,11 +2313,11 @@ isc:BaseMesozoicTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseMesozoicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "251.902"^^time:Number ;
+  time:numericPosition 251.902 ;
 .
 isc:BaseMesozoicUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.024"^^time:Number ;
+  time:numericDuration 0.024 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseMessinian
@@ -2339,7 +2339,7 @@ isc:BaseMessinian-location
 isc:BaseMessinianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "7.246"^^xsd:float ;
+  time:numericPosition 7.246 ;
 .
 isc:BaseMiddleDevonian
   rdf:type gts:GeochronologicBoundary ;
@@ -2362,11 +2362,11 @@ isc:BaseMiddleDevonianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleDevonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "393.3"^^xsd:float ;
+  time:numericPosition 393.3 ;
 .
 isc:BaseMiddleDevonianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.2"^^xsd:float ;
+  time:numericDuration 1.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseMiddleJurassic
@@ -2390,11 +2390,11 @@ isc:BaseMiddleJurassicTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleJurassicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "174.1"^^xsd:float ;
+  time:numericPosition 174.1 ;
 .
 isc:BaseMiddleJurassicUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.0"^^xsd:float ;
+  time:numericDuration 1.0 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseMiddleMississippian
@@ -2420,11 +2420,11 @@ isc:BaseMiddleMississippianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleMississippianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "346.7"^^xsd:float ;
+  time:numericPosition 346.7 ;
 .
 isc:BaseMiddleMississippianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.4"^^xsd:float ;
+  time:numericDuration 0.4 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseMiddleOrdovician
@@ -2448,11 +2448,11 @@ isc:BaseMiddleOrdovicianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleOrdovicianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "470.0"^^xsd:float ;
+  time:numericPosition 470.0 ;
 .
 isc:BaseMiddleOrdovicianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.4"^^xsd:float ;
+  time:numericDuration 1.4 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseMiddlePennsylvanian
@@ -2469,11 +2469,11 @@ isc:BaseMiddlePennsylvanianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddlePennsylvanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "315.2"^^xsd:float ;
+  time:numericPosition 315.2 ;
 .
 isc:BaseMiddlePennsylvanianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.2"^^xsd:float ;
+  time:numericDuration 0.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseMiddlePleistocene
@@ -2491,7 +2491,7 @@ isc:BaseMiddlePleistocene
 isc:BaseMiddlePleistoceneTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "0.781"^^xsd:float ;
+  time:numericPosition 0.781 ;
 .
 isc:BaseMiddleTriassic
   rdf:type gts:GeochronologicBoundary ;
@@ -2513,7 +2513,7 @@ isc:BaseMiddleTriassicLocation
 isc:BaseMiddleTriassicTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "247.2"^^xsd:float ;
+  time:numericPosition 247.2 ;
 .
 isc:BaseMississipian
   rdf:type gts:GeochronologicBoundary ;
@@ -2543,7 +2543,7 @@ isc:BaseNeoarchean
 isc:BaseNeoarcheanTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "2800"^^xsd:float ;
+  time:numericPosition "2800"^^xsd:decimal ;
 .
 isc:BaseNeogene
   rdf:type gts:GeochronologicBoundary ;
@@ -2566,7 +2566,7 @@ isc:BaseNeogene-location
 isc:BaseNeogeneTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "23.03"^^xsd:float ;
+  time:numericPosition 23.03 ;
 .
 isc:BaseNeoproterozoic
   rdf:type gts:NumericEraBoundary ;
@@ -2582,7 +2582,7 @@ isc:BaseNeoproterozoic
 isc:BaseNeoproterozoicTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "1000"^^xsd:float ;
+  time:numericPosition "1000"^^xsd:decimal ;
 .
 isc:BaseNorian
   rdf:type gts:GeochronologicBoundary ;
@@ -2597,7 +2597,7 @@ isc:BaseNorian
 isc:BaseNorianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "227"^^time:Number ;
+  time:numericPosition "227"^^xsd:decimal ;
 .
 isc:BaseOlenekian
   rdf:type gts:GeochronologicBoundary ;
@@ -2618,7 +2618,7 @@ isc:BaseOlenekianLocation
 isc:BaseOlenekianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "251.2"^^xsd:float ;
+  time:numericPosition 251.2 ;
 .
 isc:BaseOligocene
   rdf:type gts:GeochronologicBoundary ;
@@ -2640,7 +2640,7 @@ isc:BaseOligocene-location
 isc:BaseOligoceneTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "33.9"^^xsd:float ;
+  time:numericPosition 33.9 ;
 .
 isc:BaseOrdovician
   rdf:type gts:GeochronologicBoundary ;
@@ -2664,11 +2664,11 @@ isc:BaseOrdovicianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseOrdovicianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "485.4"^^xsd:float ;
+  time:numericPosition 485.4 ;
 .
 isc:BaseOrdovicianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.9"^^xsd:float ;
+  time:numericDuration 1.9 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseOrosirian
@@ -2684,7 +2684,7 @@ isc:BaseOrosirian
 isc:BaseOrosirianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "2050"^^xsd:float ;
+  time:numericPosition "2050"^^xsd:decimal ;
 .
 isc:BasePaleoarchean
   rdf:type gts:NumericEraBoundary ;
@@ -2699,7 +2699,7 @@ isc:BasePaleoarchean
 isc:BasePaleoarcheanTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "3600"^^xsd:float ;
+  time:numericPosition "3600"^^xsd:decimal ;
 .
 isc:BasePennsylvanian
   rdf:type gts:GeochronologicBoundary ;
@@ -2723,11 +2723,11 @@ isc:BasePennsylvanianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BasePennsylvanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "323.2"^^xsd:float ;
+  time:numericPosition 323.2 ;
 .
 isc:BasePennsylvanianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.4"^^xsd:float ;
+  time:numericDuration 0.4 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BasePermian
@@ -2752,11 +2752,11 @@ isc:BasePermianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BasePermianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "298.9"^^xsd:float ;
+  time:numericPosition 298.9 ;
 .
 isc:BasePermianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.15"^^xsd:float ;
+  time:numericDuration 0.15 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BasePhanerozoic
@@ -2783,11 +2783,11 @@ isc:BasePhanerozoicTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BasePhanerozoicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "541.0"^^xsd:float ;
+  time:numericPosition 541.0 ;
 .
 isc:BasePhanerozoicUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.0"^^xsd:float ;
+  time:numericDuration 1.0 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BasePiacenz-location
@@ -2809,7 +2809,7 @@ isc:BasePiacenzian
 isc:BasePiacenzianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "3.6"^^xsd:float ;
+  time:numericPosition 3.6 ;
 .
 isc:BasePliensbachian
   rdf:type gts:GeochronologicBoundary ;
@@ -2831,11 +2831,11 @@ isc:BasePliensbachianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BasePliensbachianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "190.8"^^xsd:float ;
+  time:numericPosition 190.8 ;
 .
 isc:BasePliensbachianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.0"^^xsd:float ;
+  time:numericDuration 1.0 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BasePliocene
@@ -2858,7 +2858,7 @@ isc:BasePliocene-location
 isc:BasePlioceneTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "5.333"^^xsd:float ;
+  time:numericPosition 5.333 ;
 .
 isc:BasePragian
   rdf:type gts:GeochronologicBoundary ;
@@ -2880,11 +2880,11 @@ isc:BasePragianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BasePragianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "410.8"^^xsd:float ;
+  time:numericPosition 410.8 ;
 .
 isc:BasePragianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "2.8"^^xsd:float ;
+  time:numericDuration 2.8 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BasePriabonian
@@ -2900,7 +2900,7 @@ isc:BasePriabonian
 isc:BasePriabonianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "37.8"^^time:Number ;
+  time:numericPosition 37.8 ;
 .
 isc:BasePridoli
   rdf:type gts:GeochronologicBoundary ;
@@ -2922,11 +2922,11 @@ isc:BasePridoliTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BasePridoliUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "423"^^xsd:float ;
+  time:numericPosition "423"^^xsd:decimal ;
 .
 isc:BasePridoliUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "2.3"^^xsd:float ;
+  time:numericDuration 2.3 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseProterozoic
@@ -2944,7 +2944,7 @@ isc:BaseProterozoic
 isc:BaseProterozoicTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "2500"^^xsd:float ;
+  time:numericPosition "2500"^^xsd:decimal ;
 .
 isc:BaseQuaternary
   rdf:type gts:GeochronologicBoundary ;
@@ -2967,7 +2967,7 @@ isc:BaseQuaternary-location
 isc:BaseQuaternaryTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "2.58"^^time:Number ;
+  time:numericPosition 2.58 ;
 .
 isc:BaseRhaetian
   rdf:type gts:GeochronologicBoundary ;
@@ -2982,7 +2982,7 @@ isc:BaseRhaetian
 isc:BaseRhaetianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "208.5"^^xsd:float ;
+  time:numericPosition 208.5 ;
 .
 isc:BaseRhyacian
   rdf:type gts:NumericEraBoundary ;
@@ -2997,7 +2997,7 @@ isc:BaseRhyacian
 isc:BaseRhyacianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "2300"^^xsd:float ;
+  time:numericPosition "2300"^^xsd:decimal ;
 .
 isc:BaseSakmarian
   rdf:type gts:GeochronologicBoundary ;
@@ -3013,11 +3013,11 @@ isc:BaseSakmarianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseSakmarianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "295.0"^^time:Number ;
+  time:numericPosition 295.0 ;
 .
 isc:BaseSakmarianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.18"^^xsd:float ;
+  time:numericDuration 0.18 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseSantonian
@@ -3040,11 +3040,11 @@ isc:BaseSantonianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseSantonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "86.3"^^xsd:float ;
+  time:numericPosition 86.3 ;
 .
 isc:BaseSantonianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.5"^^xsd:float ;
+  time:numericDuration 0.5 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseSelandian
@@ -3066,7 +3066,7 @@ isc:BaseSelandian-location
 isc:BaseSelandianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "61.6"^^xsd:float ;
+  time:numericPosition 61.6 ;
 .
 isc:BaseSerpukhovian
   rdf:type gts:GeochronologicBoundary ;
@@ -3094,7 +3094,7 @@ isc:BaseSerravallian-location
 isc:BaseSerravallianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "13.82"^^xsd:float ;
+  time:numericPosition 13.82 ;
 .
 isc:BaseSilurian
   rdf:type gts:GeochronologicBoundary ;
@@ -3118,11 +3118,11 @@ isc:BaseSilurianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseSilurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "443.8"^^time:Number ;
+  time:numericPosition 443.8 ;
 .
 isc:BaseSilurianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.5"^^xsd:float ;
+  time:numericDuration 1.5 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseSinemurian
@@ -3145,11 +3145,11 @@ isc:BaseSinemurianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseSinemurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "199.3"^^xsd:float ;
+  time:numericPosition 199.3 ;
 .
 isc:BaseSinemurianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.3"^^xsd:float ;
+  time:numericDuration 0.3 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseStatherian
@@ -3165,7 +3165,7 @@ isc:BaseStatherian
 isc:BaseStatherianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "1800"^^xsd:float ;
+  time:numericPosition "1800"^^xsd:decimal ;
 .
 isc:BaseStenian
   rdf:type gts:NumericEraBoundary ;
@@ -3180,7 +3180,7 @@ isc:BaseStenian
 isc:BaseStenianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "1200"^^xsd:float ;
+  time:numericPosition "1200"^^xsd:decimal ;
 .
 isc:BaseTelychian
   rdf:type gts:GeochronologicBoundary ;
@@ -3202,11 +3202,11 @@ isc:BaseTelychianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseTelychianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "438.5"^^xsd:float ;
+  time:numericPosition 438.5 ;
 .
 isc:BaseTelychianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.1"^^xsd:float ;
+  time:numericDuration 1.1 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseThanetian
@@ -3228,7 +3228,7 @@ isc:BaseThanetian-location
 isc:BaseThanetianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "59.2"^^xsd:float ;
+  time:numericPosition 59.2 ;
 .
 isc:BaseTithonian
   rdf:type gts:GeochronologicBoundary ;
@@ -3244,11 +3244,11 @@ isc:BaseTithonianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseTithonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "152.1"^^xsd:float ;
+  time:numericPosition 152.1 ;
 .
 isc:BaseTithonianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.9"^^xsd:float ;
+  time:numericDuration 0.9 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseToarcian
@@ -3265,11 +3265,11 @@ isc:BaseToarcianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseToarcianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "182.7"^^xsd:float ;
+  time:numericPosition 182.7 ;
 .
 isc:BaseToarcianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.7"^^xsd:float ;
+  time:numericDuration 0.7 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseTortonian
@@ -3291,7 +3291,7 @@ isc:BaseTortonian-location
 isc:BaseTortonianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "11.63"^^time:Number ;
+  time:numericPosition 11.63 ;
 .
 isc:BaseTournaisian
   rdf:type gts:GeochronologicBoundary ;
@@ -3319,7 +3319,7 @@ isc:BaseTuronian-location
 isc:BaseTuronianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "93.9"^^xsd:float ;
+  time:numericPosition 93.9 ;
 .
 isc:BaseUpperCretaceous
   rdf:type gts:GeochronologicBoundary ;
@@ -3341,7 +3341,7 @@ isc:BaseUpperCretaceous-location
 isc:BaseUpperCretaceousTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "100.5"^^xsd:float ;
+  time:numericPosition 100.5 ;
 .
 isc:BaseUpperDevonian
   rdf:type gts:GeochronologicBoundary ;
@@ -3364,11 +3364,11 @@ isc:BaseUpperDevonianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseUpperDevonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "382.7"^^xsd:float ;
+  time:numericPosition 382.7 ;
 .
 isc:BaseUpperDevonianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.6"^^xsd:float ;
+  time:numericDuration 1.6 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseUpperJurassic
@@ -3385,11 +3385,11 @@ isc:BaseUpperJurassicTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseUpperJurassicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "163.5"^^xsd:float ;
+  time:numericPosition 163.5 ;
 .
 isc:BaseUpperJurassicUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "1.0"^^xsd:float ;
+  time:numericDuration 1.0 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseUpperMississippian
@@ -3406,11 +3406,11 @@ isc:BaseUpperMississippianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseUpperMississippianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "330.9"^^xsd:float ;
+  time:numericPosition 330.9 ;
 .
 isc:BaseUpperMississippianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.2"^^xsd:float ;
+  time:numericDuration 0.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseUpperOrdovician
@@ -3435,7 +3435,7 @@ isc:BaseUpperOrdovicianTime
 .
 isc:BaseUpperOrdovicianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.9"^^xsd:float ;
+  time:numericDuration 0.9 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseUpperPennsylvanian
@@ -3452,11 +3452,11 @@ isc:BaseUpperPennsylvanianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseUpperPennsylvanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "307"^^xsd:float ;
+  time:numericPosition "307"^^xsd:decimal ;
 .
 isc:BaseUpperPennsylvanianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.1"^^xsd:float ;
+  time:numericDuration 0.1 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseUpperPleistocene
@@ -3471,7 +3471,7 @@ isc:BaseUpperPleistocene
 isc:BaseUpperPleistoceneTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "0.126"^^xsd:float ;
+  time:numericPosition 0.126 ;
 .
 isc:BaseUpperTriassic
   rdf:type gts:GeochronologicBoundary ;
@@ -3493,7 +3493,7 @@ isc:BaseUpperTriassic-location
 isc:BaseUpperTriassicTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "237"^^time:Number ;
+  time:numericPosition "237"^^xsd:decimal ;
 .
 isc:BaseValanginian
   rdf:type gts:GeochronologicBoundary ;
@@ -3508,7 +3508,7 @@ isc:BaseValanginian
 isc:BaseValanginianTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "139.8"^^xsd:float ;
+  time:numericPosition 139.8 ;
 .
 isc:BaseWenlock
   rdf:type gts:GeochronologicBoundary ;
@@ -3531,11 +3531,11 @@ isc:BaseWenlockTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseWenlockUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "433.4"^^xsd:float ;
+  time:numericPosition 433.4 ;
 .
 isc:BaseWenlockUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.8"^^xsd:float ;
+  time:numericDuration 0.8 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:BaseWordian
@@ -3558,11 +3558,11 @@ isc:BaseWordianTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:BaseWordianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "268.8"^^xsd:float ;
+  time:numericPosition 268.8 ;
 .
 isc:BaseWordianUncertainty
   rdf:type time:Duration ;
-  time:numericDuration "0.5"^^xsd:float ;
+  time:numericDuration 0.5 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:Bashkirian
@@ -5869,13 +5869,13 @@ isc:FormationOfEarthTime
   rdf:type time:TimePosition ;
   gts:positionalUncertainty isc:FormationOfEarthUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "4567"^^xsd:float ;
+  time:numericPosition "4567"^^xsd:decimal ;
 .
 isc:FormationOfEarthUncertainty
   rdf:type time:Duration ;
   rdfs:label "Formation of earth uncertainty"@en ;
   skos:prefLabel "Formation of earth uncertainty"@en ;
-  time:numericDuration "1"^^time:Number ;
+  time:numericDuration "1"^^xsd:decimal ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:Fortunian
@@ -10886,7 +10886,7 @@ isc:Present
 isc:PresentTimeCoordinate
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "0.0"^^time:Number ;
+  time:numericPosition 0.0 ;
 .
 isc:Priabonian
   rdf:type gts:GeochronologicEra ;
