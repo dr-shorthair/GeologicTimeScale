@@ -23,6 +23,45 @@ WHERE {
              OPTIONAL { ?s thors:begin/thors:previousEra ?prev . }
 }
 
+On the basis of intervalIn relations and coincidence of begin and end, can now add more Allen relations: starts/startedBy, finishes/FinishedBy, during/contains
+To include all *transitive* relations add "+" after intervalIn in WHERE clause. 
+
+INSERT  { 
+  ?s1 time:intervalDuring ?s2.
+  ?s2 time:intervalContains ?s1.
+}
+WHERE {
+    ?s1 time:intervalIn ?s2 .
+    ?s1 time:hasBeginning ?b . 
+    ?s1 time:hasEnd ?e . 
+    NOT EXISTS {?s2 time:hasBeginning ?b }
+    NOT EXISTS {?s2 time:hasEnd ?e }
+}
+
+INSERT  { 
+  ?s1 time:intervalStarts ?s2.
+  ?s2 time:intervalStartedBy ?s1.
+}
+WHERE {
+    ?s1 time:intervalIn ?s2 .
+    ?s1 time:hasBeginning ?b . 
+    ?s1 time:hasEnd ?e . 
+    ?s2 time:hasBeginning ?b 
+    NOT EXISTS {?s2 time:hasEnd ?e }
+}
+
+INSERT  { 
+  ?s1 time:intervalFinishes ?s2.
+  ?s2 time:intervalFinishedBy ?s1.
+}
+WHERE {
+    ?s1 time:intervalIn ?s2 .
+    ?s1 time:hasBeginning ?b . 
+    ?s1 time:hasEnd ?e . 
+    NOT EXISTS { ?s2 time:hasBeginning ?b }
+    ?s2 time:hasEnd ?e 
+}
+
 ---
 
 CONSTRUCT {
@@ -165,44 +204,5 @@ WHERE {
 }
 
 ---
-Add more Allen relations: mostly starts/startedBy and finishes/FinishedBy
-
-These all depend on the time:intervalIn relations being complete
-
-INSERT  { 
-  ?s1 time:intervalDuring ?s2.
-  ?s2 time:intervalContains ?s1.
-}
-WHERE {
-    ?s1 time:intervalIn+ ?s2 .
-    ?s1 time:hasBeginning ?b . 
-    ?s1 time:hasEnd ?e . 
-    NOT EXISTS {?s2 time:hasBeginning ?b }
-    NOT EXISTS {?s2 time:hasEnd ?e }
-}
-
-INSERT  { 
-  ?s1 time:intervalStarts ?s2.
-  ?s2 time:intervalStartedBy ?s1.
-}
-WHERE {
-    ?s1 time:intervalIn+ ?s2 .
-    ?s1 time:hasBeginning ?b . 
-    ?s1 time:hasEnd ?e . 
-    ?s2 time:hasBeginning ?b 
-    NOT EXISTS {?s2 time:hasEnd ?e }
-}
-
-INSERT  { 
-  ?s1 time:intervalFinishes ?s2.
-  ?s2 time:intervalFinishedBy ?s1.
-}
-WHERE {
-    ?s1 time:intervalIn+ ?s2 .
-    ?s1 time:hasBeginning ?b . 
-    ?s1 time:hasEnd ?e . 
-    NOT EXISTS { ?s2 time:hasBeginning ?b }
-    ?s2 time:hasEnd ?e 
-}
 
 TODO - disentagle Carboniferous equals vs in mess
