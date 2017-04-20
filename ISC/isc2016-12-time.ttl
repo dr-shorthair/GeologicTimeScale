@@ -24,6 +24,10 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://resource.geosciml.org/classifier/cgi/geologicage/ma>
+  rdf:type time:TRS ;
+  owl:sameAs <http://www.opengis.net/def/crs/OGC/0/ChronometricGeologicTime> ;
+.
 isc:
   rdf:type skos:Collection ;
   rdfs:label "Geologic Timescale Elements in the International Chronostratigraphic Chart"@en ;
