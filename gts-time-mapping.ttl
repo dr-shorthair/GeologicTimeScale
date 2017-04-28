@@ -1,38 +1,42 @@
-# baseURI: file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl
-# imports: file:/C:/Users/cox075/dev/GeologicTimeScale/thors-time-mapping.ttl
+# baseURI: http://resource.geosciml.org/ontology/timescale/gts/time-mapping
+# imports: http://def.seegrid.csiro.au/ontology/om/sam-lite
 # imports: http://resource.geosciml.org/ontology/timescale/gts
+# imports: http://resource.geosciml.org/ontology/timescale/thors/time-mapping
+# imports: http://www.w3.org/ns/sosa/
 
-@prefix gts-time-mapping: <file:///C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<file:///C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl>
-  rdf:type owl:Ontology ;
-  owl:imports <file:///C:/Users/cox075/dev/GeologicTimeScale/thors-time-mapping.ttl> ;
-  owl:imports <http://def.seegrid.csiro.au/ontology/om/sam-lite> ;
-  owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
-  owl:versionInfo "Created with TopBraid Composer" ;
-.
-<file:/C:/Users/cox075/dev/GeologicTimeScale/gts-time-mapping.ttl>
-  rdf:type owl:Ontology ;
-  owl:imports <file:/C:/Users/cox075/dev/GeologicTimeScale/thors-time-mapping.ttl> ;
-  owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
-.
 <http://resource.geosciml.org/ontology/timescale/gts#StratigraphicEvent>
   rdfs:subClassOf <http://www.w3.org/ns/prov#Activity> ;
 .
 <http://resource.geosciml.org/ontology/timescale/gts#StratigraphicPoint>
   rdfs:subClassOf <http://def.seegrid.csiro.au/ontology/om/sam-lite#SamplingPoint> ;
+  rdfs:subClassOf <http://www.w3.org/ns/sosa/Sample> ;
 .
 <http://resource.geosciml.org/ontology/timescale/gts#StratigraphicSection>
   rdfs:subClassOf <http://def.seegrid.csiro.au/ontology/om/sam-lite#SamplingCurve> ;
+  rdfs:subClassOf <http://www.w3.org/ns/sosa/Sample> ;
 .
 <http://resource.geosciml.org/ontology/timescale/gts#positionalUncertainty>
   rdf:type owl:ObjectProperty ;
   rdfs:domain time:TemporalPosition ;
   rdfs:label "Uncertainty in time position" ;
   rdfs:range time:TemporalDuration ;
+.
+<http://resource.geosciml.org/ontology/timescale/gts/time-mapping>
+  rdf:type owl:Ontology ;
+  dc:creator "Simon J D Cox" ;
+  dcterms:created "2017-03-31" ;
+  dcterms:creator <http://orcid.org/0000-0002-3884-3420> ;
+  rdfs:comment "This graph provides an alignment of the GTS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. This is primarily accomplished transitively, through import of the THORS/OWL-Time mapping. " ;
+  owl:imports <http://def.seegrid.csiro.au/ontology/om/sam-lite> ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/thors/time-mapping> ;
+  owl:imports <http://www.w3.org/ns/sosa/> ;
 .

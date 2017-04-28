@@ -1,6 +1,4 @@
 # baseURI: http://resource.geosciml.org/ontology/timescale/gts
-# imports: http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal
-# imports: http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling
 # imports: http://resource.geosciml.org/ontology/timescale/rank
 # imports: http://resource.geosciml.org/ontology/timescale/thors
 # prefix: gts
@@ -57,19 +55,18 @@
   dct:hasPart gts:status ;
   dct:hasPart gts:stratotype ;
   dct:license <http://creativecommons.org/licenses/by/3.0/> ;
-  dct:modified "2013-11-14"^^xsd:date ;
+  dct:modified "2017-04-28"^^xsd:date ;
   vann:preferredNamespacePrefix "gts" ;
   vann:preferredNamespaceUri gts: ;
   rdfs:seeAlso <doi:10.1130/GES00022.1> ;
   rdfs:seeAlso <http://dx.doi.org/10.1130/GES00022.1> ;
   rdfs:seeAlso <http://geosphere.gsapubs.org/cgi/doi/10.1130/GES00022.1> ;
   rdfs:seeAlso <http://www.geosciml.org> ;
-  owl:imports <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> ;
-  owl:imports <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/rank> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors> ;
   owl:priorVersion <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/Geoscience/GeologicTimeScale/gts-30.rdf> ;
   owl:versionIRI <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201402/Geoscience/GeologicTimeScale/gts.rdf> ;
+  skos:changeNote "2017-04-28 - removed imports ISO ontologies" ;
 .
 gts:EraCode
   rdf:type rdfs:Datatype ;
