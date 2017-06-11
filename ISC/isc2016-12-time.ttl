@@ -35,10 +35,10 @@ isc:
   skos:prefLabel "Geologic Timescale Elements in the International Chronostratigraphic Chart"@en ;
 .
 isc:Aalenian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-175.6 +/-2"@en ;
   rdfs:comment "younger bound-171.6 +/-3"@en ;
   rdfs:label "Aalenian Age"@en ;
@@ -81,10 +81,10 @@ isc:Aalenian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Aalenian> ;
 .
 isc:Aeronian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-439 +/-1.8"@en ;
   rdfs:comment "younger bound-436 +/-1.9"@en ;
   rdfs:label "Aeronian Age"@en ;
@@ -126,10 +126,10 @@ isc:Aeronian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Aeronian> ;
 .
 isc:Albian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-112 +/-1"@en ;
   rdfs:comment "younger bound-99.6 +/-0.9"@en ;
   rdfs:label "Albian Age"@en ;
@@ -172,10 +172,10 @@ isc:Albian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Albian> ;
 .
 isc:Anisian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-245.9"@en ;
   rdfs:comment "younger bound-237 +/-2"@en ;
   rdfs:label "Anisian Age"@en ;
@@ -218,10 +218,10 @@ isc:Anisian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Anisian> ;
 .
 isc:Aptian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-125 +/-1"@en ;
   rdfs:comment "younger bound-112 +/-1"@en ;
   rdfs:label "Aptian Age"@en ;
@@ -263,10 +263,10 @@ isc:Aptian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Aptian> ;
 .
 isc:Aquitanian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-23.03"@en ;
   rdfs:comment "younger bound-20.43"@en ;
   rdfs:label "Aquitanian Age"@en ;
@@ -310,10 +310,10 @@ isc:Aquitanian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Aquitanian> ;
 .
 isc:Archean
+  rdf:type gts:Eon ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Eon ;
   rdfs:comment "older bound-4000.0"@en ;
   rdfs:comment "younger bound-2500.0"@en ;
   rdfs:label "Archean Eon"@en ;
@@ -369,10 +369,10 @@ isc:Archean
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Archean> ;
 .
 isc:Artinskian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-284.4 +/-0.7"@en ;
   rdfs:comment "younger bound-275.6 +/-0.7"@en ;
   rdfs:label "Artinskian Age"@en ;
@@ -414,10 +414,10 @@ isc:Artinskian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Artinskian> ;
 .
 isc:Asselian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-299 +/-0.8"@en ;
   rdfs:comment "younger bound-294.6 +/-0.8"@en ;
   rdfs:label "Asselian Age"@en ;
@@ -463,10 +463,10 @@ isc:Asselian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Asselian> ;
 .
 isc:Bajocian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-171.6 +/-3"@en ;
   rdfs:comment "younger bound-167.7 +/-3.5"@en ;
   rdfs:label "Bajocian Age"@en ;
@@ -508,10 +508,10 @@ isc:Bajocian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Bajocian> ;
 .
 isc:Barremian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-130 +/-1.5"@en ;
   rdfs:comment "younger bound-125 +/-1"@en ;
   rdfs:label "Barremian Age"@en ;
@@ -553,10 +553,10 @@ isc:Barremian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Barremian> ;
 .
 isc:Bartonian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-40.4 +/-0.2"@en ;
   rdfs:comment "younger bound-37.2 +/-0.1"@en ;
   rdfs:label "Bartonian Age"@en ;
@@ -3175,10 +3175,10 @@ isc:BaseWordianUncertainty
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:Bashkirian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-318.1 +/-1.3"@en ;
   rdfs:comment "younger bound-311.7 +/-1.1"@en ;
   rdfs:label "Bashkirian Age"@en ;
@@ -3223,10 +3223,10 @@ isc:Bashkirian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Bashkirian> ;
 .
 isc:Bathonian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-167.7 +/-3.5"@en ;
   rdfs:comment "younger bound-164.7 +/-4"@en ;
   rdfs:label "Bathonian Age"@en ;
@@ -3268,10 +3268,10 @@ isc:Bathonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Bathonian> ;
 .
 isc:Berriasian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-145.5 +/-4"@en ;
   rdfs:comment "younger bound-140.2 +/-3"@en ;
   rdfs:label "Berriasian Age"@en ;
@@ -3547,10 +3547,10 @@ isc:Boundaries
   skos:prefLabel "Boundaries in the International Chronostratigraphic Chart"@en ;
 .
 isc:Burdigalian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-20.43"@en ;
   rdfs:comment "younger bound-15.97"@en ;
   rdfs:label "Burdigalian Age"@en ;
@@ -3592,10 +3592,10 @@ isc:Burdigalian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Burdigalian> ;
 .
 isc:Calabrian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-1.80"@en ;
   rdfs:comment "younger bound-0.781"@en ;
   rdfs:label "Calabrian Age"@en ;
@@ -3637,10 +3637,10 @@ isc:Calabrian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Calabrian> ;
 .
 isc:Callovian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-164.7 +/-4"@en ;
   rdfs:comment "younger bound-161.2 +/-4"@en ;
   rdfs:label "Callovian Age"@en ;
@@ -3684,9 +3684,9 @@ isc:Callovian
 .
 isc:Calymmian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-1600.0"@en ;
   rdfs:comment "younger bound-1400.0"@en ;
   rdfs:label "Calymmian Period"@en ;
@@ -3729,9 +3729,9 @@ isc:Calymmian
 .
 isc:Cambrian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-542 +/-1"@en ;
   rdfs:comment "younger bound-488.3 +/-1.7"@en ;
   rdfs:label "Cambrian Period"@en ;
@@ -3798,10 +3798,10 @@ isc:Cambrian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cambrian> ;
 .
 isc:CambrianSeries2
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-521.0"@en ;
   rdfs:comment "younger bound-510.0"@en ;
   rdfs:label "Cambrian Series 2 Epoch"@en ;
@@ -3848,10 +3848,10 @@ isc:CambrianSeries2
   time:intervalStartedBy isc:CambrianStage3 ;
 .
 isc:CambrianSeries3
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-510.0"@en ;
   rdfs:comment "younger bound-499.0"@en ;
   rdfs:label "Cambrian Series 3 Epoch"@en ;
@@ -3901,10 +3901,10 @@ isc:CambrianSeries3
   time:intervalStartedBy isc:CambrianStage5 ;
 .
 isc:CambrianStage10
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-492.0"@en ;
   rdfs:comment "younger bound-488.3 +/-1.7"@en ;
   rdfs:label "Cambrian Stage 10 Age"@en ;
@@ -3946,10 +3946,10 @@ isc:CambrianStage10
   time:intervalMetBy isc:Jiangshanian ;
 .
 isc:CambrianStage2
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-528.0"@en ;
   rdfs:comment "younger bound-521.0"@en ;
   rdfs:label "Cambrian Stage 2 Age"@en ;
@@ -3990,10 +3990,10 @@ isc:CambrianStage2
   time:intervalMetBy isc:Fortunian ;
 .
 isc:CambrianStage3
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-521.0"@en ;
   rdfs:comment "younger bound-515.0"@en ;
   rdfs:label "Cambrian Stage 3 Age"@en ;
@@ -4034,10 +4034,10 @@ isc:CambrianStage3
   time:intervalStarts isc:CambrianSeries2 ;
 .
 isc:CambrianStage4
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-515.0"@en ;
   rdfs:comment "younger bound-510.0"@en ;
   rdfs:label "Cambrian Stage 4 Age"@en ;
@@ -4078,10 +4078,10 @@ isc:CambrianStage4
   time:intervalMetBy isc:CambrianStage3 ;
 .
 isc:CambrianStage5
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-510.0"@en ;
   rdfs:comment "younger bound-506.5"@en ;
   rdfs:label "Cambrian Stage 5 Age"@en ;
@@ -4122,10 +4122,10 @@ isc:CambrianStage5
   time:intervalStarts isc:CambrianSeries3 ;
 .
 isc:Campanian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-83.5 +/-0.7"@en ;
   rdfs:comment "younger bound-70.6 +/-0.6"@en ;
   rdfs:label "Campanian Age"@en ;
@@ -4167,10 +4167,10 @@ isc:Campanian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Campanian> ;
 .
 isc:Capitanian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-265.8 +/-0.7"@en ;
   rdfs:comment "younger bound-260.4 +/-0.7"@en ;
   rdfs:label "Capitanian Age"@en ;
@@ -4214,9 +4214,9 @@ isc:Capitanian
 .
 isc:Carboniferous
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-359.2 +/-2.5"@en ;
   rdfs:comment "younger bound-299 +/-0.8"@en ;
   rdfs:label "Carboniferous Period"@en ;
@@ -4279,10 +4279,10 @@ isc:Carboniferous
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Carboniferous> ;
 .
 isc:Carnian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-228.7"@en ;
   rdfs:comment "younger bound-216.5 +/-2"@en ;
   rdfs:label "Carnian Age"@en ;
@@ -4325,10 +4325,10 @@ isc:Carnian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Carnian> ;
 .
 isc:Cenomanian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-99.6 +/-0.9"@en ;
   rdfs:comment "younger bound-93.6 +/-0.8"@en ;
   rdfs:label "Cenomanian Age"@en ;
@@ -4371,10 +4371,10 @@ isc:Cenomanian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cenomanian> ;
 .
 isc:Cenozoic
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-65.5 +/-0.3"@en ;
   rdfs:comment "younger bound-0.0"@en ;
   rdfs:label "Cenozoic Era"@en ;
@@ -4454,10 +4454,10 @@ isc:Cenozoic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cenozoic> ;
 .
 isc:Changhsingian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-253.8 +/-0.7"@en ;
   rdfs:comment "younger bound-251 +/-0.4"@en ;
   rdfs:label "Changhsingian Age"@en ;
@@ -4502,10 +4502,10 @@ isc:Changhsingian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Changhsingian> ;
 .
 isc:Chattian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-28.4 +/-0.1"@en ;
   rdfs:comment "younger bound-23.03"@en ;
   rdfs:label "Chattian Age"@en ;
@@ -4549,10 +4549,10 @@ isc:Chattian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Chattian> ;
 .
 isc:Cisuralian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-299 +/-0.8"@en ;
   rdfs:comment "younger bound-270.6 +/-0.7"@en ;
   rdfs:label "Cisuralian Epoch"@en ;
@@ -4610,10 +4610,10 @@ isc:Cisuralian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cisuralian> ;
 .
 isc:Coniacian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-88.6"@en ;
   rdfs:comment "younger bound-85.8 +/-0.7"@en ;
   rdfs:label "Coniacian Age"@en ;
@@ -4656,9 +4656,9 @@ isc:Coniacian
 .
 isc:Cretaceous
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-145.5 +/-4"@en ;
   rdfs:comment "younger bound-65.5 +/-0.3"@en ;
   rdfs:label "Cretaceous Period"@en ;
@@ -4722,9 +4722,9 @@ isc:Cretaceous
 .
 isc:Cryogenian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-850.0"@en ;
   rdfs:comment "younger bound-635.0"@en ;
   rdfs:label "Cryogenian Period"@en ;
@@ -4765,10 +4765,10 @@ isc:Cryogenian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Cryogenian> ;
 .
 isc:Danian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-65.5 +/-0.3"@en ;
   rdfs:comment "younger bound-61.1"@en ;
   rdfs:label "Danian Age"@en ;
@@ -4813,10 +4813,10 @@ isc:Danian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Danian> ;
 .
 isc:Dapingian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-471.8 +/-1.6"@en ;
   rdfs:comment "younger bound-468.1 +/-1.6"@en ;
   rdfs:label "Dapingian Age"@en ;
@@ -4859,10 +4859,10 @@ isc:Dapingian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Dapingian> ;
 .
 isc:Darriwilian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-468.1 +/-1.6"@en ;
   rdfs:comment "younger bound-460.9 +/-1.6"@en ;
   rdfs:label "Darriwilian Age"@en ;
@@ -4906,9 +4906,9 @@ isc:Darriwilian
 .
 isc:Devonian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-416 +/-2.8"@en ;
   rdfs:comment "younger bound-359.2 +/-2.5"@en ;
   rdfs:label "Devonian Period"@en ;
@@ -4968,10 +4968,10 @@ isc:Devonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Devonian> ;
 .
 isc:Drumian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-506.5"@en ;
   rdfs:comment "younger bound-503.0"@en ;
   rdfs:label "Drumian Age"@en ;
@@ -5014,9 +5014,9 @@ isc:Drumian
 .
 isc:Ectasian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-1400.0"@en ;
   rdfs:comment "younger bound-1200.0"@en ;
   rdfs:label "Ectasian Period"@en ;
@@ -5058,9 +5058,9 @@ isc:Ectasian
 .
 isc:Ediacaran
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "Enorama Creek, Flinders Ranges, South Australia |  31.3314 S 138.6334 E |  Base of the Marinoan cap Carbonate |  (1) rapid decay of Marinoan ice sheets and onset of distinct cap carbonates throughout the world, and (2) the beginning of a distinctive pattern of secular changes in carbon isotopes. |  Ratified 1990 |  Lethaia 39, p.13 30, 2006 | http://stratigraphy.science.purdue.edu/references/EdiacaranGSSP_Lethaia060.pdf "@en ;
   rdfs:comment "older bound-635.0"@en ;
   rdfs:comment "younger bound-542.0"@en ;
@@ -5106,10 +5106,10 @@ isc:Ediacaran
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ediacaran> ;
 .
 isc:Eifelian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-397.5 +/-2.7"@en ;
   rdfs:comment "younger bound-391.8 +/-2.7"@en ;
   rdfs:label "Eifelian Age"@en ;
@@ -5152,10 +5152,10 @@ isc:Eifelian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Eifelian> ;
 .
 isc:Emsian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-407 +/-2.8"@en ;
   rdfs:comment "younger bound-397.5 +/-2.7"@en ;
   rdfs:label "Emsian Age"@en ;
@@ -5198,10 +5198,10 @@ isc:Emsian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Emsian> ;
 .
 isc:Eoarchean
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-4000.0"@en ;
   rdfs:comment "younger bound-3600.0"@en ;
   rdfs:label "Eoarchean Era"@en ;
@@ -5243,10 +5243,10 @@ isc:Eoarchean
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Eoarchean> ;
 .
 isc:Eocene
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-55.8 +/-0.2"@en ;
   rdfs:comment "younger bound-33.9 +/-0.1"@en ;
   rdfs:label "Eocene Epoch"@en ;
@@ -5482,10 +5482,10 @@ isc:Eras
   skos:prefLabel "Eras (all ranks) in the International Chronostratigraphic Chart"@en ;
 .
 isc:Famennian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-374.5 +/-2.6"@en ;
   rdfs:comment "younger bound-359.2 +/-2.5"@en ;
   rdfs:label "Famennian Age"@en ;
@@ -5530,10 +5530,10 @@ isc:Famennian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Famennian> ;
 .
 isc:Floian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-478.6 +/-1.7"@en ;
   rdfs:comment "younger bound-471.8 +/-1.6"@en ;
   rdfs:label "Floian Age"@en ;
@@ -5598,10 +5598,10 @@ isc:FormationOfEarthUncertainty
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
 isc:Fortunian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-542 +/-1"@en ;
   rdfs:comment "younger bound-528.0"@en ;
   rdfs:label "Fortunian Age"@en ;
@@ -5646,10 +5646,10 @@ isc:Fortunian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Fortunian> ;
 .
 isc:Frasnian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-385.3 +/-2.6"@en ;
   rdfs:comment "younger bound-374.5 +/-2.6"@en ;
   rdfs:label "Frasnian Age"@en ;
@@ -5692,10 +5692,10 @@ isc:Frasnian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Frasnian> ;
 .
 isc:Furongian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-499.0"@en ;
   rdfs:comment "younger bound-488.3 +/-1.7"@en ;
   rdfs:label "Furongian Epoch"@en ;
@@ -6612,10 +6612,10 @@ isc:GSSPBaseWordian
   rdfs:seeAlso <http://www.stratigraphy.org/GSSP/index.html> ;
 .
 isc:Gelasian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-2.58"@en ;
   rdfs:comment "younger bound-1.80"@en ;
   rdfs:label "Gelasian Age"@en ;
@@ -6658,10 +6658,10 @@ isc:Gelasian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Gelasian> ;
 .
 isc:Givetian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-391.8 +/-2.7"@en ;
   rdfs:comment "younger bound-385.3 +/-2.6"@en ;
   rdfs:label "Givetian Age"@en ;
@@ -6704,10 +6704,10 @@ isc:Givetian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Givetian> ;
 .
 isc:Gorstian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-422.9 +/-2.5"@en ;
   rdfs:comment "younger bound-421.3 +/-2.6"@en ;
   rdfs:label "Gorstian Age"@en ;
@@ -6750,10 +6750,10 @@ isc:Gorstian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Gorstian> ;
 .
 isc:Guadalupian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-270.6 +/-0.7"@en ;
   rdfs:comment "younger bound-260.4 +/-0.7"@en ;
   rdfs:label "Guadalupian Epoch"@en ;
@@ -6806,10 +6806,10 @@ isc:Guadalupian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Guadalupian> ;
 .
 isc:Guzhangian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-503.0"@en ;
   rdfs:comment "younger bound-499.0"@en ;
   rdfs:label "Guzhangian Age"@en ;
@@ -6852,10 +6852,10 @@ isc:Guzhangian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Guzhangian> ;
 .
 isc:Gzhelian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-303.4 +/-0.9"@en ;
   rdfs:comment "younger bound-299 +/-0.8"@en ;
   rdfs:label "Gzhelian Age"@en ;
@@ -6900,10 +6900,10 @@ isc:Gzhelian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Gzhelian> ;
 .
 isc:Hadean
+  rdf:type gts:Eon ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Eon ;
   rdfs:comment "older bound-4600.0"@en ;
   rdfs:comment "younger bound-4000.0"@en ;
   rdfs:label "Hadean Eon"@en ;
@@ -6942,10 +6942,10 @@ isc:Hadean
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Hadean> ;
 .
 isc:Hauterivian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-133.9"@en ;
   rdfs:comment "younger bound-130 +/-1.5"@en ;
   rdfs:label "Hauterivian Age"@en ;
@@ -6987,10 +6987,10 @@ isc:Hauterivian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Hauterivian> ;
 .
 isc:Hettangian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-199.6 +/-0.6"@en ;
   rdfs:comment "younger bound-196.5 +/-1"@en ;
   rdfs:label "Hettangian Age"@en ;
@@ -7034,10 +7034,10 @@ isc:Hettangian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Hettangian> ;
 .
 isc:Hirnantian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-445.6 +/-1.5"@en ;
   rdfs:comment "younger bound-443.7 +/-1.5"@en ;
   rdfs:label "Hirnantian Age"@en ;
@@ -7081,10 +7081,10 @@ isc:Hirnantian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Hirnantian> ;
 .
 isc:Holocene
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-0.0117"@en ;
   rdfs:comment "younger bound-0.0"@en ;
   rdfs:label "Holocene Epoch"@en ;
@@ -7125,10 +7125,10 @@ isc:Holocene
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Holocene> ;
 .
 isc:Homerian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-426.2 +/-2.4"@en ;
   rdfs:comment "younger bound-422.9 +/-2.5"@en ;
   rdfs:label "Homerian Age"@en ;
@@ -7171,10 +7171,10 @@ isc:Homerian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Homerian> ;
 .
 isc:Induan
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-251 +/-0.4"@en ;
   rdfs:comment "younger bound-249.5"@en ;
   rdfs:label "Induan Age"@en ;
@@ -7228,10 +7228,10 @@ isc:Ionian
   skos:exactMatch isc:MiddlePleistocene ;
 .
 isc:Jiangshanian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-494.0"@en ;
   rdfs:comment "younger bound-489.5"@en ;
   rdfs:label "Jiangshanian Age"@en ;
@@ -7275,9 +7275,9 @@ isc:Jiangshanian
 .
 isc:Jurassic
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-199.6 +/-0.6"@en ;
   rdfs:comment "younger bound-145.5 +/-4"@en ;
   rdfs:label "Jurassic Period"@en ;
@@ -7341,10 +7341,10 @@ isc:Jurassic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Jurassic> ;
 .
 isc:Kasimovian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-307.2 +/-1"@en ;
   rdfs:comment "younger bound-303.4 +/-0.9"@en ;
   rdfs:label "Kasimovian Age"@en ;
@@ -7388,10 +7388,10 @@ isc:Kasimovian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Kasimovian> ;
 .
 isc:Katian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-455.8 +/-1.6"@en ;
   rdfs:comment "younger bound-445.6 +/-1.5"@en ;
   rdfs:label "Katian Age"@en ;
@@ -7433,10 +7433,10 @@ isc:Katian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Katian> ;
 .
 isc:Kimmeridgian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-155.6"@en ;
   rdfs:comment "younger bound-150.8 +/-4"@en ;
   rdfs:label "Kimmeridgian Age"@en ;
@@ -7478,10 +7478,10 @@ isc:Kimmeridgian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Kimmeridgian> ;
 .
 isc:Kungurian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-275.6 +/-0.7"@en ;
   rdfs:comment "younger bound-270.6 +/-0.7"@en ;
   rdfs:label "Kungurian Age"@en ;
@@ -7524,10 +7524,10 @@ isc:Kungurian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Kungurian> ;
 .
 isc:Ladinian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-237 +/-2"@en ;
   rdfs:comment "younger bound-228.7"@en ;
   rdfs:label "Ladinian Age"@en ;
@@ -7570,10 +7570,10 @@ isc:Ladinian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ladinian> ;
 .
 isc:Langhian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-15.97"@en ;
   rdfs:comment "younger bound-13.82"@en ;
   rdfs:label "Langhian Age"@en ;
@@ -7615,10 +7615,10 @@ isc:Langhian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Langhian> ;
 .
 isc:Llandovery
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-443.7 +/-1.5"@en ;
   rdfs:comment "younger bound-428.2 +/-2.3"@en ;
   rdfs:label "Llandovery Epoch"@en ;
@@ -7671,10 +7671,10 @@ isc:Llandovery
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Llandovery> ;
 .
 isc:Lochkovian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-416 +/-2.8"@en ;
   rdfs:comment "younger bound-411.2 +/-2.8"@en ;
   rdfs:label "Lochkovian Age"@en ;
@@ -7717,10 +7717,10 @@ isc:Lochkovian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Lochkovian> ;
 .
 isc:Lopingian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-260.4 +/-0.7"@en ;
   rdfs:comment "younger bound-251 +/-0.4"@en ;
   rdfs:label "Lopingian Epoch"@en ;
@@ -7770,10 +7770,10 @@ isc:Lopingian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Lopingian> ;
 .
 isc:LowerCretaceous
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-145.5 +/-4"@en ;
   rdfs:comment "younger bound-99.6 +/-0.9"@en ;
   rdfs:label "Lower Cretaceous Epoch"@en ;
@@ -7837,10 +7837,10 @@ isc:LowerCretaceous
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerCretaceous> ;
 .
 isc:LowerDevonian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-416 +/-2.8"@en ;
   rdfs:comment "younger bound-397.5 +/-2.7"@en ;
   rdfs:label "Lower Devonian Epoch"@en ;
@@ -7894,10 +7894,10 @@ isc:LowerDevonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerDevonian> ;
 .
 isc:LowerJurassic
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-199.6 +/-0.6"@en ;
   rdfs:comment "younger bound-175.6 +/-2"@en ;
   rdfs:label "Lower Jurassic Epoch"@en ;
@@ -7955,10 +7955,10 @@ isc:LowerJurassic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerJurassic> ;
 .
 isc:LowerMississippian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:label "Lower Mississippian Epoch"@en ;
   owl:sameAs <http://dbpedia.org/resource/LowerMississippian> ;
   skos:altLabel "ミシシッピアン紀前期"@ja ;
@@ -7986,10 +7986,10 @@ isc:LowerMississippian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerMississippian> ;
 .
 isc:LowerOrdovician
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-488.3 +/-1.7"@en ;
   rdfs:comment "younger bound-471.8 +/-1.6"@en ;
   rdfs:label "Lower Ordovician Epoch"@en ;
@@ -8041,10 +8041,10 @@ isc:LowerOrdovician
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerOrdovician> ;
 .
 isc:LowerPennsylvanian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:label "Lower Pennsylvanian Epoch"@en ;
   owl:sameAs <http://dbpedia.org/resource/LowerPennsylvanian> ;
   skos:altLabel "ペンシルバニア紀前期"@ja ;
@@ -8071,10 +8071,10 @@ isc:LowerPennsylvanian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerPennsylvanian> ;
 .
 isc:LowerTriassic
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-251 +/-0.4"@en ;
   rdfs:comment "younger bound-245.9"@en ;
   rdfs:label "Lower Triassic Epoch"@en ;
@@ -8127,10 +8127,10 @@ isc:LowerTriassic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#LowerTriassic> ;
 .
 isc:Ludfordian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-421.3 +/-2.6"@en ;
   rdfs:comment "younger bound-418.7 +/-2.7"@en ;
   rdfs:label "Ludfordian Age"@en ;
@@ -8172,10 +8172,10 @@ isc:Ludfordian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ludfordian> ;
 .
 isc:Ludlow
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-422.9 +/-2.5"@en ;
   rdfs:comment "younger bound-418.7 +/-2.7"@en ;
   rdfs:label "Ludlow Epoch"@en ;
@@ -8223,10 +8223,10 @@ isc:Ludlow
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ludlow> ;
 .
 isc:Lutetian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-48.6 +/-0.2"@en ;
   rdfs:comment "younger bound-40.4 +/-0.2"@en ;
   rdfs:label "Lutetian Age"@en ;
@@ -8268,10 +8268,10 @@ isc:Lutetian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Lutetian> ;
 .
 isc:Maastrichtian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-70.6 +/-0.6"@en ;
   rdfs:comment "younger bound-65.5 +/-0.3"@en ;
   rdfs:label "Maastrichtian Age"@en ;
@@ -8316,10 +8316,10 @@ isc:Maastrichtian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Maastrichtian> ;
 .
 isc:Mesoarchean
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-3200.0"@en ;
   rdfs:comment "younger bound-2800.0"@en ;
   rdfs:label "Mesoarchean Era"@en ;
@@ -8361,10 +8361,10 @@ isc:Mesoarchean
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Mesoarchean> ;
 .
 isc:Mesoproterozoic
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-1600.0"@en ;
   rdfs:comment "younger bound-1000.0"@en ;
   rdfs:label "Mesoproterozoic Era"@en ;
@@ -8415,10 +8415,10 @@ isc:Mesoproterozoic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Mesoproterozoic> ;
 .
 isc:Mesozoic
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-251 +/-0.4"@en ;
   rdfs:comment "younger bound-65.5 +/-0.3"@en ;
   rdfs:label "Mesozoic Era"@en ;
@@ -8510,10 +8510,10 @@ isc:Mesozoic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Mesozoic> ;
 .
 isc:Messinian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-7.246"@en ;
   rdfs:comment "younger bound-5.332"@en ;
   rdfs:label "Messinian Age"@en ;
@@ -8556,10 +8556,10 @@ isc:Messinian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Messinian> ;
 .
 isc:MiddleDevonian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-397.5 +/-2.7"@en ;
   rdfs:comment "younger bound-385.3 +/-2.6"@en ;
   rdfs:label "Middle Devonian Epoch"@en ;
@@ -8610,10 +8610,10 @@ isc:MiddleDevonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleDevonian> ;
 .
 isc:MiddleJurassic
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-175.6 +/-2"@en ;
   rdfs:comment "younger bound-161.2 +/-4"@en ;
   rdfs:label "Middle Jurassic Epoch"@en ;
@@ -8670,10 +8670,10 @@ isc:MiddleJurassic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleJurassic> ;
 .
 isc:MiddleMississippian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:label "Middle Mississippian Epoch"@en ;
   owl:sameAs <http://dbpedia.org/resource/MiddleMississippian> ;
   skos:altLabel "ミシシッピアン紀中期"@ja ;
@@ -8700,10 +8700,10 @@ isc:MiddleMississippian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleMississippian> ;
 .
 isc:MiddleOrdovician
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-471.8 +/-1.6"@en ;
   rdfs:comment "younger bound-460.9 +/-1.6"@en ;
   rdfs:label "Middle Ordovician Epoch"@en ;
@@ -8754,10 +8754,10 @@ isc:MiddleOrdovician
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleOrdovician> ;
 .
 isc:MiddlePennsylvanian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:label "Middle Pennsylvanian Epoch"@en ;
   owl:sameAs <http://dbpedia.org/resource/MiddlePennsylvanian> ;
   skos:altLabel "ペンシルバニア紀中期"@ja ;
@@ -8784,11 +8784,11 @@ isc:MiddlePennsylvanian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddlePennsylvanian> ;
 .
 isc:MiddlePleistocene
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   dcterms:replaces isc:Ionian ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-0.781"@en ;
   rdfs:comment "younger bound-0.126"@en ;
   rdfs:label "Middle Pleistocene Age"@en ;
@@ -8850,10 +8850,10 @@ isc:MiddlePleistocene
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ionian> ;
 .
 isc:MiddleTriassic
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-245.9"@en ;
   rdfs:comment "younger bound-228.7"@en ;
   rdfs:label "Middle Triassic Epoch"@en ;
@@ -8904,10 +8904,10 @@ isc:MiddleTriassic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#MiddleTriassic> ;
 .
 isc:Miocene
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-23.03"@en ;
   rdfs:comment "younger bound-5.332"@en ;
   rdfs:label "Miocene Epoch"@en ;
@@ -8970,9 +8970,9 @@ isc:Miocene
 .
 isc:Mississippian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Sub-Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Sub-Period ;
   rdfs:comment "older bound-359.2 +/-2.5"@en ;
   rdfs:comment "younger bound-318.1 +/-1.3"@en ;
   rdfs:label "Mississippian Sub-period"@en ;
@@ -9029,10 +9029,10 @@ isc:Mississippian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Mississippian> ;
 .
 isc:Moscovian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-311.7 +/-1.1"@en ;
   rdfs:comment "younger bound-307.2 +/-1"@en ;
   rdfs:label "Moscovian Age"@en ;
@@ -9077,10 +9077,10 @@ isc:Moscovian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Moscovian> ;
 .
 isc:Neoarchean
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-2800.0"@en ;
   rdfs:comment "younger bound-2500.0"@en ;
   rdfs:label "Neoarchean Era"@en ;
@@ -9125,9 +9125,9 @@ isc:Neoarchean
 .
 isc:Neogene
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-23.03"@en ;
   rdfs:comment "younger bound-2.588"@en ;
   rdfs:label "Neogene Period"@en ;
@@ -9185,10 +9185,10 @@ isc:Neogene
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Neogene> ;
 .
 isc:Neoproterozoic
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-1000.0"@en ;
   rdfs:comment "younger bound-542.0"@en ;
   rdfs:label "Neoproterozoic Era"@en ;
@@ -9242,10 +9242,10 @@ isc:Neoproterozoic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Neoproterozoic> ;
 .
 isc:Norian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-216.5 +/-2"@en ;
   rdfs:comment "younger bound-203.6 +/-1.5"@en ;
   rdfs:label "Norian Age"@en ;
@@ -9287,10 +9287,10 @@ isc:Norian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Norian> ;
 .
 isc:Olenekian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-249.5"@en ;
   rdfs:comment "younger bound-245.9"@en ;
   rdfs:label "Olenekian Age"@en ;
@@ -9333,10 +9333,10 @@ isc:Olenekian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Olenekian> ;
 .
 isc:Oligocene
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-33.9 +/-0.1"@en ;
   rdfs:comment "younger bound-23.03"@en ;
   rdfs:label "Oligocene Epoch"@en ;
@@ -9387,9 +9387,9 @@ isc:Oligocene
 .
 isc:Ordovician
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-488.3 +/-1.7"@en ;
   rdfs:comment "younger bound-443.7 +/-1.5"@en ;
   rdfs:label "Ordovician Period"@en ;
@@ -9450,9 +9450,9 @@ isc:Ordovician
 .
 isc:Orosirian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-2050.0"@en ;
   rdfs:comment "younger bound-1800.0"@en ;
   rdfs:label "Orosirian Period"@en ;
@@ -9493,10 +9493,10 @@ isc:Orosirian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Orosirian> ;
 .
 isc:Oxfordian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-161.2 +/-4"@en ;
   rdfs:comment "younger bound-155.6"@en ;
   rdfs:label "Oxfordian Age"@en ;
@@ -9539,10 +9539,10 @@ isc:Oxfordian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Oxfordian> ;
 .
 isc:Paibian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-499.0"@en ;
   rdfs:comment "younger bound-496.0"@en ;
   rdfs:label "Paibian Age"@en ;
@@ -9585,10 +9585,10 @@ isc:Paibian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paibian> ;
 .
 isc:Paleoarchean
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-3600.0"@en ;
   rdfs:comment "younger bound-3200.0"@en ;
   rdfs:label "Paleoarchean Era"@en ;
@@ -9630,10 +9630,10 @@ isc:Paleoarchean
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paleoarchean> ;
 .
 isc:Paleocene
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-65.5 +/-0.3"@en ;
   rdfs:comment "younger bound-55.8 +/-0.2"@en ;
   rdfs:label "Paleocene Epoch"@en ;
@@ -9690,9 +9690,9 @@ isc:Paleocene
 .
 isc:Paleogene
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-66.0"@en ;
   rdfs:comment "younger bound-23.03"@en ;
   rdfs:label "Paleogene Period"@en ;
@@ -9757,10 +9757,10 @@ isc:Paleogene
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paleogene> ;
 .
 isc:Paleoproterozoic
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-2500.0"@en ;
   rdfs:comment "younger bound-1600.0"@en ;
   rdfs:label "Paleoproterozoic Era"@en ;
@@ -9816,10 +9816,10 @@ isc:Paleoproterozoic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Paleoproterozoic> ;
 .
 isc:Paleozoic
+  rdf:type gts:Era ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Era ;
   rdfs:comment "older bound-542 +/-1"@en ;
   rdfs:comment "younger bound-251 +/-0.4"@en ;
   rdfs:label "Paleozoic Era"@en ;
@@ -9957,9 +9957,9 @@ isc:Paleozoic
 .
 isc:Pennsylvanian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Sub-Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Sub-Period ;
   rdfs:comment "older bound-318.1 +/-1.3"@en ;
   rdfs:comment "younger bound-299 +/-0.8"@en ;
   rdfs:label "Pennsylvanian Sub-period"@en ;
@@ -10017,9 +10017,9 @@ isc:Pennsylvanian
 .
 isc:Permian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-299 +/-0.8"@en ;
   rdfs:comment "younger bound-251 +/-0.4"@en ;
   rdfs:label "Permian Period"@en ;
@@ -10084,10 +10084,10 @@ isc:Permian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Permian> ;
 .
 isc:Phanerozoic
+  rdf:type gts:Eon ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Eon ;
   rdfs:comment "older bound-542 +/-1"@en ;
   rdfs:comment "younger bound-0.0"@en ;
   rdfs:label "Phanerozoic Eon"@en ;
@@ -10284,10 +10284,10 @@ isc:Phanerozoic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Phanerozoic> ;
 .
 isc:Piacenzian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-3.6"@en ;
   rdfs:comment "younger bound-2.588"@en ;
   rdfs:label "Piacenzian Age"@en ;
@@ -10331,10 +10331,10 @@ isc:Piacenzian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Piacenzian> ;
 .
 isc:Pleistocene
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-2.588"@en ;
   rdfs:comment "younger bound-0.0117"@en ;
   rdfs:label "Pleistocene Epoch"@en ;
@@ -10384,10 +10384,10 @@ isc:Pleistocene
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Pleistocene> ;
 .
 isc:Pliensbachian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-189.6 +/-1.5"@en ;
   rdfs:comment "younger bound-183 +/-1.5"@en ;
   rdfs:label "Pliensbachian Age"@en ;
@@ -10429,10 +10429,10 @@ isc:Pliensbachian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Pliensbachian> ;
 .
 isc:Pliocene
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-5.332"@en ;
   rdfs:comment "younger bound-2.588"@en ;
   rdfs:label "Pliocene Epoch"@en ;
@@ -10482,10 +10482,10 @@ isc:Pliocene
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Pliocene> ;
 .
 isc:Pragian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-411.2 +/-2.8"@en ;
   rdfs:comment "younger bound-407 +/-2.8"@en ;
   rdfs:label "Pragian Age"@en ;
@@ -10528,9 +10528,9 @@ isc:Pragian
 .
 isc:Precambrian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Super-Eon ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Super-Eon ;
   rdfs:comment "older bound-4600.0"@en ;
   rdfs:comment "younger bound-542.0"@en ;
   rdfs:label "Precambrian Supereon"@en ;
@@ -10610,10 +10610,10 @@ isc:PresentTimeCoordinate
   time:numericPosition 0.0 ;
 .
 isc:Priabonian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-37.2 +/-0.1"@en ;
   rdfs:comment "younger bound-33.9 +/-0.1"@en ;
   rdfs:label "Priabonian Age"@en ;
@@ -10656,10 +10656,10 @@ isc:Priabonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Priabonian> ;
 .
 isc:Pridoli
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-418.7 +/-2.7"@en ;
   rdfs:comment "younger bound-416 +/-2.8"@en ;
   rdfs:label "Pridoli Epoch"@en ;
@@ -10703,10 +10703,10 @@ isc:Pridoli
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Pridoli> ;
 .
 isc:Proterozoic
+  rdf:type gts:Eon ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Eon ;
   rdfs:comment "older bound-2500.0"@en ;
   rdfs:comment "younger bound-542.0"@en ;
   rdfs:label "Proterozoic Eon"@en ;
@@ -10771,9 +10771,9 @@ isc:Proterozoic
 .
 isc:Quaternary
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-2.588"@en ;
   rdfs:comment "younger bound-0.0"@en ;
   rdfs:label "Quaternary Period"@en ;
@@ -10826,20 +10826,20 @@ isc:Quaternary
 isc:Ranks
   rdf:type skos:Collection ;
   rdfs:label "Rank values in International Chronostratigraphic Chart"@en ;
-  skos:member rank:Age ;
-  skos:member rank:Eon ;
-  skos:member rank:Epoch ;
-  skos:member rank:Era ;
-  skos:member rank:Period ;
-  skos:member rank:Sub-Period ;
-  skos:member rank:Super-Eon ;
+  skos:member gts:Age ;
+  skos:member gts:Eon ;
+  skos:member gts:Epoch ;
+  skos:member gts:Era ;
+  skos:member gts:Period ;
+  skos:member gts:Sub-Period ;
+  skos:member gts:Super-Eon ;
   skos:prefLabel "Rank values in International Chronostratigraphic Chart"@en ;
 .
 isc:Rhaetian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-203.6 +/-1.5"@en ;
   rdfs:comment "younger bound-199.6 +/-0.6"@en ;
   rdfs:label "Rhaetian Age"@en ;
@@ -10883,10 +10883,10 @@ isc:Rhaetian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Rhaetian> ;
 .
 isc:Rhuddanian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-443.7 +/-1.5"@en ;
   rdfs:comment "younger bound-439 +/-1.8"@en ;
   rdfs:label "Rhuddanian Age"@en ;
@@ -10931,9 +10931,9 @@ isc:Rhuddanian
 .
 isc:Rhyacian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-2300.0"@en ;
   rdfs:comment "younger bound-2050.0"@en ;
   rdfs:label "Rhyacian Period"@en ;
@@ -10974,10 +10974,10 @@ isc:Rhyacian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Rhyacian> ;
 .
 isc:Roadian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-270.6 +/-0.7"@en ;
   rdfs:comment "younger bound-268 +/-0.7"@en ;
   rdfs:label "Roadian Age"@en ;
@@ -11021,10 +11021,10 @@ isc:Roadian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Roadian> ;
 .
 isc:Rupelian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-33.9 +/-0.1"@en ;
   rdfs:comment "younger bound-28.4 +/-0.1"@en ;
   rdfs:label "Rupelian Age"@en ;
@@ -11341,10 +11341,10 @@ isc:SPBaseValanginian
   rdfs:seeAlso <http://www.stratigraphy.org/GSSP/index.html> ;
 .
 isc:Sakmarian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-294.6 +/-0.8"@en ;
   rdfs:comment "younger bound-284.4 +/-0.7"@en ;
   rdfs:label "Sakmarian Age"@en ;
@@ -11386,10 +11386,10 @@ isc:Sakmarian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Sakmarian> ;
 .
 isc:Sandbian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-460.9 +/-1.6"@en ;
   rdfs:comment "younger bound-455.8 +/-1.6"@en ;
   rdfs:label "Sandbian Age"@en ;
@@ -11432,10 +11432,10 @@ isc:Sandbian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Sandbian> ;
 .
 isc:Santonian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-85.8 +/-0.7"@en ;
   rdfs:comment "younger bound-83.5 +/-0.7"@en ;
   rdfs:label "Santonian Age"@en ;
@@ -11477,10 +11477,10 @@ isc:Santonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Santonian> ;
 .
 isc:Selandian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-61.1"@en ;
   rdfs:comment "younger bound-58.7 +/-0.2"@en ;
   rdfs:label "Selandian Age"@en ;
@@ -11522,10 +11522,10 @@ isc:Selandian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Selandian> ;
 .
 isc:Serpukhovian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-328.3 +/-1.6"@en ;
   rdfs:comment "younger bound-318.1 +/-1.3"@en ;
   rdfs:label "Serpukhovian Age"@en ;
@@ -11572,10 +11572,10 @@ isc:Serpukhovian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Serpukhovian> ;
 .
 isc:Serravallian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-13.82"@en ;
   rdfs:comment "younger bound-11.608"@en ;
   rdfs:label "Serravallian Age"@en ;
@@ -11617,10 +11617,10 @@ isc:Serravallian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Serravallian> ;
 .
 isc:Sheinwoodian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-428.2 +/-2.3"@en ;
   rdfs:comment "younger bound-426.2 +/-2.4"@en ;
   rdfs:label "Sheinwoodian Age"@en ;
@@ -11664,9 +11664,9 @@ isc:Sheinwoodian
 .
 isc:Siderian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-2500.0"@en ;
   rdfs:comment "younger bound-2300.0"@en ;
   rdfs:label "Siderian Period"@en ;
@@ -11709,9 +11709,9 @@ isc:Siderian
 .
 isc:Silurian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-443.7 +/-1.5"@en ;
   rdfs:comment "younger bound-416 +/-2.8"@en ;
   rdfs:label "Silurian Period"@en ;
@@ -11775,10 +11775,10 @@ isc:Silurian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Silurian> ;
 .
 isc:Sinemurian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-196.5 +/-1"@en ;
   rdfs:comment "younger bound-189.6 +/-1.5"@en ;
   rdfs:label "Sinemurian Age"@en ;
@@ -11821,9 +11821,9 @@ isc:Sinemurian
 .
 isc:Statherian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-1800.0"@en ;
   rdfs:comment "younger bound-1600.0"@en ;
   rdfs:label "Statherian Period"@en ;
@@ -11866,9 +11866,9 @@ isc:Statherian
 .
 isc:Stenian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-1200.0"@en ;
   rdfs:comment "younger bound-1000.0"@en ;
   rdfs:label "Stenian Period"@en ;
@@ -12118,10 +12118,10 @@ isc:StratigraphicPoints
   skos:prefLabel "Stratigraphic Points in the International Chronostratigraphic Chart"@en ;
 .
 isc:Telychian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-436 +/-1.9"@en ;
   rdfs:comment "younger bound-428.2 +/-2.3"@en ;
   rdfs:label "Telychian Age"@en ;
@@ -12164,10 +12164,10 @@ isc:Telychian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Telychian> ;
 .
 isc:Terreneuvian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-542 +/-1"@en ;
   rdfs:comment "younger bound-521.0"@en ;
   rdfs:label "Terreneuvian Epoch"@en ;
@@ -12218,10 +12218,10 @@ isc:Terreneuvian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Terreneuvian> ;
 .
 isc:Thanetian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-58.7 +/-0.2"@en ;
   rdfs:comment "younger bound-55.8 +/-0.2"@en ;
   rdfs:label "Thanetian Age"@en ;
@@ -12264,10 +12264,10 @@ isc:Thanetian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Thanetian> ;
 .
 isc:Tithonian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-150.8 +/-4"@en ;
   rdfs:comment "younger bound-145.5 +/-4"@en ;
   rdfs:label "Tithonian Age"@en ;
@@ -12311,10 +12311,10 @@ isc:Tithonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Tithonian> ;
 .
 isc:Toarcian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-183 +/-1.5"@en ;
   rdfs:comment "younger bound-175.6 +/-2"@en ;
   rdfs:label "Toarcian Age"@en ;
@@ -12358,9 +12358,9 @@ isc:Toarcian
 .
 isc:Tonian
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-1000.0"@en ;
   rdfs:comment "younger bound-850.0"@en ;
   rdfs:label "Tonian Period"@en ;
@@ -12402,10 +12402,10 @@ isc:Tonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Tonian> ;
 .
 isc:Tortonian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-11.608"@en ;
   rdfs:comment "younger bound-7.246"@en ;
   rdfs:label "Tortonian Age"@en ;
@@ -12447,10 +12447,10 @@ isc:Tortonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Tortonian> ;
 .
 isc:Tournaisian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-359.2 +/-2.5"@en ;
   rdfs:comment "younger bound-345.3 +/-2.1"@en ;
   rdfs:label "Tournaisian Age"@en ;
@@ -12496,10 +12496,10 @@ isc:Tournaisian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Tournaisian> ;
 .
 isc:Tremadocian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-488.3 +/-1.7"@en ;
   rdfs:comment "younger bound-478.6 +/-1.7"@en ;
   rdfs:label "Tremadocian Age"@en ;
@@ -12544,9 +12544,9 @@ isc:Tremadocian
 .
 isc:Triassic
   rdf:type gts:GeochronologicEra ;
+  rdf:type gts:Period ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Period ;
   rdfs:comment "older bound-251 +/-0.4"@en ;
   rdfs:comment "younger bound-199.6 +/-0.6"@en ;
   rdfs:label "Triassic Period"@en ;
@@ -12607,10 +12607,10 @@ isc:Triassic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Triassic> ;
 .
 isc:Turonian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-93.6 +/-0.8"@en ;
   rdfs:comment "younger bound-88.6"@en ;
   rdfs:label "Turonian Age"@en ;
@@ -12652,10 +12652,10 @@ isc:Turonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Turonian> ;
 .
 isc:UpperCretaceous
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-99.6 +/-0.9"@en ;
   rdfs:comment "younger bound-65.5 +/-0.3"@en ;
   rdfs:label "Upper Cretaceous Epoch"@en ;
@@ -12720,10 +12720,10 @@ isc:UpperCretaceous
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperCretaceous> ;
 .
 isc:UpperDevonian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-385.3 +/-2.6"@en ;
   rdfs:comment "younger bound-359.2 +/-2.5"@en ;
   rdfs:label "Upper Devonian Epoch"@en ;
@@ -12776,10 +12776,10 @@ isc:UpperDevonian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperDevonian> ;
 .
 isc:UpperJurassic
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-161.2 +/-4"@en ;
   rdfs:comment "younger bound-145.5 +/-4"@en ;
   rdfs:label "Upper Jurassic Epoch"@en ;
@@ -12834,10 +12834,10 @@ isc:UpperJurassic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperJurassic> ;
 .
 isc:UpperMississippian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:label "Upper Mississippian Epoch"@en ;
   owl:sameAs <http://dbpedia.org/resource/UpperMississippian> ;
   skos:altLabel "ミシシッピアン紀後期"@ja ;
@@ -12866,10 +12866,10 @@ isc:UpperMississippian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperMississippian> ;
 .
 isc:UpperOrdovician
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-460.9 +/-1.6"@en ;
   rdfs:comment "younger bound-443.7 +/-1.5"@en ;
   rdfs:label "Upper Ordovician Epoch"@en ;
@@ -12924,10 +12924,10 @@ isc:UpperOrdovician
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperOrdovician> ;
 .
 isc:UpperPennsylvanian
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-307.2 +/-1"@en ;
   rdfs:comment "younger bound-299 +/-0.8"@en ;
   rdfs:label "Upper Pennsylvanian Epoch"@en ;
@@ -12980,10 +12980,10 @@ isc:UpperPennsylvanian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperPennsylvanian> ;
 .
 isc:UpperPleistocene
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-0.126"@en ;
   rdfs:comment "younger bound-0.0117"@en ;
   rdfs:label "Upper Pleistocene Age"@en ;
@@ -13028,10 +13028,10 @@ isc:UpperPleistocene
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperPleistocene> ;
 .
 isc:UpperTriassic
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-228.7"@en ;
   rdfs:comment "younger bound-199.6 +/-0.6"@en ;
   rdfs:label "Upper Triassic Epoch"@en ;
@@ -13086,10 +13086,10 @@ isc:UpperTriassic
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#UpperTriassic> ;
 .
 isc:Valanginian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-140.2 +/-3"@en ;
   rdfs:comment "younger bound-133.9"@en ;
   rdfs:label "Valanginian Age"@en ;
@@ -13131,10 +13131,10 @@ isc:Valanginian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Valanginian> ;
 .
 isc:Visean
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-345.3 +/-2.1"@en ;
   rdfs:comment "younger bound-328.3 +/-1.6"@en ;
   rdfs:label "Visean Age"@en ;
@@ -13179,10 +13179,10 @@ isc:Visean
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Visean> ;
 .
 isc:Wenlock
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Epoch ;
   rdfs:comment "older bound-428.2 +/-2.3"@en ;
   rdfs:comment "younger bound-422.9 +/-2.5"@en ;
   rdfs:label "Wenlock Epoch"@en ;
@@ -13231,10 +13231,10 @@ isc:Wenlock
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Wenlock> ;
 .
 isc:Wordian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-268 +/-0.7"@en ;
   rdfs:comment "younger bound-265.8 +/-0.7"@en ;
   rdfs:label "Wordian Age"@en ;
@@ -13276,10 +13276,10 @@ isc:Wordian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Wordian> ;
 .
 isc:Wuchiapingian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-260.4 +/-0.7"@en ;
   rdfs:comment "younger bound-253.8 +/-0.7"@en ;
   rdfs:label "Wuchiapingian Age"@en ;
@@ -13321,10 +13321,10 @@ isc:Wuchiapingian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Wuchiapingian> ;
 .
 isc:Ypresian
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-55.8 +/-0.2"@en ;
   rdfs:comment "younger bound-48.6 +/-0.2"@en ;
   rdfs:label "Ypresian Age"@en ;
@@ -13367,10 +13367,10 @@ isc:Ypresian
   foaf:isPrimaryTopicOf <http://sweet.jpl.nasa.gov/2.2/stateTimeGeologic.owl#Ypresian> ;
 .
 isc:Zanclean
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  gts:rank rank:Age ;
   rdfs:comment "older bound-5.332"@en ;
   rdfs:comment "younger bound-3.6"@en ;
   rdfs:label "Zanclean Age"@en ;
