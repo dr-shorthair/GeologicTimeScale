@@ -2,7 +2,6 @@
 # imports: http://purl.org/dc/elements/1.1/
 # prefix: thors
 
-@prefix basic: <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -25,7 +24,6 @@
   dc:source "Simon J.D. Cox and Stephen M. Richard, A formal model for the geologic time scale and global stratotype section and point, compatible with geospatial information transfer standards, Geosphere, 1, 119-137 (2005)" ;
   dc:title "Temporal Hierarchical Ordinal Reference System model" ;
   dct:created "2011-01-01"^^xsd:date ;
-  dct:hasPart basic:uom ;
   dct:hasPart thors:Era ;
   dct:hasPart thors:EraBoundary ;
   dct:hasPart thors:ReferenceSystem ;
@@ -56,8 +54,6 @@ thors:Era
   rdf:type owl:Class ;
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "Time Ordinal Era or Interval" ;
-  rdfs:subClassOf tm:Edge ;
-  rdfs:subClassOf tm:OrdinalEra ;
   rdfs:subClassOf skos:Concept ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
@@ -74,23 +70,7 @@ thors:EraBoundary
   rdf:type owl:Class ;
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "Time Ordinal Era Boundary" ;
-  rdfs:subClassOf tm:Node ;
   rdfs:subClassOf skos:Concept ;
-  rdfs:subClassOf [
-      rdf:type owl:Class ;
-      owl:unionOf (
-          [
-            rdf:type owl:Restriction ;
-            owl:cardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty tm:temporalPosition ;
-          ]
-          [
-            rdf:type owl:Restriction ;
-            owl:cardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty tm:geometry ;
-          ]
-        ) ;
-    ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:minCardinality "1"^^xsd:nonNegativeInteger ;
@@ -107,8 +87,6 @@ thors:ReferenceSystem
   rdfs:comment "A temporal ordinal reference system is a constrained temporal topological complex, in which the edges are called 'eras'. Each era may be subdivided into one set of eras of the next finer rank. This constraint is required to establish a mono-hierarchy, so that a set of temporal positions defined relative to the reference system may be uniquely ordered." ;
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "Hierarchical Time Ordinal Reference System" ;
-  rdfs:subClassOf tm:OrdinalReferenceSystem ;
-  rdfs:subClassOf tm:TopologicalComplex ;
   rdfs:subClassOf skos:ConceptScheme ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
@@ -128,7 +106,6 @@ thors:begin
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "era beginning"@en ;
   rdfs:range thors:EraBoundary ;
-  rdfs:subPropertyOf tm:begin ;
   rdfs:subPropertyOf skos:semanticRelation ;
   owl:inverseOf thors:nextEra ;
 .
@@ -138,8 +115,6 @@ thors:component
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "temporal reference system component"@en ;
   rdfs:range thors:Era ;
-  rdfs:subPropertyOf tm:component ;
-  rdfs:subPropertyOf tm:primitive ;
   rdfs:subPropertyOf skos:hasTopConcept ;
   owl:inverseOf thors:system ;
 .
@@ -149,7 +124,6 @@ thors:end
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "era end"@en ;
   rdfs:range thors:EraBoundary ;
-  rdfs:subPropertyOf tm:end ;
   rdfs:subPropertyOf skos:semanticRelation ;
   owl:inverseOf thors:previousEra ;
 .
@@ -159,7 +133,6 @@ thors:member
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "era member / sub-era"@en ;
   rdfs:range thors:Era ;
-  rdfs:subPropertyOf tm:member ;
   rdfs:subPropertyOf skos:narrower ;
 .
 thors:nextEra
@@ -168,17 +141,13 @@ thors:nextEra
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "next era"@en ;
   rdfs:range thors:Era ;
-  rdfs:subPropertyOf tm:nextEdge ;
   rdfs:subPropertyOf skos:semanticRelation ;
   owl:inverseOf thors:begin ;
 .
 thors:positionalUncertainty
   rdf:type owl:DatatypeProperty ;
-  rdfs:domain tm:TemporalPosition ;
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "uncertainty in temporal position"@en ;
-  rdfs:range basic:Time ;
-  rdfs:subPropertyOf basic:measure ;
 .
 thors:previousEra
   rdf:type owl:ObjectProperty ;
@@ -186,7 +155,6 @@ thors:previousEra
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "previous era"@en ;
   rdfs:range thors:Era ;
-  rdfs:subPropertyOf tm:previousEdge ;
   rdfs:subPropertyOf skos:semanticRelation ;
   owl:inverseOf thors:end ;
 .
@@ -196,7 +164,6 @@ thors:referencePoint
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "reference point in timescale" ;
   rdfs:range thors:EraBoundary ;
-  rdfs:subPropertyOf tm:primitive ;
   rdfs:subPropertyOf skos:hasTopConcept ;
 .
 thors:system
@@ -206,8 +173,21 @@ thors:system
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/thors> ;
   rdfs:label "system"@en ;
   rdfs:range thors:ReferenceSystem ;
-  rdfs:subPropertyOf tm:complex ;
-  rdfs:subPropertyOf tm:system ;
   rdfs:subPropertyOf skos:topConceptOf ;
   owl:inverseOf thors:component ;
 .
+[
+  rdf:type owl:Class ;
+  owl:unionOf (
+      [
+        rdf:type owl:Restriction ;
+        owl:cardinality "1"^^xsd:nonNegativeInteger ;
+        owl:onProperty tm:temporalPosition ;
+      ]
+      [
+        rdf:type owl:Restriction ;
+        owl:cardinality "1"^^xsd:nonNegativeInteger ;
+        owl:onProperty tm:geometry ;
+      ]
+    ) ;
+].
