@@ -1,5 +1,4 @@
 # baseURI: http://resource.geosciml.org/ontology/timescale/gts
-# imports: http://resource.geosciml.org/ontology/timescale/rank
 # imports: http://resource.geosciml.org/ontology/timescale/thors
 # prefix: gts
 
@@ -50,7 +49,6 @@
   dct:hasPart gts:geologicDescription ;
   dct:hasPart gts:geologicSetting ;
   dct:hasPart gts:manifestedBy ;
-  dct:hasPart gts:rank ;
   dct:hasPart gts:ratifiedGSSP ;
   dct:hasPart gts:status ;
   dct:hasPart gts:stratotype ;
@@ -62,11 +60,26 @@
   rdfs:seeAlso <http://dx.doi.org/10.1130/GES00022.1> ;
   rdfs:seeAlso <http://geosphere.gsapubs.org/cgi/doi/10.1130/GES00022.1> ;
   rdfs:seeAlso <http://www.geosciml.org> ;
-  owl:imports <http://resource.geosciml.org/ontology/timescale/rank> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors> ;
   owl:priorVersion <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/Geoscience/GeologicTimeScale/gts-30.rdf> ;
   owl:versionIRI <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201402/Geoscience/GeologicTimeScale/gts.rdf> ;
   skos:changeNote "2017-04-28 - removed imports ISO ontologies" ;
+.
+gts:Age
+  rdf:type owl:Class ;
+  rdfs:subClassOf gts:GeochronologicEra ;
+.
+gts:Eon
+  rdf:type owl:Class ;
+  rdfs:subClassOf gts:GeochronologicEra ;
+.
+gts:Epoch
+  rdf:type owl:Class ;
+  rdfs:subClassOf gts:GeochronologicEra ;
+.
+gts:Era
+  rdf:type owl:Class ;
+  rdfs:subClassOf gts:GeochronologicEra ;
 .
 gts:EraCode
   rdf:type rdfs:Datatype ;
@@ -103,11 +116,6 @@ gts:GeochronologicEra
       rdf:type owl:Restriction ;
       owl:allValuesFrom gts:StratigraphicSection ;
       owl:onProperty gts:stratotype ;
-    ] ;
-  rdfs:subClassOf [
-      rdf:type owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty gts:rank ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
@@ -153,6 +161,10 @@ gts:NumericEraBoundary
     ] ;
   owl:disjointWith gts:GeochronologicBoundary ;
 .
+gts:Period
+  rdf:type owl:Class ;
+  rdfs:subClassOf gts:GeochronologicEra ;
+.
 gts:StratigraphicEvent
   rdf:type owl:Class ;
   rdfs:comment "A subclass of Geologic Event (placeholder) " ;
@@ -163,7 +175,6 @@ gts:StratigraphicPoint
   rdf:type owl:Class ;
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/gts> ;
   rdfs:label "Stratigraphic Point"@en ;
-  rdfs:subClassOf sam:SamplingPoint ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:cardinality "1"^^xsd:nonNegativeInteger ;
@@ -184,7 +195,6 @@ gts:StratigraphicSection
   rdf:type owl:Class ;
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/gts> ;
   rdfs:label "Stratigraphic Section"@en ;
-  rdfs:subClassOf sam:SamplingCurve ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:cardinality "1"^^xsd:nonNegativeInteger ;
@@ -195,6 +205,14 @@ gts:StratigraphicSection
       owl:cardinality "1"^^xsd:nonNegativeInteger ;
       owl:onProperty gts:geologicSetting ;
     ] ;
+.
+gts:Sub-Period
+  rdf:type owl:Class ;
+  rdfs:subClassOf gts:GeochronologicEra ;
+.
+gts:Super-Eon
+  rdf:type owl:Class ;
+  rdfs:subClassOf gts:GeochronologicEra ;
 .
 gts:boundary
   rdf:type owl:ObjectProperty ;
@@ -279,13 +297,9 @@ gts:manifestedBy
   rdfs:label "geologic manifestation" ;
   owl:inverseOf gts:correlatesWith ;
 .
-gts:rank
+gts:positionalUncertainty
   rdf:type owl:ObjectProperty ;
-  rdfs:comment "The term 'era' in this context is generic. Geochronologic elements of all ranks are included, so the rank is given as a separate property." ;
-  rdfs:domain gts:GeochronologicEra ;
-  rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/gts> ;
-  rdfs:label "era rank" ;
-  rdfs:range gts:GeochronologicEraRank ;
+  rdfs:label "Uncertainty in time position" ;
 .
 gts:ratifiedGSSP
   rdf:type owl:DatatypeProperty ;
