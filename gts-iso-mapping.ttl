@@ -1,22 +1,26 @@
 # baseURI: http://resource.geosciml.org/ontology/timescale/gts/iso-mapping
+# imports: http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling
 # imports: http://resource.geosciml.org/ontology/timescale/gts
 # imports: http://resource.geosciml.org/ontology/timescale/thors/iso-mapping
 # prefix: iso-mapping
 
+@prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> .
 @prefix iso-mapping: <http://resource.geosciml.org/ontology/timescale/gts/iso-mapping#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sam: <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://resource.geosciml.org/ontology/timescale/gts#StratigraphicPoint>
-  rdfs:subClassOf <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> ;
+gts:StratigraphicPoint
+  rdfs:subClassOf sam:SamplingPoint ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#StratigraphicSection>
-  rdfs:subClassOf <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> ;
+gts:StratigraphicSection
+  rdfs:subClassOf sam:SamplingCurve ;
 .
 <http://resource.geosciml.org/ontology/timescale/gts/iso-mapping>
   rdf:type owl:Ontology ;
+  owl:imports <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors/iso-mapping> ;
 .

@@ -7,54 +7,55 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix thors: <http://resource.geosciml.org/ontology/timescale/thors#> .
+@prefix tm: <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://resource.geosciml.org/ontology/timescale/thors#Era>
-  rdfs:subClassOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> ;
-  rdfs:subClassOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> ;
+thors:Era
+  rdfs:subClassOf tm:Edge ;
+  rdfs:subClassOf tm:OrdinalEra ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#EraBoundary>
-  rdfs:subClassOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> ;
+thors:EraBoundary
+  rdfs:subClassOf tm:Node ;
   rdfs:subClassOf [] ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#ReferenceSystem>
-  rdfs:subClassOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> ;
-  rdfs:subClassOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> ;
+thors:ReferenceSystem
+  rdfs:subClassOf tm:OrdinalReferenceSystem ;
+  rdfs:subClassOf tm:TopologicalComplex ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#begin>
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> ;
+thors:begin
+  rdfs:subPropertyOf tm:begin ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#component>
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> ;
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> ;
+thors:component
+  rdfs:subPropertyOf tm:component ;
+  rdfs:subPropertyOf tm:primitive ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#end>
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> ;
+thors:end
+  rdfs:subPropertyOf tm:end ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#member>
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> ;
+thors:member
+  rdfs:subPropertyOf tm:member ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#nextEra>
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> ;
+thors:nextEra
+  rdfs:subPropertyOf tm:nextEdge ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#positionalUncertainty>
-  rdfs:domain <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> ;
+thors:positionalUncertainty
+  rdfs:domain tm:TemporalPosition ;
   rdfs:range <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> ;
   rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#previousEra>
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> ;
+thors:previousEra
+  rdfs:subPropertyOf tm:previousEdge ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#referencePoint>
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> ;
+thors:referencePoint
+  rdfs:subPropertyOf tm:primitive ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors#system>
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> ;
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> ;
+thors:system
+  rdfs:subPropertyOf tm:complex ;
+  rdfs:subPropertyOf tm:system ;
 .
 <http://resource.geosciml.org/ontology/timescale/thors/iso-mapping>
   rdf:type owl:Ontology ;
   owl:imports <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors> ;
-  owl:versionInfo "Created with TopBraid Composer" ;
 .

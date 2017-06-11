@@ -1,27 +1,30 @@
 # baseURI: http://resource.geosciml.org/ontology/timescale/gts/time-mapping
-# imports: http://def.seegrid.csiro.au/ontology/om/sam-lite
 # imports: http://resource.geosciml.org/ontology/timescale/gts
 # imports: http://resource.geosciml.org/ontology/timescale/thors/time-mapping
+# imports: http://www.w3.org/ns/prov-o#
 # imports: http://www.w3.org/ns/sosa/
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://resource.geosciml.org/ontology/timescale/gts#Age>
+gts:Age
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Epoch> ;
+      owl:onClass gts:Epoch ;
       owl:onProperty time:intervalIn ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Epoch> ;
+      owl:onClass gts:Epoch ;
       owl:onProperty time:intervalStarts ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
@@ -30,12 +33,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Epoch
+              gts:Sub-Period
+              gts:Period
+              gts:Era
+              gts:Eon
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalContains ;
@@ -46,12 +49,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Epoch
+              gts:Sub-Period
+              gts:Period
+              gts:Era
+              gts:Eon
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalFinishedBy ;
@@ -62,12 +65,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Epoch
+              gts:Sub-Period
+              gts:Period
+              gts:Era
+              gts:Eon
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalStartedBy ;
@@ -78,11 +81,11 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Sub-Period
+              gts:Period
+              gts:Era
+              gts:Eon
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalIn ;
@@ -93,33 +96,33 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Sub-Period
+              gts:Period
+              gts:Era
+              gts:Eon
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalStarts ;
       owl:qualifiedCardinality "0"^^xsd:nonNegativeInteger ;
     ] ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#Eon>
+gts:Eon
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Era> ;
+      owl:onClass gts:Era ;
       owl:onProperty time:intervalFinishedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Era> ;
+      owl:onClass gts:Era ;
       owl:onProperty time:intervalStartedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon> ;
+      owl:onClass gts:Super-Eon ;
       owl:onProperty time:intervalIn ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
@@ -128,11 +131,11 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Epoch
+              gts:Sub-Period
+              gts:Period
+              gts:Age
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalFinishedBy ;
@@ -143,11 +146,11 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Epoch
+              gts:Sub-Period
+              gts:Period
+              gts:Age
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalStartedBy ;
@@ -158,12 +161,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Sub-Period
+              gts:Period
+              gts:Epoch
+              gts:Eon
+              gts:Age
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalContains ;
@@ -174,12 +177,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Sub-Period
+              gts:Period
+              gts:Epoch
+              gts:Era
+              gts:Age
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalIn ;
@@ -188,19 +191,19 @@
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:onProperty time:intervalContains ;
-      owl:someValuesFrom <http://resource.geosciml.org/ontology/timescale/gts#Era> ;
+      owl:someValuesFrom gts:Era ;
     ] ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#Epoch>
+gts:Epoch
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Age> ;
+      owl:onClass gts:Age ;
       owl:onProperty time:intervalFinishedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Age> ;
+      owl:onClass gts:Age ;
       owl:onProperty time:intervalStartedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
@@ -209,11 +212,11 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Eon
+              gts:Epoch
+              gts:Age
+              gts:Era
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalIn ;
@@ -224,12 +227,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Eon
+              gts:Era
+              gts:Epoch
+              gts:Period
+              gts:Sub-Period
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalContains ;
@@ -240,12 +243,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+              gts:Eon
+              gts:Era
+              gts:Epoch
+              gts:Period
+              gts:Sub-Period
+              gts:Super-Eon
             ) ;
         ] ;
       owl:onProperty time:intervalStartedBy ;
@@ -256,8 +259,8 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
+              gts:Period
+              gts:Sub-Period
             ) ;
         ] ;
       owl:onProperty time:intervalIn ;
@@ -266,25 +269,25 @@
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:onProperty time:intervalContains ;
-      owl:someValuesFrom <http://resource.geosciml.org/ontology/timescale/gts#Age> ;
+      owl:someValuesFrom gts:Age ;
     ] ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#Era>
+gts:Era
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Eon> ;
+      owl:onClass gts:Eon ;
       owl:onProperty time:intervalIn ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Period> ;
+      owl:onClass gts:Period ;
       owl:onProperty time:intervalFinishedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Period> ;
+      owl:onClass gts:Period ;
       owl:onProperty time:intervalStartedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
@@ -293,12 +296,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalContains ;
@@ -309,12 +312,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalFinishedBy ;
@@ -325,12 +328,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalStartedBy ;
@@ -341,12 +344,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Era
+              gts:Period
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalIn ;
@@ -355,13 +358,13 @@
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:onProperty time:intervalContains ;
-      owl:someValuesFrom <http://resource.geosciml.org/ontology/timescale/gts#Period> ;
+      owl:someValuesFrom gts:Period ;
     ] ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#Period>
+gts:Period
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Era> ;
+      owl:onClass gts:Era ;
       owl:onProperty time:intervalIn ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
@@ -370,8 +373,8 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
+              gts:Epoch
+              gts:Sub-Period
             ) ;
         ] ;
       owl:onProperty time:intervalFinishedBy ;
@@ -382,8 +385,8 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
+              gts:Epoch
+              gts:Sub-Period
             ) ;
         ] ;
       owl:onProperty time:intervalStartedBy ;
@@ -394,11 +397,11 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Period
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalContains ;
@@ -409,11 +412,11 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Period
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalFinishedBy ;
@@ -424,11 +427,11 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Period
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalStartedBy ;
@@ -439,12 +442,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Period
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalIn ;
@@ -456,39 +459,39 @@
       owl:someValuesFrom [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
+              gts:Epoch
+              gts:Sub-Period
             ) ;
         ] ;
     ] ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#StratigraphicEvent>
-  rdfs:subClassOf <http://www.w3.org/ns/prov#Activity> ;
+gts:StratigraphicEvent
+  rdfs:subClassOf prov:Activity ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#StratigraphicPoint>
+gts:StratigraphicPoint
   rdfs:subClassOf <http://def.seegrid.csiro.au/ontology/om/sam-lite#SamplingPoint> ;
-  rdfs:subClassOf <http://www.w3.org/ns/sosa/Sample> ;
+  rdfs:subClassOf sosa:Sample ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#StratigraphicSection>
+gts:StratigraphicSection
   rdfs:subClassOf <http://def.seegrid.csiro.au/ontology/om/sam-lite#SamplingCurve> ;
-  rdfs:subClassOf <http://www.w3.org/ns/sosa/Sample> ;
+  rdfs:subClassOf sosa:Sample ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
+gts:Sub-Period
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Epoch> ;
+      owl:onClass gts:Epoch ;
       owl:onProperty time:intervalFinishedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Epoch> ;
+      owl:onClass gts:Epoch ;
       owl:onProperty time:intervalStartedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Period> ;
+      owl:onClass gts:Period ;
       owl:onProperty time:intervalIn ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
@@ -497,12 +500,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Period
+              gts:Sub-Period
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalContains ;
@@ -513,12 +516,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Period
+              gts:Sub-Period
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalFinishedBy ;
@@ -529,12 +532,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Period
+              gts:Sub-Period
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalStartedBy ;
@@ -545,12 +548,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalIn ;
@@ -559,19 +562,19 @@
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:onProperty time:intervalContains ;
-      owl:someValuesFrom <http://resource.geosciml.org/ontology/timescale/gts#Epoch> ;
+      owl:someValuesFrom gts:Epoch ;
     ] ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
+gts:Super-Eon
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Eon> ;
+      owl:onClass gts:Eon ;
       owl:onProperty time:intervalFinishedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:onClass <http://resource.geosciml.org/ontology/timescale/gts#Eon> ;
+      owl:onClass gts:Eon ;
       owl:onProperty time:intervalStartedBy ;
       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
     ] ;
@@ -580,13 +583,13 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Eon
+              gts:Era
+              gts:Period
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalIn ;
@@ -597,12 +600,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Era
+              gts:Period
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalContains ;
@@ -613,12 +616,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Era
+              gts:Period
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalFinishedBy ;
@@ -629,12 +632,12 @@
       owl:onClass [
           rdf:type owl:Class ;
           owl:unionOf (
-              <http://resource.geosciml.org/ontology/timescale/gts#Super-Eon>
-              <http://resource.geosciml.org/ontology/timescale/gts#Era>
-              <http://resource.geosciml.org/ontology/timescale/gts#Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Sub-Period>
-              <http://resource.geosciml.org/ontology/timescale/gts#Epoch>
-              <http://resource.geosciml.org/ontology/timescale/gts#Age>
+              gts:Super-Eon
+              gts:Era
+              gts:Period
+              gts:Sub-Period
+              gts:Epoch
+              gts:Age
             ) ;
         ] ;
       owl:onProperty time:intervalStartedBy ;
@@ -643,10 +646,10 @@
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:onProperty time:intervalContains ;
-      owl:someValuesFrom <http://resource.geosciml.org/ontology/timescale/gts#Eon> ;
+      owl:someValuesFrom gts:Eon ;
     ] ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts#positionalUncertainty>
+gts:positionalUncertainty
   rdfs:domain time:TemporalPosition ;
   rdfs:range time:TemporalDuration ;
 .
@@ -656,8 +659,8 @@
   dcterms:created "2017-03-31" ;
   dcterms:creator <http://orcid.org/0000-0002-3884-3420> ;
   rdfs:comment "This graph provides an alignment of the GTS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. This is primarily accomplished transitively, through import of the THORS/OWL-Time mapping. " ;
-  owl:imports <http://def.seegrid.csiro.au/ontology/om/sam-lite> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors/time-mapping> ;
-  owl:imports <http://www.w3.org/ns/sosa/> ;
+  owl:imports <http://www.w3.org/ns/prov-o#> ;
+  owl:imports sosa: ;
 .
