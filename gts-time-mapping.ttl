@@ -469,11 +469,9 @@ gts:StratigraphicEvent
   rdfs:subClassOf prov:Activity ;
 .
 gts:StratigraphicPoint
-  rdfs:subClassOf <http://def.seegrid.csiro.au/ontology/om/sam-lite#SamplingPoint> ;
   rdfs:subClassOf sosa:Sample ;
 .
 gts:StratigraphicSection
-  rdfs:subClassOf <http://def.seegrid.csiro.au/ontology/om/sam-lite#SamplingCurve> ;
   rdfs:subClassOf sosa:Sample ;
 .
 gts:Sub-Period
