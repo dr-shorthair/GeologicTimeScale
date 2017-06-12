@@ -124,8 +124,10 @@ gts:GeochronologicEra
     ] ;
 .
 gts:GeochronologicEraRank
+  rdf:type rdfs:Class ;
   rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/gts> ;
   rdfs:label "Geochronologic Era Rank"@en ;
+  rdfs:subClassOf skos:Concept ;
 .
 gts:GeologicTimescale
   rdf:type owl:Class ;
@@ -300,6 +302,15 @@ gts:manifestedBy
 gts:positionalUncertainty
   rdf:type owl:ObjectProperty ;
   rdfs:label "Uncertainty in time position" ;
+.
+gts:rank
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment """Elements of all ranks are included in the class 'gts:GeochronologicEra'. 
+The rank may be indicated by membership of a sub-class, or is indicated using the 'gts:rank' property.""" ;
+  rdfs:domain gts:GeochronologicEra ;
+  rdfs:isDefinedBy <http://resource.geosciml.org/ontology/timescale/gts> ;
+  rdfs:label "Geochronologic era rank" ;
+  rdfs:range gts:GeochronologicEraRank ;
 .
 gts:ratifiedGSSP
   rdf:type owl:DatatypeProperty ;
