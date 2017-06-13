@@ -30,7 +30,6 @@ isc:
   rdfs:label "Geologic Timescale Elements in the International Chronostratigraphic Chart"@en ;
   skos:member isc:Boundaries ;
   skos:member isc:Eras ;
-  skos:member isc:Ranks ;
   skos:member isc:StratigraphicPoints ;
   skos:prefLabel "Geologic Timescale Elements in the International Chronostratigraphic Chart"@en ;
 .
@@ -7223,9 +7222,11 @@ isc:Ionian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   dcterms:isReplacedBy isc:MiddlePleistocene ;
+  rdfs:comment "Superseded by \"Middle Pleistocene\"" ;
   rdfs:label "Ionian Age"@en ;
   owl:sameAs isc:MiddlePleistocene ;
   skos:exactMatch isc:MiddlePleistocene ;
+  skos:prefLabel "Ionian Age"@en ;
 .
 isc:Jiangshanian
   rdf:type gts:Age ;
