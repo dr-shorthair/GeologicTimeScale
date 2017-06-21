@@ -1,0 +1,12 @@
+# baseURI: http://resource.geosciml.org/ontology/timescale/gts/iso-mapping
+# imports: http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling
+# imports: http://resource.geosciml.org/ontology/timescale/gts
+# imports: http://resource.geosciml.org/ontology/timescale/thors/iso-mapping
+# prefix: iso-mapping
+
+<http://resource.geosciml.org/ontology/timescale/gts/iso-mapping> <http://www.w3.org/2002/07/owl#imports> <http://resource.geosciml.org/ontology/timescale/thors/iso-mapping> .
+<http://resource.geosciml.org/ontology/timescale/gts/iso-mapping> <http://www.w3.org/2002/07/owl#imports> <http://resource.geosciml.org/ontology/timescale/gts> .
+<http://resource.geosciml.org/ontology/timescale/gts/iso-mapping> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://resource.geosciml.org/ontology/timescale/gts/iso-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://resource.geosciml.org/ontology/timescale/gts#StratigraphicSection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> .
+<http://resource.geosciml.org/ontology/timescale/gts#StratigraphicPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> .

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:iso-mapping="http://resource.geosciml.org/ontology/timescale/gts/iso-mapping#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sam="http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#"
+    xmlns:gts="http://resource.geosciml.org/ontology/timescale/gts#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://resource.geosciml.org/ontology/timescale/gts/iso-mapping">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://resource.geosciml.org/ontology/timescale/thors/iso-mapping"/>
+    <owl:imports rdf:resource="http://resource.geosciml.org/ontology/timescale/gts"/>
+    <owl:imports rdf:resource="http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling"/>
+  </owl:Ontology>
+  <rdf:Description rdf:about="http://resource.geosciml.org/ontology/timescale/gts#StratigraphicPoint">
+    <rdfs:subClassOf rdf:resource="http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://resource.geosciml.org/ontology/timescale/gts#StratigraphicSection">
+    <rdfs:subClassOf rdf:resource="http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve"/>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

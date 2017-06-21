@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "thors:Era",
+    "subClassOf" : [ "tm:OrdinalEra", "tm:Edge" ]
+  }, {
+    "@id" : "thors:EraBoundary",
+    "subClassOf" : "tm:Node"
+  }, {
+    "@id" : "thors:ReferenceSystem",
+    "subClassOf" : [ "tm:TopologicalComplex", "tm:OrdinalReferenceSystem" ]
+  }, {
+    "@id" : "thors:begin",
+    "subPropertyOf" : "tm:begin"
+  }, {
+    "@id" : "thors:component",
+    "subPropertyOf" : [ "tm:primitive", "tm:component" ]
+  }, {
+    "@id" : "thors:end",
+    "subPropertyOf" : "tm:end"
+  }, {
+    "@id" : "thors:member",
+    "subPropertyOf" : "tm:member"
+  }, {
+    "@id" : "thors:nextEra",
+    "subPropertyOf" : "tm:nextEdge"
+  }, {
+    "@id" : "thors:positionalUncertainty",
+    "domain" : "tm:TemporalPosition",
+    "range" : "basic:Time",
+    "subPropertyOf" : "basic:measure"
+  }, {
+    "@id" : "thors:previousEra",
+    "subPropertyOf" : "tm:previousEdge"
+  }, {
+    "@id" : "thors:referencePoint",
+    "subPropertyOf" : "tm:primitive"
+  }, {
+    "@id" : "thors:system",
+    "subPropertyOf" : [ "tm:system", "tm:complex" ]
+  }, {
+    "@id" : "http://resource.geosciml.org/ontology/timescale/thors/iso-mapping",
+    "@type" : "owl:Ontology",
+    "imports" : [ "http://resource.geosciml.org/ontology/timescale/thors", "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal" ]
+  } ],
+  "@context" : {
+    "subPropertyOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "tm" : "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "basic" : "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#",
+    "iso-mapping" : "http://resource.geosciml.org/ontology/timescale/thors/iso-mapping#",
+    "thors" : "http://resource.geosciml.org/ontology/timescale/thors#"
+  }
+}
