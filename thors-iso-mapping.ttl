@@ -3,6 +3,7 @@
 # imports: http://resource.geosciml.org/ontology/timescale/thors
 # prefix: iso-mapping
 
+@prefix basic: <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#> .
 @prefix iso-mapping: <http://resource.geosciml.org/ontology/timescale/thors/iso-mapping#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -17,7 +18,6 @@ thors:Era
 .
 thors:EraBoundary
   rdfs:subClassOf tm:Node ;
-  rdfs:subClassOf [] ;
 .
 thors:ReferenceSystem
   rdfs:subClassOf tm:OrdinalReferenceSystem ;
@@ -41,8 +41,8 @@ thors:nextEra
 .
 thors:positionalUncertainty
   rdfs:domain tm:TemporalPosition ;
-  rdfs:range <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> ;
-  rdfs:subPropertyOf <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> ;
+  rdfs:range basic:Time ;
+  rdfs:subPropertyOf basic:measure ;
 .
 thors:previousEra
   rdfs:subPropertyOf tm:previousEdge ;
