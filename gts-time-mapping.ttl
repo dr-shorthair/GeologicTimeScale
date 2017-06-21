@@ -1,14 +1,12 @@
 # baseURI: http://resource.geosciml.org/ontology/timescale/gts/time-mapping
 # imports: http://resource.geosciml.org/ontology/timescale/gts
 # imports: http://resource.geosciml.org/ontology/timescale/thors/time-mapping
-# imports: http://www.w3.org/ns/prov-o#
 # imports: http://www.w3.org/ns/sosa/
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
@@ -466,7 +464,7 @@ gts:Period
     ] ;
 .
 gts:StratigraphicEvent
-  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf <http://www.w3.org/ns/prov#Activity> ;
 .
 gts:StratigraphicPoint
   rdfs:subClassOf sosa:Sample ;
@@ -659,6 +657,5 @@ gts:positionalUncertainty
   rdfs:comment "This graph provides an alignment of the GTS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. This is primarily accomplished transitively, through import of the THORS/OWL-Time mapping. " ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors/time-mapping> ;
-  owl:imports <http://www.w3.org/ns/prov-o#> ;
   owl:imports sosa: ;
 .
