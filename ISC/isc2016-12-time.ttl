@@ -45,9 +45,8 @@ isc:Aalenian
   skos:broader isc:MiddleJurassic ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
-  skos:broaderTransitive isc:MiddleJurassic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.2.4"^^gts:EraCode ;
   skos:prefLabel "Aalen"@cs ;
   skos:prefLabel "Aalen"@fi ;
@@ -89,11 +88,10 @@ isc:Aeronian
   rdfs:label "Aeronian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Aeronian> ;
   skos:broader isc:Llandovery ;
-  skos:broaderTransitive isc:Llandovery ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.4.4.2"^^gts:EraCode ;
   skos:prefLabel "Aeron"@cs ;
   skos:prefLabel "Aeron"@fi ;
@@ -135,10 +133,9 @@ isc:Albian
   owl:sameAs <http://dbpedia.org/resource/Albian> ;
   skos:broader isc:LowerCretaceous ;
   skos:broaderTransitive isc:Cretaceous ;
-  skos:broaderTransitive isc:LowerCretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Alb"@cs ;
   skos:prefLabel "Alb"@fi ;
@@ -181,10 +178,9 @@ isc:Anisian
   owl:sameAs <http://dbpedia.org/resource/Anisian> ;
   skos:broader isc:MiddleTriassic ;
   skos:broaderTransitive isc:Mesozoic ;
-  skos:broaderTransitive isc:MiddleTriassic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.3.2.2"^^gts:EraCode ;
   skos:prefLabel "Anis"@cs ;
   skos:prefLabel "Anis"@fi ;
@@ -227,10 +223,9 @@ isc:Aptian
   owl:sameAs <http://dbpedia.org/resource/Aptian> ;
   skos:broader isc:LowerCretaceous ;
   skos:broaderTransitive isc:Cretaceous ;
-  skos:broaderTransitive isc:LowerCretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Apt"@cs ;
   skos:prefLabel "Apt"@fi ;
@@ -272,10 +267,9 @@ isc:Aquitanian
   owl:sameAs <http://dbpedia.org/resource/Aquitanian> ;
   skos:broader isc:Miocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Miocene ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.2.2.6"^^gts:EraCode ;
   skos:prefLabel "Akvitanis"@lt ;
   skos:prefLabel "Akwitan"@pl ;
@@ -318,16 +312,11 @@ isc:Archean
   rdfs:label "Archean Eon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Archean> ;
   skos:broader isc:Precambrian ;
-  skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Eoarchean ;
   skos:narrower isc:Mesoarchean ;
   skos:narrower isc:Neoarchean ;
   skos:narrower isc:Paleoarchean ;
-  skos:narrowerTransitive isc:Eoarchean ;
-  skos:narrowerTransitive isc:Mesoarchean ;
-  skos:narrowerTransitive isc:Neoarchean ;
-  skos:narrowerTransitive isc:Paleoarchean ;
   skos:notation "a2.2"^^gts:EraCode ;
   skos:prefLabel "Arcaico"@es ;
   skos:prefLabel "Arcaico"@pt ;
@@ -377,11 +366,10 @@ isc:Artinskian
   rdfs:label "Artinskian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Artinskian> ;
   skos:broader isc:Cisuralian ;
-  skos:broaderTransitive isc:Cisuralian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.3.2"^^gts:EraCode ;
   skos:prefLabel "Artinsk"@cs ;
   skos:prefLabel "Artinsk"@fi ;
@@ -422,11 +410,10 @@ isc:Asselian
   rdfs:label "Asselian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Asselian> ;
   skos:broader isc:Cisuralian ;
-  skos:broaderTransitive isc:Cisuralian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.3.4"^^gts:EraCode ;
   skos:prefLabel "Aselis"@lt ;
   skos:prefLabel "Aselsk"@pl ;
@@ -473,9 +460,8 @@ isc:Bajocian
   skos:broader isc:MiddleJurassic ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
-  skos:broaderTransitive isc:MiddleJurassic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.2.3"^^gts:EraCode ;
   skos:prefLabel "Bajoc"@fi ;
   skos:prefLabel "Bajoc"@no ;
@@ -517,10 +503,9 @@ isc:Barremian
   owl:sameAs <http://dbpedia.org/resource/Barremian> ;
   skos:broader isc:LowerCretaceous ;
   skos:broaderTransitive isc:Cretaceous ;
-  skos:broaderTransitive isc:LowerCretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Baremis"@lt ;
   skos:prefLabel "Barrem"@cs ;
@@ -562,10 +547,9 @@ isc:Bartonian
   owl:sameAs <http://dbpedia.org/resource/Bartonian> ;
   skos:broader isc:Eocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Eocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.2.2"^^gts:EraCode ;
   skos:prefLabel "Barton"@cs ;
   skos:prefLabel "Barton"@fi ;
@@ -598,11 +582,12 @@ isc:Bartonian
 .
 isc:BaseAeronian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseAeronian ;
   rdfs:label "Base of Aeronian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Aeronian"@en ;
   time:inTemporalPosition isc:BaseAeronianTime ;
 .
@@ -625,11 +610,12 @@ isc:BaseAeronianUncertainty
 .
 isc:BaseAlbian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseAlbian ;
   rdfs:label "Base of Albian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Albian"@en ;
   time:inTemporalPosition isc:BaseAlbianTime ;
 .
@@ -645,11 +631,12 @@ isc:BaseAlbianUncertainty
 .
 isc:BaseAptian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseAptian ;
   rdfs:label "Base of Aptian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Aptian"@en ;
   time:inTemporalPosition isc:BaseAptianTime ;
 .
@@ -666,11 +653,12 @@ isc:BaseAquitanian-location
 .
 isc:BaseArchean
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Archean"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Archean"@en ;
   time:inTemporalPosition isc:BaseArcheanTime ;
 .
@@ -681,11 +669,12 @@ isc:BaseArcheanTime
 .
 isc:BaseArtinskian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseArtinskian ;
   rdfs:label "Base of Artinskian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Artinskian"@en ;
   time:inTemporalPosition isc:BaseArtinskianTime ;
 .
@@ -702,11 +691,12 @@ isc:BaseArtinskianUncertainty
 .
 isc:BaseBajocian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseBajocian ;
   rdfs:label "Base of Bajocian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Bajocian"@en ;
   time:inTemporalPosition isc:BaseBajocianTime ;
 .
@@ -729,11 +719,12 @@ isc:BaseBajocianUncertainty
 .
 isc:BaseBarremian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseBarremian ;
   rdfs:label "Base of Barremian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Barremian"@en ;
   time:inTemporalPosition isc:BaseBarremianTime ;
 .
@@ -744,11 +735,12 @@ isc:BaseBarremianTime
 .
 isc:BaseBartonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseBartonian ;
   rdfs:label "Base of Bartonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Bartonian"@en ;
   time:inTemporalPosition isc:BaseBartonianTime ;
 .
@@ -759,20 +751,22 @@ isc:BaseBartonianTime
 .
 isc:BaseBashkirian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Bashkirian"@en ;
   owl:sameAs isc:BasePennsylvanian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Bashkirian"@en ;
 .
 isc:BaseBathonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseBathonian ;
   rdfs:label "Base of Bathonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Bathonian"@en ;
   time:inTemporalPosition isc:BaseBathonianTime ;
 .
@@ -795,11 +789,12 @@ isc:BaseBathonianUncertainty
 .
 isc:BaseBurdigalian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseBurdigalian ;
   rdfs:label "Base of Burdigalian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Burdigalian"@en ;
   time:inTemporalPosition isc:BaseBurdigalianTime ;
 .
@@ -810,11 +805,12 @@ isc:BaseBurdigalianTime
 .
 isc:BaseCalabrian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseCalabrian ;
   rdfs:label "Base of Calabrian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Calabrian"@en ;
   time:inTemporalPosition isc:BaseCalabrianTime ;
 .
@@ -831,11 +827,12 @@ isc:BaseCalabrianTime
 .
 isc:BaseCallovian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseCallovian ;
   rdfs:label "Base of Callovian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Callovian"@en ;
   time:inTemporalPosition isc:BaseCallovianTime ;
 .
@@ -852,12 +849,13 @@ isc:BaseCallovianUncertainty
 .
 isc:BaseCambrianSeries2
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseCambrianSeries2 ;
   rdfs:label "Base of Cambrian Series 2"@en ;
   skos:altLabel "Base of Cambrian Stage 3"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cambrian Series 2"@en ;
   time:inTemporalPosition isc:BaseCambrianSeries2Time ;
 .
@@ -868,12 +866,13 @@ isc:BaseCambrianSeries2Time
 .
 isc:BaseCambrianSeries3
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseCambrianSeries3 ;
   rdfs:label "Base of Cambrian Series 3"@en ;
   skos:altLabel "Base of Cambrian Stage 5"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cambrian Series 3"@en ;
   time:inTemporalPosition isc:BaseCambrianSeries3Time ;
 .
@@ -884,11 +883,12 @@ isc:BaseCambrianSeries3Time
 .
 isc:BaseCambrianStage10
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseCambrianStage10 ;
   rdfs:label "Base of Cambrian Stage 10"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cambrian Stage 10"@en ;
   time:inTemporalPosition isc:BaseCambrianStage10Time ;
 .
@@ -899,11 +899,12 @@ isc:BaseCambrianStage10Time
 .
 isc:BaseCambrianStage2
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseCambrianStage2 ;
   rdfs:label "Base of Cambrian Stage 2"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cambrian Stage 2"@en ;
   time:inTemporalPosition isc:BaseCambrianStage2Time ;
 .
@@ -914,11 +915,12 @@ isc:BaseCambrianStage2Time
 .
 isc:BaseCambrianStage4
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseCambrianStage4 ;
   rdfs:label "Base of Cambrian Stage 4"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cambrian Stage 4"@en ;
   time:inTemporalPosition isc:BaseCambrianStage4Time ;
 .
@@ -929,11 +931,12 @@ isc:BaseCambrianStage4Time
 .
 isc:BaseCampanian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseCampanian ;
   rdfs:label "Base of Campanian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Campanian"@en ;
   time:inTemporalPosition isc:BaseCampanianTime ;
 .
@@ -950,11 +953,12 @@ isc:BaseCampanianUncertainty
 .
 isc:BaseCapitanian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseCapitanian ;
   rdfs:label "Base of Capitanian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Capitanian"@en ;
   time:inTemporalPosition isc:BaseCapitanianTime ;
 .
@@ -977,6 +981,7 @@ isc:BaseCapitanianUncertainty
 .
 isc:BaseCarboniferous
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseCarboniferous ;
@@ -984,7 +989,7 @@ isc:BaseCarboniferous
   skos:altLabel "Base of Lower Mississippian"@en ;
   skos:altLabel "Base of Mississippian"@en ;
   skos:altLabel "Base of Tournaisian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Carboniferous"@en ;
   time:inTemporalPosition isc:BaseCarboniferousTime ;
 .
@@ -1007,6 +1012,7 @@ isc:BaseCarboniferousUncertainty
 .
 isc:BaseCenozoic
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseCenozoic ;
@@ -1014,7 +1020,7 @@ isc:BaseCenozoic
   skos:altLabel "Base of Danian"@en ;
   skos:altLabel "Base of Paleocene"@en ;
   skos:altLabel "Base of Paleogene"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cenozoic"@en ;
   time:inTemporalPosition isc:BaseCenozoicTime ;
 .
@@ -1031,11 +1037,12 @@ isc:BaseCenozoicTime
 .
 isc:BaseChanghsingian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseChanghsingian ;
   rdfs:label "Base of Changhsingian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Changhsingian"@en ;
   time:inTemporalPosition isc:BaseChanghsingianTime ;
 .
@@ -1058,11 +1065,12 @@ isc:BaseChanghsingianUncertainty
 .
 isc:BaseChattian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseChattian ;
   rdfs:label "Base of Chattian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Chattian"@en ;
   time:inTemporalPosition isc:BaseChattianTime ;
 .
@@ -1073,20 +1081,22 @@ isc:BaseChattianTime
 .
 isc:BaseCisuralian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Cisuralian"@en ;
   owl:sameAs isc:BasePermian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cisuralian"@en ;
 .
 isc:BaseConiacian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseConiacian ;
   rdfs:label "Base of Coniacian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Coniacian"@en ;
   time:inTemporalPosition isc:BaseConiacianTime ;
 .
@@ -1103,12 +1113,13 @@ isc:BaseConiacianUncertainty
 .
 isc:BaseCretaceous
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Cretaceous"@en ;
   skos:altLabel "Base of Berriasian"@en ;
   skos:altLabel "Base of Lower Cretaceous"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cretaceous"@en ;
   time:inTemporalPosition isc:BaseCretaceousTime ;
 .
@@ -1119,11 +1130,12 @@ isc:BaseCretaceousTime
 .
 isc:BaseCryogenian
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Cryogenian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Cryogenian"@en ;
   time:inTemporalPosition isc:BaseCryogenianTime ;
 .
@@ -1134,11 +1146,12 @@ isc:BaseCryogenianTime
 .
 isc:BaseDarriwilian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseDarriwilian ;
   rdfs:label "Base of Darriwillian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Darriwilian"@en ;
   time:inTemporalPosition isc:BaseDarriwilianTime ;
 .
@@ -1161,13 +1174,14 @@ isc:BaseDarriwilianUncertainty
 .
 isc:BaseDevonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseDevonian ;
   rdfs:label "Base of Devonian"@en ;
   skos:altLabel "Base of Lochkovian"@en ;
   skos:altLabel "Base of Lower Devonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Devonian"@en ;
   time:inTemporalPosition isc:BaseDevonianTime ;
 .
@@ -1190,11 +1204,12 @@ isc:BaseDevonianUncertainty
 .
 isc:BaseDrumian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseDrumian ;
   rdfs:label "Base of Drumian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Drumian"@en ;
   time:inTemporalPosition isc:BaseDrumianTime ;
 .
@@ -1211,11 +1226,12 @@ isc:BaseDrumianTime
 .
 isc:BaseEctasian
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Ectasian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Ectasian"@en ;
   time:inTemporalPosition isc:BaseEctasianTime ;
 .
@@ -1226,11 +1242,12 @@ isc:BaseEctasianTime
 .
 isc:BaseEdiacaran
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseEdiacaran ;
   rdfs:label "Base of Ediacaran"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Ediacaran"@en ;
   time:inTemporalPosition isc:BaseEdiacaranTime ;
 .
@@ -1247,11 +1264,12 @@ isc:BaseEdiacaranTime
 .
 isc:BaseEmsian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseEmsian ;
   rdfs:label "Base of Emsian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Emsian"@en ;
   time:inTemporalPosition isc:BaseEmsianTime ;
 .
@@ -1274,12 +1292,13 @@ isc:BaseEmsianUncertainty
 .
 isc:BaseEocene
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseEocene ;
   rdfs:label "Base of Eocene"@en ;
   skos:altLabel "Base of Ypresian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Eocene"@en ;
   time:inTemporalPosition isc:BaseEoceneTime ;
 .
@@ -1296,11 +1315,12 @@ isc:BaseEoceneTime
 .
 isc:BaseFamennian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseFamennian ;
   rdfs:label "Base of Famennian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Famennian"@en ;
   time:inTemporalPosition isc:BaseFamennianTime ;
 .
@@ -1323,11 +1343,12 @@ isc:BaseFamennianUncertainty
 .
 isc:BaseFloian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseFloian ;
   rdfs:label "Base of Floian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Floian"@en ;
   time:inTemporalPosition isc:BaseFloianTime ;
 .
@@ -1350,12 +1371,13 @@ isc:BaseFloianUncertainty
 .
 isc:BaseFurongian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseFurongian ;
   rdfs:label "Base of Furongian"@en ;
   skos:altLabel "Base of Paibian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Furongian"@en ;
   time:inTemporalPosition isc:BaseFurongianTime ;
 .
@@ -1372,11 +1394,12 @@ isc:BaseFurongianTime
 .
 isc:BaseGivetian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseGivetian ;
   rdfs:label "Base of Givetian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Givetian"@en ;
   time:inTemporalPosition isc:BaseGivetianTime ;
 .
@@ -1399,12 +1422,13 @@ isc:BaseGivetianUncertainty
 .
 isc:BaseGuadalupian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseGuadalupian ;
   rdfs:label "Base of Guadalupian"@en ;
   skos:altLabel "Base of Roadian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Guadalupian"@en ;
   time:inTemporalPosition isc:BaseGuadalupianTime ;
 .
@@ -1427,11 +1451,12 @@ isc:BaseGuadalupianUncertainty
 .
 isc:BaseGuzhangian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseGuzhangian ;
   rdfs:label "Base of Guzhangian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Guzhangian"@en ;
   time:inTemporalPosition isc:BaseGuzhangianTime ;
 .
@@ -1448,11 +1473,12 @@ isc:BaseGuzhangianTime
 .
 isc:BaseGzhelian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseGzhelian ;
   rdfs:label "Base of Gzhelian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Gzhelian"@en ;
   time:inTemporalPosition isc:BaseGzhelianTime ;
 .
@@ -1469,11 +1495,12 @@ isc:BaseGzhelianUncertainty
 .
 isc:BaseHauterivian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseHauterivian ;
   rdfs:label "Base of Hauterivian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Hauterivian"@en ;
   time:inTemporalPosition isc:BaseHauterivianTime ;
 .
@@ -1484,11 +1511,12 @@ isc:BaseHauterivianTime
 .
 isc:BaseHirnantian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseHirnantian ;
   rdfs:label "Base of Hirnantian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Hirnantian"@en ;
   time:inTemporalPosition isc:BaseHirnantianTime ;
 .
@@ -1511,11 +1539,12 @@ isc:BaseHirnantianUncertainty
 .
 isc:BaseHolocene
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseHolocene ;
   rdfs:label "Base of Holocene"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Holocene"@en ;
   time:inTemporalPosition isc:BaseHoloceneTime ;
 .
@@ -1532,11 +1561,12 @@ isc:BaseHoloceneTime
 .
 isc:BaseHomerian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseHomerian ;
   rdfs:label "Base of Homerian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Homerian"@en ;
   time:inTemporalPosition isc:BaseHomerianTime ;
 .
@@ -1559,6 +1589,7 @@ isc:BaseHomerianUncertainty
 .
 isc:BaseIonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   dcterms:isReplacedBy isc:BaseMiddlePleistocene ;
@@ -1567,11 +1598,12 @@ isc:BaseIonian
 .
 isc:BaseJiangshanian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseJiangshanian ;
   rdfs:label "Base of Jiangshanian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Jiangshanian"@en ;
   time:inTemporalPosition isc:BaseJiangshanianTime ;
 .
@@ -1588,13 +1620,14 @@ isc:BaseJiangshanianTime
 .
 isc:BaseJurassic
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseJurassic ;
   rdfs:label "Base of Jurassic"@en ;
   skos:altLabel "Base of Hettangian"@en ;
   skos:altLabel "Base of Lower Jurassic"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Jurassic"@en ;
   time:inTemporalPosition isc:BaseJurassicTime ;
 .
@@ -1617,20 +1650,22 @@ isc:BaseJurassicUncertainty
 .
 isc:BaseKasimovian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Kasimovian"@en ;
   owl:sameAs isc:BaseUpperPennsylvanian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Kasimovian"@en ;
 .
 isc:BaseKatian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseKatian ;
   rdfs:label "Base of Katian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Katian"@en ;
   time:inTemporalPosition isc:BaseKatianTime ;
 .
@@ -1653,11 +1688,12 @@ isc:BaseKatianUncertainty
 .
 isc:BaseKimmeridgian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseKimmeridgian ;
   rdfs:label "Base of Kimmeridgian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Kimmeridgian"@en ;
   time:inTemporalPosition isc:BaseKimmeridgianTime ;
 .
@@ -1680,11 +1716,12 @@ isc:BaseKimmeridgianUncertainty
 .
 isc:BaseKungurian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseKungurian ;
   rdfs:label "Base of Kungurian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Kungurian"@en ;
   time:inTemporalPosition isc:BaseKungurianTime ;
 .
@@ -1701,11 +1738,12 @@ isc:BaseKungurianUncertainty
 .
 isc:BaseLadinian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseLadinian ;
   rdfs:label "Base of Ladinian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Ladinian"@en ;
   time:inTemporalPosition isc:BaseLadinianTime ;
 .
@@ -1722,11 +1760,12 @@ isc:BaseLadinianTime
 .
 isc:BaseLanghian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseLanghian ;
   rdfs:label "Base of Langhian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Langhian"@en ;
   time:inTemporalPosition isc:BaseLanghianTime ;
 .
@@ -1737,12 +1776,13 @@ isc:BaseLanghianTime
 .
 isc:BaseLopingian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseLopingian ;
   rdfs:label "Base of Lopingian"@en ;
   skos:altLabel "Base of Wuchiapingian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Lopingian"@en ;
   time:inTemporalPosition isc:BaseLopingianTime ;
 .
@@ -1765,11 +1805,12 @@ isc:BaseLopingianUncertainty
 .
 isc:BaseLudfordian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseLudfordian ;
   rdfs:label "Base of Ludfordian Stage"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Ludfordian Stage"@en ;
   time:inTemporalPosition isc:BaseLudfordianTime ;
 .
@@ -1792,12 +1833,13 @@ isc:BaseLudfordianUncertainty
 .
 isc:BaseLudlow
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseLudlow ;
   rdfs:label "Base of Ludlow"@en ;
   skos:altLabel "Base of Gorstian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Ludlow"@en ;
   time:inTemporalPosition isc:BaseLudlowPosition ;
 .
@@ -1820,11 +1862,12 @@ isc:BaseLudlowUncertainty
 .
 isc:BaseLutetian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseLutetian ;
   rdfs:label "Base of Lutetian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Lutetian"@en ;
   time:inTemporalPosition isc:BaseLutetianTime ;
 .
@@ -1841,11 +1884,12 @@ isc:BaseLutetianTime
 .
 isc:BaseMaastrichtian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseMaastrichtian ;
   rdfs:label "Base of Maastrichtian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Maastrichtian"@en ;
   time:inTemporalPosition isc:BaseMaastrichtianTime ;
 .
@@ -1868,11 +1912,12 @@ isc:BaseMaastrichtianUncertainty
 .
 isc:BaseMesoarchean
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Mesoarchean"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Mesoarchean"@en ;
   time:inTemporalPosition isc:BaseMesoarcheanTime ;
 .
@@ -1883,12 +1928,13 @@ isc:BaseMesoarcheanTime
 .
 isc:BaseMesoproterozoic
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Mesoproterozoic"@en ;
   skos:altLabel "Base of Calymmian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Mesoproterozoic"@en ;
   time:inTemporalPosition isc:BaseMesoproterozoicTime ;
 .
@@ -1899,6 +1945,7 @@ isc:BaseMesoproterozoicTime
 .
 isc:BaseMesozoic
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseMesozoic ;
@@ -1906,7 +1953,7 @@ isc:BaseMesozoic
   skos:altLabel "Base of Induan"@en ;
   skos:altLabel "Base of Lower Triassic"@en ;
   skos:altLabel "Base of Triassic"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Mesozoic"@en ;
   time:inTemporalPosition isc:BaseMesozoicTime ;
 .
@@ -1929,11 +1976,12 @@ isc:BaseMesozoicUncertainty
 .
 isc:BaseMessinian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseMessinian ;
   rdfs:label "Base of Messinian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Messinian"@en ;
   time:inTemporalPosition isc:BaseMessinianTime ;
 .
@@ -1950,12 +1998,13 @@ isc:BaseMessinianTime
 .
 isc:BaseMiddleDevonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseMiddleDevonian ;
   rdfs:label "Base of Middle Devonian"@en ;
   skos:altLabel "Base of Eifelian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Middle Devonian"@en ;
   time:inTemporalPosition isc:BaseMiddleDevonianTime ;
 .
@@ -1978,12 +2027,13 @@ isc:BaseMiddleDevonianUncertainty
 .
 isc:BaseMiddleJurassic
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseMiddleJurassic ;
   rdfs:label "Base of Middle Jurassic"@en ;
   skos:altLabel "Base of Aalenian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Middle Jurassic"@en ;
   time:inTemporalPosition isc:BaseMiddleJurassicTime ;
 .
@@ -2006,6 +2056,7 @@ isc:BaseMiddleJurassicUncertainty
 .
 isc:BaseMiddleMississippian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseMiddleMississippian ;
@@ -2013,7 +2064,7 @@ isc:BaseMiddleMississippian
   rdfs:label "Base of Visean"@en ;
   owl:sameAs isc:BaseMiddleMississippian ;
   skos:altLabel "Base of Visean"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Middle Mississippian"@en ;
   time:inTemporalPosition isc:BaseMiddleMississippianTime ;
 .
@@ -2036,12 +2087,13 @@ isc:BaseMiddleMississippianUncertainty
 .
 isc:BaseMiddleOrdovician
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseMiddleOrdovician ;
   rdfs:label "Base of Middle Ordovician"@en ;
   skos:altLabel "Base of Dapingian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Middle Ordovician"@en ;
   time:inTemporalPosition isc:BaseMiddleOrdovicianTime ;
 .
@@ -2064,11 +2116,12 @@ isc:BaseMiddleOrdovicianUncertainty
 .
 isc:BaseMiddlePennsylvanian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Middle Pennsylvanian"@en ;
   skos:altLabel "Base of Moscovian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Middle Pennsylvanian"@en ;
   time:inTemporalPosition isc:BaseMiddlePennsylvanianTime ;
 .
@@ -2085,13 +2138,14 @@ isc:BaseMiddlePennsylvanianUncertainty
 .
 isc:BaseMiddlePleistocene
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   dcterms:replaces isc:BaseIonian ;
   rdfs:label "Base of Middle Pleistocene"@en ;
   owl:sameAs isc:BaseIonian ;
   skos:exactMatch isc:BaseIonian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Middle Pleistocene"@en ;
   time:inTemporalPosition isc:BaseMiddlePleistoceneTime ;
 .
@@ -2102,12 +2156,13 @@ isc:BaseMiddlePleistoceneTime
 .
 isc:BaseMiddleTriassic
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseMiddleTriassic ;
   rdfs:label "Base of Middle Triassic"@en ;
   skos:altLabel "Base of Anisian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Middle Triassic"@en ;
   time:inTemporalPosition isc:BaseMiddleTriassicTime ;
 .
@@ -2124,27 +2179,30 @@ isc:BaseMiddleTriassicTime
 .
 isc:BaseMississipian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Mississipian"@en ;
   owl:sameAs isc:BaseCarboniferous ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Mississipian"@en ;
 .
 isc:BaseMoscovian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type time:Instant ;
   rdfs:label "Base of Moscovian"@en ;
   owl:sameAs isc:BaseMiddlePennsylvanian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
 .
 isc:BaseNeoarchean
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Neoarchean"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Neoarchean"@en ;
   time:inTemporalPosition isc:BaseNeoarcheanTime ;
 .
@@ -2155,13 +2213,14 @@ isc:BaseNeoarcheanTime
 .
 isc:BaseNeogene
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseNeogene ;
   rdfs:label "Base of Neogene"@en ;
   skos:altLabel "Base of Aquitanian"@en ;
   skos:altLabel "Base of Miocene"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Neogene"@en ;
   time:inTemporalPosition isc:BaseNeogeneTime ;
 .
@@ -2178,12 +2237,13 @@ isc:BaseNeogeneTime
 .
 isc:BaseNeoproterozoic
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Neoproterozoic"@en ;
   skos:altLabel "Base of Tonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Neoproterozoic"@en ;
   time:inTemporalPosition isc:BaseNeoproterozoicTime ;
 .
@@ -2194,11 +2254,12 @@ isc:BaseNeoproterozoicTime
 .
 isc:BaseNorian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseNorian ;
   rdfs:label "Base of Norian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Norian"@en ;
   time:inTemporalPosition isc:BaseNorianTime ;
 .
@@ -2209,11 +2270,12 @@ isc:BaseNorianTime
 .
 isc:BaseOlenekian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseOlenekian ;
   rdfs:label "Base of Olenekian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Olenekian"@en ;
   time:inTemporalPosition isc:BaseOlenekianTime ;
 .
@@ -2230,12 +2292,13 @@ isc:BaseOlenekianTime
 .
 isc:BaseOligocene
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseOligocene ;
   rdfs:label "Base of Oligocene"@en ;
   skos:altLabel "Base of Rupelian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Oligocene"@en ;
   time:inTemporalPosition isc:BaseOligoceneTime ;
 .
@@ -2252,13 +2315,14 @@ isc:BaseOligoceneTime
 .
 isc:BaseOrdovician
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseOrdovician ;
   rdfs:label "Base of Ordovician"@en ;
   skos:altLabel "Base of Lower Ordovician"@en ;
   skos:altLabel "Base of Tremadocian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Ordovician"@en ;
   time:inTemporalPosition isc:BaseOrdovicianTime ;
 .
@@ -2281,11 +2345,12 @@ isc:BaseOrdovicianUncertainty
 .
 isc:BaseOrosirian
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Orosirian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Orosirian"@en ;
   time:inTemporalPosition isc:BaseOrosirianTime ;
 .
@@ -2296,11 +2361,12 @@ isc:BaseOrosirianTime
 .
 isc:BasePaleoarchean
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Paleoarchean"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Paleoarchean"@en ;
   time:inTemporalPosition isc:BasePaleoarcheanTime ;
 .
@@ -2311,13 +2377,14 @@ isc:BasePaleoarcheanTime
 .
 isc:BasePennsylvanian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBasePennsylvanian ;
   rdfs:label "Base of Pennsylvanian"@en ;
   skos:altLabel "Base of Bashkirian"@en ;
   skos:altLabel "Base of Lower Pennsylvanian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Pennsylvanian"@en ;
   time:inTemporalPosition isc:BasePennsylvanianTime ;
 .
@@ -2340,13 +2407,14 @@ isc:BasePennsylvanianUncertainty
 .
 isc:BasePermian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBasePermian ;
   rdfs:label "Base of Permian"@en ;
   skos:altLabel "Base of Asselian"@en ;
   skos:altLabel "Base of Cisuralian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Permian"@en ;
   time:inTemporalPosition isc:BasePermianTime ;
 .
@@ -2369,6 +2437,7 @@ isc:BasePermianUncertainty
 .
 isc:BasePhanerozoic
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBasePhanerozoic ;
@@ -2377,7 +2446,7 @@ isc:BasePhanerozoic
   skos:altLabel "Base of Fortunian"@en ;
   skos:altLabel "Base of Paleozoic"@en ;
   skos:altLabel "Base of Terreneuvian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Phanerozoic"@en ;
   time:inTemporalPosition isc:BasePhanerozoicTime ;
 .
@@ -2406,11 +2475,12 @@ isc:BasePiacenz-location
 .
 isc:BasePiacenzian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBasePiacenz ;
   rdfs:label "Base of Piacenzian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Piacenzian"@en ;
   time:inTemporalPosition isc:BasePiacenzianTime ;
 .
@@ -2421,11 +2491,12 @@ isc:BasePiacenzianTime
 .
 isc:BasePliensbachian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBasePliensbachian ;
   rdfs:label "Base of Pliensbachian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Pliensbachian"@en ;
   time:inTemporalPosition isc:BasePliensbachianTime ;
 .
@@ -2448,12 +2519,13 @@ isc:BasePliensbachianUncertainty
 .
 isc:BasePliocene
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBasePliocene ;
   rdfs:label "Base of Pliocene"@en ;
   skos:altLabel "Base of Zanclean"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Pliocene"@en ;
   time:inTemporalPosition isc:BasePlioceneTime ;
 .
@@ -2470,11 +2542,12 @@ isc:BasePlioceneTime
 .
 isc:BasePragian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBasePragian ;
   rdfs:label "Base of Pragian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Pragian"@en ;
   time:inTemporalPosition isc:BasePragianTime ;
 .
@@ -2497,11 +2570,12 @@ isc:BasePragianUncertainty
 .
 isc:BasePriabonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBasePriabonian ;
   rdfs:label "Base of Priabonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Priabonian"@en ;
   time:inTemporalPosition isc:BasePriabonianTime ;
 .
@@ -2512,11 +2586,12 @@ isc:BasePriabonianTime
 .
 isc:BasePridoli
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBasePridoli ;
   rdfs:label "Base of Pridoli"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Pridoli"@en ;
   time:inTemporalPosition isc:BasePridoliTime ;
 .
@@ -2539,13 +2614,14 @@ isc:BasePridoliUncertainty
 .
 isc:BaseProterozoic
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Proterozoic"@en ;
   skos:altLabel "Base of Paleoproterozoic"@en ;
   skos:altLabel "Base of Siderian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Proterozoic"@en ;
   time:inTemporalPosition isc:BaseProterozoicTime ;
 .
@@ -2556,13 +2632,14 @@ isc:BaseProterozoicTime
 .
 isc:BaseQuaternary
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseQuaternary ;
   rdfs:label "Base of Quaternary"@en ;
   skos:altLabel "Base of Gelasian"@en ;
   skos:altLabel "Base of Pleistocene"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Quaternary"@en ;
   time:inTemporalPosition isc:BaseQuaternaryTime ;
 .
@@ -2579,11 +2656,12 @@ isc:BaseQuaternaryTime
 .
 isc:BaseRhaetian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseRhaetian ;
   rdfs:label "Base of Rhaetian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Rhaetian"@en ;
   time:inTemporalPosition isc:BaseRhaetianTime ;
 .
@@ -2594,11 +2672,12 @@ isc:BaseRhaetianTime
 .
 isc:BaseRhyacian
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Rhyacian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Rhyacian"@en ;
   time:inTemporalPosition isc:BaseRhyacianTime ;
 .
@@ -2609,11 +2688,12 @@ isc:BaseRhyacianTime
 .
 isc:BaseSakmarian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseSakmarian ;
   rdfs:label "Base of Sakmarian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Sakmarian"@en ;
   time:inTemporalPosition isc:BaseSakmarianTime ;
 .
@@ -2630,11 +2710,12 @@ isc:BaseSakmarianUncertainty
 .
 isc:BaseSantonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseSantonian ;
   rdfs:label "Base of Santonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Santonian"@en ;
   time:inTemporalPosition isc:BaseSantonianTime ;
 .
@@ -2657,11 +2738,12 @@ isc:BaseSantonianUncertainty
 .
 isc:BaseSelandian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseSelandian ;
   rdfs:label "Base of Selandian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Selandian"@en ;
   time:inTemporalPosition isc:BaseSelandianTime ;
 .
@@ -2678,18 +2760,20 @@ isc:BaseSelandianTime
 .
 isc:BaseSerpukhovian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type time:Instant ;
   rdfs:label "Base of Serpukhovian"@en ;
   owl:sameAs isc:BaseUpperMississippian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
 .
 isc:BaseSerravallian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseSerravallian ;
   rdfs:label "Base of Serravallian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Serravallian"@en ;
   time:inTemporalPosition isc:BaseSerravallianTime ;
 .
@@ -2706,13 +2790,14 @@ isc:BaseSerravallianTime
 .
 isc:BaseSilurian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseSilurian ;
   rdfs:label "Base of Silurian"@en ;
   skos:altLabel "Base of Llandovery"@en ;
   skos:altLabel "Base of Rhuddanian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Silurian"@en ;
   time:inTemporalPosition isc:BaseSilurianTime ;
 .
@@ -2735,11 +2820,12 @@ isc:BaseSilurianUncertainty
 .
 isc:BaseSinemurian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseSinemurian ;
   rdfs:label "Base of Sinemurian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Sinemurian"@en ;
   time:inTemporalPosition isc:BaseSinemurianTime ;
 .
@@ -2762,11 +2848,12 @@ isc:BaseSinemurianUncertainty
 .
 isc:BaseStatherian
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Statherian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Statherian"@en ;
   time:inTemporalPosition isc:BaseStatherianTime ;
 .
@@ -2777,11 +2864,12 @@ isc:BaseStatherianTime
 .
 isc:BaseStenian
   rdf:type gts:NumericEraBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:ratifiedGSSP "true"^^xsd:boolean ;
   rdfs:label "Base of Stenian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Stenian"@en ;
   time:inTemporalPosition isc:BaseStenianTime ;
 .
@@ -2792,11 +2880,12 @@ isc:BaseStenianTime
 .
 isc:BaseTelychian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseTelychian ;
   rdfs:label "Base of Telychian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Telychian"@en ;
   time:inTemporalPosition isc:BaseTelychianTime ;
 .
@@ -2819,11 +2908,12 @@ isc:BaseTelychianUncertainty
 .
 isc:BaseThanetian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseThanetian ;
   rdfs:label "Base of Thanetian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Thanetian"@en ;
   time:inTemporalPosition isc:BaseThanetianTime ;
 .
@@ -2840,11 +2930,12 @@ isc:BaseThanetianTime
 .
 isc:BaseTithonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseTithonian ;
   rdfs:label "Base of Tithonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Tithonian"@en ;
   time:inTemporalPosition isc:BaseTithonianTime ;
 .
@@ -2861,11 +2952,12 @@ isc:BaseTithonianUncertainty
 .
 isc:BaseToarcian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseToarcian ;
   rdfs:label "Base of Toarcian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Toarcian"@en ;
   time:inTemporalPosition isc:BaseToarcianTime ;
 .
@@ -2882,11 +2974,12 @@ isc:BaseToarcianUncertainty
 .
 isc:BaseTortonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseTortonian ;
   rdfs:label "Base of Tortonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Tortonian"@en ;
   time:inTemporalPosition isc:BaseTortonianTime ;
 .
@@ -2903,18 +2996,20 @@ isc:BaseTortonianTime
 .
 isc:BaseTournaisian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type time:Instant ;
   rdfs:label "Base of Tournaisian"@en ;
   owl:sameAs isc:BaseCarboniferous ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
 .
 isc:BaseTuronian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseTuronian ;
   rdfs:label "Base of Turonian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Turonian"@en ;
   time:inTemporalPosition isc:BaseTuronianTime ;
 .
@@ -2931,12 +3026,13 @@ isc:BaseTuronianTime
 .
 isc:BaseUpperCretaceous
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseUpperCretaceous ;
   rdfs:label "Base of Upper Cretaceous"@en ;
   skos:altLabel "Base of Cenomanian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Upper Cretaceous"@en ;
   time:inTemporalPosition isc:BaseUpperCretaceousTime ;
 .
@@ -2953,12 +3049,13 @@ isc:BaseUpperCretaceousTime
 .
 isc:BaseUpperDevonian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseUpperDevonian ;
   rdfs:label "Base of Upper Devonian"@en ;
   skos:altLabel "Base of Frasnian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Upper Devonian"@en ;
   time:inTemporalPosition isc:BaseUpperDevonianTime ;
 .
@@ -2981,11 +3078,12 @@ isc:BaseUpperDevonianUncertainty
 .
 isc:BaseUpperJurassic
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Upper Jurassic"@en ;
   skos:altLabel "Base of Oxfordian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Upper Jurassic"@en ;
   time:inTemporalPosition isc:BaseUpperJurassicTime ;
 .
@@ -3002,11 +3100,12 @@ isc:BaseUpperJurassicUncertainty
 .
 isc:BaseUpperMississippian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Upper Mississippian"@en ;
   skos:altLabel "Base of Serpukhovian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Upper Mississippian"@en ;
   time:inTemporalPosition isc:BaseUpperMississippianTime ;
 .
@@ -3023,12 +3122,13 @@ isc:BaseUpperMississippianUncertainty
 .
 isc:BaseUpperOrdovician
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseUpperOrdovician ;
   rdfs:label "Base of Upper Ordovician"@en ;
   skos:altLabel "Base of Sandbian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Upper Ordovician"@en ;
   time:inTemporalPosition isc:BaseUpperOrdovicianTime ;
 .
@@ -3048,11 +3148,12 @@ isc:BaseUpperOrdovicianUncertainty
 .
 isc:BaseUpperPennsylvanian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Upper Pennsylvanian"@en ;
   skos:altLabel "Base of Kasimovian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Upper Pennsylvanian"@en ;
   time:inTemporalPosition isc:BaseUpperPennsylvanianTime ;
 .
@@ -3069,10 +3170,11 @@ isc:BaseUpperPennsylvanianUncertainty
 .
 isc:BaseUpperPleistocene
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "Base of Upper Pleistocene"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Upper Pleistocene"@en ;
   time:inTemporalPosition isc:BaseUpperPleistoceneTime ;
 .
@@ -3083,12 +3185,13 @@ isc:BaseUpperPleistoceneTime
 .
 isc:BaseUpperTriassic
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseUpperTriassic ;
   rdfs:label "Base of Upper Triassic"@en ;
   skos:altLabel "Base of Carnian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Upper Triassic"@en ;
   time:inTemporalPosition isc:BaseUpperTriassicTime ;
 .
@@ -3105,11 +3208,12 @@ isc:BaseUpperTriassicTime
 .
 isc:BaseValanginian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:SPBaseValanginian ;
   rdfs:label "Base of Valanginian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Valanginian"@en ;
   time:inTemporalPosition isc:BaseValanginianTime ;
 .
@@ -3120,12 +3224,13 @@ isc:BaseValanginianTime
 .
 isc:BaseWenlock
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseWenlock ;
   rdfs:label "Base of Wenlock"@en ;
   skos:altLabel "Base of Sheinwoodian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Wenlock"@en ;
   time:inTemporalPosition isc:BaseWenlockTime ;
 .
@@ -3148,11 +3253,12 @@ isc:BaseWenlockUncertainty
 .
 isc:BaseWordian
   rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   gts:stratotype isc:GSSPBaseWordian ;
   rdfs:label "Base of Wordian"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Base of Wordian"@en ;
   time:inTemporalPosition isc:BaseWordianTime ;
 .
@@ -3185,11 +3291,10 @@ isc:Bashkirian
   skos:altLabel "Early Pennsylvanian"@en ;
   skos:broader isc:LowerPennsylvanian ;
   skos:broaderTransitive isc:Carboniferous ;
-  skos:broaderTransitive isc:LowerPennsylvanian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.2.1.3"^^gts:EraCode ;
   skos:prefLabel "Bashkir"@cs ;
   skos:prefLabel "Bashkir"@fi ;
@@ -3233,9 +3338,8 @@ isc:Bathonian
   skos:broader isc:MiddleJurassic ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
-  skos:broaderTransitive isc:MiddleJurassic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.2.2"^^gts:EraCode ;
   skos:prefLabel "Barthoniën"@nl ;
   skos:prefLabel "Bathon"@cs ;
@@ -3277,10 +3381,9 @@ isc:Berriasian
   owl:sameAs <http://dbpedia.org/resource/Berriasian> ;
   skos:broader isc:LowerCretaceous ;
   skos:broaderTransitive isc:Cretaceous ;
-  skos:broaderTransitive isc:LowerCretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.2.6"^^gts:EraCode ;
   skos:prefLabel "Berias"@pl ;
   skos:prefLabel "Beriasis"@lt ;
@@ -3556,10 +3659,9 @@ isc:Burdigalian
   owl:sameAs <http://dbpedia.org/resource/Burdigalian> ;
   skos:broader isc:Miocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Miocene ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.2.2.5"^^gts:EraCode ;
   skos:prefLabel "Burdigal"@cs ;
   skos:prefLabel "Burdigal"@fi ;
@@ -3602,9 +3704,8 @@ isc:Calabrian
   skos:broader isc:Pleistocene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Pleistocene ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Calabr"@cs ;
   skos:prefLabel "Calabria"@fi ;
@@ -3647,9 +3748,8 @@ isc:Callovian
   skos:broader isc:MiddleJurassic ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
-  skos:broaderTransitive isc:MiddleJurassic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.2.1"^^gts:EraCode ;
   skos:prefLabel "Callov"@cs ;
   skos:prefLabel "Callov"@fi ;
@@ -3691,10 +3791,9 @@ isc:Calymmian
   rdfs:label "Calymmian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Calymmian> ;
   skos:broader isc:Mesoproterozoic ;
-  skos:broaderTransitive isc:Mesoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Calym"@fi ;
   skos:prefLabel "Calymiano"@pt ;
@@ -3736,15 +3835,12 @@ isc:Cambrian
   rdfs:label "Cambrian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Cambrian> ;
   skos:broader isc:Paleozoic ;
-  skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:CambrianSeries2 ;
   skos:narrower isc:CambrianSeries3 ;
   skos:narrower isc:Furongian ;
   skos:narrower isc:Terreneuvian ;
-  skos:narrowerTransitive isc:CambrianSeries2 ;
-  skos:narrowerTransitive isc:CambrianSeries3 ;
   skos:narrowerTransitive isc:CambrianStage10 ;
   skos:narrowerTransitive isc:CambrianStage2 ;
   skos:narrowerTransitive isc:CambrianStage3 ;
@@ -3752,11 +3848,9 @@ isc:Cambrian
   skos:narrowerTransitive isc:CambrianStage5 ;
   skos:narrowerTransitive isc:Drumian ;
   skos:narrowerTransitive isc:Fortunian ;
-  skos:narrowerTransitive isc:Furongian ;
   skos:narrowerTransitive isc:Guzhangian ;
   skos:narrowerTransitive isc:Jiangshanian ;
   skos:narrowerTransitive isc:Paibian ;
-  skos:narrowerTransitive isc:Terreneuvian ;
   skos:notation "a1.1.3.6"^^gts:EraCode ;
   skos:prefLabel "Cambrian"@en ;
   skos:prefLabel "Cambrien"@fr ;
@@ -3805,14 +3899,11 @@ isc:CambrianSeries2
   rdfs:comment "younger bound-510.0"@en ;
   rdfs:label "Cambrian Series 2 Epoch"@en ;
   skos:broader isc:Cambrian ;
-  skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:CambrianStage3 ;
   skos:narrower isc:CambrianStage4 ;
-  skos:narrowerTransitive isc:CambrianStage3 ;
-  skos:narrowerTransitive isc:CambrianStage4 ;
   skos:notation "a1.1.3.6.3"^^gts:EraCode ;
   skos:prefLabel "Cambrian Series 2"@en ;
   skos:prefLabel "Cambrien-Séries 2"@fr ;
@@ -3855,16 +3946,12 @@ isc:CambrianSeries3
   rdfs:comment "younger bound-499.0"@en ;
   rdfs:label "Cambrian Series 3 Epoch"@en ;
   skos:broader isc:Cambrian ;
-  skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:CambrianStage5 ;
   skos:narrower isc:Drumian ;
   skos:narrower isc:Guzhangian ;
-  skos:narrowerTransitive isc:CambrianStage5 ;
-  skos:narrowerTransitive isc:Drumian ;
-  skos:narrowerTransitive isc:Guzhangian ;
   skos:notation "a1.1.3.6.2"^^gts:EraCode ;
   skos:prefLabel "Cambrian Series 3"@en ;
   skos:prefLabel "Cambrien-Séries 3"@fr ;
@@ -3909,10 +3996,9 @@ isc:CambrianStage10
   rdfs:label "Cambrian Stage 10 Age"@en ;
   skos:broader isc:Furongian ;
   skos:broaderTransitive isc:Cambrian ;
-  skos:broaderTransitive isc:Furongian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.1.1"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 10"@en ;
   skos:prefLabel "Cambrien-Etage 10"@fr ;
@@ -3956,8 +4042,7 @@ isc:CambrianStage2
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Terreneuvian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.4.1"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 2"@en ;
   skos:prefLabel "Cambrien-Etage 2"@fr ;
@@ -3998,10 +4083,9 @@ isc:CambrianStage3
   rdfs:label "Cambrian Stage 3 Age"@en ;
   skos:broader isc:CambrianSeries2 ;
   skos:broaderTransitive isc:Cambrian ;
-  skos:broaderTransitive isc:CambrianSeries2 ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.3.2"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 3"@en ;
   skos:prefLabel "Cambrien-Etage 3"@fr ;
@@ -4042,10 +4126,9 @@ isc:CambrianStage4
   rdfs:label "Cambrian Stage 4 Age"@en ;
   skos:broader isc:CambrianSeries2 ;
   skos:broaderTransitive isc:Cambrian ;
-  skos:broaderTransitive isc:CambrianSeries2 ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.3.1"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 4"@en ;
   skos:prefLabel "Cambrien-Etage 4"@fr ;
@@ -4086,10 +4169,9 @@ isc:CambrianStage5
   rdfs:label "Cambrian Stage 5 Age"@en ;
   skos:broader isc:CambrianSeries3 ;
   skos:broaderTransitive isc:Cambrian ;
-  skos:broaderTransitive isc:CambrianSeries3 ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.2.3"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 5"@en ;
   skos:prefLabel "Cambrien-Etage 5"@fr ;
@@ -4133,8 +4215,7 @@ isc:Campanian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperCretaceous ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.1.2"^^gts:EraCode ;
   skos:prefLabel "Campan"@cs ;
   skos:prefLabel "Campan"@fi ;
@@ -4175,11 +4256,10 @@ isc:Capitanian
   rdfs:label "Capitanian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Capitanian> ;
   skos:broader isc:Guadalupian ;
-  skos:broaderTransitive isc:Guadalupian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Capitan"@cs ;
   skos:prefLabel "Capitan"@fi ;
@@ -4221,9 +4301,8 @@ isc:Carboniferous
   rdfs:label "Carboniferous Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Carboniferous> ;
   skos:broader isc:Paleozoic ;
-  skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Mississippian ;
   skos:narrower isc:Pennsylvanian ;
   skos:narrowerTransitive isc:Bashkirian ;
@@ -4233,9 +4312,7 @@ isc:Carboniferous
   skos:narrowerTransitive isc:LowerPennsylvanian ;
   skos:narrowerTransitive isc:MiddleMississippian ;
   skos:narrowerTransitive isc:MiddlePennsylvanian ;
-  skos:narrowerTransitive isc:Mississippian ;
   skos:narrowerTransitive isc:Moscovian ;
-  skos:narrowerTransitive isc:Pennsylvanian ;
   skos:narrowerTransitive isc:Serpukhovian ;
   skos:narrowerTransitive isc:Tournaisian ;
   skos:narrowerTransitive isc:UpperMississippian ;
@@ -4290,8 +4367,7 @@ isc:Carnian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:broaderTransitive isc:UpperTriassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.3.1.3"^^gts:EraCode ;
   skos:prefLabel "Carn"@cs ;
   skos:prefLabel "Carn"@fi ;
@@ -4336,8 +4412,7 @@ isc:Cenomanian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperCretaceous ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.1.6"^^gts:EraCode ;
   skos:prefLabel "Cenoman"@cs ;
   skos:prefLabel "Cenoman"@fi ;
@@ -4379,8 +4454,7 @@ isc:Cenozoic
   rdfs:label "Cenozoic Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Cenozoic> ;
   skos:broader isc:Phanerozoic ;
-  skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Neogene ;
   skos:narrower isc:Paleogene ;
   skos:narrower isc:Quaternary ;
@@ -4398,15 +4472,12 @@ isc:Cenozoic
   skos:narrowerTransitive isc:Messinian ;
   skos:narrowerTransitive isc:MiddlePleistocene ;
   skos:narrowerTransitive isc:Miocene ;
-  skos:narrowerTransitive isc:Neogene ;
   skos:narrowerTransitive isc:Oligocene ;
   skos:narrowerTransitive isc:Paleocene ;
-  skos:narrowerTransitive isc:Paleogene ;
   skos:narrowerTransitive isc:Piacenzian ;
   skos:narrowerTransitive isc:Pleistocene ;
   skos:narrowerTransitive isc:Pliocene ;
   skos:narrowerTransitive isc:Priabonian ;
-  skos:narrowerTransitive isc:Quaternary ;
   skos:narrowerTransitive isc:Rupelian ;
   skos:narrowerTransitive isc:Selandian ;
   skos:narrowerTransitive isc:Serravallian ;
@@ -4462,11 +4533,10 @@ isc:Changhsingian
   rdfs:label "Changhsingian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Changhsingian> ;
   skos:broader isc:Lopingian ;
-  skos:broaderTransitive isc:Lopingian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Changhsing"@cs ;
   skos:prefLabel "Changhsing"@fi ;
@@ -4511,10 +4581,9 @@ isc:Chattian
   owl:sameAs <http://dbpedia.org/resource/Chattian> ;
   skos:broader isc:Oligocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Oligocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.1.1"^^gts:EraCode ;
   skos:prefLabel "Chat"@cs ;
   skos:prefLabel "Chatiano"@pt ;
@@ -4558,17 +4627,12 @@ isc:Cisuralian
   owl:sameAs <http://dbpedia.org/resource/Cisuralian> ;
   skos:broader isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
-  skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Artinskian ;
   skos:narrower isc:Asselian ;
   skos:narrower isc:Kungurian ;
   skos:narrower isc:Sakmarian ;
-  skos:narrowerTransitive isc:Artinskian ;
-  skos:narrowerTransitive isc:Asselian ;
-  skos:narrowerTransitive isc:Kungurian ;
-  skos:narrowerTransitive isc:Sakmarian ;
   skos:notation "a1.1.3.1.3"^^gts:EraCode ;
   skos:prefLabel "Cisural"@cs ;
   skos:prefLabel "Cisural"@et ;
@@ -4621,8 +4685,7 @@ isc:Coniacian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperCretaceous ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.1.4"^^gts:EraCode ;
   skos:prefLabel "Conaciën"@nl ;
   skos:prefLabel "Coni"@es ;
@@ -4663,9 +4726,8 @@ isc:Cretaceous
   rdfs:label "Cretaceous Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Cretaceous> ;
   skos:broader isc:Mesozoic ;
-  skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:LowerCretaceous ;
   skos:narrower isc:UpperCretaceous ;
   skos:narrowerTransitive isc:Albian ;
@@ -4676,11 +4738,9 @@ isc:Cretaceous
   skos:narrowerTransitive isc:Cenomanian ;
   skos:narrowerTransitive isc:Coniacian ;
   skos:narrowerTransitive isc:Hauterivian ;
-  skos:narrowerTransitive isc:LowerCretaceous ;
   skos:narrowerTransitive isc:Maastrichtian ;
   skos:narrowerTransitive isc:Santonian ;
   skos:narrowerTransitive isc:Turonian ;
-  skos:narrowerTransitive isc:UpperCretaceous ;
   skos:narrowerTransitive isc:Valanginian ;
   skos:notation "a1.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Cretaceous"@en ;
@@ -4729,10 +4789,9 @@ isc:Cryogenian
   rdfs:label "Cryogenian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Cryogenian> ;
   skos:broader isc:Neoproterozoic ;
-  skos:broaderTransitive isc:Neoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.1.2"^^gts:EraCode ;
   skos:prefLabel "Criogeniano"@pt ;
   skos:prefLabel "Criogeniense"@es ;
@@ -4774,10 +4833,9 @@ isc:Danian
   owl:sameAs <http://dbpedia.org/resource/Danian> ;
   skos:broader isc:Paleocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Paleocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.3.3"^^gts:EraCode ;
   skos:prefLabel "Dan"@cs ;
   skos:prefLabel "Dan"@fi ;
@@ -4821,11 +4879,10 @@ isc:Dapingian
   rdfs:label "Dapingian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Dapingian> ;
   skos:broader isc:MiddleOrdovician ;
-  skos:broaderTransitive isc:MiddleOrdovician ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.5.2.2"^^gts:EraCode ;
   skos:prefLabel "Daping"@cs ;
   skos:prefLabel "Daping"@fi ;
@@ -4867,11 +4924,10 @@ isc:Darriwilian
   rdfs:label "Darriwilian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Darriwilian> ;
   skos:broader isc:MiddleOrdovician ;
-  skos:broaderTransitive isc:MiddleOrdovician ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.5.2.1"^^gts:EraCode ;
   skos:prefLabel "Daewillium"@no ;
   skos:prefLabel "Darivilis"@lt ;
@@ -4913,9 +4969,8 @@ isc:Devonian
   rdfs:label "Devonian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Devonian> ;
   skos:broader isc:Paleozoic ;
-  skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:LowerDevonian ;
   skos:narrower isc:MiddleDevonian ;
   skos:narrower isc:UpperDevonian ;
@@ -4925,10 +4980,7 @@ isc:Devonian
   skos:narrowerTransitive isc:Frasnian ;
   skos:narrowerTransitive isc:Givetian ;
   skos:narrowerTransitive isc:Lochkovian ;
-  skos:narrowerTransitive isc:LowerDevonian ;
-  skos:narrowerTransitive isc:MiddleDevonian ;
   skos:narrowerTransitive isc:Pragian ;
-  skos:narrowerTransitive isc:UpperDevonian ;
   skos:notation "a1.1.3.3"^^gts:EraCode ;
   skos:prefLabel "Devon"@cs ;
   skos:prefLabel "Devon"@da ;
@@ -4977,10 +5029,9 @@ isc:Drumian
   owl:sameAs <http://dbpedia.org/resource/Drumian> ;
   skos:broader isc:CambrianSeries3 ;
   skos:broaderTransitive isc:Cambrian ;
-  skos:broaderTransitive isc:CambrianSeries3 ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.2.2"^^gts:EraCode ;
   skos:prefLabel "Drum"@cs ;
   skos:prefLabel "Drum"@fi ;
@@ -5021,10 +5072,9 @@ isc:Ectasian
   rdfs:label "Ectasian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Ectasian> ;
   skos:broader isc:Mesoproterozoic ;
-  skos:broaderTransitive isc:Mesoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Ectas"@cs ;
   skos:prefLabel "Ectas"@et ;
@@ -5066,10 +5116,9 @@ isc:Ediacaran
   rdfs:label "Ediacaran Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Ediacaran> ;
   skos:broader isc:Neoproterozoic ;
-  skos:broaderTransitive isc:Neoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Ediacar"@cs ;
   skos:prefLabel "Ediacar"@fi ;
@@ -5115,10 +5164,9 @@ isc:Eifelian
   owl:sameAs <http://dbpedia.org/resource/Eifelian> ;
   skos:broader isc:MiddleDevonian ;
   skos:broaderTransitive isc:Devonian ;
-  skos:broaderTransitive isc:MiddleDevonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.3.2.2"^^gts:EraCode ;
   skos:prefLabel "Eifel"@cs ;
   skos:prefLabel "Eifel"@fi ;
@@ -5161,10 +5209,9 @@ isc:Emsian
   owl:sameAs <http://dbpedia.org/resource/Emsian> ;
   skos:broader isc:LowerDevonian ;
   skos:broaderTransitive isc:Devonian ;
-  skos:broaderTransitive isc:LowerDevonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.3.3.1"^^gts:EraCode ;
   skos:prefLabel "Ems"@cs ;
   skos:prefLabel "Ems"@fi ;
@@ -5206,9 +5253,8 @@ isc:Eoarchean
   rdfs:label "Eoarchean Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Eoarchean> ;
   skos:broader isc:Archean ;
-  skos:broaderTransitive isc:Archean ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.2.4"^^gts:EraCode ;
   skos:prefLabel "Eo-archaicum"@nl ;
   skos:prefLabel "Eoarcaico"@es ;
@@ -5252,17 +5298,12 @@ isc:Eocene
   owl:sameAs <http://dbpedia.org/resource/Eocene> ;
   skos:broader isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Bartonian ;
   skos:narrower isc:Lutetian ;
   skos:narrower isc:Priabonian ;
   skos:narrower isc:Ypresian ;
-  skos:narrowerTransitive isc:Bartonian ;
-  skos:narrowerTransitive isc:Lutetian ;
-  skos:narrowerTransitive isc:Priabonian ;
-  skos:narrowerTransitive isc:Ypresian ;
   skos:notation "a1.1.1.3.2"^^gts:EraCode ;
   skos:prefLabel "Eoceen"@nl ;
   skos:prefLabel "Eocen"@no ;
@@ -5493,8 +5534,7 @@ isc:Famennian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperDevonian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.3.1.1"^^gts:EraCode ;
   skos:prefLabel "Famen"@cs ;
   skos:prefLabel "Famen"@pl ;
@@ -5538,11 +5578,10 @@ isc:Floian
   rdfs:label "Floian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Floian> ;
   skos:broader isc:LowerOrdovician ;
-  skos:broaderTransitive isc:LowerOrdovician ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.5.3.1"^^gts:EraCode ;
   skos:prefLabel "Flo"@cs ;
   skos:prefLabel "Flo"@fi ;
@@ -5579,7 +5618,7 @@ isc:FormationOfEarth
   rdf:type time:Instant ;
   gts:positionalUncertainty isc:FormationOfEarthUncertainty ;
   rdfs:label "Formation of the Earth"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "Formation of the earth"@en ;
   time:inTemporalPosition isc:FormationOfEarthTime ;
 .
@@ -5609,8 +5648,7 @@ isc:Fortunian
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Terreneuvian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.4.2"^^gts:EraCode ;
   skos:prefLabel "Fortun"@cs ;
   skos:prefLabel "Fortun"@fi ;
@@ -5657,8 +5695,7 @@ isc:Frasnian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperDevonian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.3.1.2"^^gts:EraCode ;
   skos:prefLabel "Fran"@pl ;
   skos:prefLabel "Franis"@lt ;
@@ -5700,16 +5737,12 @@ isc:Furongian
   rdfs:label "Furongian Epoch"@en ;
   owl:sameAs <http://dbpedia.org/resource/Furongian> ;
   skos:broader isc:Cambrian ;
-  skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:CambrianStage10 ;
   skos:narrower isc:Jiangshanian ;
   skos:narrower isc:Paibian ;
-  skos:narrowerTransitive isc:CambrianStage10 ;
-  skos:narrowerTransitive isc:Jiangshanian ;
-  skos:narrowerTransitive isc:Paibian ;
   skos:notation "a1.1.3.6.1"^^gts:EraCode ;
   skos:prefLabel "Furogiense"@es ;
   skos:prefLabel "Furong"@cs ;
@@ -6622,9 +6655,8 @@ isc:Gelasian
   skos:broader isc:Pleistocene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Pleistocene ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.1.2.4"^^gts:EraCode ;
   skos:prefLabel "Gelas"@cs ;
   skos:prefLabel "Gelas"@fi ;
@@ -6667,10 +6699,9 @@ isc:Givetian
   owl:sameAs <http://dbpedia.org/resource/Givetian> ;
   skos:broader isc:MiddleDevonian ;
   skos:broaderTransitive isc:Devonian ;
-  skos:broaderTransitive isc:MiddleDevonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.3.2.1"^^gts:EraCode ;
   skos:prefLabel "Givet"@cs ;
   skos:prefLabel "Givet"@et ;
@@ -6712,11 +6743,10 @@ isc:Gorstian
   rdfs:label "Gorstian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Gorstian> ;
   skos:broader isc:Ludlow ;
-  skos:broaderTransitive isc:Ludlow ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.4.2.2"^^gts:EraCode ;
   skos:prefLabel "Gorst"@cs ;
   skos:prefLabel "Gorst"@fi ;
@@ -6759,15 +6789,11 @@ isc:Guadalupian
   owl:sameAs <http://dbpedia.org/resource/Guadalupian> ;
   skos:broader isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
-  skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Capitanian ;
   skos:narrower isc:Roadian ;
   skos:narrower isc:Wordian ;
-  skos:narrowerTransitive isc:Capitanian ;
-  skos:narrowerTransitive isc:Roadian ;
-  skos:narrowerTransitive isc:Wordian ;
   skos:notation "a1.1.3.1.2"^^gts:EraCode ;
   skos:prefLabel "Guadalup"@cs ;
   skos:prefLabel "Guadalup"@et ;
@@ -6815,10 +6841,9 @@ isc:Guzhangian
   owl:sameAs <http://dbpedia.org/resource/Guzhangian> ;
   skos:broader isc:CambrianSeries3 ;
   skos:broaderTransitive isc:Cambrian ;
-  skos:broaderTransitive isc:CambrianSeries3 ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.2.1"^^gts:EraCode ;
   skos:prefLabel "Guzhang"@cs ;
   skos:prefLabel "Guzhang"@fi ;
@@ -6864,8 +6889,7 @@ isc:Gzhelian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperPennsylvanian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.2.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Gzeliano"@pt ;
   skos:prefLabel "Gzeliense"@es ;
@@ -6908,8 +6932,7 @@ isc:Hadean
   rdfs:label "Hadean Eon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Hadean> ;
   skos:broader isc:Precambrian ;
-  skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.3"^^gts:EraCode ;
   skos:prefLabel "Hadaikum"@de ;
   skos:prefLabel "Hadea"@fi ;
@@ -6951,10 +6974,9 @@ isc:Hauterivian
   owl:sameAs <http://dbpedia.org/resource/Hauterivian> ;
   skos:broader isc:LowerCretaceous ;
   skos:broaderTransitive isc:Cretaceous ;
-  skos:broaderTransitive isc:LowerCretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.2.4"^^gts:EraCode ;
   skos:prefLabel "Hauteriv"@cs ;
   skos:prefLabel "Hauteriv"@fi ;
@@ -6996,10 +7018,9 @@ isc:Hettangian
   owl:sameAs <http://dbpedia.org/resource/Hettangian> ;
   skos:broader isc:LowerJurassic ;
   skos:broaderTransitive isc:Jurassic ;
-  skos:broaderTransitive isc:LowerJurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.3.4"^^gts:EraCode ;
   skos:prefLabel "Hetang"@pl ;
   skos:prefLabel "Hetangiano"@pt ;
@@ -7045,8 +7066,7 @@ isc:Hirnantian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperOrdovician ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.5.1.1"^^gts:EraCode ;
   skos:prefLabel "Hirnant"@cs ;
   skos:prefLabel "Hirnant"@fi ;
@@ -7091,8 +7111,7 @@ isc:Holocene
   skos:broader isc:Quaternary ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Holoceen"@nl ;
   skos:prefLabel "Holocen"@no ;
@@ -7136,8 +7155,7 @@ isc:Homerian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:broaderTransitive isc:Wenlock ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.4.3.1"^^gts:EraCode ;
   skos:prefLabel "Homer"@cs ;
   skos:prefLabel "Homer"@fi ;
@@ -7179,11 +7197,10 @@ isc:Induan
   rdfs:label "Induan Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Induan> ;
   skos:broader isc:LowerTriassic ;
-  skos:broaderTransitive isc:LowerTriassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.3.3.2"^^gts:EraCode ;
   skos:prefLabel "Ind"@pl ;
   skos:prefLabel "Indis"@lt ;
@@ -7239,11 +7256,10 @@ isc:Jiangshanian
   owl:sameAs isc:CambrianStage9 ;
   skos:broader isc:Furongian ;
   skos:broaderTransitive isc:Cambrian ;
-  skos:broaderTransitive isc:Furongian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:exactMatch isc:CambrianStage9 ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.1.2"^^gts:EraCode ;
   skos:prefLabel "Cambrium, Zone 9"@nl ;
   skos:prefLabel "Cámbrico-Piso 9"@es ;
@@ -7284,9 +7300,8 @@ isc:Jurassic
   rdfs:label "Jurassic Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Jurassic> ;
   skos:broader isc:Mesozoic ;
-  skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:LowerJurassic ;
   skos:narrower isc:MiddleJurassic ;
   skos:narrower isc:UpperJurassic ;
@@ -7296,14 +7311,11 @@ isc:Jurassic
   skos:narrowerTransitive isc:Callovian ;
   skos:narrowerTransitive isc:Hettangian ;
   skos:narrowerTransitive isc:Kimmeridgian ;
-  skos:narrowerTransitive isc:LowerJurassic ;
-  skos:narrowerTransitive isc:MiddleJurassic ;
   skos:narrowerTransitive isc:Oxfordian ;
   skos:narrowerTransitive isc:Pliensbachian ;
   skos:narrowerTransitive isc:Sinemurian ;
   skos:narrowerTransitive isc:Tithonian ;
   skos:narrowerTransitive isc:Toarcian ;
-  skos:narrowerTransitive isc:UpperJurassic ;
   skos:notation "a1.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Jura"@cs ;
   skos:prefLabel "Jura"@de ;
@@ -7355,8 +7367,7 @@ isc:Kasimovian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperPennsylvanian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.2.1.1.2"^^gts:EraCode ;
   skos:prefLabel "Kasimov"@cs ;
   skos:prefLabel "Kasimov"@fi ;
@@ -7401,8 +7412,7 @@ isc:Katian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperOrdovician ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.5.1.2"^^gts:EraCode ;
   skos:prefLabel "Kat"@cs ;
   skos:prefLabel "Kat"@fi ;
@@ -7446,8 +7456,7 @@ isc:Kimmeridgian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperJurassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.1.2"^^gts:EraCode ;
   skos:prefLabel "Kimeridgiano"@pt ;
   skos:prefLabel "Kimeridis"@lt ;
@@ -7488,11 +7497,10 @@ isc:Kungurian
   rdfs:label "Kungurian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Kungurian> ;
   skos:broader isc:Cisuralian ;
-  skos:broaderTransitive isc:Cisuralian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.3.1"^^gts:EraCode ;
   skos:prefLabel "Kungur"@cs ;
   skos:prefLabel "Kungur"@fi ;
@@ -7535,10 +7543,9 @@ isc:Ladinian
   owl:sameAs <http://dbpedia.org/resource/Ladinian> ;
   skos:broader isc:MiddleTriassic ;
   skos:broaderTransitive isc:Mesozoic ;
-  skos:broaderTransitive isc:MiddleTriassic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.3.2.1"^^gts:EraCode ;
   skos:prefLabel "Ladin"@cs ;
   skos:prefLabel "Ladin"@fi ;
@@ -7581,10 +7588,9 @@ isc:Langhian
   owl:sameAs <http://dbpedia.org/resource/Langhian> ;
   skos:broader isc:Miocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Miocene ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.2.2.4"^^gts:EraCode ;
   skos:prefLabel "Lang"@pl ;
   skos:prefLabel "Langh"@cs ;
@@ -7627,14 +7633,10 @@ isc:Llandovery
   skos:broader isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Aeronian ;
   skos:narrower isc:Rhuddanian ;
   skos:narrower isc:Telychian ;
-  skos:narrowerTransitive isc:Aeronian ;
-  skos:narrowerTransitive isc:Rhuddanian ;
-  skos:narrowerTransitive isc:Telychian ;
   skos:notation "a1.1.3.4.4"^^gts:EraCode ;
   skos:prefLabel "Landoveris"@lt ;
   skos:prefLabel "Landower"@pl ;
@@ -7682,10 +7684,9 @@ isc:Lochkovian
   owl:sameAs <http://dbpedia.org/resource/Lochkovian> ;
   skos:broader isc:LowerDevonian ;
   skos:broaderTransitive isc:Devonian ;
-  skos:broaderTransitive isc:LowerDevonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.3.3.3"^^gts:EraCode ;
   skos:prefLabel "Lochkov"@cs ;
   skos:prefLabel "Lochkov"@fi ;
@@ -7728,13 +7729,10 @@ isc:Lopingian
   owl:sameAs <http://dbpedia.org/resource/Lopingian> ;
   skos:broader isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
-  skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Changhsingian ;
   skos:narrower isc:Wuchiapingian ;
-  skos:narrowerTransitive isc:Changhsingian ;
-  skos:narrowerTransitive isc:Wuchiapingian ;
   skos:notation "a1.1.3.1.1"^^gts:EraCode ;
   skos:prefLabel "Loping"@cs ;
   skos:prefLabel "Loping"@et ;
@@ -7782,22 +7780,15 @@ isc:LowerCretaceous
   skos:altLabel "下白垩统"@zh ;
   skos:altLabel "白亜紀前期"@ja ;
   skos:broader isc:Cretaceous ;
-  skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Albian ;
   skos:narrower isc:Aptian ;
   skos:narrower isc:Barremian ;
   skos:narrower isc:Berriasian ;
   skos:narrower isc:Hauterivian ;
   skos:narrower isc:Valanginian ;
-  skos:narrowerTransitive isc:Albian ;
-  skos:narrowerTransitive isc:Aptian ;
-  skos:narrowerTransitive isc:Barremian ;
-  skos:narrowerTransitive isc:Berriasian ;
-  skos:narrowerTransitive isc:Hauterivian ;
-  skos:narrowerTransitive isc:Valanginian ;
   skos:notation "a1.1.2.1.2"^^gts:EraCode ;
   skos:prefLabel "Ankstyvoji/Apatinė Kreida"@lt ;
   skos:prefLabel "Cretácico Inferior"@es ;
@@ -7849,16 +7840,12 @@ isc:LowerDevonian
   skos:altLabel "デボン紀前期"@ja ;
   skos:altLabel "下泥盆统"@zh ;
   skos:broader isc:Devonian ;
-  skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Emsian ;
   skos:narrower isc:Lochkovian ;
   skos:narrower isc:Pragian ;
-  skos:narrowerTransitive isc:Emsian ;
-  skos:narrowerTransitive isc:Lochkovian ;
-  skos:narrowerTransitive isc:Pragian ;
   skos:notation "a1.1.3.3.3"^^gts:EraCode ;
   skos:prefLabel "Ankstyvasis/Apatinis Devonas"@lt ;
   skos:prefLabel "Devónico Inferior"@es ;
@@ -7906,18 +7893,13 @@ isc:LowerJurassic
   skos:altLabel "ジュラ紀前期"@ja ;
   skos:altLabel "下侏罗统"@zh ;
   skos:broader isc:Jurassic ;
-  skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Hettangian ;
   skos:narrower isc:Pliensbachian ;
   skos:narrower isc:Sinemurian ;
   skos:narrower isc:Toarcian ;
-  skos:narrowerTransitive isc:Hettangian ;
-  skos:narrowerTransitive isc:Pliensbachian ;
-  skos:narrowerTransitive isc:Sinemurian ;
-  skos:narrowerTransitive isc:Toarcian ;
   skos:notation "a1.1.2.2.3"^^gts:EraCode ;
   skos:prefLabel "Ankstyvoji/Apatinė Jura"@lt ;
   skos:prefLabel "Early/Lower Jurassic"@en ;
@@ -7966,12 +7948,10 @@ isc:LowerMississippian
   skos:altLabel "下密西西比统"@zh ;
   skos:broader isc:Mississippian ;
   skos:broaderTransitive isc:Carboniferous ;
-  skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Tournaisian ;
-  skos:narrowerTransitive isc:Tournaisian ;
   skos:prefLabel "Lower Mississippian"@en ;
   skos:prefLabel "前期ミシシッピアン紀"@ja ;
   skos:prefLabel "早密西西比世"@zh ;
@@ -7998,14 +7978,11 @@ isc:LowerOrdovician
   skos:altLabel "オルドビス紀前期"@ja ;
   skos:altLabel "下奥陶统"@zh ;
   skos:broader isc:Ordovician ;
-  skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Floian ;
   skos:narrower isc:Tremadocian ;
-  skos:narrowerTransitive isc:Floian ;
-  skos:narrowerTransitive isc:Tremadocian ;
   skos:notation "a1.1.3.5.3"^^gts:EraCode ;
   skos:prefLabel "Ankstyvasis/Apatinis Ordovikas"@lt ;
   skos:prefLabel "Early/Lower Ordovician"@en ;
@@ -8053,11 +8030,9 @@ isc:LowerPennsylvanian
   skos:broader isc:Pennsylvanian ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
-  skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Bashkirian ;
-  skos:narrowerTransitive isc:Bashkirian ;
   skos:prefLabel "Lower Pennsylvanian"@en ;
   skos:prefLabel "前期ペンシルバニア紀"@ja ;
   skos:prefLabel "早宾夕法尼亚世"@zh ;
@@ -8085,12 +8060,9 @@ isc:LowerTriassic
   skos:broader isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Triassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Induan ;
   skos:narrower isc:Olenekian ;
-  skos:narrowerTransitive isc:Induan ;
-  skos:narrowerTransitive isc:Olenekian ;
   skos:notation "a1.1.2.3.3"^^gts:EraCode ;
   skos:prefLabel "Ankstyvasis/Apatinis Triasas"@lt ;
   skos:prefLabel "Early/Lower Triassic"@en ;
@@ -8137,11 +8109,10 @@ isc:Ludfordian
   rdfs:label "Ludfordian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Ludfordian> ;
   skos:broader isc:Ludlow ;
-  skos:broaderTransitive isc:Ludlow ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.4.2.1"^^gts:EraCode ;
   skos:prefLabel "Ludford"@cs ;
   skos:prefLabel "Ludford"@fi ;
@@ -8184,12 +8155,9 @@ isc:Ludlow
   skos:broader isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Gorstian ;
   skos:narrower isc:Ludfordian ;
-  skos:narrowerTransitive isc:Gorstian ;
-  skos:narrowerTransitive isc:Ludfordian ;
   skos:notation "a1.1.3.4.2"^^gts:EraCode ;
   skos:prefLabel "Ludlovis"@lt ;
   skos:prefLabel "Ludlow"@cs ;
@@ -8234,10 +8202,9 @@ isc:Lutetian
   owl:sameAs <http://dbpedia.org/resource/Lutetian> ;
   skos:broader isc:Eocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Eocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.2.3"^^gts:EraCode ;
   skos:prefLabel "Litetium"@no ;
   skos:prefLabel "Liutetis"@lt ;
@@ -8281,8 +8248,7 @@ isc:Maastrichtian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperCretaceous ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Maastricht"@cs ;
   skos:prefLabel "Maastricht"@fi ;
@@ -8326,9 +8292,8 @@ isc:Mesoarchean
   rdfs:label "Mesoarchean Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Mesoarchean> ;
   skos:broader isc:Archean ;
-  skos:broaderTransitive isc:Archean ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.2.2"^^gts:EraCode ;
   skos:prefLabel "Meso-archaicum"@nl ;
   skos:prefLabel "Mesoarcaico"@es ;
@@ -8372,14 +8337,10 @@ isc:Mesoproterozoic
   owl:sameAs <http://dbpedia.org/resource/Mesoproterozoic> ;
   skos:broader isc:Proterozoic ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Calymmian ;
   skos:narrower isc:Ectasian ;
   skos:narrower isc:Stenian ;
-  skos:narrowerTransitive isc:Calymmian ;
-  skos:narrowerTransitive isc:Ectasian ;
-  skos:narrowerTransitive isc:Stenian ;
   skos:notation "a2.1.2"^^gts:EraCode ;
   skos:prefLabel "Mesoproterosoikum"@et ;
   skos:prefLabel "Mesoproterotsoikum"@fi ;
@@ -8425,8 +8386,7 @@ isc:Mesozoic
   rdfs:label "Mesozoic Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Mesozoic> ;
   skos:broader isc:Phanerozoic ;
-  skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Cretaceous ;
   skos:narrower isc:Jurassic ;
   skos:narrower isc:Triassic ;
@@ -8443,11 +8403,9 @@ isc:Mesozoic
   skos:narrowerTransitive isc:Carnian ;
   skos:narrowerTransitive isc:Cenomanian ;
   skos:narrowerTransitive isc:Coniacian ;
-  skos:narrowerTransitive isc:Cretaceous ;
   skos:narrowerTransitive isc:Hauterivian ;
   skos:narrowerTransitive isc:Hettangian ;
   skos:narrowerTransitive isc:Induan ;
-  skos:narrowerTransitive isc:Jurassic ;
   skos:narrowerTransitive isc:Kimmeridgian ;
   skos:narrowerTransitive isc:Ladinian ;
   skos:narrowerTransitive isc:LowerCretaceous ;
@@ -8465,7 +8423,6 @@ isc:Mesozoic
   skos:narrowerTransitive isc:Sinemurian ;
   skos:narrowerTransitive isc:Tithonian ;
   skos:narrowerTransitive isc:Toarcian ;
-  skos:narrowerTransitive isc:Triassic ;
   skos:narrowerTransitive isc:Turonian ;
   skos:narrowerTransitive isc:UpperCretaceous ;
   skos:narrowerTransitive isc:UpperJurassic ;
@@ -8521,10 +8478,9 @@ isc:Messinian
   owl:sameAs <http://dbpedia.org/resource/Messinian> ;
   skos:broader isc:Miocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Miocene ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.2.2.1"^^gts:EraCode ;
   skos:prefLabel "Mesinis"@lt ;
   skos:prefLabel "Messin"@cs ;
@@ -8568,14 +8524,11 @@ isc:MiddleDevonian
   skos:altLabel "デボン紀中期"@ja ;
   skos:altLabel "中泥盆统"@zh ;
   skos:broader isc:Devonian ;
-  skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Eifelian ;
   skos:narrower isc:Givetian ;
-  skos:narrowerTransitive isc:Eifelian ;
-  skos:narrowerTransitive isc:Givetian ;
   skos:notation "a1.1.3.3.2"^^gts:EraCode ;
   skos:prefLabel "Devónico Medio"@es ;
   skos:prefLabel "Devónico Médio"@pt ;
@@ -8622,18 +8575,13 @@ isc:MiddleJurassic
   skos:altLabel "ジュラ紀中期"@ja ;
   skos:altLabel "中侏罗统"@zh ;
   skos:broader isc:Jurassic ;
-  skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Aalenian ;
   skos:narrower isc:Bajocian ;
   skos:narrower isc:Bathonian ;
   skos:narrower isc:Callovian ;
-  skos:narrowerTransitive isc:Aalenian ;
-  skos:narrowerTransitive isc:Bajocian ;
-  skos:narrowerTransitive isc:Bathonian ;
-  skos:narrowerTransitive isc:Callovian ;
   skos:notation "a1.1.2.2.2"^^gts:EraCode ;
   skos:prefLabel "Jurassique moyen"@fr ;
   skos:prefLabel "Jurásico Medio"@es ;
@@ -8681,12 +8629,10 @@ isc:MiddleMississippian
   skos:altLabel "中密西西比统"@zh ;
   skos:broader isc:Mississippian ;
   skos:broaderTransitive isc:Carboniferous ;
-  skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Visean ;
-  skos:narrowerTransitive isc:Visean ;
   skos:prefLabel "Middle Mississippian"@en ;
   skos:prefLabel "中密西西比世"@zh ;
   skos:prefLabel "中期ミシシッピアン紀"@ja ;
@@ -8712,14 +8658,11 @@ isc:MiddleOrdovician
   skos:altLabel "オルドビス紀中期"@ja ;
   skos:altLabel "中奥陶统"@zh ;
   skos:broader isc:Ordovician ;
-  skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Dapingian ;
   skos:narrower isc:Darriwilian ;
-  skos:narrowerTransitive isc:Dapingian ;
-  skos:narrowerTransitive isc:Darriwilian ;
   skos:notation "a1.1.3.5.2"^^gts:EraCode ;
   skos:prefLabel "Kesk-Ordoviitsium"@et ;
   skos:prefLabel "Keski-Ordoviikki"@fi ;
@@ -8766,11 +8709,9 @@ isc:MiddlePennsylvanian
   skos:broader isc:Pennsylvanian ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
-  skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Moscovian ;
-  skos:narrowerTransitive isc:Moscovian ;
   skos:prefLabel "Middle Pennsylvanian"@en ;
   skos:prefLabel "中宾夕法尼亚世"@zh ;
   skos:prefLabel "中期ペンシルバニア紀"@ja ;
@@ -8818,10 +8759,9 @@ isc:MiddlePleistocene
   skos:broader isc:Pleistocene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Pleistocene ;
   skos:broaderTransitive isc:Quaternary ;
   skos:exactMatch isc:Ionian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Kesk-Pleistotseen"@et ;
   skos:prefLabel "Keski-Pleistoseeni"@fi ;
@@ -8864,12 +8804,9 @@ isc:MiddleTriassic
   skos:broader isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Triassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Anisian ;
   skos:narrower isc:Ladinian ;
-  skos:narrowerTransitive isc:Anisian ;
-  skos:narrowerTransitive isc:Ladinian ;
   skos:notation "a1.1.2.3.2"^^gts:EraCode ;
   skos:prefLabel "Kesk-Triias"@et ;
   skos:prefLabel "Keski-Trias"@fi ;
@@ -8915,21 +8852,14 @@ isc:Miocene
   owl:sameAs <http://dbpedia.org/resource/Miocene> ;
   skos:broader isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Aquitanian ;
   skos:narrower isc:Burdigalian ;
   skos:narrower isc:Langhian ;
   skos:narrower isc:Messinian ;
   skos:narrower isc:Serravallian ;
   skos:narrower isc:Tortonian ;
-  skos:narrowerTransitive isc:Aquitanian ;
-  skos:narrowerTransitive isc:Burdigalian ;
-  skos:narrowerTransitive isc:Langhian ;
-  skos:narrowerTransitive isc:Messinian ;
-  skos:narrowerTransitive isc:Serravallian ;
-  skos:narrowerTransitive isc:Tortonian ;
   skos:notation "a1.1.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Mioceen"@nl ;
   skos:prefLabel "Miocen"@no ;
@@ -8979,18 +8909,14 @@ isc:Mississippian
   rdfs:label "Mississippian Sub-period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Mississippian> ;
   skos:broader isc:Carboniferous ;
-  skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:LowerMississippian ;
   skos:narrower isc:MiddleMississippian ;
   skos:narrower isc:UpperMississippian ;
-  skos:narrowerTransitive isc:LowerMississippian ;
-  skos:narrowerTransitive isc:MiddleMississippian ;
   skos:narrowerTransitive isc:Serpukhovian ;
   skos:narrowerTransitive isc:Tournaisian ;
-  skos:narrowerTransitive isc:UpperMississippian ;
   skos:narrowerTransitive isc:Visean ;
   skos:notation "a1.1.3.2.2"^^gts:EraCode ;
   skos:prefLabel "Misisipis"@lt ;
@@ -9041,11 +8967,10 @@ isc:Moscovian
   skos:altLabel "Middle Pennsylvanian"@en ;
   skos:broader isc:MiddlePennsylvanian ;
   skos:broaderTransitive isc:Carboniferous ;
-  skos:broaderTransitive isc:MiddlePennsylvanian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.2.1.2"^^gts:EraCode ;
   skos:prefLabel "Moscov"@cs ;
   skos:prefLabel "Moscovian"@en ;
@@ -9087,9 +9012,8 @@ isc:Neoarchean
   rdfs:label "Neoarchean Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Neoarchean> ;
   skos:broader isc:Archean ;
-  skos:broaderTransitive isc:Archean ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.2.1"^^gts:EraCode ;
   skos:prefLabel "Neo-archaicum"@nl ;
   skos:prefLabel "Neoarcaico"@es ;
@@ -9134,18 +9058,15 @@ isc:Neogene
   rdfs:label "Neogene Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Neogene> ;
   skos:broader isc:Cenozoic ;
-  skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Miocene ;
   skos:narrower isc:Pliocene ;
   skos:narrowerTransitive isc:Aquitanian ;
   skos:narrowerTransitive isc:Burdigalian ;
   skos:narrowerTransitive isc:Langhian ;
   skos:narrowerTransitive isc:Messinian ;
-  skos:narrowerTransitive isc:Miocene ;
   skos:narrowerTransitive isc:Piacenzian ;
-  skos:narrowerTransitive isc:Pliocene ;
   skos:narrowerTransitive isc:Serravallian ;
   skos:narrowerTransitive isc:Tortonian ;
   skos:narrowerTransitive isc:Zanclean ;
@@ -9196,14 +9117,10 @@ isc:Neoproterozoic
   owl:sameAs <http://dbpedia.org/resource/Neoproterozoic> ;
   skos:broader isc:Proterozoic ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Cryogenian ;
   skos:narrower isc:Ediacaran ;
   skos:narrower isc:Tonian ;
-  skos:narrowerTransitive isc:Cryogenian ;
-  skos:narrowerTransitive isc:Ediacaran ;
-  skos:narrowerTransitive isc:Tonian ;
   skos:notation "a2.1.1"^^gts:EraCode ;
   skos:prefLabel "Neoproerozoico"@es ;
   skos:prefLabel "Neoproterosoikum"@et ;
@@ -9255,8 +9172,7 @@ isc:Norian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:broaderTransitive isc:UpperTriassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.3.1.2"^^gts:EraCode ;
   skos:prefLabel "Nor"@cs ;
   skos:prefLabel "Nor"@fi ;
@@ -9297,11 +9213,10 @@ isc:Olenekian
   rdfs:label "Olenekian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Olenekian> ;
   skos:broader isc:LowerTriassic ;
-  skos:broaderTransitive isc:LowerTriassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.3.3.1"^^gts:EraCode ;
   skos:prefLabel "Olenek"@cs ;
   skos:prefLabel "Olenek"@fi ;
@@ -9344,13 +9259,10 @@ isc:Oligocene
   owl:sameAs <http://dbpedia.org/resource/Oligocene> ;
   skos:broader isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Chattian ;
   skos:narrower isc:Rupelian ;
-  skos:narrowerTransitive isc:Chattian ;
-  skos:narrowerTransitive isc:Rupelian ;
   skos:notation "a1.1.1.3.1"^^gts:EraCode ;
   skos:prefLabel "Oligocen"@no ;
   skos:prefLabel "Oligocen"@pl ;
@@ -9396,9 +9308,8 @@ isc:Ordovician
   rdfs:label "Ordovician Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Ordovician> ;
   skos:broader isc:Paleozoic ;
-  skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:LowerOrdovician ;
   skos:narrower isc:MiddleOrdovician ;
   skos:narrower isc:UpperOrdovician ;
@@ -9407,11 +9318,8 @@ isc:Ordovician
   skos:narrowerTransitive isc:Floian ;
   skos:narrowerTransitive isc:Hirnantian ;
   skos:narrowerTransitive isc:Katian ;
-  skos:narrowerTransitive isc:LowerOrdovician ;
-  skos:narrowerTransitive isc:MiddleOrdovician ;
   skos:narrowerTransitive isc:Sandbian ;
   skos:narrowerTransitive isc:Tremadocian ;
-  skos:narrowerTransitive isc:UpperOrdovician ;
   skos:notation "a1.1.3.5"^^gts:EraCode ;
   skos:prefLabel "Ordovician"@en ;
   skos:prefLabel "Ordovicien"@fr ;
@@ -9459,10 +9367,9 @@ isc:Orosirian
   rdfs:label "Orosirian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Orosirian> ;
   skos:broader isc:Paleoproterozoic ;
-  skos:broaderTransitive isc:Paleoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.3.2"^^gts:EraCode ;
   skos:prefLabel "Orosir"@cs ;
   skos:prefLabel "Orosir"@et ;
@@ -9506,8 +9413,7 @@ isc:Oxfordian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperJurassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.1.3"^^gts:EraCode ;
   skos:prefLabel "Oksford"@pl ;
   skos:prefLabel "Oksfordis"@lt ;
@@ -9550,10 +9456,9 @@ isc:Paibian
   owl:sameAs <http://dbpedia.org/resource/Paibian> ;
   skos:broader isc:Furongian ;
   skos:broaderTransitive isc:Cambrian ;
-  skos:broaderTransitive isc:Furongian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.6.1.3"^^gts:EraCode ;
   skos:prefLabel "Paib"@cs ;
   skos:prefLabel "Paib"@fi ;
@@ -9595,9 +9500,8 @@ isc:Paleoarchean
   rdfs:label "Paleoarchean Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Paleoarchean> ;
   skos:broader isc:Archean ;
-  skos:broaderTransitive isc:Archean ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.2.3"^^gts:EraCode ;
   skos:prefLabel "Palaeoarchaean"@en-gb ;
   skos:prefLabel "Paleo-archaicum"@nl ;
@@ -9641,15 +9545,11 @@ isc:Paleocene
   owl:sameAs <http://dbpedia.org/resource/Paleocene> ;
   skos:broader isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Danian ;
   skos:narrower isc:Selandian ;
   skos:narrower isc:Thanetian ;
-  skos:narrowerTransitive isc:Danian ;
-  skos:narrowerTransitive isc:Selandian ;
-  skos:narrowerTransitive isc:Thanetian ;
   skos:notation "a1.1.1.3.3"^^gts:EraCode ;
   skos:prefLabel "Palaeocene"@en-gb ;
   skos:prefLabel "Paleoceen"@nl ;
@@ -9699,19 +9599,15 @@ isc:Paleogene
   rdfs:label "Paleogene Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Paleogene> ;
   skos:broader isc:Cenozoic ;
-  skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Eocene ;
   skos:narrower isc:Oligocene ;
   skos:narrower isc:Paleocene ;
   skos:narrowerTransitive isc:Bartonian ;
   skos:narrowerTransitive isc:Chattian ;
   skos:narrowerTransitive isc:Danian ;
-  skos:narrowerTransitive isc:Eocene ;
   skos:narrowerTransitive isc:Lutetian ;
-  skos:narrowerTransitive isc:Oligocene ;
-  skos:narrowerTransitive isc:Paleocene ;
   skos:narrowerTransitive isc:Priabonian ;
   skos:narrowerTransitive isc:Rupelian ;
   skos:narrowerTransitive isc:Selandian ;
@@ -9768,16 +9664,11 @@ isc:Paleoproterozoic
   owl:sameAs <http://dbpedia.org/resource/Paleoproterozoic> ;
   skos:broader isc:Proterozoic ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Orosirian ;
   skos:narrower isc:Rhyacian ;
   skos:narrower isc:Siderian ;
   skos:narrower isc:Statherian ;
-  skos:narrowerTransitive isc:Orosirian ;
-  skos:narrowerTransitive isc:Rhyacian ;
-  skos:narrowerTransitive isc:Siderian ;
-  skos:narrowerTransitive isc:Statherian ;
   skos:notation "a2.1.3"^^gts:EraCode ;
   skos:prefLabel "Palaeoproterozoic"@en-gb ;
   skos:prefLabel "Paleoproterosoikum"@et ;
@@ -9826,8 +9717,7 @@ isc:Paleozoic
   rdfs:label "Paleozoic Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Paleozoic> ;
   skos:broader isc:Phanerozoic ;
-  skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Cambrian ;
   skos:narrower isc:Carboniferous ;
   skos:narrower isc:Devonian ;
@@ -9838,7 +9728,6 @@ isc:Paleozoic
   skos:narrowerTransitive isc:Artinskian ;
   skos:narrowerTransitive isc:Asselian ;
   skos:narrowerTransitive isc:Bashkirian ;
-  skos:narrowerTransitive isc:Cambrian ;
   skos:narrowerTransitive isc:CambrianSeries2 ;
   skos:narrowerTransitive isc:CambrianSeries3 ;
   skos:narrowerTransitive isc:CambrianStage10 ;
@@ -9847,12 +9736,10 @@ isc:Paleozoic
   skos:narrowerTransitive isc:CambrianStage4 ;
   skos:narrowerTransitive isc:CambrianStage5 ;
   skos:narrowerTransitive isc:Capitanian ;
-  skos:narrowerTransitive isc:Carboniferous ;
   skos:narrowerTransitive isc:Changhsingian ;
   skos:narrowerTransitive isc:Cisuralian ;
   skos:narrowerTransitive isc:Dapingian ;
   skos:narrowerTransitive isc:Darriwilian ;
-  skos:narrowerTransitive isc:Devonian ;
   skos:narrowerTransitive isc:Drumian ;
   skos:narrowerTransitive isc:Eifelian ;
   skos:narrowerTransitive isc:Emsian ;
@@ -9887,10 +9774,8 @@ isc:Paleozoic
   skos:narrowerTransitive isc:MiddlePennsylvanian ;
   skos:narrowerTransitive isc:Mississippian ;
   skos:narrowerTransitive isc:Moscovian ;
-  skos:narrowerTransitive isc:Ordovician ;
   skos:narrowerTransitive isc:Paibian ;
   skos:narrowerTransitive isc:Pennsylvanian ;
-  skos:narrowerTransitive isc:Permian ;
   skos:narrowerTransitive isc:Pragian ;
   skos:narrowerTransitive isc:Pridoli ;
   skos:narrowerTransitive isc:Rhuddanian ;
@@ -9899,7 +9784,6 @@ isc:Paleozoic
   skos:narrowerTransitive isc:Sandbian ;
   skos:narrowerTransitive isc:Serpukhovian ;
   skos:narrowerTransitive isc:Sheinwoodian ;
-  skos:narrowerTransitive isc:Silurian ;
   skos:narrowerTransitive isc:Telychian ;
   skos:narrowerTransitive isc:Terreneuvian ;
   skos:narrowerTransitive isc:Tournaisian ;
@@ -9966,20 +9850,16 @@ isc:Pennsylvanian
   rdfs:label "Pennsylvanian Sub-period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Pennsylvanian> ;
   skos:broader isc:Carboniferous ;
-  skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:LowerPennsylvanian ;
   skos:narrower isc:MiddlePennsylvanian ;
   skos:narrower isc:UpperPennsylvanian ;
   skos:narrowerTransitive isc:Bashkirian ;
   skos:narrowerTransitive isc:Gzhelian ;
   skos:narrowerTransitive isc:Kasimovian ;
-  skos:narrowerTransitive isc:LowerPennsylvanian ;
-  skos:narrowerTransitive isc:MiddlePennsylvanian ;
   skos:narrowerTransitive isc:Moscovian ;
-  skos:narrowerTransitive isc:UpperPennsylvanian ;
   skos:notation "a1.1.3.2.1"^^gts:EraCode ;
   skos:prefLabel "Pennsylvania"@et ;
   skos:prefLabel "Pennsylvania"@fi ;
@@ -10026,9 +9906,8 @@ isc:Permian
   rdfs:label "Permian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Permian> ;
   skos:broader isc:Paleozoic ;
-  skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Cisuralian ;
   skos:narrower isc:Guadalupian ;
   skos:narrower isc:Lopingian ;
@@ -10036,10 +9915,7 @@ isc:Permian
   skos:narrowerTransitive isc:Asselian ;
   skos:narrowerTransitive isc:Capitanian ;
   skos:narrowerTransitive isc:Changhsingian ;
-  skos:narrowerTransitive isc:Cisuralian ;
-  skos:narrowerTransitive isc:Guadalupian ;
   skos:narrowerTransitive isc:Kungurian ;
-  skos:narrowerTransitive isc:Lopingian ;
   skos:narrowerTransitive isc:Roadian ;
   skos:narrowerTransitive isc:Sakmarian ;
   skos:narrowerTransitive isc:Wordian ;
@@ -10093,7 +9969,7 @@ isc:Phanerozoic
   rdfs:comment "younger bound-0.0"@en ;
   rdfs:label "Phanerozoic Eon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Phanerozoic> ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Cenozoic ;
   skos:narrower isc:Mesozoic ;
   skos:narrower isc:Paleozoic ;
@@ -10127,7 +10003,6 @@ isc:Phanerozoic
   skos:narrowerTransitive isc:Carboniferous ;
   skos:narrowerTransitive isc:Carnian ;
   skos:narrowerTransitive isc:Cenomanian ;
-  skos:narrowerTransitive isc:Cenozoic ;
   skos:narrowerTransitive isc:Changhsingian ;
   skos:narrowerTransitive isc:Chattian ;
   skos:narrowerTransitive isc:Cisuralian ;
@@ -10180,7 +10055,6 @@ isc:Phanerozoic
   skos:narrowerTransitive isc:Ludlow ;
   skos:narrowerTransitive isc:Lutetian ;
   skos:narrowerTransitive isc:Maastrichtian ;
-  skos:narrowerTransitive isc:Mesozoic ;
   skos:narrowerTransitive isc:Messinian ;
   skos:narrowerTransitive isc:MiddleDevonian ;
   skos:narrowerTransitive isc:MiddleJurassic ;
@@ -10201,7 +10075,6 @@ isc:Phanerozoic
   skos:narrowerTransitive isc:Paibian ;
   skos:narrowerTransitive isc:Paleocene ;
   skos:narrowerTransitive isc:Paleogene ;
-  skos:narrowerTransitive isc:Paleozoic ;
   skos:narrowerTransitive isc:Pennsylvanian ;
   skos:narrowerTransitive isc:Permian ;
   skos:narrowerTransitive isc:Piacenzian ;
@@ -10297,8 +10170,7 @@ isc:Piacenzian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Pliocene ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.2.1.1"^^gts:EraCode ;
   skos:prefLabel "Piacenz"@cs ;
   skos:prefLabel "Piacenz"@fi ;
@@ -10343,7 +10215,7 @@ isc:Pleistocene
   skos:broader isc:Quaternary ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Calabrian ;
   skos:narrower isc:Gelasian ;
   skos:narrower isc:MiddlePleistocene ;
@@ -10395,10 +10267,9 @@ isc:Pliensbachian
   owl:sameAs <http://dbpedia.org/resource/Pliensbachian> ;
   skos:broader isc:LowerJurassic ;
   skos:broaderTransitive isc:Jurassic ;
-  skos:broaderTransitive isc:LowerJurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.3.2"^^gts:EraCode ;
   skos:prefLabel "Plienbach"@fi ;
   skos:prefLabel "Pliensbach"@cs ;
@@ -10440,13 +10311,10 @@ isc:Pliocene
   owl:sameAs <http://dbpedia.org/resource/Pliocene> ;
   skos:broader isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Piacenzian ;
   skos:narrower isc:Zanclean ;
-  skos:narrowerTransitive isc:Piacenzian ;
-  skos:narrowerTransitive isc:Zanclean ;
   skos:notation "a1.1.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Plioceen"@nl ;
   skos:prefLabel "Pliocen"@no ;
@@ -10493,10 +10361,9 @@ isc:Pragian
   owl:sameAs <http://dbpedia.org/resource/Pragian> ;
   skos:broader isc:LowerDevonian ;
   skos:broaderTransitive isc:Devonian ;
-  skos:broaderTransitive isc:LowerDevonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.3.3.2"^^gts:EraCode ;
   skos:prefLabel "Prag"@cs ;
   skos:prefLabel "Prag"@pl ;
@@ -10536,17 +10403,15 @@ isc:Precambrian
   rdfs:comment "younger bound-542.0"@en ;
   rdfs:label "Precambrian Supereon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Precambrian> ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Archean ;
   skos:narrower isc:Hadean ;
   skos:narrower isc:Proterozoic ;
-  skos:narrowerTransitive isc:Archean ;
   skos:narrowerTransitive isc:Calymmian ;
   skos:narrowerTransitive isc:Cryogenian ;
   skos:narrowerTransitive isc:Ectasian ;
   skos:narrowerTransitive isc:Ediacaran ;
   skos:narrowerTransitive isc:Eoarchean ;
-  skos:narrowerTransitive isc:Hadean ;
   skos:narrowerTransitive isc:Mesoarchean ;
   skos:narrowerTransitive isc:Mesoproterozoic ;
   skos:narrowerTransitive isc:Neoarchean ;
@@ -10554,7 +10419,6 @@ isc:Precambrian
   skos:narrowerTransitive isc:Orosirian ;
   skos:narrowerTransitive isc:Paleoarchean ;
   skos:narrowerTransitive isc:Paleoproterozoic ;
-  skos:narrowerTransitive isc:Proterozoic ;
   skos:narrowerTransitive isc:Rhyacian ;
   skos:narrowerTransitive isc:Siderian ;
   skos:narrowerTransitive isc:Statherian ;
@@ -10599,7 +10463,7 @@ isc:Present
   rdf:type skos:Concept ;
   rdf:type time:Instant ;
   rdfs:label "The Present"@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:prefLabel "The Present"@en ;
   time:inTemporalPosition isc:PresentTime ;
   time:inTemporalPosition isc:PresentTimeCoordinate ;
@@ -10621,10 +10485,9 @@ isc:Priabonian
   owl:sameAs <http://dbpedia.org/resource/Priabonian> ;
   skos:broader isc:Eocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Eocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.2.1"^^gts:EraCode ;
   skos:prefLabel "Priabon"@cs ;
   skos:prefLabel "Priabon"@fi ;
@@ -10668,8 +10531,7 @@ isc:Pridoli
   skos:broader isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.4.1"^^gts:EraCode ;
   skos:prefLabel "Pridoli"@da ;
   skos:prefLabel "Pridoli"@de ;
@@ -10713,8 +10575,7 @@ isc:Proterozoic
   rdfs:label "Proterozoic Eon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Proterozoic> ;
   skos:broader isc:Precambrian ;
-  skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Mesoproterozoic ;
   skos:narrower isc:Neoproterozoic ;
   skos:narrower isc:Paleoproterozoic ;
@@ -10722,10 +10583,7 @@ isc:Proterozoic
   skos:narrowerTransitive isc:Cryogenian ;
   skos:narrowerTransitive isc:Ectasian ;
   skos:narrowerTransitive isc:Ediacaran ;
-  skos:narrowerTransitive isc:Mesoproterozoic ;
-  skos:narrowerTransitive isc:Neoproterozoic ;
   skos:narrowerTransitive isc:Orosirian ;
-  skos:narrowerTransitive isc:Paleoproterozoic ;
   skos:narrowerTransitive isc:Rhyacian ;
   skos:narrowerTransitive isc:Siderian ;
   skos:narrowerTransitive isc:Statherian ;
@@ -10780,16 +10638,13 @@ isc:Quaternary
   rdfs:label "Quaternary Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Quaternary> ;
   skos:broader isc:Cenozoic ;
-  skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Holocene ;
   skos:narrower isc:Pleistocene ;
   skos:narrowerTransitive isc:Calabrian ;
   skos:narrowerTransitive isc:Gelasian ;
-  skos:narrowerTransitive isc:Holocene ;
   skos:narrowerTransitive isc:MiddlePleistocene ;
-  skos:narrowerTransitive isc:Pleistocene ;
   skos:narrowerTransitive isc:UpperPleistocene ;
   skos:notation "a1.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Cuaternario"@es ;
@@ -10849,8 +10704,7 @@ isc:Rhaetian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:broaderTransitive isc:UpperTriassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.3.1.1"^^gts:EraCode ;
   skos:prefLabel "Reciano"@pt ;
   skos:prefLabel "Retis"@lt ;
@@ -10893,11 +10747,10 @@ isc:Rhuddanian
   rdfs:label "Rhuddanian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Rhuddanian> ;
   skos:broader isc:Llandovery ;
-  skos:broaderTransitive isc:Llandovery ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.4.4.3"^^gts:EraCode ;
   skos:prefLabel "Rhuddan"@cs ;
   skos:prefLabel "Rhuddan"@fi ;
@@ -10940,10 +10793,9 @@ isc:Rhyacian
   rdfs:label "Rhyacian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Rhyacian> ;
   skos:broader isc:Paleoproterozoic ;
-  skos:broaderTransitive isc:Paleoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.3.3"^^gts:EraCode ;
   skos:prefLabel "Rhyac"@et ;
   skos:prefLabel "Rhyacian"@en ;
@@ -10984,11 +10836,10 @@ isc:Roadian
   rdfs:label "Roadian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Roadian> ;
   skos:broader isc:Guadalupian ;
-  skos:broaderTransitive isc:Guadalupian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Road"@cs ;
   skos:prefLabel "Road"@fi ;
@@ -11032,10 +10883,9 @@ isc:Rupelian
   owl:sameAs <http://dbpedia.org/resource/Rupelian> ;
   skos:broader isc:Oligocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Oligocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.1.2"^^gts:EraCode ;
   skos:prefLabel "Rupel"@cs ;
   skos:prefLabel "Rupel"@fi ;
@@ -11351,11 +11201,10 @@ isc:Sakmarian
   rdfs:label "Sakmarian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Sakmarian> ;
   skos:broader isc:Cisuralian ;
-  skos:broaderTransitive isc:Cisuralian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.3.3"^^gts:EraCode ;
   skos:prefLabel "Sakmar"@cs ;
   skos:prefLabel "Sakmar"@fi ;
@@ -11399,8 +11248,7 @@ isc:Sandbian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperOrdovician ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.5.1.3"^^gts:EraCode ;
   skos:prefLabel "Sandb"@fi ;
   skos:prefLabel "Sandb"@pl ;
@@ -11445,8 +11293,7 @@ isc:Santonian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperCretaceous ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.1.3"^^gts:EraCode ;
   skos:prefLabel "Santon"@cs ;
   skos:prefLabel "Santon"@fi ;
@@ -11488,10 +11335,9 @@ isc:Selandian
   owl:sameAs <http://dbpedia.org/resource/Selandian> ;
   skos:broader isc:Paleocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Paleocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.3.2"^^gts:EraCode ;
   skos:prefLabel "Seland"@cs ;
   skos:prefLabel "Seland"@fi ;
@@ -11537,8 +11383,7 @@ isc:Serpukhovian
   skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperMississippian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.2.2.1"^^gts:EraCode ;
   skos:prefLabel "Serpuchovis"@lt ;
   skos:prefLabel "Serpuchow"@pl ;
@@ -11583,10 +11428,9 @@ isc:Serravallian
   owl:sameAs <http://dbpedia.org/resource/Serravallian> ;
   skos:broader isc:Miocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Miocene ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.2.2.3"^^gts:EraCode ;
   skos:prefLabel "Seravalis"@lt ;
   skos:prefLabel "Serraval"@cs ;
@@ -11630,8 +11474,7 @@ isc:Sheinwoodian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:broaderTransitive isc:Wenlock ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.4.3.2"^^gts:EraCode ;
   skos:prefLabel "Sheinwood"@cs ;
   skos:prefLabel "Sheinwood"@fi ;
@@ -11673,10 +11516,9 @@ isc:Siderian
   rdfs:label "Siderian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Siderian> ;
   skos:broader isc:Paleoproterozoic ;
-  skos:broaderTransitive isc:Paleoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.3.4"^^gts:EraCode ;
   skos:prefLabel "Sider"@cs ;
   skos:prefLabel "Sider"@et ;
@@ -11718,10 +11560,9 @@ isc:Silurian
   rdfs:label "Silurian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Silurian> ;
   skos:broader isc:Paleozoic ;
-  skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:definition "The Silurian is a geologic period and system that extends from the end of the Ordovician Period, about 443.7 ± 1.5 million years ago (mya), to the beginning of the Devonian Period, about 416.0 ± 2.8 mya. As with other geologic periods, the rock beds that define the period's start and end are well identified, but the exact dates are uncertain by several million years. The Base of the Silurian is set at a major extinction event when 60% of marine species were wiped out."@en ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Llandovery ;
   skos:narrower isc:Ludlow ;
   skos:narrower isc:Pridoli ;
@@ -11729,14 +11570,10 @@ isc:Silurian
   skos:narrowerTransitive isc:Aeronian ;
   skos:narrowerTransitive isc:Gorstian ;
   skos:narrowerTransitive isc:Homerian ;
-  skos:narrowerTransitive isc:Llandovery ;
   skos:narrowerTransitive isc:Ludfordian ;
-  skos:narrowerTransitive isc:Ludlow ;
-  skos:narrowerTransitive isc:Pridoli ;
   skos:narrowerTransitive isc:Rhuddanian ;
   skos:narrowerTransitive isc:Sheinwoodian ;
   skos:narrowerTransitive isc:Telychian ;
-  skos:narrowerTransitive isc:Wenlock ;
   skos:notation "a1.1.3.4"^^gts:EraCode ;
   skos:prefLabel "Silur"@cs ;
   skos:prefLabel "Silur"@da ;
@@ -11786,10 +11623,9 @@ isc:Sinemurian
   owl:sameAs <http://dbpedia.org/resource/Sinemurian> ;
   skos:broader isc:LowerJurassic ;
   skos:broaderTransitive isc:Jurassic ;
-  skos:broaderTransitive isc:LowerJurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.3.3"^^gts:EraCode ;
   skos:prefLabel "Sinemiūris"@lt ;
   skos:prefLabel "Sinemur"@cs ;
@@ -11830,10 +11666,9 @@ isc:Statherian
   rdfs:label "Statherian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Statherian> ;
   skos:broader isc:Paleoproterozoic ;
-  skos:broaderTransitive isc:Paleoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.3.1"^^gts:EraCode ;
   skos:prefLabel "Stater"@pl ;
   skos:prefLabel "Stateriano"@pt ;
@@ -11875,10 +11710,9 @@ isc:Stenian
   rdfs:label "Stenian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Stenian> ;
   skos:broader isc:Mesoproterozoic ;
-  skos:broaderTransitive isc:Mesoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Esteniense"@es ;
   skos:prefLabel "Sten"@cs ;
@@ -12128,11 +11962,10 @@ isc:Telychian
   rdfs:label "Telychian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Telychian> ;
   skos:broader isc:Llandovery ;
-  skos:broaderTransitive isc:Llandovery ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.4.4.1"^^gts:EraCode ;
   skos:prefLabel "Telych"@cs ;
   skos:prefLabel "Telych"@fi ;
@@ -12174,14 +12007,11 @@ isc:Terreneuvian
   rdfs:label "Terreneuvian Epoch"@en ;
   owl:sameAs <http://dbpedia.org/resource/Terreneuvian> ;
   skos:broader isc:Cambrian ;
-  skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:CambrianStage2 ;
   skos:narrower isc:Fortunian ;
-  skos:narrowerTransitive isc:CambrianStage2 ;
-  skos:narrowerTransitive isc:Fortunian ;
   skos:notation "a1.1.3.6.4"^^gts:EraCode ;
   skos:prefLabel "Terenew"@pl ;
   skos:prefLabel "Tereniuvis"@lt ;
@@ -12229,10 +12059,9 @@ isc:Thanetian
   owl:sameAs <http://dbpedia.org/resource/Thanetian> ;
   skos:broader isc:Paleocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Paleocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.3.1"^^gts:EraCode ;
   skos:prefLabel "Tanet"@pl ;
   skos:prefLabel "Tanetiano"@pt ;
@@ -12277,8 +12106,7 @@ isc:Tithonian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperJurassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.1.1"^^gts:EraCode ;
   skos:prefLabel "Tithon"@cs ;
   skos:prefLabel "Tithon"@fi ;
@@ -12322,10 +12150,9 @@ isc:Toarcian
   owl:sameAs <http://dbpedia.org/resource/Toarcian> ;
   skos:broader isc:LowerJurassic ;
   skos:broaderTransitive isc:Jurassic ;
-  skos:broaderTransitive isc:LowerJurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.2.3.1"^^gts:EraCode ;
   skos:prefLabel "Toarc"@fi ;
   skos:prefLabel "Toarc"@no ;
@@ -12367,10 +12194,9 @@ isc:Tonian
   rdfs:label "Tonian Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Tonian> ;
   skos:broader isc:Neoproterozoic ;
-  skos:broaderTransitive isc:Neoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a2.1.1.3"^^gts:EraCode ;
   skos:prefLabel "Ton"@cs ;
   skos:prefLabel "Ton"@et ;
@@ -12413,10 +12239,9 @@ isc:Tortonian
   owl:sameAs <http://dbpedia.org/resource/Tortonian> ;
   skos:broader isc:Miocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Miocene ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.2.2.2"^^gts:EraCode ;
   skos:prefLabel "Torton"@cs ;
   skos:prefLabel "Torton"@fi ;
@@ -12459,11 +12284,10 @@ isc:Tournaisian
   skos:altLabel "Early Mississippian"@en ;
   skos:broader isc:LowerMississippian ;
   skos:broaderTransitive isc:Carboniferous ;
-  skos:broaderTransitive isc:LowerMississippian ;
   skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.2.2.3"^^gts:EraCode ;
   skos:prefLabel "Tournai"@cs ;
   skos:prefLabel "Tournais"@et ;
@@ -12506,11 +12330,10 @@ isc:Tremadocian
   rdfs:label "Tremadocian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Tremadocian> ;
   skos:broader isc:LowerOrdovician ;
-  skos:broaderTransitive isc:LowerOrdovician ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.5.3.2"^^gts:EraCode ;
   skos:prefLabel "Tremadoc"@fi ;
   skos:prefLabel "Tremadoc"@no ;
@@ -12553,9 +12376,8 @@ isc:Triassic
   rdfs:label "Triassic Period"@en ;
   owl:sameAs <http://dbpedia.org/resource/Triassic> ;
   skos:broader isc:Mesozoic ;
-  skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:LowerTriassic ;
   skos:narrower isc:MiddleTriassic ;
   skos:narrower isc:UpperTriassic ;
@@ -12563,12 +12385,9 @@ isc:Triassic
   skos:narrowerTransitive isc:Carnian ;
   skos:narrowerTransitive isc:Induan ;
   skos:narrowerTransitive isc:Ladinian ;
-  skos:narrowerTransitive isc:LowerTriassic ;
-  skos:narrowerTransitive isc:MiddleTriassic ;
   skos:narrowerTransitive isc:Norian ;
   skos:narrowerTransitive isc:Olenekian ;
   skos:narrowerTransitive isc:Rhaetian ;
-  skos:narrowerTransitive isc:UpperTriassic ;
   skos:notation "a1.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Trias"@cs ;
   skos:prefLabel "Trias"@de ;
@@ -12620,8 +12439,7 @@ isc:Turonian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:UpperCretaceous ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.1.5"^^gts:EraCode ;
   skos:prefLabel "Tuironiën"@nl ;
   skos:prefLabel "Turon"@cs ;
@@ -12664,22 +12482,15 @@ isc:UpperCretaceous
   skos:altLabel "上白垩统"@zh ;
   skos:altLabel "白亜紀後期"@ja ;
   skos:broader isc:Cretaceous ;
-  skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Campanian ;
   skos:narrower isc:Cenomanian ;
   skos:narrower isc:Coniacian ;
   skos:narrower isc:Maastrichtian ;
   skos:narrower isc:Santonian ;
   skos:narrower isc:Turonian ;
-  skos:narrowerTransitive isc:Campanian ;
-  skos:narrowerTransitive isc:Cenomanian ;
-  skos:narrowerTransitive isc:Coniacian ;
-  skos:narrowerTransitive isc:Maastrichtian ;
-  skos:narrowerTransitive isc:Santonian ;
-  skos:narrowerTransitive isc:Turonian ;
   skos:notation "a1.1.2.1.1"^^gts:EraCode ;
   skos:prefLabel "Apatinė/Viršutinė Kreida"@lt ;
   skos:prefLabel "Cretácico Superior"@es ;
@@ -12732,14 +12543,11 @@ isc:UpperDevonian
   skos:altLabel "デボン紀後期"@ja ;
   skos:altLabel "上泥盆统"@zh ;
   skos:broader isc:Devonian ;
-  skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Famennian ;
   skos:narrower isc:Frasnian ;
-  skos:narrowerTransitive isc:Famennian ;
-  skos:narrowerTransitive isc:Frasnian ;
   skos:notation "a1.1.3.3.1"^^gts:EraCode ;
   skos:prefLabel "Devónico Superior"@es ;
   skos:prefLabel "Devónico Superior"@pt ;
@@ -12788,16 +12596,12 @@ isc:UpperJurassic
   skos:altLabel "ジュラ紀後期"@ja ;
   skos:altLabel "上侏罗统"@zh ;
   skos:broader isc:Jurassic ;
-  skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Kimmeridgian ;
   skos:narrower isc:Oxfordian ;
   skos:narrower isc:Tithonian ;
-  skos:narrowerTransitive isc:Kimmeridgian ;
-  skos:narrowerTransitive isc:Oxfordian ;
-  skos:narrowerTransitive isc:Tithonian ;
   skos:notation "a1.1.2.2.1"^^gts:EraCode ;
   skos:prefLabel "Hilis/Ülem-Juura"@et ;
   skos:prefLabel "Jurassique supérieur"@fr ;
@@ -12845,12 +12649,10 @@ isc:UpperMississippian
   skos:altLabel "上密西西比统"@zh ;
   skos:broader isc:Mississippian ;
   skos:broaderTransitive isc:Carboniferous ;
-  skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Serpukhovian ;
-  skos:narrowerTransitive isc:Serpukhovian ;
   skos:prefLabel "Upper Mississippian"@en ;
   skos:prefLabel "後期ミシシッピアン紀"@ja ;
   skos:prefLabel "晚密西西比世"@zh ;
@@ -12878,16 +12680,12 @@ isc:UpperOrdovician
   skos:altLabel "オルドビス紀後期"@ja ;
   skos:altLabel "上奥陶统"@zh ;
   skos:broader isc:Ordovician ;
-  skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Hirnantian ;
   skos:narrower isc:Katian ;
   skos:narrower isc:Sandbian ;
-  skos:narrowerTransitive isc:Hirnantian ;
-  skos:narrowerTransitive isc:Katian ;
-  skos:narrowerTransitive isc:Sandbian ;
   skos:notation "a1.1.3.5.1"^^gts:EraCode ;
   skos:prefLabel "Hilis-/Ülem-Ordoviitsium"@et ;
   skos:prefLabel "Laat/Boven Ordovicium"@nl ;
@@ -12938,13 +12736,10 @@ isc:UpperPennsylvanian
   skos:broader isc:Pennsylvanian ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
-  skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Gzhelian ;
   skos:narrower isc:Kasimovian ;
-  skos:narrowerTransitive isc:Gzhelian ;
-  skos:narrowerTransitive isc:Kasimovian ;
   skos:notation "a1.1.3.2.1.1"^^gts:EraCode ;
   skos:prefLabel "Hilis/Ülem-Pennsylvania"@et ;
   skos:prefLabel "Laat/Boven Pennsylvaniën"@nl ;
@@ -12995,9 +12790,8 @@ isc:UpperPleistocene
   skos:broader isc:Pleistocene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Pleistocene ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Apatinis/Viršutinis Pleistocenas"@lt ;
   skos:prefLabel "Laat/Boven Pleistoceen"@nl ;
@@ -13042,14 +12836,10 @@ isc:UpperTriassic
   skos:broader isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Triassic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Carnian ;
   skos:narrower isc:Norian ;
   skos:narrower isc:Rhaetian ;
-  skos:narrowerTransitive isc:Carnian ;
-  skos:narrowerTransitive isc:Norian ;
-  skos:narrowerTransitive isc:Rhaetian ;
   skos:notation "a1.1.2.3.1"^^gts:EraCode ;
   skos:prefLabel "Hilis/Ülem-Triias"@et ;
   skos:prefLabel "Laat/Boven Trias"@nl ;
@@ -13097,10 +12887,9 @@ isc:Valanginian
   owl:sameAs <http://dbpedia.org/resource/Valanginian> ;
   skos:broader isc:LowerCretaceous ;
   skos:broaderTransitive isc:Cretaceous ;
-  skos:broaderTransitive isc:LowerCretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.2.1.2.5"^^gts:EraCode ;
   skos:prefLabel "Valangin"@cs ;
   skos:prefLabel "Valangin"@fi ;
@@ -13143,11 +12932,10 @@ isc:Visean
   skos:altLabel "Middle Mississippian"@en ;
   skos:broader isc:MiddleMississippian ;
   skos:broaderTransitive isc:Carboniferous ;
-  skos:broaderTransitive isc:MiddleMississippian ;
   skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.2.2.2"^^gts:EraCode ;
   skos:prefLabel "Vis"@fi ;
   skos:prefLabel "Vise"@et ;
@@ -13191,12 +12979,9 @@ isc:Wenlock
   skos:broader isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Silurian ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:narrower isc:Homerian ;
   skos:narrower isc:Sheinwoodian ;
-  skos:narrowerTransitive isc:Homerian ;
-  skos:narrowerTransitive isc:Sheinwoodian ;
   skos:notation "a1.1.3.4.3"^^gts:EraCode ;
   skos:prefLabel "Uenlokis"@lt ;
   skos:prefLabel "Welnlock"@no ;
@@ -13241,11 +13026,10 @@ isc:Wordian
   rdfs:label "Wordian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Wordian> ;
   skos:broader isc:Guadalupian ;
-  skos:broaderTransitive isc:Guadalupian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Vordis"@lt ;
   skos:prefLabel "Word"@cs ;
@@ -13286,11 +13070,10 @@ isc:Wuchiapingian
   rdfs:label "Wuchiapingian Age"@en ;
   owl:sameAs <http://dbpedia.org/resource/Wuchiapingian> ;
   skos:broader isc:Lopingian ;
-  skos:broaderTransitive isc:Lopingian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.3.1.1.2"^^gts:EraCode ;
   skos:prefLabel "VuĿiapingis"@lt ;
   skos:prefLabel "Wuchiaiping"@fi ;
@@ -13332,10 +13115,9 @@ isc:Ypresian
   owl:sameAs <http://dbpedia.org/resource/Ypresian> ;
   skos:broader isc:Eocene ;
   skos:broaderTransitive isc:Cenozoic ;
-  skos:broaderTransitive isc:Eocene ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.3.2.4"^^gts:EraCode ;
   skos:prefLabel "Ipr"@pl ;
   skos:prefLabel "Ipresiano"@pt ;
@@ -13380,8 +13162,7 @@ isc:Zanclean
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:broaderTransitive isc:Pliocene ;
-  skos:inScheme <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
+  skos:inScheme <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   skos:notation "a1.1.1.2.1.2"^^gts:EraCode ;
   skos:prefLabel "Brunssummiën"@nl ;
   skos:prefLabel "Zancl"@cs ;
@@ -13422,7 +13203,7 @@ isc:Zanclean
   dc:contributor "Chinese and Japanese preferred labels from SKOS by Xiaogang Ma, adopted from Asian Multilingual Thesaurus of Geosciences."@en ;
   dc:contributor "International Commission on Stratigraphy"@en ;
   dc:contributor "OneGeology Europe preferred labels merged in by S.M. Richard."@en ;
-  dc:contributor "S M Richard, Arizona Geological Survey"@en ;
+  dc:contributor "S M Richard"@en ;
   dc:creator "Simon J D COX, CSIRO"@en ;
   dc:description "Ontology document containing an RDF/OWL representation of the 2016-12 edition of the International Chronostratigraphic Chart from the International Commission on Stratigraphy."@en ;
   dc:rights "Original version Copyright © 2016 International Commission on Stratigraphy"@en ;
@@ -13431,10 +13212,9 @@ isc:Zanclean
   dc:source "Cohen, K.M., Finney, S.C., Gibbard, P.L. & Fan, J.-X. (2013; updated) The ICS International Chronostratigraphic Chart. Episodes 36: 199-204."@en ;
   dc:source "International Chronostratigraphic Chart 2016"@en ;
   dc:title "International Chronostratigraphic Chart (2016)"@en ;
-  dcterms:created "2014-05-08"^^xsd:date ;
   dcterms:created "2017-03-31"^^xsd:date ;
   dcterms:license <http://opendatacommons.org/licenses/by/1.0> ;
-  dcterms:modified "2017-06-09"^^xsd:date ;
+  dcterms:modified "2017-06-21"^^xsd:date ;
   dcterms:replaces <http://resource.geosciml.org/classifierscheme/ics/2014/ischart> ;
   dcterms:replaces <http://resource.geosciml.org/vocabulary/timescale/isc2014> ;
   dcterms:subject <http://dbpedia.org/page/Geologic_time_scale> ;
@@ -13454,6 +13234,132 @@ isc:Zanclean
   void:vocabulary <http://resource.geosciml.org/ontology/timescale/gts> ;
   void:vocabulary <http://resource.geosciml.org/ontology/timescale/rank> ;
   void:vocabulary <http://resource.geosciml.org/ontology/timescale/thors> ;
+  thors:component isc:Phanerozoic ;
+  thors:component isc:Precambrian ;
+  thors:referencePoint isc:BaseAeronian ;
+  thors:referencePoint isc:BaseAlbian ;
+  thors:referencePoint isc:BaseAptian ;
+  thors:referencePoint isc:BaseArchean ;
+  thors:referencePoint isc:BaseArtinskian ;
+  thors:referencePoint isc:BaseBajocian ;
+  thors:referencePoint isc:BaseBarremian ;
+  thors:referencePoint isc:BaseBartonian ;
+  thors:referencePoint isc:BaseBashkirian ;
+  thors:referencePoint isc:BaseBathonian ;
+  thors:referencePoint isc:BaseBurdigalian ;
+  thors:referencePoint isc:BaseCalabrian ;
+  thors:referencePoint isc:BaseCallovian ;
+  thors:referencePoint isc:BaseCambrianSeries2 ;
+  thors:referencePoint isc:BaseCambrianSeries3 ;
+  thors:referencePoint isc:BaseCambrianStage10 ;
+  thors:referencePoint isc:BaseCambrianStage2 ;
+  thors:referencePoint isc:BaseCambrianStage4 ;
+  thors:referencePoint isc:BaseCampanian ;
+  thors:referencePoint isc:BaseCapitanian ;
+  thors:referencePoint isc:BaseCarboniferous ;
+  thors:referencePoint isc:BaseCenozoic ;
+  thors:referencePoint isc:BaseChanghsingian ;
+  thors:referencePoint isc:BaseChattian ;
+  thors:referencePoint isc:BaseCisuralian ;
+  thors:referencePoint isc:BaseConiacian ;
+  thors:referencePoint isc:BaseCretaceous ;
+  thors:referencePoint isc:BaseCryogenian ;
+  thors:referencePoint isc:BaseDarriwilian ;
+  thors:referencePoint isc:BaseDevonian ;
+  thors:referencePoint isc:BaseDrumian ;
+  thors:referencePoint isc:BaseEctasian ;
+  thors:referencePoint isc:BaseEdiacaran ;
+  thors:referencePoint isc:BaseEmsian ;
+  thors:referencePoint isc:BaseEocene ;
+  thors:referencePoint isc:BaseFamennian ;
+  thors:referencePoint isc:BaseFloian ;
+  thors:referencePoint isc:BaseFurongian ;
+  thors:referencePoint isc:BaseGivetian ;
+  thors:referencePoint isc:BaseGuadalupian ;
+  thors:referencePoint isc:BaseGuzhangian ;
+  thors:referencePoint isc:BaseGzhelian ;
+  thors:referencePoint isc:BaseHauterivian ;
+  thors:referencePoint isc:BaseHirnantian ;
+  thors:referencePoint isc:BaseHolocene ;
+  thors:referencePoint isc:BaseHomerian ;
+  thors:referencePoint isc:BaseIonian ;
+  thors:referencePoint isc:BaseJiangshanian ;
+  thors:referencePoint isc:BaseJurassic ;
+  thors:referencePoint isc:BaseKasimovian ;
+  thors:referencePoint isc:BaseKatian ;
+  thors:referencePoint isc:BaseKimmeridgian ;
+  thors:referencePoint isc:BaseKungurian ;
+  thors:referencePoint isc:BaseLadinian ;
+  thors:referencePoint isc:BaseLanghian ;
+  thors:referencePoint isc:BaseLopingian ;
+  thors:referencePoint isc:BaseLudfordian ;
+  thors:referencePoint isc:BaseLudlow ;
+  thors:referencePoint isc:BaseLutetian ;
+  thors:referencePoint isc:BaseMaastrichtian ;
+  thors:referencePoint isc:BaseMesoarchean ;
+  thors:referencePoint isc:BaseMesoproterozoic ;
+  thors:referencePoint isc:BaseMesozoic ;
+  thors:referencePoint isc:BaseMessinian ;
+  thors:referencePoint isc:BaseMiddleDevonian ;
+  thors:referencePoint isc:BaseMiddleJurassic ;
+  thors:referencePoint isc:BaseMiddleMississippian ;
+  thors:referencePoint isc:BaseMiddleOrdovician ;
+  thors:referencePoint isc:BaseMiddlePennsylvanian ;
+  thors:referencePoint isc:BaseMiddlePleistocene ;
+  thors:referencePoint isc:BaseMiddleTriassic ;
+  thors:referencePoint isc:BaseMississipian ;
+  thors:referencePoint isc:BaseMoscovian ;
+  thors:referencePoint isc:BaseNeoarchean ;
+  thors:referencePoint isc:BaseNeogene ;
+  thors:referencePoint isc:BaseNeoproterozoic ;
+  thors:referencePoint isc:BaseNorian ;
+  thors:referencePoint isc:BaseOlenekian ;
+  thors:referencePoint isc:BaseOligocene ;
+  thors:referencePoint isc:BaseOrdovician ;
+  thors:referencePoint isc:BaseOrosirian ;
+  thors:referencePoint isc:BasePaleoarchean ;
+  thors:referencePoint isc:BasePennsylvanian ;
+  thors:referencePoint isc:BasePermian ;
+  thors:referencePoint isc:BasePhanerozoic ;
+  thors:referencePoint isc:BasePiacenzian ;
+  thors:referencePoint isc:BasePliensbachian ;
+  thors:referencePoint isc:BasePliocene ;
+  thors:referencePoint isc:BasePragian ;
+  thors:referencePoint isc:BasePriabonian ;
+  thors:referencePoint isc:BasePridoli ;
+  thors:referencePoint isc:BaseProterozoic ;
+  thors:referencePoint isc:BaseQuaternary ;
+  thors:referencePoint isc:BaseRhaetian ;
+  thors:referencePoint isc:BaseRhyacian ;
+  thors:referencePoint isc:BaseSakmarian ;
+  thors:referencePoint isc:BaseSantonian ;
+  thors:referencePoint isc:BaseSelandian ;
+  thors:referencePoint isc:BaseSerpukhovian ;
+  thors:referencePoint isc:BaseSerravallian ;
+  thors:referencePoint isc:BaseSilurian ;
+  thors:referencePoint isc:BaseSinemurian ;
+  thors:referencePoint isc:BaseStatherian ;
+  thors:referencePoint isc:BaseStenian ;
+  thors:referencePoint isc:BaseTelychian ;
+  thors:referencePoint isc:BaseThanetian ;
+  thors:referencePoint isc:BaseTithonian ;
+  thors:referencePoint isc:BaseToarcian ;
+  thors:referencePoint isc:BaseTortonian ;
+  thors:referencePoint isc:BaseTournaisian ;
+  thors:referencePoint isc:BaseTuronian ;
+  thors:referencePoint isc:BaseUpperCretaceous ;
+  thors:referencePoint isc:BaseUpperDevonian ;
+  thors:referencePoint isc:BaseUpperJurassic ;
+  thors:referencePoint isc:BaseUpperMississippian ;
+  thors:referencePoint isc:BaseUpperOrdovician ;
+  thors:referencePoint isc:BaseUpperPennsylvanian ;
+  thors:referencePoint isc:BaseUpperPleistocene ;
+  thors:referencePoint isc:BaseUpperTriassic ;
+  thors:referencePoint isc:BaseValanginian ;
+  thors:referencePoint isc:BaseWenlock ;
+  thors:referencePoint isc:BaseWordian ;
+  thors:referencePoint isc:FormationOfEarth ;
+  thors:referencePoint isc:Present ;
   rdfs:isDefinedBy <http://resource.geosciml.org/vocabulary/timescale/isc2016> ;
   rdfs:label "International Chronostratigraphic Chart (2016)"@en ;
   rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/2016> ;
@@ -13468,9 +13374,7 @@ isc:Zanclean
 2. GTS ontology updated to use sam-lite (instead of OWL implementation of ISO 19156) with a lightweight SOSA alignment
 3. Spatial data uses GeoSPARQL (instead of OWL implementation of ISO 19107)""" ;
   skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016.txt> for changes from prior versions"@en ;
-  skos:hasTopConcept isc:Archean ;
-  skos:hasTopConcept isc:Hadean ;
   skos:hasTopConcept isc:Phanerozoic ;
-  skos:hasTopConcept isc:Proterozoic ;
+  skos:hasTopConcept isc:Precambrian ;
   skos:prefLabel "International Chronostratigraphic Chart (2016)"@en ;
 .

@@ -205,4 +205,32 @@ WHERE {
 
 ---
 
+INSERT { ?p a thors:EraBoundary }  
+WHERE {
+	{ ?p a gts:GeochronologicBoundary } UNION { ?p a gts:NumericEraBoundary } 
+}
+
+INSERT { <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> thors:referencePoint ?p }
+WHERE {
+	?p a thors:EraBoundary 
+}
+
+---
+
+DELETE { ?p skos:broaderTransitive ?b }
+WHERE {
+  ?p skos:broader ?b . 
+  ?p skos:broaderTransitive ?b . 
+}
+
+DELETE { ?p skos:narrowerTransitive ?b }
+WHERE {
+  ?p skos:narrower ?b . 
+  ?p skos:narrowerTransitive ?b . 
+}
+
+---
+
 TODO - disentagle Carboniferous equals vs in mess
+
+---
