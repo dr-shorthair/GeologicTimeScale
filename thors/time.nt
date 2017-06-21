@@ -1,4 +1,4 @@
-# baseURI: http://resource.geosciml.org/ontology/timescale/thors/time-mapping
+# baseURI: http://resource.geosciml.org/ontology/timescale/thors/time
 # imports: http://resource.geosciml.org/ontology/timescale/thors
 # imports: http://www.w3.org/2006/time
 
@@ -37,13 +37,13 @@ _:B472c155002cca153132e4e4411eb77c7 <http://www.w3.org/2002/07/owl#minQualifiedC
 _:B472c155002cca153132e4e4411eb77c7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://resource.geosciml.org/ontology/timescale/thors#nextEra> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://resource.geosciml.org/ontology/timescale/thors#nextEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
-<http://resource.geosciml.org/ontology/timescale/thors/time-mapping> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time> .
-<http://resource.geosciml.org/ontology/timescale/thors/time-mapping> <http://www.w3.org/2002/07/owl#imports> <http://resource.geosciml.org/ontology/timescale/thors> .
-<http://resource.geosciml.org/ontology/timescale/thors/time-mapping> <http://www.w3.org/2000/01/rdf-schema#comment> "This graph provides an alignment of the THORS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. \r\n\r\nWhere appropriate, THORS classes and properties are related to OWL-Time classes and properties using rdfs:subClassOf, rdfs:subPropertyOf and owl:equivalentProperty axioms. Where the latter apply, the THORS properties are also annotated \"deprecated\" with the expectation that the OWL-Time properties will be used instead. " .
-<http://resource.geosciml.org/ontology/timescale/thors/time-mapping> <http://purl.org/dc/terms/creator> <http://orcid.org/0000-0002-3884-3420> .
-<http://resource.geosciml.org/ontology/timescale/thors/time-mapping> <http://purl.org/dc/terms/created> "2017-03-31" .
-<http://resource.geosciml.org/ontology/timescale/thors/time-mapping> <http://purl.org/dc/elements/1.1/creator> "Simon J D Cox" .
-<http://resource.geosciml.org/ontology/timescale/thors/time-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://resource.geosciml.org/ontology/timescale/thors/time> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time> .
+<http://resource.geosciml.org/ontology/timescale/thors/time> <http://www.w3.org/2002/07/owl#imports> <http://resource.geosciml.org/ontology/timescale/thors> .
+<http://resource.geosciml.org/ontology/timescale/thors/time> <http://www.w3.org/2000/01/rdf-schema#comment> "This graph provides an alignment of the THORS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. \r\n\r\nWhere appropriate, THORS classes and properties are related to OWL-Time classes and properties using rdfs:subClassOf, rdfs:subPropertyOf and owl:equivalentProperty axioms. Where the latter apply, the THORS properties are also annotated \"deprecated\" with the expectation that the OWL-Time properties will be used instead. " .
+<http://resource.geosciml.org/ontology/timescale/thors/time> <http://purl.org/dc/terms/creator> <http://orcid.org/0000-0002-3884-3420> .
+<http://resource.geosciml.org/ontology/timescale/thors/time> <http://purl.org/dc/terms/created> "2017-03-31" .
+<http://resource.geosciml.org/ontology/timescale/thors/time> <http://purl.org/dc/elements/1.1/creator> "Simon J D Cox" .
+<http://resource.geosciml.org/ontology/timescale/thors/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 _:B6801aa5eX3A15ccaed5602X3AX2D7e26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:B6801aa5eX3A15ccaed5602X3AX2D7e26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://resource.geosciml.org/ontology/timescale/thors#nextEra> .
 <http://resource.geosciml.org/ontology/timescale/thors#begin> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3.org/2006/time#hasBeginning> .

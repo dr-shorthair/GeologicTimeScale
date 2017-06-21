@@ -1,6 +1,6 @@
-# baseURI: http://resource.geosciml.org/ontology/timescale/gts/time-mapping
+# baseURI: http://resource.geosciml.org/ontology/timescale/gts/time	
 # imports: http://resource.geosciml.org/ontology/timescale/gts
-# imports: http://resource.geosciml.org/ontology/timescale/thors/time-mapping
+# imports: http://resource.geosciml.org/ontology/timescale/thors/time	
 # imports: http://www.w3.org/ns/sosa/
 
 _:Bdc6129de8d881a3984fbfe1c909fa1bf <http://www.w3.org/2002/07/owl#unionOf> _:B6801aa5eX3A15ccaed5602X3AX2D7e52 .
@@ -612,14 +612,14 @@ _:B7fb06f82b0c4007f22e564b622f719cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 _:B6801aa5eX3A15ccaed5602X3AX2D7ece <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B6801aa5eX3A15ccaed5602X3AX2D7ecd .
 _:B6801aa5eX3A15ccaed5602X3AX2D7ece <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://resource.geosciml.org/ontology/timescale/gts#Period> .
 <http://resource.geosciml.org/ontology/timescale/gts#StratigraphicPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Sample> .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/sosa/> .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping> <http://www.w3.org/2002/07/owl#imports> <http://resource.geosciml.org/ontology/timescale/thors/time-mapping> .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping> <http://www.w3.org/2002/07/owl#imports> <http://resource.geosciml.org/ontology/timescale/gts> .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping> <http://www.w3.org/2000/01/rdf-schema#comment> "This graph provides an alignment of the GTS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. This is primarily accomplished transitively, through import of the THORS/OWL-Time mapping. " .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping> <http://purl.org/dc/terms/creator> <http://orcid.org/0000-0002-3884-3420> .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping> <http://purl.org/dc/terms/created> "2017-03-31" .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping> <http://purl.org/dc/elements/1.1/creator> "Simon J D Cox" .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://resource.geosciml.org/ontology/timescale/gts/time	> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/sosa/> .
+<http://resource.geosciml.org/ontology/timescale/gts/time	> <http://www.w3.org/2002/07/owl#imports> <http://resource.geosciml.org/ontology/timescale/thors/time	> .
+<http://resource.geosciml.org/ontology/timescale/gts/time	> <http://www.w3.org/2002/07/owl#imports> <http://resource.geosciml.org/ontology/timescale/gts> .
+<http://resource.geosciml.org/ontology/timescale/gts/time	> <http://www.w3.org/2000/01/rdf-schema#comment> "This graph provides an alignment of the GTS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. This is primarily accomplished transitively, through import of the THORS/OWL-Time mapping. " .
+<http://resource.geosciml.org/ontology/timescale/gts/time	> <http://purl.org/dc/terms/creator> <http://orcid.org/0000-0002-3884-3420> .
+<http://resource.geosciml.org/ontology/timescale/gts/time	> <http://purl.org/dc/terms/created> "2017-03-31" .
+<http://resource.geosciml.org/ontology/timescale/gts/time	> <http://purl.org/dc/elements/1.1/creator> "Simon J D Cox" .
+<http://resource.geosciml.org/ontology/timescale/gts/time	> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 _:B6801aa5eX3A15ccaed5602X3AX2D7ead <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B6801aa5eX3A15ccaed5602X3AX2D7eac .
 _:B6801aa5eX3A15ccaed5602X3AX2D7ead <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://resource.geosciml.org/ontology/timescale/gts#Period> .
 _:B6801aa5eX3A15ccaed5602X3AX2D7eb0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .

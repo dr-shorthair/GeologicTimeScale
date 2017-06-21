@@ -1,4 +1,4 @@
-# baseURI: http://resource.geosciml.org/ontology/timescale/thors/time-mapping
+# baseURI: http://resource.geosciml.org/ontology/timescale/thors/time
 # imports: http://resource.geosciml.org/ontology/timescale/thors
 # imports: http://www.w3.org/2006/time
 
@@ -80,7 +80,7 @@ thors:system
     ] ;
   owl:deprecated "true"^^xsd:boolean ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors/time-mapping>
+<http://resource.geosciml.org/ontology/timescale/thors/time>
   rdf:type owl:Ontology ;
   dc:creator "Simon J D Cox" ;
   dct:created "2017-03-31" ;

@@ -38,7 +38,7 @@
     "@id" : "thors:system",
     "subPropertyOf" : [ "tm:system", "tm:complex" ]
   }, {
-    "@id" : "http://resource.geosciml.org/ontology/timescale/thors/iso-mapping",
+    "@id" : "http://resource.geosciml.org/ontology/timescale/thors/iso",
     "@type" : "owl:Ontology",
     "imports" : [ "http://resource.geosciml.org/ontology/timescale/thors", "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal" ]
   } ],
@@ -69,7 +69,7 @@
     "tm" : "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "basic" : "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#",
-    "iso-mapping" : "http://resource.geosciml.org/ontology/timescale/thors/iso-mapping#",
+    "iso" : "http://resource.geosciml.org/ontology/timescale/thors/iso#",
     "thors" : "http://resource.geosciml.org/ontology/timescale/thors#"
   }
 }

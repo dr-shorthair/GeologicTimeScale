@@ -71,7 +71,7 @@
     "subPropertyOf" : "_:b2",
     "owl:deprecated" : true
   }, {
-    "@id" : "http://resource.geosciml.org/ontology/timescale/thors/time-mapping",
+    "@id" : "http://resource.geosciml.org/ontology/timescale/thors/time",
     "@type" : "owl:Ontology",
     "dc:creator" : "Simon J D Cox",
     "created" : "2017-03-31",

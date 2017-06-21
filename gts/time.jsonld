@@ -538,13 +538,13 @@
     "domain" : "time:TemporalPosition",
     "range" : "time:TemporalDuration"
   }, {
-    "@id" : "http://resource.geosciml.org/ontology/timescale/gts/time-mapping",
+    "@id" : "http://resource.geosciml.org/ontology/timescale/gts/time",
     "@type" : "owl:Ontology",
     "dc:creator" : "Simon J D Cox",
     "created" : "2017-03-31",
     "creator" : "http://orcid.org/0000-0002-3884-3420",
     "comment" : "This graph provides an alignment of the GTS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. This is primarily accomplished transitively, through import of the THORS/OWL-Time mapping. ",
-    "imports" : [ "http://www.w3.org/ns/sosa/", "http://resource.geosciml.org/ontology/timescale/thors/time-mapping", "http://resource.geosciml.org/ontology/timescale/gts" ]
+    "imports" : [ "http://www.w3.org/ns/sosa/", "http://resource.geosciml.org/ontology/timescale/thors/time	", "http://resource.geosciml.org/ontology/timescale/gts" ]
   } ],
   "@context" : {
     "unionOf" : {

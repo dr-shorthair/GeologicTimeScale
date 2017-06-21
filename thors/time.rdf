@@ -8,7 +8,7 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:thors="http://resource.geosciml.org/ontology/timescale/thors#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-  xml:base="http://resource.geosciml.org/ontology/timescale/thors/time-mapping">
+  xml:base="http://resource.geosciml.org/ontology/timescale/thors/time">
   <owl:Ontology rdf:about="">
     <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
     <owl:imports rdf:resource="http://resource.geosciml.org/ontology/timescale/thors"/>

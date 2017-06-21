@@ -9,10 +9,10 @@
     xmlns:gts="http://resource.geosciml.org/ontology/timescale/gts#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-  xml:base="http://resource.geosciml.org/ontology/timescale/gts/time-mapping">
+  xml:base="http://resource.geosciml.org/ontology/timescale/gts/time">
   <owl:Ontology rdf:about="">
     <owl:imports rdf:resource="http://www.w3.org/ns/sosa/"/>
-    <owl:imports rdf:resource="http://resource.geosciml.org/ontology/timescale/thors/time-mapping"/>
+    <owl:imports rdf:resource="http://resource.geosciml.org/ontology/timescale/thors/time"/>
     <owl:imports rdf:resource="http://resource.geosciml.org/ontology/timescale/gts"/>
     <rdfs:comment>This graph provides an alignment of the GTS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. This is primarily accomplished transitively, through import of the THORS/OWL-Time mapping. </rdfs:comment>
     <dcterms:creator rdf:resource="http://orcid.org/0000-0002-3884-3420"/>

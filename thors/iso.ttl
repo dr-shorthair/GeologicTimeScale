@@ -1,10 +1,10 @@
-# baseURI: http://resource.geosciml.org/ontology/timescale/thors/iso-mapping
+# baseURI: http://resource.geosciml.org/ontology/timescale/thors/iso
 # imports: http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal
 # imports: http://resource.geosciml.org/ontology/timescale/thors
-# prefix: iso-mapping
+# prefix: iso
 
 @prefix basic: <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#> .
-@prefix iso-mapping: <http://resource.geosciml.org/ontology/timescale/thors/iso-mapping#> .
+@prefix iso: <http://resource.geosciml.org/ontology/timescale/thors/iso#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -54,7 +54,7 @@ thors:system
   rdfs:subPropertyOf tm:complex ;
   rdfs:subPropertyOf tm:system ;
 .
-<http://resource.geosciml.org/ontology/timescale/thors/iso-mapping>
+<http://resource.geosciml.org/ontology/timescale/thors/iso>
   rdf:type owl:Ontology ;
   owl:imports <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors> ;

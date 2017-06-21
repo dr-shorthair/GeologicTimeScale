@@ -6,9 +6,9 @@
     "@id" : "gts:StratigraphicSection",
     "subClassOf" : "sam:SamplingCurve"
   }, {
-    "@id" : "http://resource.geosciml.org/ontology/timescale/gts/iso-mapping",
+    "@id" : "http://resource.geosciml.org/ontology/timescale/gts/iso",
     "@type" : "owl:Ontology",
-    "imports" : [ "http://resource.geosciml.org/ontology/timescale/thors/iso-mapping", "http://resource.geosciml.org/ontology/timescale/gts", "http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling" ]
+    "imports" : [ "http://resource.geosciml.org/ontology/timescale/thors/iso", "http://resource.geosciml.org/ontology/timescale/gts", "http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling" ]
   } ],
   "@context" : {
     "imports" : {
@@ -24,7 +24,7 @@
     "gts" : "http://resource.geosciml.org/ontology/timescale/gts#",
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-    "iso-mapping" : "http://resource.geosciml.org/ontology/timescale/gts/iso-mapping#",
+    "iso	" : "http://resource.geosciml.org/ontology/timescale/gts/iso#",
     "sam" : "http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#"
   }
 }

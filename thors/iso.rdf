@@ -2,13 +2,13 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:iso-mapping="http://resource.geosciml.org/ontology/timescale/thors/iso-mapping#"
+    xmlns:iso="http://resource.geosciml.org/ontology/timescale/thors/iso#"
     xmlns:basic="http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#"
     xmlns:tm="http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:thors="http://resource.geosciml.org/ontology/timescale/thors#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-  xml:base="http://resource.geosciml.org/ontology/timescale/thors/iso-mapping">
+  xml:base="http://resource.geosciml.org/ontology/timescale/thors/iso">
   <owl:Ontology rdf:about="">
     <owl:imports rdf:resource="http://resource.geosciml.org/ontology/timescale/thors"/>
     <owl:imports rdf:resource="http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal"/>

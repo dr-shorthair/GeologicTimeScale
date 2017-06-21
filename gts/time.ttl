@@ -1,6 +1,6 @@
-# baseURI: http://resource.geosciml.org/ontology/timescale/gts/time-mapping
+# baseURI: http://resource.geosciml.org/ontology/timescale/gts/time
 # imports: http://resource.geosciml.org/ontology/timescale/gts
-# imports: http://resource.geosciml.org/ontology/timescale/thors/time-mapping
+# imports: http://resource.geosciml.org/ontology/timescale/thors/time
 # imports: http://www.w3.org/ns/sosa/
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -649,13 +649,13 @@ gts:positionalUncertainty
   rdfs:domain time:TemporalPosition ;
   rdfs:range time:TemporalDuration ;
 .
-<http://resource.geosciml.org/ontology/timescale/gts/time-mapping>
+<http://resource.geosciml.org/ontology/timescale/gts/time>
   rdf:type owl:Ontology ;
   dc:creator "Simon J D Cox" ;
   dcterms:created "2017-03-31" ;
   dcterms:creator <http://orcid.org/0000-0002-3884-3420> ;
   rdfs:comment "This graph provides an alignment of the GTS ontology with OWL-Time, as an alternative to the use of ISO 19108 classes as the basis for the ontology. This is primarily accomplished transitively, through import of the THORS/OWL-Time mapping. " ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
-  owl:imports <http://resource.geosciml.org/ontology/timescale/thors/time-mapping> ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/thors/time> ;
   owl:imports sosa: ;
 .
