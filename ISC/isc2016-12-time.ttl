@@ -1,5 +1,5 @@
 # baseURI: http://resource.geosciml.org/vocabulary/timescale/isc2016-12
-# imports: http://resource.geosciml.org/ontology/timescale/gts/time
+# imports: http://resource.geosciml.org/ontology/timescale/gts/w3c
 # imports: http://www.opengis.net/ont/geosparql
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -13367,7 +13367,7 @@ isc:Zanclean
   rdfs:seeAlso <http://stratigraphy.org/ICSchart/ChronostratChart2016-12.pdf> ;
   rdfs:seeAlso <http://www.episodes.co.in/contents/2013/september/p199-204.pdf> ;
   rdfs:seeAlso <http://www.stratigraphy.org/GSSP/index.html> ;
-  owl:imports <http://resource.geosciml.org/ontology/timescale/gts/time> ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/gts/w3c> ;
   owl:imports <http://www.opengis.net/ont/geosparql> ;
   owl:sameAs <http://resource.geosciml.org/classifierscheme/ics/2016/ischart> ;
   skos:changeNote """1. THORS ontology updated to align with OWL-Time (instead of ISO 19108). 

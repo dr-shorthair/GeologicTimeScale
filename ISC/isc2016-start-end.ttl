@@ -1,5 +1,5 @@
 # baseURI: file:/C:/Users/cox075/dev/GeologicTimeScale/isc2016-start-end
-# imports: http://resource.geosciml.org/vocabulary/timescale/isc2016-12
+# imports: http://resource.geosciml.org/ontology/timescale/thors/w3c
 
 @prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> .
 @prefix isc: <http://resource.geosciml.org/classifier/ics/ischart/> .
@@ -13,11 +13,11 @@
 
 <file:///C:/Users/cox075/dev/GeologicTimeScale/isc2016-start-end>
   rdf:type owl:Ontology ;
+  owl:imports <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   owl:versionInfo "Created with TopBraid Composer" ;
 .
 <file:/C:/Users/cox075/dev/GeologicTimeScale/isc2016-start-end>
-  rdf:type owl:Ontology ;
-  owl:imports <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/thors/w3c> ;
 .
 isc:Aalenian
   time:intervalDuring isc:Jurassic ;

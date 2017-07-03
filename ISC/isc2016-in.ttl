@@ -1,5 +1,5 @@
 # baseURI: file:/C:/Users/cox075/dev/GeologicTimeScale/isc2016-in
-# imports: http://resource.geosciml.org/vocabulary/timescale/isc2016-12
+# imports: http://resource.geosciml.org/ontology/timescale/thors/w3c
 
 @prefix isc2016-in: <file:///C:/Users/cox075/dev/GeologicTimeScale/isc2016-in#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -10,11 +10,11 @@
 
 <file:///C:/Users/cox075/dev/GeologicTimeScale/isc2016-in>
   rdf:type owl:Ontology ;
+  owl:imports <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
   owl:versionInfo "Created with TopBraid Composer" ;
 .
 <file:/C:/Users/cox075/dev/GeologicTimeScale/isc2016-in>
-  rdf:type owl:Ontology ;
-  owl:imports <http://resource.geosciml.org/vocabulary/timescale/isc2016-12> ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/thors/w3c> ;
 .
 <http://resource.geosciml.org/classifier/ics/ischart/Aalenian>
   time:intervalStarts <http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic> ;
