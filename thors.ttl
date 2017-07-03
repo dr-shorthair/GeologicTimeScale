@@ -9,7 +9,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix thors: <http://resource.geosciml.org/ontology/timescale/thors#> .
-@prefix tm: <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -178,16 +177,5 @@ thors:system
 .
 [
   rdf:type owl:Class ;
-  owl:unionOf (
-      [
-        rdf:type owl:Restriction ;
-        owl:cardinality "1"^^xsd:nonNegativeInteger ;
-        owl:onProperty tm:temporalPosition ;
-      ]
-      [
-        rdf:type owl:Restriction ;
-        owl:cardinality "1"^^xsd:nonNegativeInteger ;
-        owl:onProperty tm:geometry ;
-      ]
-    ) ;
+  owl:unionOf [] ;
 ].
