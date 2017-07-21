@@ -231,6 +231,8 @@ WHERE {
 
 ---
 
+Copy the numeric values across to comments
+
 CONSTRUCT { ?s rdfs:comment ?bs .  ?s rdfs:comment ?es . }
 WHERE {
   ?s a gts:GeochronologicEra .

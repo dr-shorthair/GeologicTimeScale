@@ -15,6 +15,7 @@
 @prefix samfl: <http://def.seegrid.csiro.au/ontology/om/sam-lite#> .
 @prefix sf: <http://www.opengis.net/ont/sf#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix thors: <http://resource.geosciml.org/ontology/timescale/thors#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
