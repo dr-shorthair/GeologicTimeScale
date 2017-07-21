@@ -231,6 +231,21 @@ WHERE {
 
 ---
 
+CONSTRUCT { ?s rdfs:comment ?bs .  ?s rdfs:comment ?es . }
+WHERE {
+  ?s a gts:GeochronologicEra .
+  ?s time:hasBeginning/time:inTemporalPosition/time:numericPosition ?b . 
+  OPTIONAL { ?s time:hasBeginning/time:inTemporalPosition/gts:positionalUncertainty/time:numericDuration ?bu . }
+  BIND ( IF( bound(?bu) , CONCAT( " +|-", STR(?bu) ), "" ) as ?bus  )  
+  ?s time:hasEnd/time:inTemporalPosition/time:numericPosition ?e . 
+  OPTIONAL { ?s time:hasEnd/time:inTemporalPosition/gts:positionalUncertainty/time:numericDuration ?eu . } 
+  BIND ( IF( bound(?eu) , CONCAT( " +|-", STR(?eu) ), "" ) as ?eus  )  
+  BIND( STRLANG( CONCAT( "older bound -", STR(?b) , ?bus, " Ma" ) , "en" ) as ?bs )
+  BIND( STRLANG( CONCAT( "younger bound -", STR(?e) , ?eus, " Ma" ), "en")  as ?es )
+}
+
+---
+
 TODO - disentagle Carboniferous equals vs in mess
 
 ---
