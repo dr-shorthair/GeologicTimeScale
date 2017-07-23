@@ -17,25 +17,12 @@
   rdf:type voaf:Vocabulary ;
   rdf:type owl:Ontology ;
   dc:creator "Simon Jonathan David COX, CSIRO Australia" ;
-  dc:date "2012-01-19" ;
   dc:description "An OWL representation of the model for Temporal Ordinal Reference Systems defined in GeoSciML v3. " ;
-  dc:rights "Copyright © 2012-2013 CSIRO, AzGS" ;
+  dc:rights "Copyright © 2012-2017 CSIRO" ;
   dc:source "Simon J.D. Cox and Stephen M. Richard, A formal model for the geologic time scale and global stratotype section and point, compatible with geospatial information transfer standards, Geosphere, 1, 119-137 (2005)" ;
   dc:title "Temporal Hierarchical Ordinal Reference System model" ;
   dct:created "2011-01-01"^^xsd:date ;
-  dct:hasPart thors:Era ;
-  dct:hasPart thors:EraBoundary ;
-  dct:hasPart thors:ReferenceSystem ;
-  dct:hasPart thors:begin ;
-  dct:hasPart thors:component ;
-  dct:hasPart thors:end ;
-  dct:hasPart thors:member ;
-  dct:hasPart thors:nextEra ;
-  dct:hasPart thors:positionalUncertainty ;
-  dct:hasPart thors:previousEra ;
-  dct:hasPart thors:referencePoint ;
-  dct:hasPart thors:system ;
-  dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   dct:modified "2017-04-28"^^xsd:date ;
   vann:preferredNamespacePrefix "thors" ;
   vann:preferredNamespaceUri thors: ;
@@ -45,8 +32,8 @@
   rdfs:seeAlso <http://geosphere.gsapubs.org/cgi/doi/10.1130/GES00022.1> ;
   rdfs:seeAlso <http://www.geosciml.org> ;
   owl:imports dc: ;
-  owl:priorVersion <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/Geoscience/GeologicTimeScale/gtrs-30.rdf> ;
-  owl:versionIRI <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201402/Geoscience/GeologicTimeScale/thors.rdf> ;
+  owl:priorVersion <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201402/Geoscience/GeologicTimeScale/thors.rdf> ;
+  owl:versionIRI <https://github.com/GeoscienceAustralia/geosciml.org/commit/24d302bf3f0fa315c1dddc2c734b84f52299cd02#diff-73b17e22072459ab7e06e9ab664a9d48> ;
   skos:changeNote "2017-04-28 - removed imports of ISO ontologies " ;
 .
 thors:Era

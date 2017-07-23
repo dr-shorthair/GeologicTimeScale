@@ -4,6 +4,8 @@
 # prefix: iso
 
 @prefix basic: <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix iso: <http://resource.geosciml.org/ontology/timescale/thors/iso#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -56,6 +58,13 @@ thors:system
 .
 <http://resource.geosciml.org/ontology/timescale/thors/iso>
   rdf:type owl:Ontology ;
+  dc:creator "Simon Jonathan David COX, CSIRO Australia" ;
+  dc:description "Temporal Hierarchical Ordinal Reference System model aligned to OWL implementation of ISO 19108 & ISO 19156" ;
+  dc:rights "Copyright © 2017 CSIRO" ;
+  dc:title "Temporal Hierarchical Ordinal Reference System model aligned to ISO 19108 & ISO 19156" ;
+  dct:created "2017-04-28"^^xsd:date ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dct:modified "2017-07-23"^^xsd:date ;
   owl:imports <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/thors> ;
 .
